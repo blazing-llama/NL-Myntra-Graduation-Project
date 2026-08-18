@@ -1,0 +1,20 @@
+{
+  "ajio": {
+    "total": 185,
+    "relevant": 2,
+    "not_relevant": 183,
+    "classification_failed": 0
+  },
+  "myntra": {
+    "total": 248,
+    "relevant": 2,
+    "not_relevant": 246,
+    "classification_failed": 0
+  },
+  "nykaa": {
+    "total": 180,
+    "relevant": 1,
+    "not_relevant": 179,
+    "classification_failed": 0
+  }
+}

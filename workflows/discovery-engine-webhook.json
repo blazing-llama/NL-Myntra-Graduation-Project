@@ -1,0 +1,268 @@
+{
+  "name": "Discovery Engine - Public Test Endpoint",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "wishlist-discovery-engine",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "a47c1e2a-2b3d-4f11-8a90-000000000001",
+      "name": "Webhook: Wishlist Text In",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [250, 300]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "sysPrompt1",
+              "name": "systemPrompt",
+              "type": "string",
+              "value": "You are the Coding Agent for a wishlist-to-purchase conversion research project. You classify short user-generated text (app review, Reddit comment, or interview excerpt) about online fashion shopping. Apply ONLY the codebook below. Do not infer beyond what is explicitly stated.\n\nReturn ONLY a single JSON object matching this exact schema, no other text:\n{\"evidence_id\": string, \"is_relevant\": boolean, \"primary_barrier\": one of [\"fit_size\",\"price_certainty\",\"occasion_styling\",\"quality_trust\",\"availability_decay\",\"timing_forgetting\",\"bookmark_not_intent\",\"other\",\"not_relevant\"], \"inferred_segment\": string or null, \"workaround_observed\": string or null, \"confidence_score\": number between 0 and 1}\n\nCODEBOOK (provisional - final version frozen separately in docs/codebook.md before the production run):\nfit_size = TRUE only if the text explicitly expresses uncertainty about how a garment will fit or what size to order. Do NOT use for general appearance comments or post-purchase return complaints with no size-uncertainty language.\nprice_certainty = TRUE only if the text expresses hesitation tied to whether the price is fair or whether to wait for it to drop. Do NOT use for a simple statement that something is expensive with no hesitation framing.\nbookmark_not_intent = TRUE if the text indicates the save was for inspiration, styling ideas, or later browsing rather than a near-term purchase plan.\nis_relevant = TRUE only if the text discusses pre-purchase hesitation, wishlist/save behavior, or comparison-shopping. Delivery, refund-processing-time, and app-crash complaints with no purchase-decision content are is_relevant = FALSE.\nIf uncertain, set is_relevant = TRUE, primary_barrier = \"other\", and confidence_score below 0.5 rather than forcing a category."
+            }
+          ]
+        }
+      },
+      "id": "a47c1e2a-2b3d-4f11-8a90-000000000002",
+      "name": "Set: System Prompt",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [550, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const body = $('Webhook: Wishlist Text In').item.json.body || {};\nconst text = (body.text || '').toString().trim();\nconst evidenceId = body.evidence_id || ('demo-' + Date.now() + '-' + Math.floor(Math.random()*10000));\nreturn [{\n  json: {\n    text,\n    evidence_id: evidenceId,\n    systemPrompt: $json.systemPrompt\n  }\n}];"
+      },
+      "id": "a47c1e2a-2b3d-4f11-8a90-000000000003",
+      "name": "Normalize Input",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [850, 300]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": { "caseSensitive": true, "leftValue": "", "typeValidation": "strict" },
+          "conditions": [
+            {
+              "id": "cond1",
+              "leftValue": "={{ $json.text }}",
+              "rightValue": "",
+              "operator": { "type": "string", "operation": "notEmpty", "singleValue": true }
+            }
+          ],
+          "combinator": "and"
+        }
+      },
+      "id": "a47c1e2a-2b3d-4f11-8a90-000000000004",
+      "name": "IF: Has Text?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [1150, 300]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ { status: 'error', error: 'text field is required in the POST body, e.g. {\"text\": \"...\"}' } }}",
+        "options": { "responseCode": 400 }
+      },
+      "id": "a47c1e2a-2b3d-4f11-8a90-000000000005",
+      "name": "Respond: Missing Text",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [1450, 600]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.groq.com/openai/v1/chat/completions",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "Authorization", "value": "=Bearer {{ $env.GROQ_API_KEY }}" },
+            { "name": "Content-Type", "value": "application/json" }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ model: \"openai/gpt-oss-20b\", temperature: 0, response_format: { type: \"json_object\" }, messages: [ { role: \"system\", content: $json.systemPrompt }, { role: \"user\", content: $json.text } ] }) }}",
+        "options": { "timeout": 15000 }
+      },
+      "id": "a47c1e2a-2b3d-4f11-8a90-000000000006",
+      "name": "Groq: Classify (gpt-oss-20b)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "onError": "continueErrorOutput",
+      "position": [1450, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const httpNode = $('Groq: Classify (gpt-oss-20b)').item.json;\nlet parsed;\nlet valid = false;\nlet errorMsg = '';\ntry {\n  const raw = httpNode.choices[0].message.content;\n  parsed = JSON.parse(raw);\n  const requiredKeys = ['evidence_id','is_relevant','primary_barrier','inferred_segment','workaround_observed','confidence_score'];\n  const allowedBarriers = ['fit_size','price_certainty','occasion_styling','quality_trust','availability_decay','timing_forgetting','bookmark_not_intent','other','not_relevant'];\n  const hasAllKeys = requiredKeys.every(k => Object.prototype.hasOwnProperty.call(parsed, k));\n  const barrierOk = allowedBarriers.includes(parsed.primary_barrier);\n  valid = hasAllKeys && barrierOk && typeof parsed.is_relevant === 'boolean';\n  if (!valid) errorMsg = 'schema_mismatch';\n} catch (e) {\n  errorMsg = 'json_parse_failed: ' + e.message;\n}\nreturn [{\n  json: {\n    valid,\n    parsed: parsed || null,\n    errorMsg,\n    evidence_id: $('Normalize Input').item.json.evidence_id\n  }\n}];"
+      },
+      "id": "a47c1e2a-2b3d-4f11-8a90-000000000007",
+      "name": "Validate Schema (Attempt 1)",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1750, 300]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": { "caseSensitive": true, "leftValue": "", "typeValidation": "strict" },
+          "conditions": [
+            {
+              "id": "condvalid1",
+              "leftValue": "={{ $json.valid }}",
+              "rightValue": "",
+              "operator": { "type": "boolean", "operation": "true", "singleValue": true }
+            }
+          ],
+          "combinator": "and"
+        }
+      },
+      "id": "a47c1e2a-2b3d-4f11-8a90-000000000008",
+      "name": "IF: Schema Valid?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [2050, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.groq.com/openai/v1/chat/completions",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "Authorization", "value": "=Bearer {{ $env.GROQ_API_KEY }}" },
+            { "name": "Content-Type", "value": "application/json" }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ model: \"openai/gpt-oss-120b\", temperature: 0, response_format: { type: \"json_object\" }, messages: [ { role: \"system\", content: $('Normalize Input').item.json.systemPrompt + ($json.errorMsg ? (\"\\n\\nYour previous response failed validation: \" + $json.errorMsg + \". Return ONLY the corrected JSON object, no other text.\") : \"\") }, { role: \"user\", content: $('Normalize Input').item.json.text } ] }) }}",
+        "options": { "timeout": 15000 }
+      },
+      "id": "a47c1e2a-2b3d-4f11-8a90-000000000009",
+      "name": "Groq: Classify Retry (gpt-oss-120b)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "onError": "continueErrorOutput",
+      "position": [1750, 500]
+    },
+    {
+      "parameters": {
+        "jsCode": "const httpNode = $('Groq: Classify Retry (gpt-oss-120b)').item.json;\nlet parsed;\nlet valid = false;\nlet errorMsg = '';\ntry {\n  const raw = httpNode.choices[0].message.content;\n  parsed = JSON.parse(raw);\n  const requiredKeys = ['evidence_id','is_relevant','primary_barrier','inferred_segment','workaround_observed','confidence_score'];\n  const allowedBarriers = ['fit_size','price_certainty','occasion_styling','quality_trust','availability_decay','timing_forgetting','bookmark_not_intent','other','not_relevant'];\n  const hasAllKeys = requiredKeys.every(k => Object.prototype.hasOwnProperty.call(parsed, k));\n  const barrierOk = allowedBarriers.includes(parsed.primary_barrier);\n  valid = hasAllKeys && barrierOk && typeof parsed.is_relevant === 'boolean';\n  if (!valid) errorMsg = 'schema_mismatch_after_retry';\n} catch (e) {\n  errorMsg = 'json_parse_failed_after_retry: ' + e.message;\n}\nreturn [{\n  json: {\n    valid,\n    parsed: parsed || null,\n    errorMsg,\n    evidence_id: $('Normalize Input').item.json.evidence_id\n  }\n}];"
+      },
+      "id": "a47c1e2a-2b3d-4f11-8a90-00000000000a",
+      "name": "Validate Schema (Retry)",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [2050, 500]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": { "caseSensitive": true, "leftValue": "", "typeValidation": "strict" },
+          "conditions": [
+            {
+              "id": "condvalid2",
+              "leftValue": "={{ $json.valid }}",
+              "rightValue": "",
+              "operator": { "type": "boolean", "operation": "true", "singleValue": true }
+            }
+          ],
+          "combinator": "and"
+        }
+      },
+      "id": "a47c1e2a-2b3d-4f11-8a90-00000000000b",
+      "name": "IF: Schema Valid After Retry?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [2350, 500]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ { status: 'ok', result: $json.parsed } }}",
+        "options": { "responseCode": 200 }
+      },
+      "id": "a47c1e2a-2b3d-4f11-8a90-00000000000c",
+      "name": "Respond: Coded Result",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [2650, 300]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ { status: 'insufficient_evidence', evidence_id: $('Normalize Input').item.json.evidence_id, error: $json.errorMsg || 'api_error_after_retry' } }}",
+        "options": { "responseCode": 200 }
+      },
+      "id": "a47c1e2a-2b3d-4f11-8a90-00000000000d",
+      "name": "Respond: Insufficient Evidence",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [2650, 650]
+    }
+  ],
+  "connections": {
+    "Webhook: Wishlist Text In": {
+      "main": [[{ "node": "Set: System Prompt", "type": "main", "index": 0 }]]
+    },
+    "Set: System Prompt": {
+      "main": [[{ "node": "Normalize Input", "type": "main", "index": 0 }]]
+    },
+    "Normalize Input": {
+      "main": [[{ "node": "IF: Has Text?", "type": "main", "index": 0 }]]
+    },
+    "IF: Has Text?": {
+      "main": [
+        [{ "node": "Groq: Classify (gpt-oss-20b)", "type": "main", "index": 0 }],
+        [{ "node": "Respond: Missing Text", "type": "main", "index": 0 }]
+      ]
+    },
+    "Groq: Classify (gpt-oss-20b)": {
+      "main": [
+        [{ "node": "Validate Schema (Attempt 1)", "type": "main", "index": 0 }],
+        [{ "node": "Groq: Classify Retry (gpt-oss-120b)", "type": "main", "index": 0 }]
+      ]
+    },
+    "Validate Schema (Attempt 1)": {
+      "main": [[{ "node": "IF: Schema Valid?", "type": "main", "index": 0 }]]
+    },
+    "IF: Schema Valid?": {
+      "main": [
+        [{ "node": "Respond: Coded Result", "type": "main", "index": 0 }],
+        [{ "node": "Groq: Classify Retry (gpt-oss-120b)", "type": "main", "index": 0 }]
+      ]
+    },
+    "Groq: Classify Retry (gpt-oss-120b)": {
+      "main": [
+        [{ "node": "Validate Schema (Retry)", "type": "main", "index": 0 }],
+        [{ "node": "Respond: Insufficient Evidence", "type": "main", "index": 0 }]
+      ]
+    },
+    "Validate Schema (Retry)": {
+      "main": [[{ "node": "IF: Schema Valid After Retry?", "type": "main", "index": 0 }]]
+    },
+    "IF: Schema Valid After Retry?": {
+      "main": [
+        [{ "node": "Respond: Coded Result", "type": "main", "index": 0 }],
+        [{ "node": "Respond: Insufficient Evidence", "type": "main", "index": 0 }]
+      ]
+    }
+  },
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": ["wishlist-discovery-engine", "public-test-endpoint"],
+  "triggerCount": 1,
+  "updatedAt": "",
+  "versionId": ""
+}
