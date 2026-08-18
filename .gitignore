@@ -1,0 +1,21 @@
+# Secrets — broad pattern to catch stray variants (.env.txt, .env.local, etc.)
+.env
+.env.*
+!.env.example
+
+# Harness / editor state
+.claude/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node (mvp/)
+node_modules/
+dist/
+.vercel/
+
+# OS
+.DS_Store
+Thumbs.db

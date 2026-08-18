@@ -1,0 +1,1495 @@
+{
+  "app_name": "ajio",
+  "source": "playstore",
+  "counts": {
+    "input": 500,
+    "dropped_empty": 0,
+    "dropped_too_short": 286,
+    "dropped_non_english": 28,
+    "dropped_duplicate": 1,
+    "pii_scrubbed": 0,
+    "output": 185
+  },
+  "reviews": [
+    {
+      "evidence_id": "ajio-8b190528-247e-4aa7-8862-37f9d371d10b",
+      "app_name": "ajio",
+      "content": "Worst, Ajio Luxy is 1 lack + in that product value is around 5k remaining 95k for logo and brand,. ajio gram and ajio are 100 % copy of meesho in that one comes in light mode and another comes in dark mode 😂, i suggest meesho is best because you can see real images there",
+      "score": 1,
+      "at": "2026-08-18T01:08:53",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-ef906c03-c5c8-4da3-9be5-c6dfaad77f98",
+      "app_name": "ajio",
+      "content": "Ajio, I want to ask you something, is the capacity of maximum 70 wishlist item justified? Who in this world has advised you guys to to keep the maximum wishlist capasiti of 70 item only. Really are you guys serious??? In other websites one can save 1000 and above and sometimes unlimited items in the wishlist.",
+      "score": 2,
+      "at": "2026-08-18T00:29:06",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-37734eda-cd86-4130-9c06-318caa34b8b0",
+      "app_name": "ajio",
+      "content": "Reasonable price and good quality products 🤗",
+      "score": 5,
+      "at": "2026-08-17T23:44:53",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-ea60090c-bb85-4244-bba4-f0f9c75469f3",
+      "app_name": "ajio",
+      "content": "totally blender app, don't use , the worst shopping app I ever use",
+      "score": 1,
+      "at": "2026-08-17T23:38:24",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-b089f85f-af89-4f7b-b5e3-bf0604954863",
+      "app_name": "ajio",
+      "content": "This is a good platform for shopping. It can be improved further.",
+      "score": 4,
+      "at": "2026-08-17T23:35:01",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-0d552270-f1d2-4d33-838a-1f71a3ba4f2f",
+      "app_name": "ajio",
+      "content": "This app is very slow and keeps spinning when you open it.",
+      "score": 1,
+      "at": "2026-08-17T23:31:21",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-8a40bce1-edbe-4b96-afff-0c80eae78197",
+      "app_name": "ajio",
+      "content": "best app of Earth 🌍 wahh wahh",
+      "score": 5,
+      "at": "2026-08-17T23:27:01",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-90866fd9-4e65-4d4d-8caa-e3bae694c345",
+      "app_name": "ajio",
+      "content": "product don't match actual product change",
+      "score": 1,
+      "at": "2026-08-17T22:02:36",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-fb3b42c6-4632-4be8-a1c8-6b36b35253e1",
+      "app_name": "ajio",
+      "content": "very good services",
+      "score": 5,
+      "at": "2026-08-17T21:49:54",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-cd92d927-9ce8-45e7-af9b-cd1d5616f7d6",
+      "app_name": "ajio",
+      "content": "Ajio is not bad i",
+      "score": 3,
+      "at": "2026-08-17T21:21:53",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-a06c43db-c781-4069-ac62-1681704456a6",
+      "app_name": "ajio",
+      "content": "If the outfit I thought of is right then you should also do this...",
+      "score": 5,
+      "at": "2026-08-17T21:15:11",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-ca9110d8-77dd-4c3b-b2fe-38f2ab5706f4",
+      "app_name": "ajio",
+      "content": "once I received my product I give you ratings 😀",
+      "score": 5,
+      "at": "2026-08-17T21:07:52",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-38a018f7-0b9d-48ec-91c4-0da2735233a7",
+      "app_name": "ajio",
+      "content": "Great Site Shop and deals are worthy",
+      "score": 5,
+      "at": "2026-08-17T21:04:34",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-17e18d3c-f7de-41a9-8893-ef6f15cec96c",
+      "app_name": "ajio",
+      "content": "bad experience... completely scammers i placed a order it's Textured Mid-Calf Chelsea Boots that quality of boots were so bad So I return the product...In the returning option Money as to be reflect in my bank account amount Rs ₹954.18 I received a email after pick up of the product say that my money will reflect In my Ajio wallet I mean who what that... I'm trying to reach the support team no response..what joke this application is please don't place or buy anything from this application",
+      "score": 1,
+      "at": "2026-08-17T20:39:14",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-c602aa1f-cecd-4533-a7dd-9e9bc8e689c5",
+      "app_name": "ajio",
+      "content": "Worst Retail App & Extremely Poor Experience I strongly recommend that people think twice before ordering from the AJIO app. I ordered four sets of baby tops, but only one set was delivered, while I was charged the full amount. Unfortunately, this kind of issue has happened to me twice. The customer support experience is also very disappointing. There is no Kannada language support, and resolving an issue through the AJIO help centre takes far too long. AJIO needs to seriously improve its all..",
+      "score": 1,
+      "at": "2026-08-17T20:19:53",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-f927a68f-5256-4ea4-bc5a-07e0547806c2",
+      "app_name": "ajio",
+      "content": "have a good experience",
+      "score": 5,
+      "at": "2026-08-17T19:42:11",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-668448bc-047e-4665-8924-df9145f3c4f7",
+      "app_name": "ajio",
+      "content": "Excellent Customer Service and Good Product quality and high Discount",
+      "score": 5,
+      "at": "2026-08-17T19:33:08",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-010d0ae4-8ad9-447c-9425-8ea652a43d6b",
+      "app_name": "ajio",
+      "content": "worst app ..I ordered two different products . but I got same two products...after that I can't able to exchange product...worst worst",
+      "score": 1,
+      "at": "2026-08-17T19:32:42",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-82171620-5e48-4e42-adda-3498bb339bfe",
+      "app_name": "ajio",
+      "content": "mene ek product order Kiya , or vo bar bar dely ho rha h means order kiy 4 aug 2026 ko. or dilivery promise date thi 12 ki or vo dilivered nahi hua fir agli promise date 15 ki ho gyi fir vo 15 ko bhi dilivered nahi hua. fir diliverry date ho gyi 18 ki or vo 18 ko bhi dilivered nahi hua , or jab me customer care bat kru to bolte h. h ki aapke nearby office me aa gya h. kab me vaha office me direct gaya to unhone bola hamre pas to nahi aay abhi tak. ????? , ek number ki ghytia service h AJIO👎",
+      "score": 1,
+      "at": "2026-08-17T19:30:09",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-0429f30a-6d1d-449c-ba51-cd2153231371",
+      "app_name": "ajio",
+      "content": "AJIO’s customer service has been extremely disappointing. Resolving even a basic issue feels unnecessarily complicated, and getting proper assistance from a customer-care executive is frustrating. The third-party delivery service used by AJIO is also a hassle, with poor coordination and an overall inconvenient experience. For a platform of this size, the customer support and delivery experience should be much more reliable and straightforward. Definitely not the experience I expected from AJIO.",
+      "score": 1,
+      "at": "2026-08-17T19:05:56",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-f335dbbb-3d0e-4554-a7b7-8660beace4ac",
+      "app_name": "ajio",
+      "content": "pathetic support.. blocked account without prior notice. I already reached them and their support team simply said that they can't help me with this matter. I need to use a new number with an email id. so basically to use their app I need to carry multiple numbers because they force you to keep purchasing without doing any return or refund because this will cause your account to get blocked without prior notification. I highly recommend myntra at least they keep your account open even though",
+      "score": 1,
+      "at": "2026-08-17T18:31:33",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-56bb9510-dc12-43b8-9041-53ae0c7ec388",
+      "app_name": "ajio",
+      "content": "its very awesome",
+      "score": 5,
+      "at": "2026-08-17T17:47:11",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-d1e8378a-d00b-46af-8a02-b2f1b87cf7d6",
+      "app_name": "ajio",
+      "content": "delivery and backend support very worst",
+      "score": 1,
+      "at": "2026-08-17T17:39:56",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-09b8bf80-f02a-467d-a7ca-c88a33090ce9",
+      "app_name": "ajio",
+      "content": "it's good at start and i liked the app among other shopping apps l also liked the clothes that i shoped which has been good in terms of correct order, quality and delivery but after some period of time few of my orders has been cancelled, then after they got wrong items and also few got returned before getting me and i started disliking the experience of shopping and disappointed.....",
+      "score": 2,
+      "at": "2026-08-17T17:18:43",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-201b04f0-9131-454e-8c18-147521ddd4db",
+      "app_name": "ajio",
+      "content": "all clothes are good for this site thank you ajio for a lovely dress",
+      "score": 5,
+      "at": "2026-08-17T17:08:11",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-1a69e76b-7d0a-4a21-9f52-05c00804027c",
+      "app_name": "ajio",
+      "content": "Thanks Ajio Best Application And Products !",
+      "score": 5,
+      "at": "2026-08-17T16:09:26",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-80da2f79-d679-4c81-9931-33b55adf99cf",
+      "app_name": "ajio",
+      "content": "every time I order something, it's either delayed or cancelled automatically and customer care is absolutely trash!!! and one more thing this app suckss shopping on it a waste of money!!!!!!!",
+      "score": 1,
+      "at": "2026-08-17T16:06:34",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-72350998-0d78-4ea3-bc35-3988d2ba548e",
+      "app_name": "ajio",
+      "content": "It's was my second time through online fashion shopping and I am genuinely impressed with it.",
+      "score": 4,
+      "at": "2026-08-17T15:55:59",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-a523939d-d724-4af0-aa01-adc038f16ff6",
+      "app_name": "ajio",
+      "content": "I have this problem with Ajio: when I like a product, it is cheaper, but when I go to buy it the next day, its price increases. This is completely wrong. Also, if I want to reorder a product I've already bought, they demand a higher price for it the second time.",
+      "score": 2,
+      "at": "2026-08-17T15:55:39",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-ec73dd0a-8c27-48cb-b6c2-f75c4974f74f",
+      "app_name": "ajio",
+      "content": "not give orders in perfect time and very bed quality app",
+      "score": 1,
+      "at": "2026-08-17T15:51:09",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-93a87ce6-7b61-43e5-a8d1-50964cd7dcbe",
+      "app_name": "ajio",
+      "content": "strict action should be taken against these culprits. I ordered a jeans but they delivered wrong fit jeans. they were not accepting return or exchange of the product and when I contacted them through toll free number my bank account was deducted by Rs.6000/-. Beware of these bastards",
+      "score": 1,
+      "at": "2026-08-17T14:52:04",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-b6f2229d-ad47-4cb9-b3eb-e292828f839c",
+      "app_name": "ajio",
+      "content": "This is a scam shopping platform.they are scamming Customers. I've ordered 2 denim pants but I received only 1 pant, so I've requested return for 2 times and they rejected both. there is no executive for customer care.there are only AI bots for customer support. Don't purchase anything from this app. I'm regretting after the purchase. Guys I've lost my 500 rupees. Please don't purchase anything from this app.",
+      "score": 1,
+      "at": "2026-08-17T14:30:37",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-11cc7d54-42e5-4768-8b79-7ccb99c109d6",
+      "app_name": "ajio",
+      "content": "I am not login in aap otp not come fix issue",
+      "score": 1,
+      "at": "2026-08-17T13:41:42",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-44c357ae-50ca-4513-b267-02b588beb2d1",
+      "app_name": "ajio",
+      "content": "very bad experience with ajio Because their customer support is very poor,and there service is also too bad",
+      "score": 1,
+      "at": "2026-08-17T12:53:11",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-bc79bf55-6161-4212-9d61-863cc320897d",
+      "app_name": "ajio",
+      "content": "I received an order that was not the correct size, even though M is my perfect size for most clothes so i ordered exchange but during exchange they rejected saying brand name and colour doesn't match. It was Neonmad Tshirt and there was no brandname mentioned here.",
+      "score": 1,
+      "at": "2026-08-17T12:44:02",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-0d6108bf-b209-4204-b292-2b88ad2645a0",
+      "app_name": "ajio",
+      "content": "Terrible service! The order never arrived and got cancelled automatically after a long delay. Zero accountability and useless customer support. 1 star",
+      "score": 1,
+      "at": "2026-08-17T12:16:34",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-42f08b4d-85fb-4589-bdcf-beecfd158619",
+      "app_name": "ajio",
+      "content": "no cash on delivery option very disappointing",
+      "score": 1,
+      "at": "2026-08-17T11:58:58",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-e1aae924-9d26-464c-810f-b4f237f66ae8",
+      "app_name": "ajio",
+      "content": "it's good in expensive",
+      "score": 5,
+      "at": "2026-08-17T10:32:41",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-d29dd033-7b6d-4ae6-aeb1-17e56b98fd0c",
+      "app_name": "ajio",
+      "content": "i have return some product but not received money refund . what's service ???",
+      "score": 4,
+      "at": "2026-08-17T10:13:04",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-3115d571-48b1-44c4-90d5-d26b345080ae",
+      "app_name": "ajio",
+      "content": "best price and best quality products",
+      "score": 5,
+      "at": "2026-08-17T09:42:58",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-645506a8-57d0-4b82-82c7-d5a26f5cc866",
+      "app_name": "ajio",
+      "content": "good app for shopping trust me reasonable price comparing to other platforms",
+      "score": 4,
+      "at": "2026-08-17T09:11:50",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-5c261d6a-fb5a-4675-a840-b7758a3b4371",
+      "app_name": "ajio",
+      "content": "worst app. If you are placed order they will cancel the order.",
+      "score": 1,
+      "at": "2026-08-17T06:00:19",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-124418ba-1532-4b1b-adf3-efb8907a2fed",
+      "app_name": "ajio",
+      "content": "this aap is very honest and get good product",
+      "score": 5,
+      "at": "2026-08-17T02:07:47",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-5e8d957e-1b9a-4ff4-acf2-85ca91d83353",
+      "app_name": "ajio",
+      "content": "Worst app I have ever used . item never arrived on time , and if it does it's nothing like the pictures and if it is the fabric is the lowest quality you can ever imagine. minus stars plz",
+      "score": 1,
+      "at": "2026-08-17T00:48:44",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-b1140e7f-db45-4c32-a856-79fa2db6ec69",
+      "app_name": "ajio",
+      "content": "don't trust Ajio, it is fake products is selling, like damage, product quality, delivery delay, customer care also not supporting. don't use this app 😔😔😔",
+      "score": 1,
+      "at": "2026-08-17T00:32:00",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-ec2c219e-375e-41be-9600-bb365d630a76",
+      "app_name": "ajio",
+      "content": "awesome. price range good",
+      "score": 5,
+      "at": "2026-08-16T23:14:30",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-26aa4a0b-d46d-4097-893b-256b1b7eaa91",
+      "app_name": "ajio",
+      "content": "Nice app for domestic purchases",
+      "score": 5,
+      "at": "2026-08-16T22:10:02",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-fff79e0e-3608-4bbf-9834-ed7743e2f2ef",
+      "app_name": "ajio",
+      "content": "This is a cheating company, it's not the item I ordered, This company that is going to live off of cheating and looting like this will only go bankrupt.",
+      "score": 1,
+      "at": "2026-08-16T22:09:40",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-02087933-2ef7-4511-8a07-72ce0f495d3d",
+      "app_name": "ajio",
+      "content": "Worst app to order something. My order is being delayed for one week. Every day I receive notification that your order will be delivered today. But nothing happens after that. My order's delivery date was on 8th August but now is 16th August and I haven't received my parcel till yet.",
+      "score": 1,
+      "at": "2026-08-16T21:22:55",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-e41faae1-ccc4-4cae-bf97-cf9939141d95",
+      "app_name": "ajio",
+      "content": "extremely bad...I hv bought a dress...got duplicate copy....not the real brand dress...it is not a open box delivery.....so when I opened it and it was bad...itried to return....bt they didn't accept. Pls uninstall the app... don't buy. my first experience was so bad...I am going to uninstall it.",
+      "score": 1,
+      "at": "2026-08-16T20:53:58",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-672176b2-687c-464e-bf83-6e088eb581bb",
+      "app_name": "ajio",
+      "content": "worst app I ever seen because pay whole amount from wallet can't pay cod on tech and unable to know the reason",
+      "score": 1,
+      "at": "2026-08-16T20:04:17",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-e634b821-51ce-43eb-a8ab-0ac51edb5e21",
+      "app_name": "ajio",
+      "content": "worst app I have ever used in my life. Services are pathetic, can't tell what I face. 1st they don't have a customer review system to see and buy. 2nd mostly their product materials are very poor. 3rd if you didn't like and wish to return then Oh God it's done. no one will ever pick your return, you have to accept it whether you like it or not. so choose wisely, we use online shopping apps for their fast and easy services but AJIO don't count as one. wasted so many days just for a return. WORST!",
+      "score": 1,
+      "at": "2026-08-16T20:03:28",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-f0a2c5fe-1238-43d6-a88e-56d481d0bae8",
+      "app_name": "ajio",
+      "content": "COD is highly recommended otherwise you receive your product after 10 days The thing I ordered was a Titan watch on the 6th till now it's in transit only. Ajio needs to change their delivery partner.",
+      "score": 1,
+      "at": "2026-08-16T19:59:13",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-d091a699-2fa0-4c1c-9625-1407691f956e",
+      "app_name": "ajio",
+      "content": "offers are not good",
+      "score": 1,
+      "at": "2026-08-16T19:51:21",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-c8d93560-c0f7-4809-bcb9-2e52defe082f",
+      "app_name": "ajio",
+      "content": "the perfect app for shopping 🥰",
+      "score": 5,
+      "at": "2026-08-16T19:47:21",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-aae4ed2b-5580-4060-b0ec-ad88ca455441",
+      "app_name": "ajio",
+      "content": "works really slow, it's really annoying",
+      "score": 1,
+      "at": "2026-08-16T19:35:33",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-a276cec1-6f40-4aec-aa64-1e1cf8b33c17",
+      "app_name": "ajio",
+      "content": "i am shoes buying, one not complete full damage no buying ajio app waste product.no warranty",
+      "score": 1,
+      "at": "2026-08-16T18:55:22",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-5a47fe0c-d57a-4134-8989-32dc9d4e9fdc",
+      "app_name": "ajio",
+      "content": "Good product 👍 nice quality...",
+      "score": 5,
+      "at": "2026-08-16T18:40:00",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-049d202b-b1e6-40fb-a40a-5966eab0c351",
+      "app_name": "ajio",
+      "content": "Hate this brand, such a poor customer service they have, I ordered a jeans from them and it came in wrong colour, and I did not kept the photos of it but when I returned the order it failed the quality check due to saying we did no receive the product as in the picture we sold, now of I have received I wrong product and returned it bc what I saw in the picture was not what I received and I tried to file a complaint twice and it failed every time they don't eve have a number to call with human.",
+      "score": 1,
+      "at": "2026-08-16T18:05:46",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-1c83cda3-2a14-4038-9e04-5b52c3e06e5c",
+      "app_name": "ajio",
+      "content": "very slow processing",
+      "score": 2,
+      "at": "2026-08-16T17:51:49",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-9561c0b3-572a-4f83-81e6-6d3a25e93662",
+      "app_name": "ajio",
+      "content": "pathetic app they took my money and never delivered the product",
+      "score": 1,
+      "at": "2026-08-16T17:44:36",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-85fa5967-d468-413d-9fea-6999e7d3a252",
+      "app_name": "ajio",
+      "content": "Nice super discount on original products 👍",
+      "score": 4,
+      "at": "2026-08-16T16:50:48",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-2241c54d-cc9c-46a0-a37a-1726a579eb9a",
+      "app_name": "ajio",
+      "content": "One of the things that annoys me is that it doesn't have a proper review system, we can't see reviews from real people or have a glimpse of how the product actually looks and it takes days for the order to arrive. However the return system is pretty good 👍🏼 The cash credits in your account almost instantaneously, although it takes multiples returns and reorders to get fixed on a product",
+      "score": 2,
+      "at": "2026-08-16T16:17:32",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-b4799cc9-85e3-4bb0-b69f-3bd7d98ba4c5",
+      "app_name": "ajio",
+      "content": "very bad there was very low review",
+      "score": 1,
+      "at": "2026-08-16T16:13:49",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-fabeb8d2-8ebc-4b7f-a937-b30b0bb76d40",
+      "app_name": "ajio",
+      "content": "the worst shopping experience!! the 1st time I ordered a product it got cancelled from their side, 2nd time I ordered firstly it got delayed then after few days even that was cancelled without any notice and I just recieved the amount refund but they deducted the platform fee!!! and the customer service is so absurd. the worst app and worst customer service. DOES NOT DESERVE EVEN 0.2 STAR!! Order from any app but this app.",
+      "score": 1,
+      "at": "2026-08-16T16:00:58",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-53cf68e3-4da6-428e-9718-91dac63006ec",
+      "app_name": "ajio",
+      "content": "best quality product for the ajio",
+      "score": 5,
+      "at": "2026-08-16T15:36:53",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-86b82282-07df-4d04-89db-e541ca53bb81",
+      "app_name": "ajio",
+      "content": "They scammed me giving wrong product. And when I asked for return nobody came for pickup and they just kept on extending the date. Never got refund.",
+      "score": 1,
+      "at": "2026-08-16T15:22:02",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-92f3071c-5895-40f3-9826-26d60b6832f0",
+      "app_name": "ajio",
+      "content": "I had a very bad experience with this aap in case of product delivery. the delivery of products is very late",
+      "score": 1,
+      "at": "2026-08-16T15:10:55",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-cb785357-c4b8-4aa9-a151-7b67deaf6e1b",
+      "app_name": "ajio",
+      "content": "Very bad delivery service. I got fraud.",
+      "score": 1,
+      "at": "2026-08-16T14:23:33",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-420a6e96-e474-4ddd-ab59-6f92a9ea6d48",
+      "app_name": "ajio",
+      "content": "credit card offers i want",
+      "score": 3,
+      "at": "2026-08-16T13:56:11",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-c35bf8db-a6bc-4438-8428-6de14e03c793",
+      "app_name": "ajio",
+      "content": "\"Slow delivery or No delivery\" it's their slogan. they'll either deliver the product too late or won't deliver it at all. after waiting for days and days one random day they cancel the order by themselves. i like trends collection that's the only reason I tried this app, but got the worst experience so far.",
+      "score": 1,
+      "at": "2026-08-16T13:50:58",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-8bca7b48-7a65-481f-9e4b-c0102424fc1f",
+      "app_name": "ajio",
+      "content": "address marking is difficult and irritating",
+      "score": 2,
+      "at": "2026-08-16T13:38:34",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-2af8a53c-7928-47a9-a1f8-ffbc3fd34ecf",
+      "app_name": "ajio",
+      "content": "payment service is to terrible 😫",
+      "score": 1,
+      "at": "2026-08-16T13:27:20",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-e15e7492-80ca-4a1b-86a5-7a73b3af29fd",
+      "app_name": "ajio",
+      "content": "poor app interface",
+      "score": 2,
+      "at": "2026-08-16T12:59:05",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-f36b8791-99e0-447e-af28-e6fc53e29895",
+      "app_name": "ajio",
+      "content": "something missing",
+      "score": 3,
+      "at": "2026-08-16T12:53:46",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-10134530-34d7-4f23-b8a5-1aa8903dd196",
+      "app_name": "ajio",
+      "content": "items browsing information is very fast.",
+      "score": 4,
+      "at": "2026-08-16T12:39:44",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-07a1eb9b-1728-413b-8951-d3ccbcb45eba",
+      "app_name": "ajio",
+      "content": "it's a good app",
+      "score": 5,
+      "at": "2026-08-16T12:32:03",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-85fb7af6-4cd0-4e56-ae86-d0497d0a336c",
+      "app_name": "ajio",
+      "content": "Too expensive damn not good clothes enough",
+      "score": 1,
+      "at": "2026-08-16T11:51:10",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-f0f5b6bf-6e40-4c8c-ad27-4efbc2f24829",
+      "app_name": "ajio",
+      "content": "payment processing system was very slow",
+      "score": 1,
+      "at": "2026-08-16T11:44:08",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-d13d0736-523a-4084-9367-3db84c81eb99",
+      "app_name": "ajio",
+      "content": "I am using the app for months and I have made several orders through this app. But in that more than 70% order not delivered in time or cancelled by their end. Compared to other online Shopping apps, the AJIO is very poor and they do not feel guilty and. ot trying to improve the service. We can see Swiggy or blinkit etc., they are delivering items 15 min or less in groceries and Flipkart is delivering orders almost same day or next. But Ajio is not trying to pack my order after 5 days also.",
+      "score": 1,
+      "at": "2026-08-16T11:14:51",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-42df444b-2ed6-42ee-a5e7-ed5b348d6048",
+      "app_name": "ajio",
+      "content": "nice quality but money more",
+      "score": 5,
+      "at": "2026-08-16T11:04:18",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-04c3ada5-04cf-42ce-9960-5ce954dcbb1b",
+      "app_name": "ajio",
+      "content": "I can't even scroll it lags too much",
+      "score": 1,
+      "at": "2026-08-16T10:58:12",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-15132426-35c7-4e7e-9c3e-7b17f5b99db1",
+      "app_name": "ajio",
+      "content": "all out of stock products will be listed while searching for products for less cost once we will open it will show out of stock. one two we can understand but many will be there like that especially Avaasa brand.",
+      "score": 1,
+      "at": "2026-08-16T10:32:10",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-c888dcaa-8e3e-426e-9dbd-5841a16ae898",
+      "app_name": "ajio",
+      "content": "Fraud App, My Referral Money not received, More that 5 Complaints I raised on that issue, Everytime they saying within 15 days I will get all my rewards, But more Than 3 Months over still my rewards are not received, Full of Scam...",
+      "score": 1,
+      "at": "2026-08-16T10:31:00",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-74a9fcca-1911-4005-9cc0-45f8cae5a7da",
+      "app_name": "ajio",
+      "content": "Very poor service,never use this app",
+      "score": 1,
+      "at": "2026-08-16T10:04:02",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-d96ae743-b637-4bd9-8ef4-8941ac6fca2b",
+      "app_name": "ajio",
+      "content": "nice shopping apps",
+      "score": 5,
+      "at": "2026-08-16T09:25:54",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-dd96786f-cfc4-4e0b-83c3-61c74ff0795c",
+      "app_name": "ajio",
+      "content": "I ordered a piece of clothing for my friends clothings and tgey didnot deliver on time....ruined my entire experience...very dissapointed",
+      "score": 2,
+      "at": "2026-08-16T09:05:30",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-8c300fe6-f911-4d82-81fb-d6908c72cb58",
+      "app_name": "ajio",
+      "content": "it's nice shopping platform",
+      "score": 4,
+      "at": "2026-08-16T08:55:08",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-cc1a8a7b-34c5-4e87-80d7-49e6bfc9dcce",
+      "app_name": "ajio",
+      "content": "good quality product I am happy 😁😁😄😄",
+      "score": 5,
+      "at": "2026-08-16T08:52:42",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-4e222aa4-1c59-49dd-bb9d-9f3666003f4a",
+      "app_name": "ajio",
+      "content": "Unable to load content. Even with proper internet connection. Opening any of the tabs: AJIO, LUXE, AjioGram, RUSH loads no content. Worst app after update.",
+      "score": 1,
+      "at": "2026-08-16T08:47:20",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-c3f2a75d-52ba-499c-880a-6e674755d313",
+      "app_name": "ajio",
+      "content": "offer you say is not available last moment price change adding extra charges platform fee u r doing cheating with people this my last order worst experience evear with u meesho is batter thnen you meesho is 1000 time batter then you plz do not shopping with this",
+      "score": 1,
+      "at": "2026-08-16T07:12:49",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-e305b384-c501-4362-9de6-0ac6d3ac4f87",
+      "app_name": "ajio",
+      "content": "Super fabulous Promising Products",
+      "score": 4,
+      "at": "2026-08-16T07:04:26",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-2d85bd4a-72cd-427b-80cf-7921d789a796",
+      "app_name": "ajio",
+      "content": "Nice shoping exprienc",
+      "score": 5,
+      "at": "2026-08-16T01:39:02",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-02e0af3b-492f-4851-b2c1-4e6c7d2563cd",
+      "app_name": "ajio",
+      "content": "Such an awesome collection and the customer support is so helpful",
+      "score": 5,
+      "at": "2026-08-16T00:22:48",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-569d1917-5f35-4051-a384-b6ad46e9916d",
+      "app_name": "ajio",
+      "content": "The material is soft and durable really impressive services are also good",
+      "score": 5,
+      "at": "2026-08-16T00:19:34",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-eb893957-61f9-418e-a9ce-51f3c32001f1",
+      "app_name": "ajio",
+      "content": "trusted by ajio",
+      "score": 5,
+      "at": "2026-08-15T23:44:47",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-477c605b-e74a-4042-bb80-4139d9b9be19",
+      "app_name": "ajio",
+      "content": "I use Ajio and ordered 2 shirts from Cantabile, which were delivered on 6th August. The product quality was so poor that I raised a return request within 10 minutes of delivery. However, nobody came to pick up the return, and today on 13th August, my return request was canceled citing 'operational reasons.' Now, I am not even able to raise a new return request. The shirts are lying untouched just as they arrived. Worst customer service ever! 👎👎👎👎👎 i uninstalled the app 🤬🤬🤬🤬",
+      "score": 1,
+      "at": "2026-08-15T22:33:09",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-392c2312-2835-48e3-88fc-cc02fcbad915",
+      "app_name": "ajio",
+      "content": "The app cancelled 2 of my shoe orders a week after placing order, it was a prepaid order and I never received the refund either, disappointing customer experience",
+      "score": 1,
+      "at": "2026-08-15T21:08:49",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-05cf5d4c-b2ba-4008-81cd-9ff1cc4fc975",
+      "app_name": "ajio",
+      "content": "not good so much",
+      "score": 2,
+      "at": "2026-08-15T20:54:24",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-cd61aa16-3609-492c-942e-e50a7bfbfa38",
+      "app_name": "ajio",
+      "content": "Useless app. use myntra",
+      "score": 1,
+      "at": "2026-08-15T20:14:45",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-6d97f9f2-9341-46e9-bbbc-771c9c602082",
+      "app_name": "ajio",
+      "content": "best shopping app",
+      "score": 4,
+      "at": "2026-08-15T19:14:14",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-1db92b1e-c143-48de-b57c-53d9ed4e2010",
+      "app_name": "ajio",
+      "content": "very worst service not delivered any order after 10 days auto cancelled and refund amount take month company used our money growth him self",
+      "score": 1,
+      "at": "2026-08-15T18:38:26",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-543a14b6-1325-4cc8-81f9-57fa729a5253",
+      "app_name": "ajio",
+      "content": "one of the worst apps. They haven't delivered my shirt for more than 20 days and cancellation isn't available 🤡",
+      "score": 1,
+      "at": "2026-08-15T17:35:41",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-0c8d8d6e-fa2f-4073-98a7-8a19a6cdc668",
+      "app_name": "ajio",
+      "content": "The rate which is written on the product is never included in the rate, he asks for a higher rate than that.",
+      "score": 1,
+      "at": "2026-08-15T15:52:47",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-b44a4884-30bf-4e1a-a191-28cebbc20a78",
+      "app_name": "ajio",
+      "content": "don't waste your time on this",
+      "score": 1,
+      "at": "2026-08-15T13:50:17",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-0e59be8a-3f5c-409e-a9e0-d2d8655f9083",
+      "app_name": "ajio",
+      "content": "very poor payment interface",
+      "score": 3,
+      "at": "2026-08-15T13:29:53",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-2c76e89a-6ff1-4f0e-89f4-adb79037b04c",
+      "app_name": "ajio",
+      "content": "Probably the most bugged shopping app in Play Store.",
+      "score": 1,
+      "at": "2026-08-15T12:36:54",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-7cf3aba5-b5de-4e10-9dbb-75c5c699c899",
+      "app_name": "ajio",
+      "content": "ajio ke ander 15 20 ho jate to bhi refund nahi milta hai aur bekar app hai",
+      "score": 1,
+      "at": "2026-08-15T12:05:00",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-8dff885b-e34d-4c0f-a650-4ef1901e6f76",
+      "app_name": "ajio",
+      "content": "this is a scam you will order something and they will deliver something else you cannot exchange it because they will not let you do that and can't return also if you return their product the refund will never come back and you can't tell them your problem also because THEY JUST DON'T LISTEN!! it is clearly a scam after ordering any product you just can't get that or exchange or return they don't coordinate with costomers. never use this app it is horrible!",
+      "score": 1,
+      "at": "2026-08-15T11:02:00",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-448786ee-008d-4cc4-93ac-abc7c9614023",
+      "app_name": "ajio",
+      "content": "Worst Experience Worst experience with AJIO! I neither received my product nor was I able to cancel the order. I tried contacting customer care multiple times, but they were unable to provide any proper help or resolution. Around ₹2,000 is stuck/lost because of this issue. Very disappointing customer service and extremely frustrating experience. I expected much better from AJIO. I would not recommend AJIO based on this experience.",
+      "score": 1,
+      "at": "2026-08-15T10:40:51",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-6ea845c8-b94b-446a-803d-5404591c309d",
+      "app_name": "ajio",
+      "content": "this app refund policy is very very badd I am very disappointed ☹️💔",
+      "score": 1,
+      "at": "2026-08-15T10:19:00",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-38f4cecb-2dc7-4605-82dd-dfc6ea21141f",
+      "app_name": "ajio",
+      "content": "upi option doesn't work and also union bank card also not working. please check upi option and rectify it",
+      "score": 3,
+      "at": "2026-08-15T09:39:09",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-d8afba87-6143-4256-a4af-1e170bc86caf",
+      "app_name": "ajio",
+      "content": "good product..😀👍",
+      "score": 5,
+      "at": "2026-08-15T08:40:51",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-ad306083-e5a3-40db-9f55-a4d68fb51ac5",
+      "app_name": "ajio",
+      "content": "excellent offers",
+      "score": 5,
+      "at": "2026-08-15T07:09:54",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-d9c2d68d-4295-4739-a84c-674961df9ebb",
+      "app_name": "ajio",
+      "content": "Product are showing in good quality so this is my first order by ajio so I am excited to receive my parcel",
+      "score": 5,
+      "at": "2026-08-15T03:39:16",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-330971c7-5b96-4d1b-84e7-c3e905199631",
+      "app_name": "ajio",
+      "content": "this app is very slow I always avoid using this app and website, poor UI",
+      "score": 1,
+      "at": "2026-08-15T01:09:37",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-408f0cfe-29ab-4333-a9ee-fd13c038300d",
+      "app_name": "ajio",
+      "content": "very pathetic app and service I had ordered few tops from ajio at first they delayed delivery every single day and they couldn't delivered the product so they only decide to cancel without intimate me and same day thankfully they refunded never gone suggest this app i wasted my time on this app so uninstall it already",
+      "score": 1,
+      "at": "2026-08-15T00:56:50",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-ac0fbea7-8adc-4e4d-a294-aa01ab9bcb52",
+      "app_name": "ajio",
+      "content": "Good experience ❤️💯",
+      "score": 5,
+      "at": "2026-08-15T00:43:46",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-e1ab6aac-7fa2-4faf-9027-7fa33865ea2f",
+      "app_name": "ajio",
+      "content": "Just awsome deal",
+      "score": 5,
+      "at": "2026-08-15T00:09:08",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-55ee8b08-e118-4be0-91ab-eb136126fcd4",
+      "app_name": "ajio",
+      "content": "it is my first order. thanks for cod delivery confirm",
+      "score": 5,
+      "at": "2026-08-15T00:05:39",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-3d109fe3-ad92-40f5-afcc-3eebe4142f68",
+      "app_name": "ajio",
+      "content": "Amazing Products",
+      "score": 5,
+      "at": "2026-08-15T00:05:36",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-2d37cd62-5801-4ac0-a5d4-0748190e7fc5",
+      "app_name": "ajio",
+      "content": "when ever you write a bad review you wi get feedback submission failed due to technical issue. what an idea👎👎👎",
+      "score": 1,
+      "at": "2026-08-14T23:25:35",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-6436e6ca-a868-43c7-8115-5b1971ed26a4",
+      "app_name": "ajio",
+      "content": "Very very scammed app..Don't order from this app..It has no delivery and very very poor customer service.Scammed me in my order and also not get refund.",
+      "score": 1,
+      "at": "2026-08-14T23:25:18",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-bdd0ac31-5b9e-4af7-8a85-2c55d251d11c",
+      "app_name": "ajio",
+      "content": "i used to like shopping with Ajio but now it has became worst...",
+      "score": 1,
+      "at": "2026-08-14T21:04:49",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-e6d660ab-afa3-4a43-a2ea-ec985492d739",
+      "app_name": "ajio",
+      "content": "I am using app more than 4 years and I have purchasing my dress mostly here but I don't for last 4+ months the product price in product list page showing one price if click inside same product shows different price or sometimes showing out of stock most of the category is the same I also updated app restarted no change so I am writing here to kindly review the product list page and product page",
+      "score": 4,
+      "at": "2026-08-14T20:57:00",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-4a08895e-e95d-4df5-9ddd-7edd23a66622",
+      "app_name": "ajio",
+      "content": "ajio is perfect for shopping",
+      "score": 4,
+      "at": "2026-08-14T19:42:21",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-18a22649-0596-4b19-89e4-d975256a9eb6",
+      "app_name": "ajio",
+      "content": "lets see after receiving the order",
+      "score": 4,
+      "at": "2026-08-14T19:31:53",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-7077a1e1-6ef4-4a83-9576-2f407110b71b",
+      "app_name": "ajio",
+      "content": "worst customer care and delivery services and the delay of delivery was three days due to delay of delivery I would have missed my dress code",
+      "score": 1,
+      "at": "2026-08-14T18:58:35",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-3d295079-cc03-463d-9bf9-bda07fe30727",
+      "app_name": "ajio",
+      "content": "good application",
+      "score": 5,
+      "at": "2026-08-14T18:56:34",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-69461220-ead0-45f8-9003-04a9e2740f4a",
+      "app_name": "ajio",
+      "content": "like the dress will be there in before time",
+      "score": 5,
+      "at": "2026-08-14T18:41:56",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-61e0feaa-4300-4f8b-9466-e609786b0493",
+      "app_name": "ajio",
+      "content": "worst app ever customer care does not connect to the officials this our query remains unsolved.",
+      "score": 1,
+      "at": "2026-08-14T18:26:13",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-2e967dfc-fc1d-4c1a-95a0-78683da92577",
+      "app_name": "ajio",
+      "content": "fantastic features and the collection is amazing i adore this so much app",
+      "score": 5,
+      "at": "2026-08-14T18:22:13",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-957b2fca-03a0-45bd-ba0a-a673e51e8c9b",
+      "app_name": "ajio",
+      "content": "This is the worst shopping retail app I have ever used and experienced. There is no customer support or service, no accountibility.I placed very first order and delivery time line was 13th Aug provided. But product was not even distpatched till 13th. I raised complaint to customer care and they just given timeline wait till 14 for resolution of complaint. can you imagine that? they dont respect their commitments ans SLAs. as expected No redolution till 14th as well. Never buy any item from Ajio",
+      "score": 1,
+      "at": "2026-08-14T18:22:03",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-a79ec24a-deda-4121-8a51-91b34a346395",
+      "app_name": "ajio",
+      "content": "trust in ajio and get your order cancelled after 5 days due to business reasons. had a chat with customer care. he could do nothing but a refund. I had planned a shirt for an occasion. ruined my plans.",
+      "score": 1,
+      "at": "2026-08-14T18:20:14",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-66f837d9-b1c2-4086-8e8d-e43290890ba5",
+      "app_name": "ajio",
+      "content": "food quality of clothes",
+      "score": 5,
+      "at": "2026-08-14T17:55:24",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-6237dde1-1da3-44ca-a0bb-e2c1226dc961",
+      "app_name": "ajio",
+      "content": "worst customer care i cant even contact them i've got size 30 insted of 28 i want to exchange that and worst costumer care service. terrible experience",
+      "score": 1,
+      "at": "2026-08-14T17:47:53",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-b00e32fd-6927-4e30-8bb4-d0501e784bd9",
+      "app_name": "ajio",
+      "content": "worst shopping app ever ❌🚫❌🚫❌🚫❌🚫❌ don't west your time here and go other app, because costomer care system, return or exchange system are worse ever i seen , this worst ever you see ❌❌🚫🚫❌🚫🚫🚫🚫🚫",
+      "score": 1,
+      "at": "2026-08-14T17:44:29",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-f2dd0bfd-e4b4-4dbc-b2ad-414efdf90955",
+      "app_name": "ajio",
+      "content": "i ordered a set which was sent by Ajio wrong size, after placed an exchange they said item returned to warehouse.worst customer care service.",
+      "score": 1,
+      "at": "2026-08-14T16:52:10",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-27b37f33-b7f0-4989-ac98-ab92cbb166d7",
+      "app_name": "ajio",
+      "content": "low quality product",
+      "score": 1,
+      "at": "2026-08-14T15:55:06",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-9efefde6-6f47-4e36-bf2f-0ec791ab6946",
+      "app_name": "ajio",
+      "content": "Don't use ajio app for your essential ,fashion shopping because the return and exchange service is worst ,this is very worst app that I ever seen . there is no customer support. multiple time my exchange product cancel just before delivery. so I suggest don't use this.",
+      "score": 1,
+      "at": "2026-08-14T15:49:17",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-d5dd331c-3b3d-4d50-9991-33d9a62b801a",
+      "app_name": "ajio",
+      "content": "I think who i wanted, I got it",
+      "score": 5,
+      "at": "2026-08-14T15:27:58",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-7ffb822c-97b3-420a-9d9c-bb6176ce0368",
+      "app_name": "ajio",
+      "content": "very good clothes",
+      "score": 4,
+      "at": "2026-08-14T15:27:12",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-7aba1ed5-20f7-44ab-b184-15503d3d804d",
+      "app_name": "ajio",
+      "content": "Extremely Disappointing One of the worst customer-service experiences I've had. AJIO sent me the wrong product and then made me repeatedly prove it by demanding more and more photographs. I have submitted the product, packaging, labels, front, back and every reasonable angle, yet they keep moving the goalposts. Customers shouldn't need a photography studio to return an incorrect item. This feels less like customer service and more like a deliberate attempt to exhaust the customer into giving up",
+      "score": 1,
+      "at": "2026-08-14T15:09:29",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-9109202c-52cb-4209-88c2-5f5eb3dd9b14",
+      "app_name": "ajio",
+      "content": "Ajio had good products with reasonable prices initially. Now the product pricing displayed even when coupons are applied keeps varying, the displayed price is different and at checkout price is different. You never get the discount which is mentioned. It's very unethical.",
+      "score": 3,
+      "at": "2026-08-14T15:09:17",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-23fd9b6c-0e88-4e9a-8916-5abca6122105",
+      "app_name": "ajio",
+      "content": "I ordered jeans from Ajio platform, which cost Rs 1335 but when I received the parcel I opened the parcel and found socks which cost only Rs 450 So since I received the wrong item I requested to return the product When the person came to take back the product he refused to accept the item he told me that you had ordered jeans and I have been asked to take back only the jeans Which I never got. so I wasted my valuable time and money and felt mentally exhausted because of this platform",
+      "score": 1,
+      "at": "2026-08-14T15:08:57",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-7d8cb1bd-cb75-41c3-9d08-26bc5b01571b",
+      "app_name": "ajio",
+      "content": "worst app ever I don't recommend this app",
+      "score": 1,
+      "at": "2026-08-14T13:46:57",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-98ff6f81-f618-4ee7-84bb-e8675757165a",
+      "app_name": "ajio",
+      "content": "very well clothes",
+      "score": 5,
+      "at": "2026-08-14T13:30:22",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-d2828f1c-6f4a-437c-ba05-71378879a9fe",
+      "app_name": "ajio",
+      "content": "other charges very extra",
+      "score": 1,
+      "at": "2026-08-14T13:07:46",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-207c05b6-c3f4-4206-9549-4b02c9c7f49a",
+      "app_name": "ajio",
+      "content": "where slow and no use of gift cards",
+      "score": 3,
+      "at": "2026-08-14T12:55:47",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-d41ec22a-d3ff-4771-80ed-6a8149bf1702",
+      "app_name": "ajio",
+      "content": "speed up the delivery",
+      "score": 2,
+      "at": "2026-08-14T11:32:24",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-ba091637-e7b6-40fc-8516-528363799d98",
+      "app_name": "ajio",
+      "content": "delivery late and product is very bad quality 15 days for delivery 👎🏻👎🏻👎🏻",
+      "score": 1,
+      "at": "2026-08-14T11:10:16",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-ed7fe5fc-7ad6-4b50-abfb-76282bbe9dd9",
+      "app_name": "ajio",
+      "content": "yes ok but delay the product",
+      "score": 1,
+      "at": "2026-08-14T11:01:51",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-2523278e-1754-4f71-bf40-21af2575b4c2",
+      "app_name": "ajio",
+      "content": "worst app and the customer executive cannot help with order delivery. they always give the false delivery dates.how th ajio works is too bad they can't help with delivery as they use 3 party delivery partners which they cannot control and also the return policy is too bad one should wait until their system gets updated. their system gets updated only the product return to their origin if it is in between then you should be suffered. the customer executives are not responsive they tried to hungup",
+      "score": 1,
+      "at": "2026-08-14T10:36:41",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-21ac59dd-df22-442d-8c89-778a8226c7a9",
+      "app_name": "ajio",
+      "content": "Literally it too much time for dilevery and exchange",
+      "score": 1,
+      "at": "2026-08-14T08:54:24",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-425ae915-f512-4632-be65-3969f5955f9f",
+      "app_name": "ajio",
+      "content": "very good and satisfying",
+      "score": 5,
+      "at": "2026-08-14T08:04:47",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-f8b0082b-320f-43b3-b7f1-d6f1dd8a4d64",
+      "app_name": "ajio",
+      "content": "Title: AJIO Review Worst ever app and one of the most disappointing customer experiences. Online platforms are meant to sell products and allow customers to return them when needed. I once returned a few items and AJIO blocked me from placing any further orders — apparently for a lifetime! Why such an extreme approach? If returns were an issue, you could have implemented a penalty, return fee, or platform fee instead. Completely blocking a potential customer is simply poor customer experience.",
+      "score": 1,
+      "at": "2026-08-14T07:46:29",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-be54d8d5-4d0b-4905-a1cb-13b969ddb21b",
+      "app_name": "ajio",
+      "content": "it's not opening!",
+      "score": 1,
+      "at": "2026-08-14T06:12:54",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-66fa073c-90f5-4b2a-bc42-8cbb7534cb47",
+      "app_name": "ajio",
+      "content": "If you want to live peacefully never shop here, i repeat never. They have fraud delivery system, some of the worst cloth design you can ever see. Zero customer support, laggy UI with no real people reviews at all.",
+      "score": 1,
+      "at": "2026-08-14T01:34:10",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-d87ed9f4-02c0-400b-b540-b9d2fa55bd83",
+      "app_name": "ajio",
+      "content": "worst app I ever seen they always give wrong product and they don't give refund also",
+      "score": 1,
+      "at": "2026-08-14T01:18:27",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-3a4f867d-16ae-4207-8b2d-fb5be7431875",
+      "app_name": "ajio",
+      "content": "why you are not allowing cod",
+      "score": 1,
+      "at": "2026-08-13T23:45:37",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-1c2b9f17-9303-44c2-86bd-bb1d7bfc06b6",
+      "app_name": "ajio",
+      "content": "please updated. out of stock also showing in your app display. so waste of my time I am interested in out of stock product. but showing no stock availability in your pin code what is this nonsense please improve your app don't waste of customers time",
+      "score": 5,
+      "at": "2026-08-13T23:28:38",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-437a9cf6-063f-4e8f-b990-0362bb7061e5",
+      "app_name": "ajio",
+      "content": "fraud app , the delivery attempted was not even made and the order was cancelled directly.",
+      "score": 1,
+      "at": "2026-08-13T23:27:52",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-6ad32bed-4c44-41a3-9851-cf454b27068d",
+      "app_name": "ajio",
+      "content": "App get hang at some areas. when we click similar products in the product image.need improvement.",
+      "score": 3,
+      "at": "2026-08-13T22:51:35",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-52e1cda2-8255-440f-9ca9-6e3c05786478",
+      "app_name": "ajio",
+      "content": "some of the clothes r on great discounts",
+      "score": 4,
+      "at": "2026-08-13T22:51:03",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-64139107-e57e-42a9-8b5c-92ff509a4371",
+      "app_name": "ajio",
+      "content": "Returning a poor-quality or unsuitable product should be simple. Unfortunately, the return pickup process can create another headache. In some cases, the pickup person does not collect the product and the pickup is then marked as failed with a reason that the customer did not provide.The customer is left waiting, even though the customer has done everything correctly. This is completely unfair. If the pickup fails because of the logistics partner, the customer should not be blamed or forced wait",
+      "score": 1,
+      "at": "2026-08-13T22:24:34",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-c2cf44a4-c47c-4602-998f-bec2560dc3ac",
+      "app_name": "ajio",
+      "content": "slow app when use take so much time to set up",
+      "score": 1,
+      "at": "2026-08-13T22:02:06",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-aaa9e83e-74a7-4929-af57-3688e0040c77",
+      "app_name": "ajio",
+      "content": "Extremely disappointing experience with AJIO. My watch order showed “Out for Delivery” yesterday. Customer care promised delivery by EOD and said a complaint was raised. It wasn't delivered. Today I received another “Out for Delivery” update, yet still nothing. Blue Dart tracking has shown the same status since yesterday. AJIO also says they don't have the courier's contact number. I've already paid for the order. Poor coordination and frustrating customer service.",
+      "score": 1,
+      "at": "2026-08-13T21:16:10",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-134766df-a3c9-46d1-8680-c88f1764d5e7",
+      "app_name": "ajio",
+      "content": "can't cancel order even if it is stuck at delhivery side. no help watsover. low grade automated msgs as customer support. choppy UI, fraud pricing. pathetic",
+      "score": 1,
+      "at": "2026-08-13T20:56:01",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-73abd7e5-235c-4707-a62d-aedd95397233",
+      "app_name": "ajio",
+      "content": "worst app, if you made advance payment they not deliver your product, they made fake delivery attempt",
+      "score": 1,
+      "at": "2026-08-13T20:40:15",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-7b597c8c-0f2d-45c0-9f7e-220239ab471b",
+      "app_name": "ajio",
+      "content": "The smoothest app I love this app it's features collection and material are all really fantastic",
+      "score": 5,
+      "at": "2026-08-13T19:12:50",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-e9eb6e7d-3ede-4bb1-b92d-db9a89eb40fa",
+      "app_name": "ajio",
+      "content": "very good experience",
+      "score": 5,
+      "at": "2026-08-13T19:06:51",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-412e15d9-ebbd-48c9-9a37-acd50a1047cf",
+      "app_name": "ajio",
+      "content": "super Quality products",
+      "score": 5,
+      "at": "2026-08-13T18:45:41",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-fc752a22-0916-4877-b636-b04cc1d5ec69",
+      "app_name": "ajio",
+      "content": "It's a non-trustable app. They sell customers info to Scammers and then u get a fake call regarding unrecieved payment n next moment u get scammed. Returning issue is also there. Poor customer care helpline. No easy Customer care help regarding orders. overall poor experience on this app. Your problems will never be sorted.",
+      "score": 1,
+      "at": "2026-08-13T18:19:26",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-06347695-bbbc-4b79-aa3a-4e4c81a17cf0",
+      "app_name": "ajio",
+      "content": "wanted to shop from it outside India and get it delivered to my indian address too bad , app or website doesn't support , A shame",
+      "score": 1,
+      "at": "2026-08-13T18:10:48",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-e229cf7a-c700-49ed-a2d7-eddeef29ce82",
+      "app_name": "ajio",
+      "content": "why to charge extra for delivery",
+      "score": 2,
+      "at": "2026-08-13T17:59:40",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-92838003-1c94-4a35-ac11-9b18c24b088c",
+      "app_name": "ajio",
+      "content": "I have a very bad experience with ajio. Create an exchange due to a size issue, wait 1 week for it. but at the end you informed me that we couldn't deliver the exchange, please create a return request. In this deal i waste my time and block my money for almost 2 weeks.",
+      "score": 1,
+      "at": "2026-08-13T17:19:26",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-9c594a1f-340d-4be8-b2f1-83e5567d6e8a",
+      "app_name": "ajio",
+      "content": "The application lacks user-friendliness, the service quality is subpar, and the search functionality is poorly optimized.",
+      "score": 1,
+      "at": "2026-08-13T17:04:47",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-b1129bb7-33e3-4953-8dbc-75fc8191da85",
+      "app_name": "ajio",
+      "content": "Customer service is too bad, my refund amount is not transferred in my bank account yet,it has been 10 days since I returned my product. Very terrifying app...",
+      "score": 1,
+      "at": "2026-08-13T17:01:10",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-16f5a47d-9899-49e2-acf9-5e3da6e1a346",
+      "app_name": "ajio",
+      "content": "Worst shopping app ever. It's literally scam. They will give discounts during sale period and after placing orders they will cancel the products saying the products didn't met our quality standards. Improve your business standards first. Worst experience, waste of time and efforts.",
+      "score": 1,
+      "at": "2026-08-13T15:38:32",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-07ffccf4-20e6-49e8-945d-bd5e2942b63e",
+      "app_name": "ajio",
+      "content": "This is a fraud app. I returned an order, but I still haven't received my money back. At the time of the return, it showed that a small amount would be deducted, but after the return was processed, even more money was cut, and there is no customer service available either.",
+      "score": 1,
+      "at": "2026-08-13T14:43:32",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-7c02219b-3e1e-4d1a-b51c-d043b6dd72bd",
+      "app_name": "ajio",
+      "content": "worst shopping app This apps logistics service is very bad",
+      "score": 1,
+      "at": "2026-08-13T14:23:26",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-d7f1179d-ed2b-4921-9891-f3397d9b82f9",
+      "app_name": "ajio",
+      "content": "there are so much extra fees",
+      "score": 2,
+      "at": "2026-08-13T13:49:11",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-fe42a709-2986-42a1-b71d-a69f8b9e2689",
+      "app_name": "ajio",
+      "content": "one of d 3rd rated app.. delivery s too worst.. i nearly lost my 4,000 rupees.. d dresses wt i ordered is completely damaged nd nt d dresses wt I hd booked.. dy hav evn cancelled my return request tlng dt i hv received crrct product.. nvr anybody book frm this app.. Nvr expected ds",
+      "score": 1,
+      "at": "2026-08-13T12:33:17",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-9dc04fd4-2749-4fb5-a165-cb4e18a830f8",
+      "app_name": "ajio",
+      "content": "quality is very good but price is and discount not apply",
+      "score": 2,
+      "at": "2026-08-13T12:21:05",
+      "detected_lang": "en"
+    },
+    {
+      "evidence_id": "ajio-2841d66c-fa2f-42f8-830a-c0280bc74e40",
+      "app_name": "ajio",
+      "content": "nice app and so happy shopping with ajio and abhi to start Kiya hai ab dekhte hai kaisa kya response rahta hai lagta to hai ki acchaa hi rhega ❤️😊",
+      "score": 4,
+      "at": "2026-08-13T10:52:32",
+      "detected_lang": "en"
+    }
+  ]
+}
