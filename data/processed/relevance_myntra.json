@@ -1,5 +1,5 @@
 {
-  "app_name": "myntra",
+  "name": "myntra",
   "counts": {
     "total": 248,
     "relevant": 2,
@@ -8,1490 +8,1490 @@
   },
   "results": [
     {
-      "evidence_id": "myntra-7f2e4d0e-333f-46b0-ab75-350142b46628",
-      "content": "I have been using Myntra for 5 years.Wandarful apps good service I m happy",
+      "id": "playstore-myntra-7f2e4d0e-333f-46b0-ab75-350142b46628",
+      "text": "I have been using Myntra for 5 years.Wandarful apps good service I m happy",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-f0d77126-8130-4e79-95fd-d7a3d7eb0761",
-      "content": "one of the best shopping apps, the return and exchange policy is best out there",
+      "id": "playstore-myntra-f0d77126-8130-4e79-95fd-d7a3d7eb0761",
+      "text": "one of the best shopping apps, the return and exchange policy is best out there",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-401b801e-c875-4117-a499-3331107fd184",
-      "content": "sizes r not available for many liked products",
+      "id": "playstore-myntra-401b801e-c875-4117-a499-3331107fd184",
+      "text": "sizes r not available for many liked products",
       "is_relevant": true,
       "confidence": 0.8
     },
     {
-      "evidence_id": "myntra-3a917bd6-bdd6-475b-a6ad-7b9e0b478a24",
-      "content": "appreciate quality and product are trustful",
+      "id": "playstore-myntra-3a917bd6-bdd6-475b-a6ad-7b9e0b478a24",
+      "text": "appreciate quality and product are trustful",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-fb6ab313-f839-46b0-abe3-dc41a4758441",
-      "content": "very nice app this app is providing nice clothes and beauties product and giving to offers in every clothes",
+      "id": "playstore-myntra-fb6ab313-f839-46b0-abe3-dc41a4758441",
+      "text": "very nice app this app is providing nice clothes and beauties product and giving to offers in every clothes",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-2b1f34cd-8fe9-485b-8c99-5cc7a0432850",
-      "content": "⭐⭐⭐⭐⭐ Myntra is one of my favourite shopping apps. The collection is really good, prices and offers are attractive, and ordering is easy. Delivery is also quite convenient. Overall, I have had a good shopping experience with Myntra and would definitely recommend it. ❤️",
+      "id": "playstore-myntra-2b1f34cd-8fe9-485b-8c99-5cc7a0432850",
+      "text": "⭐⭐⭐⭐⭐ Myntra is one of my favourite shopping apps. The collection is really good, prices and offers are attractive, and ordering is easy. Delivery is also quite convenient. Overall, I have had a good shopping experience with Myntra and would definitely recommend it. ❤️",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-0d42bcee-3962-4f7b-a6a3-8181370746e2",
-      "content": "this app very helpful",
+      "id": "playstore-myntra-0d42bcee-3962-4f7b-a6a3-8181370746e2",
+      "text": "this app very helpful",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-98a106b4-7b12-4991-a7c4-af7c65786371",
-      "content": "Very disappointing experience with Myntra. I ordered 5 Libas sarees at an offer price, and all 5 were confirmed and shipped. Later, Myntra automatically cancelled them citing a “technical issue”. I requested the same offer/price or compensation for the price difference, but no proper solution was provided. Cancelling shipped orders and refusing to honour the offer is unfair and feels like arbitrary handling of customer orders. Myntra should take responsibility and provide a genuine resolution.",
+      "id": "playstore-myntra-98a106b4-7b12-4991-a7c4-af7c65786371",
+      "text": "Very disappointing experience with Myntra. I ordered 5 Libas sarees at an offer price, and all 5 were confirmed and shipped. Later, Myntra automatically cancelled them citing a “technical issue”. I requested the same offer/price or compensation for the price difference, but no proper solution was provided. Cancelling shipped orders and refusing to honour the offer is unfair and feels like arbitrary handling of customer orders. Myntra should take responsibility and provide a genuine resolution.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-8efda6a9-494e-4b2f-8e44-16f6ac82a5f8",
-      "content": "good app for family reasons Shoping i m impressed 👍🏻❤️",
+      "id": "playstore-myntra-8efda6a9-494e-4b2f-8e44-16f6ac82a5f8",
+      "text": "good app for family reasons Shoping i m impressed 👍🏻❤️",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-d9328ef5-cc14-40aa-94db-5992ded8c105",
-      "content": "Very good experience",
+      "id": "playstore-myntra-d9328ef5-cc14-40aa-94db-5992ded8c105",
+      "text": "Very good experience",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-c6837123-4cf2-4361-8930-1df7b785d707",
-      "content": "very useful app",
+      "id": "playstore-myntra-c6837123-4cf2-4361-8930-1df7b785d707",
+      "text": "very useful app",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-356aa78f-fa84-4e9b-aee6-7acc392a1284",
-      "content": "amazing app authentic products 😁",
+      "id": "playstore-myntra-356aa78f-fa84-4e9b-aee6-7acc392a1284",
+      "text": "amazing app authentic products 😁",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-4f4bf6f8-917d-4586-92a5-da71451667ce",
-      "content": "excellent app , good customer service best quality product",
+      "id": "playstore-myntra-4f4bf6f8-917d-4586-92a5-da71451667ce",
+      "text": "excellent app , good customer service best quality product",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-60783e64-d6fb-4fc2-9d43-604a993c8b7f",
-      "content": "it's a very good app i am really for it",
+      "id": "playstore-myntra-60783e64-d6fb-4fc2-9d43-604a993c8b7f",
+      "text": "it's a very good app i am really for it",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-866d9df3-0f09-4d5f-9700-3b6a3c0f0074",
-      "content": "very good quality dresses...",
+      "id": "playstore-myntra-866d9df3-0f09-4d5f-9700-3b6a3c0f0074",
+      "text": "very good quality dresses...",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-0b526540-345b-49e3-a862-25ebd8ebd4d0",
-      "content": "It's been a week since I've ordered a few items I received some and other status remains in the packed stage, when I tried to reach the help centre it asked me to click call me now and I've been trying and trying but no response 😭 i didn't expect such poor service from myntra i hate it honestly",
+      "id": "playstore-myntra-0b526540-345b-49e3-a862-25ebd8ebd4d0",
+      "text": "It's been a week since I've ordered a few items I received some and other status remains in the packed stage, when I tried to reach the help centre it asked me to click call me now and I've been trying and trying but no response 😭 i didn't expect such poor service from myntra i hate it honestly",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-39587ba4-7fb0-4d88-9c89-d288ff6d0825",
-      "content": "I received the wrong shade of the compact powder, and unfortunately, it is much darker than my skin tone. I tried contacting Myntra customer service and also tried several ways to request an exchange, but my issue was not resolved. I’m disappointed because the product itself may be good, but receiving an unsuitable shade without an exchange option makes the experience frustrating. Myntra should provide better support for genuine shade-related issues.",
+      "id": "playstore-myntra-39587ba4-7fb0-4d88-9c89-d288ff6d0825",
+      "text": "I received the wrong shade of the compact powder, and unfortunately, it is much darker than my skin tone. I tried contacting Myntra customer service and also tried several ways to request an exchange, but my issue was not resolved. I’m disappointed because the product itself may be good, but receiving an unsuitable shade without an exchange option makes the experience frustrating. Myntra should provide better support for genuine shade-related issues.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-7f63b698-330b-4550-adf6-ca67ad3ba652",
-      "content": "Not sure why but most of the items are not deliverable to Gujarat",
+      "id": "playstore-myntra-7f63b698-330b-4550-adf6-ca67ad3ba652",
+      "text": "Not sure why but most of the items are not deliverable to Gujarat",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-c23a1987-6baf-489a-a364-786a76bc04c5",
-      "content": "love it genz cloths r best",
+      "id": "playstore-myntra-c23a1987-6baf-489a-a364-786a76bc04c5",
+      "text": "love it genz cloths r best",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-8b01e334-8341-49ca-828e-ef01d6c8d218",
-      "content": "such a nice and helpful experience 🫶🏻",
+      "id": "playstore-myntra-8b01e334-8341-49ca-828e-ef01d6c8d218",
+      "text": "such a nice and helpful experience 🫶🏻",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-9c189ad4-eb18-4387-b661-3dbc25b40958",
-      "content": "It is a good app and the delivery is also fast. One of the best app for shopping",
+      "id": "playstore-myntra-9c189ad4-eb18-4387-b661-3dbc25b40958",
+      "text": "It is a good app and the delivery is also fast. One of the best app for shopping",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-9d3e937e-2e30-4e2b-8449-c9318adea9c3",
-      "content": "lovev it , acha hai ,quality provide by this app , go for it , bhot achi sarvice hai myntra ki , maza aa gaya",
+      "id": "playstore-myntra-9d3e937e-2e30-4e2b-8449-c9318adea9c3",
+      "text": "lovev it , acha hai ,quality provide by this app , go for it , bhot achi sarvice hai myntra ki , maza aa gaya",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-ac07c9e4-4ca2-40aa-ac9b-65119bed1dff",
-      "content": "Myntra is a very convenient and user-friendly shopping app. The collection is great, the app is easy to use, and the overall shopping experience is smooth. I’m happy with the service and would definitely recommend Myntra to others. 😊",
+      "id": "playstore-myntra-ac07c9e4-4ca2-40aa-ac9b-65119bed1dff",
+      "text": "Myntra is a very convenient and user-friendly shopping app. The collection is great, the app is easy to use, and the overall shopping experience is smooth. I’m happy with the service and would definitely recommend Myntra to others. 😊",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-9e267fca-ebf6-41c1-b2d4-30745747ce47",
-      "content": "this app is very good I'm very happy for this app real brand products 💖💖💖🥰🥰🥰🤗🤗🤗🤗🤗",
+      "id": "playstore-myntra-9e267fca-ebf6-41c1-b2d4-30745747ce47",
+      "text": "this app is very good I'm very happy for this app real brand products 💖💖💖🥰🥰🥰🤗🤗🤗🤗🤗",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-ceb476f6-d431-4493-b617-ce345e57d57a",
-      "content": "it is good app for latest fashion",
+      "id": "playstore-myntra-ceb476f6-d431-4493-b617-ce345e57d57a",
+      "text": "it is good app for latest fashion",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-06ce7841-ff57-4455-8e51-ccddb3038fec",
-      "content": "excellent, myntra is good , product quality is also good, thank you myntra",
+      "id": "playstore-myntra-06ce7841-ff57-4455-8e51-ccddb3038fec",
+      "text": "excellent, myntra is good , product quality is also good, thank you myntra",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-33802748-3cc9-4e1e-bc25-d24518a1d285",
-      "content": "I love almost everything about the app. Only improvement I would suggest is to add more elaborate product descriptions.",
+      "id": "playstore-myntra-33802748-3cc9-4e1e-bc25-d24518a1d285",
+      "text": "I love almost everything about the app. Only improvement I would suggest is to add more elaborate product descriptions.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-b7a16c7a-7ac8-489c-a3b7-5e9384ee8ed4",
-      "content": "You were supposed to answer my query by August 17th, yet now you are asking for another 48 hours. Please do not harass the customer to the point where they stop shopping on the app (Myntra) altogether. Issues should be resolved promptly. Please provide a solution to my problem by August 18th. Why is it taking so long to resolve such a minor issue? I purchased a product, and it was of poor quality—everything is clearly visible in the photos. What are you deliberating on? After this, I will never",
+      "id": "playstore-myntra-b7a16c7a-7ac8-489c-a3b7-5e9384ee8ed4",
+      "text": "You were supposed to answer my query by August 17th, yet now you are asking for another 48 hours. Please do not harass the customer to the point where they stop shopping on the app (Myntra) altogether. Issues should be resolved promptly. Please provide a solution to my problem by August 18th. Why is it taking so long to resolve such a minor issue? I purchased a product, and it was of poor quality—everything is clearly visible in the photos. What are you deliberating on? After this, I will never",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-8a1189cc-5c7a-46b6-9989-77ea43ea20ce",
-      "content": "myntra is one of the best fashion clothing and reasonable price of the offers",
+      "id": "playstore-myntra-8a1189cc-5c7a-46b6-9989-77ea43ea20ce",
+      "text": "myntra is one of the best fashion clothing and reasonable price of the offers",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-44d588f4-175b-4c61-9c6c-903b1f4cb0b7",
-      "content": "Best shopping app",
+      "id": "playstore-myntra-44d588f4-175b-4c61-9c6c-903b1f4cb0b7",
+      "text": "Best shopping app",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-bfe1e843-6c36-4a4e-bbd6-be825c87c3b0",
-      "content": "Products are of avg quality and they didn't even replace shoes which was not fitting well, saying I have used it. The policies need improvement. Thanks for now, uninstalling the app for now.",
+      "id": "playstore-myntra-bfe1e843-6c36-4a4e-bbd6-be825c87c3b0",
+      "text": "Products are of avg quality and they didn't even replace shoes which was not fitting well, saying I have used it. The policies need improvement. Thanks for now, uninstalling the app for now.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-145656d3-0521-41fe-8166-eafdb1a298a5",
-      "content": "Very useful app to order branded clothes.",
+      "id": "playstore-myntra-145656d3-0521-41fe-8166-eafdb1a298a5",
+      "text": "Very useful app to order branded clothes.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-1b1608af-6a79-4d46-bb9b-88a5b3482fd7",
-      "content": "worst app , return experience was worst than any other app . not going to buy any product ever.. I repeat EVER",
+      "id": "playstore-myntra-1b1608af-6a79-4d46-bb9b-88a5b3482fd7",
+      "text": "worst app , return experience was worst than any other app . not going to buy any product ever.. I repeat EVER",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-9c87a3e5-b67f-4dd9-8c8d-2314c3cb71d4",
-      "content": "the best quality cloth really found here only",
+      "id": "playstore-myntra-9c87a3e5-b67f-4dd9-8c8d-2314c3cb71d4",
+      "text": "the best quality cloth really found here only",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-608e5695-2d2b-48cc-8411-d80d0b392cdc",
-      "content": "it's t shirt quality is mind blowing. I loved all the products 😇",
+      "id": "playstore-myntra-608e5695-2d2b-48cc-8411-d80d0b392cdc",
+      "text": "it's t shirt quality is mind blowing. I loved all the products 😇",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-8ecf3cee-6267-4c8d-ae96-eea6a5dcbda5",
-      "content": "top quality available in myntra",
+      "id": "playstore-myntra-8ecf3cee-6267-4c8d-ae96-eea6a5dcbda5",
+      "text": "top quality available in myntra",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-ff516583-371a-459f-be0b-d9e4b8636e14",
-      "content": "I love this platform very much. It exclusively supply the best product ever. Have a very great experience by buying products in Myntra lovable app💞💞",
+      "id": "playstore-myntra-ff516583-371a-459f-be0b-d9e4b8636e14",
+      "text": "I love this platform very much. It exclusively supply the best product ever. Have a very great experience by buying products in Myntra lovable app💞💞",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-db59a8fe-f20d-4753-b3e0-b34d8f16a4eb",
-      "content": "Don't know what's wrong with Myntra, for no reason account blocked. Atleast have the decency to mail me the reason.",
+      "id": "playstore-myntra-db59a8fe-f20d-4753-b3e0-b34d8f16a4eb",
+      "text": "Don't know what's wrong with Myntra, for no reason account blocked. Atleast have the decency to mail me the reason.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-e1cbdaa9-e64a-4880-8717-e5ee6f59ec32",
-      "content": "they actually give worthy and quality products",
+      "id": "playstore-myntra-e1cbdaa9-e64a-4880-8717-e5ee6f59ec32",
+      "text": "they actually give worthy and quality products",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-db0a9e40-fe67-4642-bdd8-ed60ca88e45c",
-      "content": "best aap hai. best quality ke product milta hai",
+      "id": "playstore-myntra-db0a9e40-fe67-4642-bdd8-ed60ca88e45c",
+      "text": "best aap hai. best quality ke product milta hai",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-eb721100-95db-478d-8516-75b5f7292472",
-      "content": "poor customer service hard to reach real agent Extremely disappointing customer service. My issue is still not resolved, and no actual customer care executive has contacted me. I am only getting automated/bot responses, which is not a solution. Despite paying a platform fee, if customers cannot even get proper human support or resolution for a genuine delivery issue, then what is the point of the fee?I have already explained the issue multiple times, yet I am still being asked for feedback",
+      "id": "playstore-myntra-eb721100-95db-478d-8516-75b5f7292472",
+      "text": "poor customer service hard to reach real agent Extremely disappointing customer service. My issue is still not resolved, and no actual customer care executive has contacted me. I am only getting automated/bot responses, which is not a solution. Despite paying a platform fee, if customers cannot even get proper human support or resolution for a genuine delivery issue, then what is the point of the fee?I have already explained the issue multiple times, yet I am still being asked for feedback",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-7d231870-752d-4bdf-ada8-6dbcad569d0c",
-      "content": "I like shopping with mantra because myntra product are good",
+      "id": "playstore-myntra-7d231870-752d-4bdf-ada8-6dbcad569d0c",
+      "text": "I like shopping with mantra because myntra product are good",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-72260d57-bffc-410e-8053-4e98fb15349d",
-      "content": "this is very amazing app 🤩",
+      "id": "playstore-myntra-72260d57-bffc-410e-8053-4e98fb15349d",
+      "text": "this is very amazing app 🤩",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-545bcddf-4648-4619-93ab-dc05d8b3b20e",
-      "content": "This is the third time I've faced an issue with them. I have been refused an exchange delivery because the delivery partner said that the dress does not have a brand tag intact with it. The brand is only mentioned on the MRP tag. Also I'm getting a dm from an unknown customer service account on Instagram that claims to be a part of their team and is asking to fill out a compensation form. The customer service is simply hopeless! i tried calling, but my call isn't being transferred.",
+      "id": "playstore-myntra-545bcddf-4648-4619-93ab-dc05d8b3b20e",
+      "text": "This is the third time I've faced an issue with them. I have been refused an exchange delivery because the delivery partner said that the dress does not have a brand tag intact with it. The brand is only mentioned on the MRP tag. Also I'm getting a dm from an unknown customer service account on Instagram that claims to be a part of their team and is asking to fill out a compensation form. The customer service is simply hopeless! i tried calling, but my call isn't being transferred.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-5650a302-33ba-45f1-9083-fb8f43af3289",
-      "content": "best for online shooping",
+      "id": "playstore-myntra-5650a302-33ba-45f1-9083-fb8f43af3289",
+      "text": "best for online shooping",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-59f5855e-600b-43f0-88f6-be60c6bbb734",
-      "content": "it's a very you's full shopping 🛒 aap much supported app ,✨💝👍",
+      "id": "playstore-myntra-59f5855e-600b-43f0-88f6-be60c6bbb734",
+      "text": "it's a very you's full shopping 🛒 aap much supported app ,✨💝👍",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-bea3829f-3b08-42c5-b096-4c30d4945f0e",
-      "content": "excellent app 👍 good for everyone uses matram echipadesindhi ga",
+      "id": "playstore-myntra-bea3829f-3b08-42c5-b096-4c30d4945f0e",
+      "text": "excellent app 👍 good for everyone uses matram echipadesindhi ga",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-4cd56bf6-29cd-49ed-918f-9bfe7c02bc2c",
-      "content": "The delivery process is extremely slow . There are no proper options to contact or escalate your grievances. The delivery partners are irresponsible and taking their own time to deliver items and do false claims on delivery attempts made. Such an unprofessional approach from a famous platform where customer concern is highly pathetic.",
+      "id": "playstore-myntra-4cd56bf6-29cd-49ed-918f-9bfe7c02bc2c",
+      "text": "The delivery process is extremely slow . There are no proper options to contact or escalate your grievances. The delivery partners are irresponsible and taking their own time to deliver items and do false claims on delivery attempts made. Such an unprofessional approach from a famous platform where customer concern is highly pathetic.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-00f2b853-717b-42b7-8141-72857aca4ae1",
-      "content": "this app was good before now if the exchange item has not been given to the delivery boy it marked as quantity failed , no support system only predefined bots are there , if we try to call the delivery agent it asks for the pin provided in app and when we enter it , it says pin is wrong, I don't know what is wrong with this app",
+      "id": "playstore-myntra-00f2b853-717b-42b7-8141-72857aca4ae1",
+      "text": "this app was good before now if the exchange item has not been given to the delivery boy it marked as quantity failed , no support system only predefined bots are there , if we try to call the delivery agent it asks for the pin provided in app and when we enter it , it says pin is wrong, I don't know what is wrong with this app",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-8f1f7120-d63f-40f2-96be-95008ea3a590",
-      "content": "nice app for shopping.",
+      "id": "playstore-myntra-8f1f7120-d63f-40f2-96be-95008ea3a590",
+      "text": "nice app for shopping.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-029d8c8e-abce-4320-b1c8-7d8eec81ef1f",
-      "content": "always delay all orders for more then 15 days to 1 month.",
+      "id": "playstore-myntra-029d8c8e-abce-4320-b1c8-7d8eec81ef1f",
+      "text": "always delay all orders for more then 15 days to 1 month.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-0a4bdb9b-ed2f-486b-8034-012ef682e179",
-      "content": "**“Really happy with the purchase! The quality is good, fitting is perfect, and the product looks exactly like the pictures. Definitely worth the price. Loved it! ❤️”**",
+      "id": "playstore-myntra-0a4bdb9b-ed2f-486b-8034-012ef682e179",
+      "text": "**“Really happy with the purchase! The quality is good, fitting is perfect, and the product looks exactly like the pictures. Definitely worth the price. Loved it! ❤️”**",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-e76c65e9-04eb-4862-8f0f-3fc9de62773b",
-      "content": "Myntra is nice, trustworthy and pocket friendly aap",
+      "id": "playstore-myntra-e76c65e9-04eb-4862-8f0f-3fc9de62773b",
+      "text": "Myntra is nice, trustworthy and pocket friendly aap",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-d276bd6c-abec-4899-a793-405fd5aefe43",
-      "content": "This app is good but Myntra now service is very bogus. Since the morning I have ordered 2 items first order has to cancel due to till afternoon no delivery updates. 2nd order I placed for which also no delivery executives have assigned yet. Additionally there is no direct contact available for customer representatives, we have to complaint through chat boat only so no good response.",
+      "id": "playstore-myntra-d276bd6c-abec-4899-a793-405fd5aefe43",
+      "text": "This app is good but Myntra now service is very bogus. Since the morning I have ordered 2 items first order has to cancel due to till afternoon no delivery updates. 2nd order I placed for which also no delivery executives have assigned yet. Additionally there is no direct contact available for customer representatives, we have to complaint through chat boat only so no good response.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-8a817f3a-287c-46d7-90fb-e5205036faf3",
-      "content": "it recently has sucha good collection like the products are literally as it is",
+      "id": "playstore-myntra-8a817f3a-287c-46d7-90fb-e5205036faf3",
+      "text": "it recently has sucha good collection like the products are literally as it is",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-2ea5a324-151f-498e-9685-dccdfe2b6a5f",
-      "content": "good products nice delivery",
+      "id": "playstore-myntra-2ea5a324-151f-498e-9685-dccdfe2b6a5f",
+      "text": "good products nice delivery",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-50e0b1a6-419b-47c6-bd8a-57f08d075318",
-      "content": "last 4 year i have been using this app. all the products on this site are amazing.with genuine quality and reliable price you can go for anything which is available on this platform.if anything happened all the customers executive team help you in a better way. all those who go for shopping can choose this app upon another app. return and exchange option are very reliable for anyone.... i have a great experience with this app... i genuinely appreciate all the things about this .. yogesh verma",
+      "id": "playstore-myntra-50e0b1a6-419b-47c6-bd8a-57f08d075318",
+      "text": "last 4 year i have been using this app. all the products on this site are amazing.with genuine quality and reliable price you can go for anything which is available on this platform.if anything happened all the customers executive team help you in a better way. all those who go for shopping can choose this app upon another app. return and exchange option are very reliable for anyone.... i have a great experience with this app... i genuinely appreciate all the things about this .. yogesh verma",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-a39c85b3-0fdf-4273-bc5b-524369faf2da",
-      "content": "myntra is a scam app. You guys are fruad.. You didn't provide me the refund I am complaining on consumer forum after this. I had an order by 9 th august. I have return the product with in 20 min of delivery today is 17 th august not got the refund And over all your customer support are useless they does not response over call or sms Or gmail anywhere. 2 times I got connected they're just asking wait and then they got disappear . this is about scam u guys are scammer",
+      "id": "playstore-myntra-a39c85b3-0fdf-4273-bc5b-524369faf2da",
+      "text": "myntra is a scam app. You guys are fruad.. You didn't provide me the refund I am complaining on consumer forum after this. I had an order by 9 th august. I have return the product with in 20 min of delivery today is 17 th august not got the refund And over all your customer support are useless they does not response over call or sms Or gmail anywhere. 2 times I got connected they're just asking wait and then they got disappear . this is about scam u guys are scammer",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-8f5efec4-4ffd-4f4b-a82d-7ddd31c5556a",
-      "content": "Poor customer support from Myntra.I had ordered for a t shirt on 08.08.2026 and done the payment.Delivery date was showing 16 -18 Aug.The seller cancelled the order by themselves on 16th August citing some technical issues.Cancelletion after waiting for 8 days is unbearable.They were showing the status as packed from the second day itself.Eventhough I got the refund,how can we order things from myntra for a pre-planned function.",
+      "id": "playstore-myntra-8f5efec4-4ffd-4f4b-a82d-7ddd31c5556a",
+      "text": "Poor customer support from Myntra.I had ordered for a t shirt on 08.08.2026 and done the payment.Delivery date was showing 16 -18 Aug.The seller cancelled the order by themselves on 16th August citing some technical issues.Cancelletion after waiting for 8 days is unbearable.They were showing the status as packed from the second day itself.Eventhough I got the refund,how can we order things from myntra for a pre-planned function.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-c96aeb39-5234-4ecd-8ac8-d03c102630c1",
-      "content": "Great shopping experience.",
+      "id": "playstore-myntra-c96aeb39-5234-4ecd-8ac8-d03c102630c1",
+      "text": "Great shopping experience.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-1b5e0178-5e88-48ca-a855-5145c80f53c4",
-      "content": "best quality clothes",
+      "id": "playstore-myntra-1b5e0178-5e88-48ca-a855-5145c80f53c4",
+      "text": "best quality clothes",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-e3ce6918-02b8-4dc6-b4f3-6cdd660123bf",
-      "content": "very good app and product 👌",
+      "id": "playstore-myntra-e3ce6918-02b8-4dc6-b4f3-6cdd660123bf",
+      "text": "very good app and product 👌",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-751b03f3-ac72-492b-9936-c9039b1a09a0",
-      "content": "orginal products only no fake products",
+      "id": "playstore-myntra-751b03f3-ac72-492b-9936-c9039b1a09a0",
+      "text": "orginal products only no fake products",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-a54eaa53-d90a-4a77-9f3a-682a8948ba0f",
-      "content": "exprees delivery in 2 day but too costly",
+      "id": "playstore-myntra-a54eaa53-d90a-4a77-9f3a-682a8948ba0f",
+      "text": "exprees delivery in 2 day but too costly",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-e6262b71-a7c3-446d-9060-0e2306c6c149",
-      "content": "I haven't received my parcel yet I have also made an online payment it shows that i have received my parcel i have completely lost my trust in this app i have been scammed badly",
+      "id": "playstore-myntra-e6262b71-a7c3-446d-9060-0e2306c6c149",
+      "text": "I haven't received my parcel yet I have also made an online payment it shows that i have received my parcel i have completely lost my trust in this app i have been scammed badly",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-aa80366d-e70a-4c8e-81d2-286c5932b7e7",
-      "content": "worst experience you can't connect customer care and their service is horrible",
+      "id": "playstore-myntra-aa80366d-e70a-4c8e-81d2-286c5932b7e7",
+      "text": "worst experience you can't connect customer care and their service is horrible",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-c13dc2c3-0081-40d8-9e59-72e196466bf2",
-      "content": "good user experience, was able to exchange and reorder with ease",
+      "id": "playstore-myntra-c13dc2c3-0081-40d8-9e59-72e196466bf2",
+      "text": "good user experience, was able to exchange and reorder with ease",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-04e96ebf-5d5d-45f8-90b1-c75a8bf94e34",
-      "content": "what a great service by myntra.",
+      "id": "playstore-myntra-04e96ebf-5d5d-45f8-90b1-c75a8bf94e34",
+      "text": "what a great service by myntra.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-3cdfad89-eb17-4f26-b3d8-bcd669224ce3",
-      "content": "\"Very happy with the stainless steel lunch box from Myntra. Leak-proof and durable. Great shopping experience!\"",
+      "id": "playstore-myntra-3cdfad89-eb17-4f26-b3d8-bcd669224ce3",
+      "text": "\"Very happy with the stainless steel lunch box from Myntra. Leak-proof and durable. Great shopping experience!\"",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-0cc6395b-4247-4aa0-a039-27c628bd7a1a",
-      "content": "myntra is my first preference",
+      "id": "playstore-myntra-0cc6395b-4247-4aa0-a039-27c628bd7a1a",
+      "text": "myntra is my first preference",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-6ff6f4e0-24ac-4da9-b69c-964b8de839e0",
-      "content": "I am satisfied with this online shopping app",
+      "id": "playstore-myntra-6ff6f4e0-24ac-4da9-b69c-964b8de839e0",
+      "text": "I am satisfied with this online shopping app",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-156a0dd7-d297-4350-bb04-ff3b77ce4261",
-      "content": "worth for that prize",
+      "id": "playstore-myntra-156a0dd7-d297-4350-bb04-ff3b77ce4261",
+      "text": "worth for that prize",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-c0e8fd26-aed5-4051-9614-b8acd6e260f9",
-      "content": "best app for shopping shoes and clothes",
+      "id": "playstore-myntra-c0e8fd26-aed5-4051-9614-b8acd6e260f9",
+      "text": "best app for shopping shoes and clothes",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-98332439-155c-4aa2-b857-8bd387705209",
-      "content": "Really i find fabulous fashion here, fasion hub ka baap",
+      "id": "playstore-myntra-98332439-155c-4aa2-b857-8bd387705209",
+      "text": "Really i find fabulous fashion here, fasion hub ka baap",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-ae7f58d6-2611-4ba0-9274-ad14224b2a25",
-      "content": "worth Varma worth 🤩🤩🤩🤩",
+      "id": "playstore-myntra-ae7f58d6-2611-4ba0-9274-ad14224b2a25",
+      "text": "worth Varma worth 🤩🤩🤩🤩",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-fca83def-1578-4fae-ab91-bc548e765469",
-      "content": "good experience",
+      "id": "playstore-myntra-fca83def-1578-4fae-ab91-bc548e765469",
+      "text": "good experience",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-4cad6e7b-6a3f-4928-ae2e-83d253ebb672",
-      "content": "Myntra has a very nice service",
+      "id": "playstore-myntra-4cad6e7b-6a3f-4928-ae2e-83d253ebb672",
+      "text": "Myntra has a very nice service",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-3ea03cfd-cd92-40ca-90bf-f4aa2abaef6a",
-      "content": "very good and smooth apk",
+      "id": "playstore-myntra-3ea03cfd-cd92-40ca-90bf-f4aa2abaef6a",
+      "text": "very good and smooth apk",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-b3fee1cb-29e5-4c6b-974d-9692cea399f1",
-      "content": "Myntra has become such a terrible shopping app. I ordered a pair of jeans, but the size didn’t fit me, so I placed a return request. However, the delivery person failed the product during the quality check, and now my return is on hold. What is my fault in this? I returned the exact same product that I received. I don’t understand how or why the quality check was failed. Myntra seems to be becoming fraudulent these days. We shop from Myntra trusting the platform please look into this issue.",
+      "id": "playstore-myntra-b3fee1cb-29e5-4c6b-974d-9692cea399f1",
+      "text": "Myntra has become such a terrible shopping app. I ordered a pair of jeans, but the size didn’t fit me, so I placed a return request. However, the delivery person failed the product during the quality check, and now my return is on hold. What is my fault in this? I returned the exact same product that I received. I don’t understand how or why the quality check was failed. Myntra seems to be becoming fraudulent these days. We shop from Myntra trusting the platform please look into this issue.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-cc4ee550-c16b-4661-ab1e-b9775e4c6dc4",
-      "content": "All the delivery was working till now .I ordered 2 products last month and it was supposed to be delivered on aug 1st and aug 10th almost 17 days delayed...eventhough i raised a complaint nothing",
+      "id": "playstore-myntra-cc4ee550-c16b-4661-ab1e-b9775e4c6dc4",
+      "text": "All the delivery was working till now .I ordered 2 products last month and it was supposed to be delivered on aug 1st and aug 10th almost 17 days delayed...eventhough i raised a complaint nothing",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-5bea6de1-0cdb-4aa2-842d-0dd702f29336",
-      "content": "low price, better quality.",
+      "id": "playstore-myntra-5bea6de1-0cdb-4aa2-842d-0dd702f29336",
+      "text": "low price, better quality.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-f4f3bcf8-16d3-422e-a2ed-5f965d216970",
-      "content": "I enjoy shopping from Myntra and the quality is very good. Thank you so much Myntra🤠🤗🤗🤗🤗🤗",
+      "id": "playstore-myntra-f4f3bcf8-16d3-422e-a2ed-5f965d216970",
+      "text": "I enjoy shopping from Myntra and the quality is very good. Thank you so much Myntra🤠🤗🤗🤗🤗🤗",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-799b1add-5910-4c11-98f9-5e74f497b455",
-      "content": "Worst... can't even contact a customer care agent.. and my order was supposed to be delivered on 14th of Aug but till date i.e, 17th Aug I have no update on my order other than the comment order delayed. It's never a user friendly app if we can't even contact the customer care agent.",
+      "id": "playstore-myntra-799b1add-5910-4c11-98f9-5e74f497b455",
+      "text": "Worst... can't even contact a customer care agent.. and my order was supposed to be delivered on 14th of Aug but till date i.e, 17th Aug I have no update on my order other than the comment order delayed. It's never a user friendly app if we can't even contact the customer care agent.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-a9b4d217-a509-409f-8f95-afbaad2e60ae",
-      "content": "always received the best quality in the app.",
+      "id": "playstore-myntra-a9b4d217-a509-409f-8f95-afbaad2e60ae",
+      "text": "always received the best quality in the app.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-1a3860bd-38cc-45c0-b4aa-5babda384854",
-      "content": "⭐ 1/5 Very disappointing experience. I requested an exchange due to a fitting issue, but as I was not available at home during pickup, the exchange was cancelled. Now I’m stuck with the old product despite the fitting issue. Customer care is also not helping—no proper response on call or chat. Very poor service. I won’t be using this app again. I will rate zero",
+      "id": "playstore-myntra-1a3860bd-38cc-45c0-b4aa-5babda384854",
+      "text": "⭐ 1/5 Very disappointing experience. I requested an exchange due to a fitting issue, but as I was not available at home during pickup, the exchange was cancelled. Now I’m stuck with the old product despite the fitting issue. Customer care is also not helping—no proper response on call or chat. Very poor service. I won’t be using this app again. I will rate zero",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-01827e68-7e62-4421-b1a8-cb39bdf4dd89",
-      "content": "The service is very slow. I have placed three orders recently, The three Myntra has cancelled the order and is unable to deliver the order as per the order delivery date mentioned",
+      "id": "playstore-myntra-01827e68-7e62-4421-b1a8-cb39bdf4dd89",
+      "text": "The service is very slow. I have placed three orders recently, The three Myntra has cancelled the order and is unable to deliver the order as per the order delivery date mentioned",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-eebd2116-f520-4999-ad4d-f986b1fbdc5d",
-      "content": "it's really awesome 😎😎",
+      "id": "playstore-myntra-eebd2116-f520-4999-ad4d-f986b1fbdc5d",
+      "text": "it's really awesome 😎😎",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-67057e34-2f39-466d-adc7-d0db807b76a4",
-      "content": "Your sellers, SCM team and delivery process are getting worse. Incomplete and wrong orders are being delivered. No help from useless and brainless customer service team. Myntra is snatching their customer's money. This platform has gone to the worst level. I suggest everyone not to place prepaid orders.",
+      "id": "playstore-myntra-67057e34-2f39-466d-adc7-d0db807b76a4",
+      "text": "Your sellers, SCM team and delivery process are getting worse. Incomplete and wrong orders are being delivered. No help from useless and brainless customer service team. Myntra is snatching their customer's money. This platform has gone to the worst level. I suggest everyone not to place prepaid orders.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-802d7683-e2ec-4c56-940f-5e88b8ba6384",
-      "content": "was good products",
+      "id": "playstore-myntra-802d7683-e2ec-4c56-940f-5e88b8ba6384",
+      "text": "was good products",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-a7687b87-e8c1-4c2b-9be6-896212755ac3",
-      "content": "Very Good and I am so happy😊❤️",
+      "id": "playstore-myntra-a7687b87-e8c1-4c2b-9be6-896212755ac3",
+      "text": "Very Good and I am so happy😊❤️",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-4d82191b-bd72-4141-b738-c85e99e3c857",
-      "content": "myntra new AI assistant is pathetic. it keeps on repeating same thing without understanding customer problem. it can't even understand simple email id pronounced during call. it is useless assistance by myntra customer care",
+      "id": "playstore-myntra-4d82191b-bd72-4141-b738-c85e99e3c857",
+      "text": "myntra new AI assistant is pathetic. it keeps on repeating same thing without understanding customer problem. it can't even understand simple email id pronounced during call. it is useless assistance by myntra customer care",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-bf14190c-0280-4d1d-b188-955ff96f2b0c",
-      "content": "Good place to buy fashion",
+      "id": "playstore-myntra-bf14190c-0280-4d1d-b188-955ff96f2b0c",
+      "text": "Good place to buy fashion",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-ff3aebad-bc77-4e12-8b58-2bd504522206",
-      "content": "my favourite shopping app",
+      "id": "playstore-myntra-ff3aebad-bc77-4e12-8b58-2bd504522206",
+      "text": "my favourite shopping app",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-03ffa5c7-4843-4534-8cf3-185224e57991",
-      "content": "Hands down the best shopping interface. The 'Liquid Glass' update is super smooth, and the personalized suggestions are actually helpu l.",
+      "id": "playstore-myntra-03ffa5c7-4843-4534-8cf3-185224e57991",
+      "text": "Hands down the best shopping interface. The 'Liquid Glass' update is super smooth, and the personalized suggestions are actually helpu l.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-2eae73ca-8ecb-4808-ad2d-2bb414a07f76",
-      "content": "had a very good experience",
+      "id": "playstore-myntra-2eae73ca-8ecb-4808-ad2d-2bb414a07f76",
+      "text": "had a very good experience",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-ce004b54-509e-4307-a85d-4f2f843b9a89",
-      "content": "amazing experience with myntra it gives very amazing offers ❤️",
+      "id": "playstore-myntra-ce004b54-509e-4307-a85d-4f2f843b9a89",
+      "text": "amazing experience with myntra it gives very amazing offers ❤️",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-31e7dfd6-670b-4490-94eb-2d8f7822dbd0",
-      "content": "Myntra's service is very good and the products I order are of the best quality.",
+      "id": "playstore-myntra-31e7dfd6-670b-4490-94eb-2d8f7822dbd0",
+      "text": "Myntra's service is very good and the products I order are of the best quality.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-bb49a699-7c03-44f1-b380-76fa91671906",
-      "content": "Nice App Placed My Placed First Order",
+      "id": "playstore-myntra-bb49a699-7c03-44f1-b380-76fa91671906",
+      "text": "Nice App Placed My Placed First Order",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-643d1dd7-087f-4684-bd78-8a85d4607471",
-      "content": "Although the parcel was received one day late, it was without any reminder from me. The quality of the product is very good.",
+      "id": "playstore-myntra-643d1dd7-087f-4684-bd78-8a85d4607471",
+      "text": "Although the parcel was received one day late, it was without any reminder from me. The quality of the product is very good.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-5b4101c3-01f8-48d5-aa23-78b92cff7aed",
-      "content": "Now days myntra is selling fake products or low quality products. Stop buying things from this application. now this is the high time for offline shopping. these applications are not convenient or provide any services instead they are just selling fake products. Recently I ordered a black comfy shirt from this app brand here&now and I received a fake cheap quality shirt brand name is \"urban buccachi\" and this is not the single case there are multiple incidents in a row.",
+      "id": "playstore-myntra-5b4101c3-01f8-48d5-aa23-78b92cff7aed",
+      "text": "Now days myntra is selling fake products or low quality products. Stop buying things from this application. now this is the high time for offline shopping. these applications are not convenient or provide any services instead they are just selling fake products. Recently I ordered a black comfy shirt from this app brand here&now and I received a fake cheap quality shirt brand name is \"urban buccachi\" and this is not the single case there are multiple incidents in a row.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-fc2a8a01-c07b-4491-8015-29e3de7d0857",
-      "content": "fast delivery, easy returns, nice quality.",
+      "id": "playstore-myntra-fc2a8a01-c07b-4491-8015-29e3de7d0857",
+      "text": "fast delivery, easy returns, nice quality.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-85ab27a4-caee-4bb9-a48c-61bfa56e62f9",
-      "content": "No other app is as good as MYNTRA regarding fashion",
+      "id": "playstore-myntra-85ab27a4-caee-4bb9-a48c-61bfa56e62f9",
+      "text": "No other app is as good as MYNTRA regarding fashion",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-94ae9426-8069-4eb9-83ae-545efe74e518",
-      "content": "worst experience bad customer support",
+      "id": "playstore-myntra-94ae9426-8069-4eb9-83ae-545efe74e518",
+      "text": "worst experience bad customer support",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-6404b924-52e3-4813-a497-e8b43efd424c",
-      "content": "Awesome Experience of shopping, once my product was showing problem in delivery, but when I raised an issues to the customer service I got the product within 1 day",
+      "id": "playstore-myntra-6404b924-52e3-4813-a497-e8b43efd424c",
+      "text": "Awesome Experience of shopping, once my product was showing problem in delivery, but when I raised an issues to the customer service I got the product within 1 day",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-b565f11c-83e2-4d49-addd-a25996f2258d",
-      "content": "First time purchase nice experience thank you Mantra I'm very happy 😊",
+      "id": "playstore-myntra-b565f11c-83e2-4d49-addd-a25996f2258d",
+      "text": "First time purchase nice experience thank you Mantra I'm very happy 😊",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-85b0452f-b93b-4588-bccb-3890fb9848ca",
-      "content": "fast time order keli tyath pan let ani ata maje cash parth karth nahi ani tyan cha helping no. pan nahi lagth ya pakhsha meesho 10 pattin chagal aap ahe 3rd class app😡😡😡😡😡",
+      "id": "playstore-myntra-85b0452f-b93b-4588-bccb-3890fb9848ca",
+      "text": "fast time order keli tyath pan let ani ata maje cash parth karth nahi ani tyan cha helping no. pan nahi lagth ya pakhsha meesho 10 pattin chagal aap ahe 3rd class app😡😡😡😡😡",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-7ef34ff1-b635-4c22-bb5c-07894d7d96f1",
-      "content": "great collection",
+      "id": "playstore-myntra-7ef34ff1-b635-4c22-bb5c-07894d7d96f1",
+      "text": "great collection",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-e1888dd3-e04e-4aa1-987b-285d24cd5271",
-      "content": "nice for fashion",
+      "id": "playstore-myntra-e1888dd3-e04e-4aa1-987b-285d24cd5271",
+      "text": "nice for fashion",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-0f1f7f06-df62-4e79-80e6-d96bb055e47b",
-      "content": "cannot even return an item",
+      "id": "playstore-myntra-0f1f7f06-df62-4e79-80e6-d96bb055e47b",
+      "text": "cannot even return an item",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-0a398e41-2a4d-4962-988d-e235e8175622",
-      "content": "I am use this app last 6 month this is a very best app for online shopping for you a I will always use this app for shopping",
+      "id": "playstore-myntra-0a398e41-2a4d-4962-988d-e235e8175622",
+      "text": "I am use this app last 6 month this is a very best app for online shopping for you a I will always use this app for shopping",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-e99936e7-ac4b-492f-ab70-1ea62114de06",
-      "content": "very nice quality and first of all delevery time is best",
+      "id": "playstore-myntra-e99936e7-ac4b-492f-ab70-1ea62114de06",
+      "text": "very nice quality and first of all delevery time is best",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-5dcd43df-a6b1-4693-b85e-758ea362d354",
-      "content": "myntra has no customer grievance policy. I have ordered a product and it has been sent by vendor without brand tag. And now delivery man has refused to take the return parcel coz of missing brand tag..i tried to contact customer care but it's call is going on waiting only and no return call recieved...what should I do now. how do I return my parcel.",
+      "id": "playstore-myntra-5dcd43df-a6b1-4693-b85e-758ea362d354",
+      "text": "myntra has no customer grievance policy. I have ordered a product and it has been sent by vendor without brand tag. And now delivery man has refused to take the return parcel coz of missing brand tag..i tried to contact customer care but it's call is going on waiting only and no return call recieved...what should I do now. how do I return my parcel.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-140e8187-0934-4e84-b84b-4a4bfd807cb3",
-      "content": "Myntra castomar care is very bad no one can connect with castomar care person they delivered different product & not returning Myntra delivery partner ar too rude they don't deliver my product perpously",
+      "id": "playstore-myntra-140e8187-0934-4e84-b84b-4a4bfd807cb3",
+      "text": "Myntra castomar care is very bad no one can connect with castomar care person they delivered different product & not returning Myntra delivery partner ar too rude they don't deliver my product perpously",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-5b1bec69-77af-48b8-9bb5-5f439e8b1e2a",
-      "content": "very interesting",
+      "id": "playstore-myntra-5b1bec69-77af-48b8-9bb5-5f439e8b1e2a",
+      "text": "very interesting",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-8376e9d2-8e01-4d13-81c7-22af03184594",
-      "content": "very good product",
+      "id": "playstore-myntra-8376e9d2-8e01-4d13-81c7-22af03184594",
+      "text": "very good product",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-5e7b9a51-9311-4a9f-84ae-d544f0125769",
-      "content": "excellent shopping app",
+      "id": "playstore-myntra-5e7b9a51-9311-4a9f-84ae-d544f0125769",
+      "text": "excellent shopping app",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-274c3de7-4ed3-4409-8ff0-035df1f7108a",
-      "content": "product quality are always good",
+      "id": "playstore-myntra-274c3de7-4ed3-4409-8ff0-035df1f7108a",
+      "text": "product quality are always good",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-2059a78a-cb33-44e7-9160-379f9fa30422",
-      "content": "there's room for optimization in the app, it network related",
+      "id": "playstore-myntra-2059a78a-cb33-44e7-9160-379f9fa30422",
+      "text": "there's room for optimization in the app, it network related",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-acde0640-d7be-4cd2-81d7-00486c12845a",
-      "content": "wonderfull app I am using for 2 years",
+      "id": "playstore-myntra-acde0640-d7be-4cd2-81d7-00486c12845a",
+      "text": "wonderfull app I am using for 2 years",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-96cafdb7-6fe1-41fe-bd19-b6bc59a4302d",
-      "content": "very good product 🤩😘",
+      "id": "playstore-myntra-96cafdb7-6fe1-41fe-bd19-b6bc59a4302d",
+      "text": "very good product 🤩😘",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-1238db9a-cf80-4b4c-8faa-b34de0a32a76",
-      "content": "It shoping is very good 😊",
+      "id": "playstore-myntra-1238db9a-cf80-4b4c-8faa-b34de0a32a76",
+      "text": "It shoping is very good 😊",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-6dc6d219-2dab-49bc-9b50-708cdbf591e1",
-      "content": "Myntra is one of the best apps for online clothes shopping. It has a huge collection of clothes, shoes, accessories, and fashion brands for men, women, and kids. The app is easy to use, prices and offers are attractive, and delivery is generally convenient. Overall, Myntra is a great choice for anyone looking for stylish and affordable fashion online.",
+      "id": "playstore-myntra-6dc6d219-2dab-49bc-9b50-708cdbf591e1",
+      "text": "Myntra is one of the best apps for online clothes shopping. It has a huge collection of clothes, shoes, accessories, and fashion brands for men, women, and kids. The app is easy to use, prices and offers are attractive, and delivery is generally convenient. Overall, Myntra is a great choice for anyone looking for stylish and affordable fashion online.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-1b55e2d9-b0aa-4673-a6ac-fad8fb6d3c67",
-      "content": "good experience with myntra it deliveres best clothes",
+      "id": "playstore-myntra-1b55e2d9-b0aa-4673-a6ac-fad8fb6d3c67",
+      "text": "good experience with myntra it deliveres best clothes",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-000ae349-f678-4ecc-98aa-943a61c3bfdd",
-      "content": "product was so Nice",
+      "id": "playstore-myntra-000ae349-f678-4ecc-98aa-943a61c3bfdd",
+      "text": "product was so Nice",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-ef30862d-30fc-4ac8-b04d-3c90b8105c2e",
-      "content": "my favourite online shopping store ❤️💝 Myntra 😍🙂",
+      "id": "playstore-myntra-ef30862d-30fc-4ac8-b04d-3c90b8105c2e",
+      "text": "my favourite online shopping store ❤️💝 Myntra 😍🙂",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-bcc1ea9e-c58d-4705-af69-b6df68ab5307",
-      "content": "The amount of internal server errors on this app is insane. I can just never see the items in my bag or check the orders. It always shows 'try again later'. fix it!",
+      "id": "playstore-myntra-bcc1ea9e-c58d-4705-af69-b6df68ab5307",
+      "text": "The amount of internal server errors on this app is insane. I can just never see the items in my bag or check the orders. It always shows 'try again later'. fix it!",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-fd8b245f-3487-42c2-8a7b-50d286ac5e62",
-      "content": "Very disappointed with my order. I received a completely different product, and the product was old/used and had no tag attached. I have already uploaded the photos as proof. Please look into this issue and resolve my return request as soon as possible.",
+      "id": "playstore-myntra-fd8b245f-3487-42c2-8a7b-50d286ac5e62",
+      "text": "Very disappointed with my order. I received a completely different product, and the product was old/used and had no tag attached. I have already uploaded the photos as proof. Please look into this issue and resolve my return request as soon as possible.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-2a58806e-8ff9-416c-870b-bcddec932606",
-      "content": "very good experience, amazing!!!",
+      "id": "playstore-myntra-2a58806e-8ff9-416c-870b-bcddec932606",
+      "text": "very good experience, amazing!!!",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-647ea21c-937a-4054-936e-c38d6487f61e",
-      "content": "very disappointed with the service of myntra receiving completely different product n different size not once but multiple times, even my friend also facing same issues, being the oldest customer i never faced such issues before.",
+      "id": "playstore-myntra-647ea21c-937a-4054-936e-c38d6487f61e",
+      "text": "very disappointed with the service of myntra receiving completely different product n different size not once but multiple times, even my friend also facing same issues, being the oldest customer i never faced such issues before.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-37e0b096-c264-4995-95ce-286a6495e381",
-      "content": "I’m disappointed with Myntra’s return order policy. I was charged ₹23 as a platform fee, and I don’t think this fee should be deducted when I’m returning an order. I would like Myntra to refund the ₹23 platform fee as well. Please review this policy and provide a fair resolution to customers.",
+      "id": "playstore-myntra-37e0b096-c264-4995-95ce-286a6495e381",
+      "text": "I’m disappointed with Myntra’s return order policy. I was charged ₹23 as a platform fee, and I don’t think this fee should be deducted when I’m returning an order. I would like Myntra to refund the ₹23 platform fee as well. Please review this policy and provide a fair resolution to customers.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-c96d42b5-3255-4cae-a2c7-ef68730efa3a",
-      "content": "nyc one thanks myntra 😊😊😊👍🏻",
+      "id": "playstore-myntra-c96d42b5-3255-4cae-a2c7-ef68730efa3a",
+      "text": "nyc one thanks myntra 😊😊😊👍🏻",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-277d4126-7e48-4f04-99b0-4f66a40b97b9",
-      "content": "India's Quality E Commerce app",
+      "id": "playstore-myntra-277d4126-7e48-4f04-99b0-4f66a40b97b9",
+      "text": "India's Quality E Commerce app",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-c2d74aee-76a6-42bb-9892-1e469db11f22",
-      "content": "bahut asha oil ha or hair growth v hota mene khud mangwaya good product...",
+      "id": "playstore-myntra-c2d74aee-76a6-42bb-9892-1e469db11f22",
+      "text": "bahut asha oil ha or hair growth v hota mene khud mangwaya good product...",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-e8b8cee0-62ff-4e52-9968-39e8152aefa1",
-      "content": "best app for Clothes",
+      "id": "playstore-myntra-e8b8cee0-62ff-4e52-9968-39e8152aefa1",
+      "text": "best app for Clothes",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-e469f231-8a67-4d0d-827b-e00daec870d6",
-      "content": "Easy to use and has a great variety of products. The search, filters, reviews, and delivery tracking are really helpful. Overall, a convenient and reliable shopping app.👌🏻",
+      "id": "playstore-myntra-e469f231-8a67-4d0d-827b-e00daec870d6",
+      "text": "Easy to use and has a great variety of products. The search, filters, reviews, and delivery tracking are really helpful. Overall, a convenient and reliable shopping app.👌🏻",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-7c1266ff-35ea-4371-b2fe-7cce14a997a2",
-      "content": "Every time delay delivery and delivery agents refuse to deliver order. Customer service just only want feedback they do not care about customer delivery experience",
+      "id": "playstore-myntra-7c1266ff-35ea-4371-b2fe-7cce14a997a2",
+      "text": "Every time delay delivery and delivery agents refuse to deliver order. Customer service just only want feedback they do not care about customer delivery experience",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-29ce8004-9c12-4321-9b05-ca2c5dfeb419",
-      "content": "the product looks good but the quality is not good, fabric is too stretchable",
+      "id": "playstore-myntra-29ce8004-9c12-4321-9b05-ca2c5dfeb419",
+      "text": "the product looks good but the quality is not good, fabric is too stretchable",
       "is_relevant": true,
       "confidence": 0.8
     },
     {
-      "evidence_id": "myntra-ebc8dfda-a908-4b77-8692-b63036891e78",
-      "content": "very good app for purchasing items but the worst part is myntra after sales support Not able to contact customer care support and talk to them even chatting with customer care is also not available The only thing available after delivery othe item is chatting with bot worst aftersale support",
+      "id": "playstore-myntra-ebc8dfda-a908-4b77-8692-b63036891e78",
+      "text": "very good app for purchasing items but the worst part is myntra after sales support Not able to contact customer care support and talk to them even chatting with customer care is also not available The only thing available after delivery othe item is chatting with bot worst aftersale support",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-811a3885-7787-44be-ae05-67d066a467dc",
-      "content": "I love shopping from myntra and the product quality are great 😃",
+      "id": "playstore-myntra-811a3885-7787-44be-ae05-67d066a467dc",
+      "text": "I love shopping from myntra and the product quality are great 😃",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-c8b6379e-8563-41df-8578-ff2ce9c0c669",
-      "content": "all products are too good and original .",
+      "id": "playstore-myntra-c8b6379e-8563-41df-8578-ff2ce9c0c669",
+      "text": "all products are too good and original .",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-75cd1b7e-012e-443f-b0ab-2e4e33caed9b",
-      "content": "Ordered Dresses and they are superb.",
+      "id": "playstore-myntra-75cd1b7e-012e-443f-b0ab-2e4e33caed9b",
+      "text": "Ordered Dresses and they are superb.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-f6a928a7-8d70-422e-8b5e-29d8b63a8063",
-      "content": "most quality product this app",
+      "id": "playstore-myntra-f6a928a7-8d70-422e-8b5e-29d8b63a8063",
+      "text": "most quality product this app",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-5c686d1d-5339-4e07-9018-5bea5a5b45c5",
-      "content": "The quality is top notch 👍",
+      "id": "playstore-myntra-5c686d1d-5339-4e07-9018-5bea5a5b45c5",
+      "text": "The quality is top notch 👍",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-4d2df781-9815-4eb7-bf3d-d2ec317796dc",
-      "content": "app ui experience is awesome",
+      "id": "playstore-myntra-4d2df781-9815-4eb7-bf3d-d2ec317796dc",
+      "text": "app ui experience is awesome",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-f4d04457-eb4f-4bb8-a172-cb83369c24c8",
-      "content": "The quality of clothes Myntra provides is unbeatable...",
+      "id": "playstore-myntra-f4d04457-eb4f-4bb8-a172-cb83369c24c8",
+      "text": "The quality of clothes Myntra provides is unbeatable...",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-c4df13dd-cc85-4f9b-9c18-d1997d3e0df7",
-      "content": "its app doesn't have a good customer service i didn't received my payment for the product which I have returned i tried to contact myntra policy service but they didn't reached out its literally very disappointing to keep someone payments on hold",
+      "id": "playstore-myntra-c4df13dd-cc85-4f9b-9c18-d1997d3e0df7",
+      "text": "its app doesn't have a good customer service i didn't received my payment for the product which I have returned i tried to contact myntra policy service but they didn't reached out its literally very disappointing to keep someone payments on hold",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-38051fc9-d8dd-4fa8-9fff-f498bebd00bd",
-      "content": "why there is forceful recharge of myntracash. If i m issuing my refund to my original account then why r u forcing some amount to myntracash with an expire date. u r putting my money forceful to wallent and giving me a deadline. R u kidding? whts wrong with u guyz. I hv been customer for a long time but this policies r not acceptable. will stop using ur app for sure",
+      "id": "playstore-myntra-38051fc9-d8dd-4fa8-9fff-f498bebd00bd",
+      "text": "why there is forceful recharge of myntracash. If i m issuing my refund to my original account then why r u forcing some amount to myntracash with an expire date. u r putting my money forceful to wallent and giving me a deadline. R u kidding? whts wrong with u guyz. I hv been customer for a long time but this policies r not acceptable. will stop using ur app for sure",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-bf209d5f-6234-47e5-843b-c9d81f1748f9",
-      "content": "i have been using this application from past many years but recently the app got updated and got the new function for using my cash option, before this update we can easily used my cash option with any orders but since the update has happend is start saying that add more amount of product to use your mycash.. it is completely unfair, i request you to start the old method for spending mycash options.",
+      "id": "playstore-myntra-bf209d5f-6234-47e5-843b-c9d81f1748f9",
+      "text": "i have been using this application from past many years but recently the app got updated and got the new function for using my cash option, before this update we can easily used my cash option with any orders but since the update has happend is start saying that add more amount of product to use your mycash.. it is completely unfair, i request you to start the old method for spending mycash options.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-36268541-7748-4c75-a26b-87f7125f6485",
-      "content": "this is such a good app it has many dresses i love myntra",
+      "id": "playstore-myntra-36268541-7748-4c75-a26b-87f7125f6485",
+      "text": "this is such a good app it has many dresses i love myntra",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-b7d27a46-8b2e-4272-b685-849a567c0812",
-      "content": "good nice application",
+      "id": "playstore-myntra-b7d27a46-8b2e-4272-b685-849a567c0812",
+      "text": "good nice application",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-8d02c1d4-1201-4409-ae78-ea28a89a6b8f",
-      "content": "myntra is very good for shopping",
+      "id": "playstore-myntra-8d02c1d4-1201-4409-ae78-ea28a89a6b8f",
+      "text": "myntra is very good for shopping",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-592c9171-b5a5-4820-8cbe-4c1428c07856",
-      "content": "amazing experience towards with myntra",
+      "id": "playstore-myntra-592c9171-b5a5-4820-8cbe-4c1428c07856",
+      "text": "amazing experience towards with myntra",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-25b2221c-a3c9-4937-a921-8c655b038fe5",
-      "content": "I got an amazing product deal and quality products on time.",
+      "id": "playstore-myntra-25b2221c-a3c9-4937-a921-8c655b038fe5",
+      "text": "I got an amazing product deal and quality products on time.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-08532a58-c045-4166-a2ab-d14cfa4c650f",
-      "content": "Horrible experience with the delivery, always getting delivered delayed then order gets cancelled on its own, same order, same address if placed from a different account works. there's nothing wrong with my account but I often get this issue, I don't even have any returns or anything and I'm one of the so-called \"Insider\" who has spent a lot on the app. And don't even get me started on the Support, the Al chatbot is useless, can't get in touch with a human at all. Extremely unprofessional.",
+      "id": "playstore-myntra-08532a58-c045-4166-a2ab-d14cfa4c650f",
+      "text": "Horrible experience with the delivery, always getting delivered delayed then order gets cancelled on its own, same order, same address if placed from a different account works. there's nothing wrong with my account but I often get this issue, I don't even have any returns or anything and I'm one of the so-called \"Insider\" who has spent a lot on the app. And don't even get me started on the Support, the Al chatbot is useless, can't get in touch with a human at all. Extremely unprofessional.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-2c970f5f-aff0-46a2-ad29-0c85211cbeb5",
-      "content": "very reliable app",
+      "id": "playstore-myntra-2c970f5f-aff0-46a2-ad29-0c85211cbeb5",
+      "text": "very reliable app",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-ec593d8e-90de-46ba-99de-cfcede788b76",
-      "content": "best app have coupons on every order",
+      "id": "playstore-myntra-ec593d8e-90de-46ba-99de-cfcede788b76",
+      "text": "best app have coupons on every order",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-8d76bd3a-134b-4bf2-b75f-c945d72ea9df",
-      "content": "good , nice app",
+      "id": "playstore-myntra-8d76bd3a-134b-4bf2-b75f-c945d72ea9df",
+      "text": "good , nice app",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-b0f85bd2-94fb-4e7c-9955-51848bf5fc2e",
-      "content": "it is a good application , assets on this application is good and affordable , products whom I purchased was good quality so i just saying my experience on this application is nice , I like ittt",
+      "id": "playstore-myntra-b0f85bd2-94fb-4e7c-9955-51848bf5fc2e",
+      "text": "it is a good application , assets on this application is good and affordable , products whom I purchased was good quality so i just saying my experience on this application is nice , I like ittt",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-1832b5e7-50f2-4d83-8d29-bb18d2506669",
-      "content": "fantastic app and quality wise very good",
+      "id": "playstore-myntra-1832b5e7-50f2-4d83-8d29-bb18d2506669",
+      "text": "fantastic app and quality wise very good",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-c6d21f2c-f496-40f9-8dc7-c79a96fbd163",
-      "content": "latest fashion with affordable prices.",
+      "id": "playstore-myntra-c6d21f2c-f496-40f9-8dc7-c79a96fbd163",
+      "text": "latest fashion with affordable prices.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-90033271-fc67-47bf-b95e-f83f83a81ed8",
-      "content": "Experience was very good 👍🏻 amazing quality received",
+      "id": "playstore-myntra-90033271-fc67-47bf-b95e-f83f83a81ed8",
+      "text": "Experience was very good 👍🏻 amazing quality received",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-3a1c465a-f961-4fc7-a0d2-121af4e9fcb9",
-      "content": "NICE AAP 1ST TIME USE",
+      "id": "playstore-myntra-3a1c465a-f961-4fc7-a0d2-121af4e9fcb9",
+      "text": "NICE AAP 1ST TIME USE",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-05f9bb60-5a03-4996-afb6-5a1c76aae602",
-      "content": "v nice product 👌 go for it",
+      "id": "playstore-myntra-05f9bb60-5a03-4996-afb6-5a1c76aae602",
+      "text": "v nice product 👌 go for it",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-f336df48-e580-438b-af11-35ea037dcb6c",
-      "content": "The app shows Express Delivery, but the item is still getting delivered very late. I’ve had the same experience with multiple products, which is extremely disappointing. The express delivery promise doesn’t seem reliable at all. If you need an item urgently, I would not recommend trusting the express delivery option. Very bad experience.",
+      "id": "playstore-myntra-f336df48-e580-438b-af11-35ea037dcb6c",
+      "text": "The app shows Express Delivery, but the item is still getting delivered very late. I’ve had the same experience with multiple products, which is extremely disappointing. The express delivery promise doesn’t seem reliable at all. If you need an item urgently, I would not recommend trusting the express delivery option. Very bad experience.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-afec030b-732f-44b7-a600-e2aca4522db6",
-      "content": "very good service 👍",
+      "id": "playstore-myntra-afec030b-732f-44b7-a600-e2aca4522db6",
+      "text": "very good service 👍",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-cc7491e3-9b44-4dac-9ef1-facc3114165c",
-      "content": "fast delivery and value for money products",
+      "id": "playstore-myntra-cc7491e3-9b44-4dac-9ef1-facc3114165c",
+      "text": "fast delivery and value for money products",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-02dfa590-aff5-411b-87e3-256dffccb0ed",
-      "content": "Received the same item & quality as specified.",
+      "id": "playstore-myntra-02dfa590-aff5-411b-87e3-256dffccb0ed",
+      "text": "Received the same item & quality as specified.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-18d098e8-d08f-4501-88bc-54423ca88993",
-      "content": "very bad service",
+      "id": "playstore-myntra-18d098e8-d08f-4501-88bc-54423ca88993",
+      "text": "very bad service",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-cae0baca-95a9-4bfe-b6ab-8f0be011446e",
-      "content": "A good choice!!",
+      "id": "playstore-myntra-cae0baca-95a9-4bfe-b6ab-8f0be011446e",
+      "text": "A good choice!!",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-fb21d0e5-1d99-4bde-8a97-2d4467131083",
-      "content": "Trusted app for shopping , genuine brands and on time delivery. Never faced any issue. love shopping from myntra easy interface to use",
+      "id": "playstore-myntra-fb21d0e5-1d99-4bde-8a97-2d4467131083",
+      "text": "Trusted app for shopping , genuine brands and on time delivery. Never faced any issue. love shopping from myntra easy interface to use",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-1ce5bd26-6a01-435d-a97c-f6e5c15bc085",
-      "content": "easiest way to shop",
+      "id": "playstore-myntra-1ce5bd26-6a01-435d-a97c-f6e5c15bc085",
+      "text": "easiest way to shop",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-725ae0ad-23b7-4b95-824a-b331b43c82a6",
-      "content": "Thank you for your lovely product.",
+      "id": "playstore-myntra-725ae0ad-23b7-4b95-824a-b331b43c82a6",
+      "text": "Thank you for your lovely product.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-2ab7940b-9d56-454e-9ce4-d0b7a74e2128",
-      "content": "Whatever I purchase from Myntra is always of very good quality, and I’ve consistently had a great experience with their products. The materials feel premium, the stitching is neat, and everything looks exactly as shown in the pictures.",
+      "id": "playstore-myntra-2ab7940b-9d56-454e-9ce4-d0b7a74e2128",
+      "text": "Whatever I purchase from Myntra is always of very good quality, and I’ve consistently had a great experience with their products. The materials feel premium, the stitching is neat, and everything looks exactly as shown in the pictures.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-5ad7a13a-75ed-4840-826c-898fdc0f29cf",
-      "content": "good quality and very comfortable",
+      "id": "playstore-myntra-5ad7a13a-75ed-4840-826c-898fdc0f29cf",
+      "text": "good quality and very comfortable",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-c4a250fb-5b0b-4173-89aa-78ea5508ef90",
-      "content": "great app for shopping",
+      "id": "playstore-myntra-c4a250fb-5b0b-4173-89aa-78ea5508ef90",
+      "text": "great app for shopping",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-df69a380-7756-4bba-a89b-00cc0ca2e2ca",
-      "content": "easy returns and good communication and quick response better deals",
+      "id": "playstore-myntra-df69a380-7756-4bba-a89b-00cc0ca2e2ca",
+      "text": "easy returns and good communication and quick response better deals",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-ea041810-0634-4d3a-b97a-45d671b513d3",
-      "content": "worst experience with this people till now they kept canceling orders with no reason while trying to reach their customer service that is more pathic...",
+      "id": "playstore-myntra-ea041810-0634-4d3a-b97a-45d671b513d3",
+      "text": "worst experience with this people till now they kept canceling orders with no reason while trying to reach their customer service that is more pathic...",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-742a495f-257c-4053-a650-0591271c2941",
-      "content": "my favorite online shopping portal for all.my favorite things",
+      "id": "playstore-myntra-742a495f-257c-4053-a650-0591271c2941",
+      "text": "my favorite online shopping portal for all.my favorite things",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-1ebc200f-163c-4c12-94d3-efee63e7bcb1",
-      "content": "Very poor service. Ordered Levi’s thermal innerwear but received a completely different product. Exchange was cancelled twice, and even after return approval, the pickup was not done. The pickup partner refused doorstep pickup and asked me to travel 3 km to return the product. Multiple complaints to customer care, but still no proper resolution. Extremely disappointing experience with Myntra.",
+      "id": "playstore-myntra-1ebc200f-163c-4c12-94d3-efee63e7bcb1",
+      "text": "Very poor service. Ordered Levi’s thermal innerwear but received a completely different product. Exchange was cancelled twice, and even after return approval, the pickup was not done. The pickup partner refused doorstep pickup and asked me to travel 3 km to return the product. Multiple complaints to customer care, but still no proper resolution. Extremely disappointing experience with Myntra.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-51206652-c374-443a-95f0-530c1de0ff8c",
-      "content": "the product are good and affordable",
+      "id": "playstore-myntra-51206652-c374-443a-95f0-530c1de0ff8c",
+      "text": "the product are good and affordable",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-0d81043f-94a6-42fc-a982-cdc43db31d9e",
-      "content": "all products are original in maytra",
+      "id": "playstore-myntra-0d81043f-94a6-42fc-a982-cdc43db31d9e",
+      "text": "all products are original in maytra",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-1e4c1bff-a4b6-457b-ac9f-8878cb552773",
-      "content": "still a trusted store",
+      "id": "playstore-myntra-1e4c1bff-a4b6-457b-ac9f-8878cb552773",
+      "text": "still a trusted store",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-165aa57d-0e3c-468f-ad63-ff0553382bd7",
-      "content": "Great shopping experience with Myntra! The products are genuine, good quality, and exactly as described. The delivery was quick, packaging was neat, and the overall experience was smooth. Highly recommended for a reliable and convenient online shopping experience! ⭐⭐⭐⭐⭐",
+      "id": "playstore-myntra-165aa57d-0e3c-468f-ad63-ff0553382bd7",
+      "text": "Great shopping experience with Myntra! The products are genuine, good quality, and exactly as described. The delivery was quick, packaging was neat, and the overall experience was smooth. Highly recommended for a reliable and convenient online shopping experience! ⭐⭐⭐⭐⭐",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-2bfff389-ab2b-4b2a-96c7-2d0737afa00b",
-      "content": "worst delivery experience everytime they delay and then cancel the order",
+      "id": "playstore-myntra-2bfff389-ab2b-4b2a-96c7-2d0737afa00b",
+      "text": "worst delivery experience everytime they delay and then cancel the order",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-4bf6c708-13e8-48f1-9092-4dfa95d03731",
-      "content": "customer service are very bad, Instead of helping us, these people give us 24 hours, and again after 24 hours they give us 24 hours, and in this way, it has been more than 20 days since they kept saying 24 hours, 24 hours. And till now I have not received any response from their side.After buying a smartwatch for Rs 3699, I took the money but did not receive the watch.",
+      "id": "playstore-myntra-4bf6c708-13e8-48f1-9092-4dfa95d03731",
+      "text": "customer service are very bad, Instead of helping us, these people give us 24 hours, and again after 24 hours they give us 24 hours, and in this way, it has been more than 20 days since they kept saying 24 hours, 24 hours. And till now I have not received any response from their side.After buying a smartwatch for Rs 3699, I took the money but did not receive the watch.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-e5b0ed3f-f18e-4b2c-aebb-8f3819497000",
-      "content": "this is very Useful",
+      "id": "playstore-myntra-e5b0ed3f-f18e-4b2c-aebb-8f3819497000",
+      "text": "this is very Useful",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-8d42d7be-c0fb-46a2-a007-30ef3a507ddb",
-      "content": "best shoping app",
+      "id": "playstore-myntra-8d42d7be-c0fb-46a2-a007-30ef3a507ddb",
+      "text": "best shoping app",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-49e76a17-6d51-4527-8c60-b5b61ae8d92c",
-      "content": "best quality products.",
+      "id": "playstore-myntra-49e76a17-6d51-4527-8c60-b5b61ae8d92c",
+      "text": "best quality products.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-feb51fb8-78ba-4908-8c0d-1ad23a3a06dc",
-      "content": "Amazing products at reasonable prices..great experience 👍👍",
+      "id": "playstore-myntra-feb51fb8-78ba-4908-8c0d-1ad23a3a06dc",
+      "text": "Amazing products at reasonable prices..great experience 👍👍",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-0ee6474b-6144-44cd-b1e2-ea53206d0343",
-      "content": "nice pants and fashion accessories",
+      "id": "playstore-myntra-0ee6474b-6144-44cd-b1e2-ea53206d0343",
+      "text": "nice pants and fashion accessories",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-3788e425-7ae0-41b0-a584-d7be0d852924",
-      "content": "it's a very good platform for purchase any product at good prices",
+      "id": "playstore-myntra-3788e425-7ae0-41b0-a584-d7be0d852924",
+      "text": "it's a very good platform for purchase any product at good prices",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-365a0a9c-bce2-4b45-bc94-ccc9d4f0b989",
-      "content": "Services are good",
+      "id": "playstore-myntra-365a0a9c-bce2-4b45-bc94-ccc9d4f0b989",
+      "text": "Services are good",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-81ff8c91-f11b-49fa-8707-ac93f7868a5c",
-      "content": "it's a very amazing and great shopping experience from myntra",
+      "id": "playstore-myntra-81ff8c91-f11b-49fa-8707-ac93f7868a5c",
+      "text": "it's a very amazing and great shopping experience from myntra",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-2a5e8bc0-8a63-4120-9e44-370032202329",
-      "content": "fast delivery...very good",
+      "id": "playstore-myntra-2a5e8bc0-8a63-4120-9e44-370032202329",
+      "text": "fast delivery...very good",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-aa475450-8677-490a-90d8-17e9ae11ab37",
-      "content": "I loved the productsss",
+      "id": "playstore-myntra-aa475450-8677-490a-90d8-17e9ae11ab37",
+      "text": "I loved the productsss",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-0c2f5761-d38c-4e95-8059-dfe5245125ab",
-      "content": "luv to shop my desired items through this platform",
+      "id": "playstore-myntra-0c2f5761-d38c-4e95-8059-dfe5245125ab",
+      "text": "luv to shop my desired items through this platform",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-c9863d88-965f-48fe-9a56-3d33827535cf",
-      "content": "good experience in myntra shopping",
+      "id": "playstore-myntra-c9863d88-965f-48fe-9a56-3d33827535cf",
+      "text": "good experience in myntra shopping",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-c459cba5-993d-4a79-a5a9-35d9e0e96ed5",
-      "content": "This app is very helpful for shopping 🛒 and I am very happy to use .it gives original products. thank you mantra.",
+      "id": "playstore-myntra-c459cba5-993d-4a79-a5a9-35d9e0e96ed5",
+      "text": "This app is very helpful for shopping 🛒 and I am very happy to use .it gives original products. thank you mantra.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-cbef34dc-9580-479b-9cc8-7eb9b2b265ed",
-      "content": "nice app! loved it❤‍🔥",
+      "id": "playstore-myntra-cbef34dc-9580-479b-9cc8-7eb9b2b265ed",
+      "text": "nice app! loved it❤‍🔥",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-ab7b22e2-b3a0-4415-af4b-aea23af879c9",
-      "content": "fabulous app for shopping 🛍️🛍️",
+      "id": "playstore-myntra-ab7b22e2-b3a0-4415-af4b-aea23af879c9",
+      "text": "fabulous app for shopping 🛍️🛍️",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-78980a62-653c-4578-b593-5e93be2e6df8",
-      "content": "till now is ok ok but let's see more and more.",
+      "id": "playstore-myntra-78980a62-653c-4578-b593-5e93be2e6df8",
+      "text": "till now is ok ok but let's see more and more.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-782788d1-0c9c-4ad5-9527-9eda784525b4",
-      "content": ". best quality per product Myntra",
+      "id": "playstore-myntra-782788d1-0c9c-4ad5-9527-9eda784525b4",
+      "text": ". best quality per product Myntra",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-427a2c92-36b8-4469-ae52-ed70465d6ee6",
-      "content": "Best app for best quality products😍",
+      "id": "playstore-myntra-427a2c92-36b8-4469-ae52-ed70465d6ee6",
+      "text": "Best app for best quality products😍",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-b390bf2d-3dee-4648-a454-d4998f305d3e",
-      "content": "Earlier we used to able to redeem MN cash irrespective of minimum order value. but now they have made minimum amount to withdraw the MN cash which is waste. we can't even order a single product or less quantity product with MN cash. we have to add more or additional product and make a minimum fixed amount of cart value then MN cash can be used. Uninstalling the app as there are no coupons which can be used nor MN cash can be redeemed. pay the MRP price only without discounts.",
+      "id": "playstore-myntra-b390bf2d-3dee-4648-a454-d4998f305d3e",
+      "text": "Earlier we used to able to redeem MN cash irrespective of minimum order value. but now they have made minimum amount to withdraw the MN cash which is waste. we can't even order a single product or less quantity product with MN cash. we have to add more or additional product and make a minimum fixed amount of cart value then MN cash can be used. Uninstalling the app as there are no coupons which can be used nor MN cash can be redeemed. pay the MRP price only without discounts.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-08976e78-6d08-4be6-b1fd-97eeaa3a51ff",
-      "content": "i really like to shop on myntra",
+      "id": "playstore-myntra-08976e78-6d08-4be6-b1fd-97eeaa3a51ff",
+      "text": "i really like to shop on myntra",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-41486c77-5180-45d8-b2a5-d71e02442921",
-      "content": "poor customer service . noone give you resolution here . if I select chat option then ai generated msg said all customer agent busy now you can use call me option when I select call me option then a Ai agent talking to me and again no resolution . I will escalated this issue to consumer forum .",
+      "id": "playstore-myntra-41486c77-5180-45d8-b2a5-d71e02442921",
+      "text": "poor customer service . noone give you resolution here . if I select chat option then ai generated msg said all customer agent busy now you can use call me option when I select call me option then a Ai agent talking to me and again no resolution . I will escalated this issue to consumer forum .",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-cc9c2301-d487-4b54-8f50-eaded978b6e7",
-      "content": "I like this app",
+      "id": "playstore-myntra-cc9c2301-d487-4b54-8f50-eaded978b6e7",
+      "text": "I like this app",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-9779595b-2fb8-4823-9ba7-2e57102a2883",
-      "content": "Don't buy from Myntra...These guys are fraud, out n out. Last order came with all products minus one. It was in the sealed envelop. When I complained about it, they said \"from our end all the products were delivered\". Happend the same fraud with my brother also...Choose a trusted seller like TATA and they are cheaper also.",
+      "id": "playstore-myntra-9779595b-2fb8-4823-9ba7-2e57102a2883",
+      "text": "Don't buy from Myntra...These guys are fraud, out n out. Last order came with all products minus one. It was in the sealed envelop. When I complained about it, they said \"from our end all the products were delivered\". Happend the same fraud with my brother also...Choose a trusted seller like TATA and they are cheaper also.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-0005df0d-f52f-467d-a184-243abfa4a4cf",
-      "content": "original product, can buy without doubt",
+      "id": "playstore-myntra-0005df0d-f52f-467d-a184-243abfa4a4cf",
+      "text": "original product, can buy without doubt",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-704f5fd8-d175-46f3-9cac-d1a6a160e41b",
-      "content": "you have a pathetic customer care service now.. I'm trying reaching you since 2 days but your customer care team is always busy",
+      "id": "playstore-myntra-704f5fd8-d175-46f3-9cac-d1a6a160e41b",
+      "text": "you have a pathetic customer care service now.. I'm trying reaching you since 2 days but your customer care team is always busy",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-1199b6b3-bf8f-4593-a8fd-e3f09053fed9",
-      "content": "excellent quality. Reasonable price. I m fully satisfied",
+      "id": "playstore-myntra-1199b6b3-bf8f-4593-a8fd-e3f09053fed9",
+      "text": "excellent quality. Reasonable price. I m fully satisfied",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-3443f092-5912-405d-bdb5-eeffd0e9b11e",
-      "content": "Myntra is my all time favourite Thank you Myntra",
+      "id": "playstore-myntra-3443f092-5912-405d-bdb5-eeffd0e9b11e",
+      "text": "Myntra is my all time favourite Thank you Myntra",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-32fb2a07-af7f-4b78-bf88-61f7dc75fd14",
-      "content": "Great Service but Price Are Slightly Higher than other platforms",
+      "id": "playstore-myntra-32fb2a07-af7f-4b78-bf88-61f7dc75fd14",
+      "text": "Great Service but Price Are Slightly Higher than other platforms",
       "is_relevant": false,
       "confidence": 0.8
     },
     {
-      "evidence_id": "myntra-605ba91b-0e32-4c92-9f51-8a75521f9313",
-      "content": "Great experience and great product options, hope all will genuinely good",
+      "id": "playstore-myntra-605ba91b-0e32-4c92-9f51-8a75521f9313",
+      "text": "Great experience and great product options, hope all will genuinely good",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-e2395b75-3ffa-4043-9169-a07f3d0eea1d",
-      "content": "this is good and I am daily clams rupee",
+      "id": "playstore-myntra-e2395b75-3ffa-4043-9169-a07f3d0eea1d",
+      "text": "this is good and I am daily clams rupee",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-081b6ba7-72ae-4783-bf43-c5bc15ba2546",
-      "content": "the quality of the products is outstanding",
+      "id": "playstore-myntra-081b6ba7-72ae-4783-bf43-c5bc15ba2546",
+      "text": "the quality of the products is outstanding",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-0477e047-a47f-4efb-868d-ab40fd6ae16d",
-      "content": "very bad experience. my first order is very delayed. they're delivery team is very poor",
+      "id": "playstore-myntra-0477e047-a47f-4efb-868d-ab40fd6ae16d",
+      "text": "very bad experience. my first order is very delayed. they're delivery team is very poor",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-fd1ca33c-d8ee-48d4-85fa-76bc488f079a",
-      "content": "not many good options in shoes otherwise good app",
+      "id": "playstore-myntra-fd1ca33c-d8ee-48d4-85fa-76bc488f079a",
+      "text": "not many good options in shoes otherwise good app",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-8a37dc22-4d91-42d5-85ec-e50f68f7573a",
-      "content": "it was nice shopping app",
+      "id": "playstore-myntra-8a37dc22-4d91-42d5-85ec-e50f68f7573a",
+      "text": "it was nice shopping app",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-1d4360af-d102-4a1a-8e10-ce2111511887",
-      "content": "worst app....zero customer service no response one tickets no option to connect with real person for support",
+      "id": "playstore-myntra-1d4360af-d102-4a1a-8e10-ce2111511887",
+      "text": "worst app....zero customer service no response one tickets no option to connect with real person for support",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-3430a153-c083-43eb-992d-360562b7c89b",
-      "content": "This is a worst app I have ever seen . this app looted my 1500 rupees . I have ordered something and then I cancelled my order now they are not refunding my money . and they also removed help option in the app for my phone . now where should I go . this is a very bad app . I will never suggest my ones to be with this app . it's have been 25 days but they are not responding",
+      "id": "playstore-myntra-3430a153-c083-43eb-992d-360562b7c89b",
+      "text": "This is a worst app I have ever seen . this app looted my 1500 rupees . I have ordered something and then I cancelled my order now they are not refunding my money . and they also removed help option in the app for my phone . now where should I go . this is a very bad app . I will never suggest my ones to be with this app . it's have been 25 days but they are not responding",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-1badd93e-5ab4-40e2-8075-66eb577cb738",
-      "content": "Misleading - ask to write reviews for orders to only say better luck next time",
+      "id": "playstore-myntra-1badd93e-5ab4-40e2-8075-66eb577cb738",
+      "text": "Misleading - ask to write reviews for orders to only say better luck next time",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-40c7a227-4f8e-449c-8572-021cd57c5cd9",
-      "content": "best app where you can get quality product and also at cheap rate compare to other platforms",
+      "id": "playstore-myntra-40c7a227-4f8e-449c-8572-021cd57c5cd9",
+      "text": "best app where you can get quality product and also at cheap rate compare to other platforms",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-6928f974-9093-4ac7-b870-42f520db48ab",
-      "content": "this face wash is totally friendly with sensetive and normal skin",
+      "id": "playstore-myntra-6928f974-9093-4ac7-b870-42f520db48ab",
+      "text": "this face wash is totally friendly with sensetive and normal skin",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-ebdf9eb7-8977-4e0a-a453-b8b633f9c7bd",
-      "content": "material good 👍..Worth buying 👌",
+      "id": "playstore-myntra-ebdf9eb7-8977-4e0a-a453-b8b633f9c7bd",
+      "text": "material good 👍..Worth buying 👌",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-0f777ff4-f23f-402c-a8bf-84ab5bcebfac",
-      "content": "I really enjoy shopping from Myntra ....",
+      "id": "playstore-myntra-0f777ff4-f23f-402c-a8bf-84ab5bcebfac",
+      "text": "I really enjoy shopping from Myntra ....",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-551b20e4-760a-40dc-a3c9-af33d4ff08a8",
-      "content": "best app for clothes 👌",
+      "id": "playstore-myntra-551b20e4-760a-40dc-a3c9-af33d4ff08a8",
+      "text": "best app for clothes 👌",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-1835d36f-a469-4891-802d-9438d34ca6d4",
-      "content": "it has good products worth buying",
+      "id": "playstore-myntra-1835d36f-a469-4891-802d-9438d34ca6d4",
+      "text": "it has good products worth buying",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-990552ca-ec73-4813-96d5-0bc137dfeb9b",
-      "content": "very good for shoping and offer, quality",
+      "id": "playstore-myntra-990552ca-ec73-4813-96d5-0bc137dfeb9b",
+      "text": "very good for shoping and offer, quality",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-52f3e350-b96c-433b-aa27-7bccc1c24caa",
-      "content": "better then the competitiors",
+      "id": "playstore-myntra-52f3e350-b96c-433b-aa27-7bccc1c24caa",
+      "text": "better then the competitiors",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-606f5d62-b251-44ff-8e03-637143df4130",
-      "content": "amazing place to find your outfit and aesthetic home decor 🙌🏻🤌🏻✨",
+      "id": "playstore-myntra-606f5d62-b251-44ff-8e03-637143df4130",
+      "text": "amazing place to find your outfit and aesthetic home decor 🙌🏻🤌🏻✨",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-76d6783c-62ed-4089-b48d-c43359a86c89",
-      "content": "Good to see someone coming in and taking over the entire apparel clothing market.",
+      "id": "playstore-myntra-76d6783c-62ed-4089-b48d-c43359a86c89",
+      "text": "Good to see someone coming in and taking over the entire apparel clothing market.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-6e11034a-a9dd-4f3b-b6fc-182659510ec4",
-      "content": "very slow dilivery partner",
+      "id": "playstore-myntra-6e11034a-a9dd-4f3b-b6fc-182659510ec4",
+      "text": "very slow dilivery partner",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-89ffa30f-c071-474a-9470-8bc1886ac4ad",
-      "content": "it is a fake app and it support fake brands. I am saying that because when I ordered a jeans indeliver a fake brand and when I said my problem they are doing nothing",
+      "id": "playstore-myntra-89ffa30f-c071-474a-9470-8bc1886ac4ad",
+      "text": "it is a fake app and it support fake brands. I am saying that because when I ordered a jeans indeliver a fake brand and when I said my problem they are doing nothing",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-aaa40b28-01c3-4e0f-a69e-ae7bb741e640",
-      "content": "service has improved",
+      "id": "playstore-myntra-aaa40b28-01c3-4e0f-a69e-ae7bb741e640",
+      "text": "service has improved",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-9d8075a0-a55c-4c3c-94b7-56ac7562c0b5",
-      "content": "good app for shopping",
+      "id": "playstore-myntra-9d8075a0-a55c-4c3c-94b7-56ac7562c0b5",
+      "text": "good app for shopping",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-8798d803-34cd-44d1-82e5-1c6177d75d25",
-      "content": "should reduce handling charges",
+      "id": "playstore-myntra-8798d803-34cd-44d1-82e5-1c6177d75d25",
+      "text": "should reduce handling charges",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-e0d2f5d5-0180-4bcc-a1f2-381bb166f13a",
-      "content": "never order with myntra they never take returns or exchange, they always have some reason to reject your claim, so that they make money and loot from you by sharing some dubious products to you.",
+      "id": "playstore-myntra-e0d2f5d5-0180-4bcc-a1f2-381bb166f13a",
+      "text": "never order with myntra they never take returns or exchange, they always have some reason to reject your claim, so that they make money and loot from you by sharing some dubious products to you.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-778bf672-2949-4d63-8548-efc9478e1e3d",
-      "content": "very much trusted app and brands",
+      "id": "playstore-myntra-778bf672-2949-4d63-8548-efc9478e1e3d",
+      "text": "very much trusted app and brands",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-cb269399-06c3-4d14-9b36-b8ed18d1702e",
-      "content": "thanks to myntraaa",
+      "id": "playstore-myntra-cb269399-06c3-4d14-9b36-b8ed18d1702e",
+      "text": "thanks to myntraaa",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-7e3cd0d8-f08d-4203-bb0f-6b37f92af945",
-      "content": "this app is very useful",
+      "id": "playstore-myntra-7e3cd0d8-f08d-4203-bb0f-6b37f92af945",
+      "text": "this app is very useful",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-32446ddd-4532-42cd-b018-3e923ee61dba",
-      "content": "nice & good experiance",
+      "id": "playstore-myntra-32446ddd-4532-42cd-b018-3e923ee61dba",
+      "text": "nice & good experiance",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-2b2efb1d-2f96-487d-a5b3-1cc1313aea42",
-      "content": "delivery of product is genuine ☺️",
+      "id": "playstore-myntra-2b2efb1d-2f96-487d-a5b3-1cc1313aea42",
+      "text": "delivery of product is genuine ☺️",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-b787d947-cabf-4e48-9e54-17e9d786cbd8",
-      "content": "nice product have a give it",
+      "id": "playstore-myntra-b787d947-cabf-4e48-9e54-17e9d786cbd8",
+      "text": "nice product have a give it",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-7194d94d-28c0-49e3-ba2d-e7124866fb52",
-      "content": "Branded clothes on good price.",
+      "id": "playstore-myntra-7194d94d-28c0-49e3-ba2d-e7124866fb52",
+      "text": "Branded clothes on good price.",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-c4fb5554-610d-4844-96c8-81f00ffe32e4",
-      "content": "best shoping AAP good product every time",
+      "id": "playstore-myntra-c4fb5554-610d-4844-96c8-81f00ffe32e4",
+      "text": "best shoping AAP good product every time",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-8ac1bc5a-ae84-4d65-b489-f229c4fc87ae",
-      "content": "this is a froud app",
+      "id": "playstore-myntra-8ac1bc5a-ae84-4d65-b489-f229c4fc87ae",
+      "text": "this is a froud app",
       "is_relevant": false,
       "confidence": 0
     },
     {
-      "evidence_id": "myntra-e8e0fc9f-4f69-46e3-8d8c-11b52d283200",
-      "content": "right place to buy your own products on right price",
+      "id": "playstore-myntra-e8e0fc9f-4f69-46e3-8d8c-11b52d283200",
+      "text": "right place to buy your own products on right price",
       "is_relevant": false,
       "confidence": 0
     }

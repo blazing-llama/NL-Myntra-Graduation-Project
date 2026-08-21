@@ -2,6 +2,20 @@
 
 One entry per failure. Updated the day it happens — not reconstructed at the end.
 
+## 2026-08-19 — Reddit reallocation blocked: no unauthenticated JSON access, no API credentials yet
+
+**Attempt:** before pulling from any candidate subreddit (per the Play Store reallocation decision — see `docs/decisions/product-and-source-choice.md`), tried to check subreddit existence/activity without setting up PRAW credentials first, using Reddit's public JSON endpoints directly.
+
+**Observed error:** `https://www.reddit.com/r/india/about.json` returns HTTP 403. `https://old.reddit.com/r/india/about.json` returns HTTP 200 but with `content-type: text/html` — an HTML "Welcome to Reddit" login wall, not JSON. Confirmed on both, not a one-off.
+
+**Root cause:** Reddit has locked down anonymous/datacenter access to its JSON endpoints as of this date — this is a real, verified platform change, not a bug in this project's code. A registered Reddit API app (`client_id` + `client_secret`, "script" type) via PRAW is required even for read-only existence/activity checks.
+
+**Fix:** none yet — blocked pending the user creating a Reddit API app and adding `REDDIT_CLIENT_ID` / `REDDIT_CLIENT_SECRET` / `REDDIT_USER_AGENT` to `.env`. Not attempted: browser automation or residential-proxy workarounds to bypass the block — out of scope and likely against Reddit's terms.
+
+**Lesson:** don't assume a previously-known-workable unauthenticated API path (common in older blog posts / library docs) still works today — verify against the live endpoint before designing a scraper around it, same principle as verifying `google-play-scraper` on day 1.
+
+**Do-not-repeat rule:** for any external data source, do a live connectivity smoke test with real auth requirements before writing the full scraper, not after.
+
 ## 2026-08-19 — live Groq key in a stray docs/.env.txt almost got committed
 
 **Observed:** during `git init` + first `git add -A`, a file `docs/.env.txt` (not `docs/.env` — Windows extension-hiding, same failure mode flagged earlier for the root directory, but it turned up in `docs/` instead) was staged. It contained a real, live `GROQ_API_KEY` in plaintext. `.gitignore` at the time only excluded a file literally named `.env`, not `.env.txt` — so this would have been committed to git history on the very first commit had `git status` not been checked before committing.

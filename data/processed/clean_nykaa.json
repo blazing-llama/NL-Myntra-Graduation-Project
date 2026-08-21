@@ -1,6 +1,5 @@
 {
-  "app_name": "nykaa",
-  "source": "playstore",
+  "raw_file": "playstore_nykaa.json",
   "counts": {
     "input": 500,
     "dropped_empty": 0,
@@ -10,1446 +9,2166 @@
     "pii_scrubbed": 0,
     "output": 180
   },
-  "reviews": [
-    {
-      "evidence_id": "nykaa-6fc173ca-73d0-4941-8bc2-f3af679220af",
-      "app_name": "nykaa",
-      "content": "this app is amazing mind-blowing ❤️💯",
-      "score": 5,
-      "at": "2026-08-18T00:15:44",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-eec3b2ba-41af-4f7f-aadf-1a700d85bddb",
-      "app_name": "nykaa",
-      "content": "it's very terrible app",
-      "score": 1,
-      "at": "2026-08-18T00:00:21",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-99373812-b99d-4885-9dc9-769cda71fa83",
-      "app_name": "nykaa",
-      "content": "It's good I got offer for my first order hope i will get again",
-      "score": 4,
-      "at": "2026-08-17T23:56:16",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-d8d76b8b-a4e8-4548-a73a-d7b2d9549709",
-      "app_name": "nykaa",
-      "content": "very good product",
-      "score": 5,
-      "at": "2026-08-17T23:40:02",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-1f6cad8e-285e-4a7a-ab21-d978a4b11e74",
-      "app_name": "nykaa",
-      "content": "very bad experience from nykaa the are not giving me the delivered products the orders are too delayed",
-      "score": 1,
-      "at": "2026-08-17T23:09:59",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-73b2be82-deb0-4a15-ae90-996fe507b618",
-      "app_name": "nykaa",
-      "content": "great app for cosmetic",
-      "score": 4,
-      "at": "2026-08-17T23:07:17",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-d87fc4b9-3c68-462b-b517-b6e9f2e679cf",
-      "app_name": "nykaa",
-      "content": "totally poor service..don't waste time on purchasing product from nykaa ,they show u delivery past date and order not came on your door steps upto more than weeks for all this if u ask their coustomer service they only say we are trying .only coustomer's time waste they think coustomer is mad ,to shop from their app .for refunding the money they tell u refuse the order that not approaching to ur door steps then in 5 working days u get ur block money.stop purchasing fron nykka",
-      "score": 1,
-      "at": "2026-08-17T21:29:24",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-3bf00f1d-cae5-43d8-90df-d49e2c7f2023",
-      "app_name": "nykaa",
-      "content": "The delivery is extremely delayed. I haven’t received the item within the expected time.",
-      "score": 1,
-      "at": "2026-08-17T21:05:39",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-62aa3e62-d0ad-44c2-91ba-d951ef1744b4",
-      "app_name": "nykaa",
-      "content": "maine first time nykaa se order Kiya and it was worst experience of my life my order is not return and they say ki maine order open Kiya hai agar open nahi karti to pata kaise chalta ki product kharab aya hai and maskara sukha aya hai mai ne support chat me bhi baat ki koe response nahi aya and inhone mera return bhi cancel kar diya",
-      "score": 1,
-      "at": "2026-08-17T20:39:57",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-7530fca8-d484-41a7-b6dc-5f4abb8c85da",
-      "app_name": "nykaa",
-      "content": "I will give more stars for their service and nicer true brand products range but worst delivery patner it's been so long it reached my near district hub but for nearly 8 days there is no update from the nykaa app side or delivery patner side. I made 3 ticket from all side, no proper reply. facing this same problem from same app through same delivery patner for 2 rd time in a row. Needed much stronger delivery patner never again ordering from nykaa for this poor service, very bad.",
-      "score": 1,
-      "at": "2026-08-17T19:41:46",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-1f465bae-68dc-4e6d-ae5e-c1c99dd5dda4",
-      "app_name": "nykaa",
-      "content": "customer service is soo bad and disturbing does not solve any issue at all and the delivery date is getting changed again and again I am so disappointed, did not expect this from nykaa.",
-      "score": 1,
-      "at": "2026-08-17T19:17:53",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-2396c056-e355-46c2-a82f-261fabd11506",
-      "app_name": "nykaa",
-      "content": "Very disappointing experience with Nikka. I ordered a combo containing 4 products plus 1 individual product, so I was supposed to receive 5 products in total. However, I received only 2 products. I contacted Nikka customer care multiple times. Every time, they told me that my refund/replacement request had been processed and that I would receive an update within 48 hours. But whenever I check the status on the app, it simply shows “Request Rejected.” I have already made 4 complaints and called",
-      "score": 1,
-      "at": "2026-08-17T19:13:31",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-04998ac0-8e7a-498d-bc75-69d078e97933",
-      "app_name": "nykaa",
-      "content": "Very disappointing experience with Nikka. I ordered a combo containing 4 products plus 1 individual product, so I was supposed to receive 5 products in total. However, I received only 2 products. I contacted Nikka customer care multiple times. Every time, they told me that my refund/replacement request had been processed and that I would receive an update within 48 hours. But whenever I check the status on the app, it simply shows “Request Rejected.” I have already made 4 complaints",
-      "score": 1,
-      "at": "2026-08-17T19:10:56",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-22bc1c3a-0fd9-49b7-9417-101937911844",
-      "app_name": "nykaa",
-      "content": "Best app for beauty products. 100% trustable ❤️",
-      "score": 4,
-      "at": "2026-08-17T18:59:29",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-950d63c0-f05a-4565-92f3-9145c45e40a3",
-      "app_name": "nykaa",
-      "content": "good product 👍🏻👍🏻",
-      "score": 5,
-      "at": "2026-08-17T18:08:53",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-76491028-49c2-46c6-9aec-d58fedf7a153",
-      "app_name": "nykaa",
-      "content": "it's a good app",
-      "score": 5,
-      "at": "2026-08-17T17:38:16",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-aa4217ed-a927-4a9c-890c-38537f40c190",
-      "app_name": "nykaa",
-      "content": "bad experience I ordered sum product but vo received nhi hua or naykaa valone refund bi Nhi kiya 😡😡😡",
-      "score": 1,
-      "at": "2026-08-17T17:10:01",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-1e6aae88-dbf1-42b6-a41c-a269531a835a",
-      "app_name": "nykaa",
-      "content": "Worst experience with both delivery and customer service. My order was supposed to arrive within 2 hours, but it has taken days. Customer support kept giving repeated responses without providing a proper solution or clear delivery timeline. Very disappointing experience.",
-      "score": 1,
-      "at": "2026-08-17T16:34:31",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-9ff83cf7-cfe6-45a3-b932-8f3d6fb81809",
-      "app_name": "nykaa",
-      "content": "i got my order was too late iam so disappointed by their action i thought they will be on time and without my consent they itself changed the delivery Date but in app its showing like i changed the date",
-      "score": 3,
-      "at": "2026-08-17T15:25:57",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-8b15eead-c166-4367-95aa-92b54b32f520",
-      "app_name": "nykaa",
-      "content": "very beautiful app for beauty....",
-      "score": 5,
-      "at": "2026-08-17T15:24:00",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-7c4a1e22-b8c4-4af8-85b3-1562d7974110",
-      "app_name": "nykaa",
-      "content": "do not use this app i ordered on nykaa which is not delivered to me and I can't get my refund, nykaa's customer care service is so poor, I am very frustrated with this issue I never order anything from nykaa",
-      "score": 1,
-      "at": "2026-08-17T15:15:26",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-aa668159-b452-45be-82c5-59e74af1fc0f",
-      "app_name": "nykaa",
-      "content": "I have ordered a insight cosmetics and paid online but not able to see it in my orders.",
-      "score": 1,
-      "at": "2026-08-17T14:56:34",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-48a7fdea-4e1f-4a33-9ee5-770e5a1a64a9",
-      "app_name": "nykaa",
-      "content": "worst experience ever, it was my 1st order. Delivery agent was supposed to deliver it today and he told me he forgot to pick up the parcel. told me to mark as delivered or cancel the order",
-      "score": 1,
-      "at": "2026-08-17T14:52:17",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-ee74b15b-4fa6-4bf3-9adc-6974475a1a42",
-      "app_name": "nykaa",
-      "content": "Nykaa sells the best cosmetic.",
-      "score": 5,
-      "at": "2026-08-17T14:51:00",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-28decd5f-267e-48d3-82f7-499bf66a682e",
-      "app_name": "nykaa",
-      "content": "best sellers, best quality, thank you nykaa",
-      "score": 5,
-      "at": "2026-08-17T14:16:09",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-5ac6518e-e486-46f5-afa0-bac5e18617f1",
-      "app_name": "nykaa",
-      "content": "very poor experience in my order",
-      "score": 1,
-      "at": "2026-08-17T13:46:15",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-04fed112-b98a-404f-8e9f-1256db3bc9b1",
-      "app_name": "nykaa",
-      "content": "fan of every product of nykaa beauty",
-      "score": 5,
-      "at": "2026-08-17T13:37:12",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-254419a5-5c62-49b3-9a42-94a0b150e002",
-      "app_name": "nykaa",
-      "content": "abi use, krna shuru kia hai but with discaunt good ap",
-      "score": 3,
-      "at": "2026-08-17T13:31:22",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-39efb1e3-3aaf-4153-8776-6a560f4410b8",
-      "app_name": "nykaa",
-      "content": "on my first order i order on 13august and they delayed it multiple times and now they told me they are returning back to the warehouse......Nykaa i request you to to return and deliver it back again",
-      "score": 1,
-      "at": "2026-08-17T13:23:36",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-c061f002-bb3c-4b2a-9f2f-cb1f418de4a2",
-      "app_name": "nykaa",
-      "content": "they provide wrong product. dont take cancellation request. sends msgs again &anain.. not the app for all.. too much bad experience i have.",
-      "score": 1,
-      "at": "2026-08-17T13:19:11",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-1a98cd25-9a2b-460c-97c6-983eaae70900",
-      "app_name": "nykaa",
-      "content": "Man love the nykaa there delivery is super fast and very efficient man i live in a hilly area where usually orders arrive a bit late even flipkart , Amazon are no match for nykaa i order my things and they arrive the next day or one day later that's pretty crazy for me .😘",
-      "score": 5,
-      "at": "2026-08-17T13:07:16",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-6afcb18e-6ed9-41b8-8b6c-22eafea8d885",
-      "app_name": "nykaa",
-      "content": "Product shades shown on website is not matching I have order dark shade but it is not dark in shade , it is clearly visible, very shameful and pathetic service , first they are sending unsealed product and when custome raised return they denyed and reason they are sharing we didn't receive opend product then why you bloody sending the unpacked /unsealed product to the customer #scammers, #fraud #nykaafraud #pathetic",
-      "score": 1,
-      "at": "2026-08-17T13:02:52",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-6019f01b-2e2a-4ae1-b1e6-e1499aa69e77",
-      "app_name": "nykaa",
-      "content": "nayka is the best discount",
-      "score": 5,
-      "at": "2026-08-17T12:37:46",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-b650c58e-d861-4281-8559-9cc4073cb776",
-      "app_name": "nykaa",
-      "content": "quality products",
-      "score": 5,
-      "at": "2026-08-17T11:49:57",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-161deea1-6244-44a9-a56e-ea30e0a20f36",
-      "app_name": "nykaa",
-      "content": "Very gud service and offers",
-      "score": 4,
-      "at": "2026-08-17T11:48:37",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-34ab2116-3738-481f-bf71-6fcd22ecb6d4",
-      "app_name": "nykaa",
-      "content": "try delivery same day",
-      "score": 3,
-      "at": "2026-08-17T11:25:26",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-77ea951c-c502-41b4-adfd-e333e2a65d06",
-      "app_name": "nykaa",
-      "content": "This is honestly the WORST app I have ever used. Day by day, my order keeps getting delayed, and there is still no proper update or resolution. The product has STILL not been delivered. This kind of service is extremely disappointing and frustrating.",
-      "score": 1,
-      "at": "2026-08-17T10:35:31",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-a8d68417-3eff-4d83-8f9b-63ca9828a5c2",
-      "app_name": "nykaa",
-      "content": "Nykaa one of the greatest app ⭐️⭐️⭐️⭐️⭐️",
-      "score": 5,
-      "at": "2026-08-17T09:54:06",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-e5fe3fa4-403b-4c50-ae58-512bbbfe587a",
-      "app_name": "nykaa",
-      "content": "Nykaa is not working on my phone. It keeps showing “Nykaa is unavailable in your country.” I am unable to access the app. Please fix this issue as soon as possible.",
-      "score": 2,
-      "at": "2026-08-17T09:51:09",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-65efa11d-354c-4ae8-8f7c-0b2ac9ff86cb",
-      "app_name": "nykaa",
-      "content": "my go to app for any makeup solution",
-      "score": 5,
-      "at": "2026-08-17T09:50:14",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-8ef7dc95-29c2-424a-a1b6-ad09e343bc93",
-      "app_name": "nykaa",
-      "content": "All the makeup products good quality and quantity... i love it...",
-      "score": 4,
-      "at": "2026-08-17T08:53:58",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-e9f33ec6-492d-496e-875d-2c4aea9c04df",
-      "app_name": "nykaa",
-      "content": "im makeup artist i like all products in nykaa",
-      "score": 5,
-      "at": "2026-08-17T06:59:27",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-1fb57bec-5b59-4930-91fc-60fcbcc919c4",
-      "app_name": "nykaa",
-      "content": "great experience 🥰👍🏻👍🏻dear nayka pls provide Roc under eye cream, and ordinary matrixyl soon pls.",
-      "score": 5,
-      "at": "2026-08-17T06:45:47",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-153f3711-69dc-422a-9602-eb7dedc1611e",
-      "app_name": "nykaa",
-      "content": "Just now I saw a discount of 15% on products above ₹500 and till now there was also a timer of 1 hour and suddenly everything was the same amount but no discount was visible, meaning you have done an absolute amazing job. I want that discount huhhh😑",
-      "score": 1,
-      "at": "2026-08-17T01:22:40",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-243b50ca-39c8-44bc-8fbc-4b9aaa965477",
-      "app_name": "nykaa",
-      "content": "too good experience 😉",
-      "score": 5,
-      "at": "2026-08-17T01:21:04",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-282537a2-dc78-4b07-a781-c88e1d049648",
-      "app_name": "nykaa",
-      "content": "Good stuff is available, the stuff is very useful.",
-      "score": 4,
-      "at": "2026-08-17T01:03:06",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-29a0bf77-79f7-45b9-b9c0-e284b1c338d7",
-      "app_name": "nykaa",
-      "content": "I am very happy 😊",
-      "score": 5,
-      "at": "2026-08-17T00:04:07",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-39e4fa0f-1ca8-404b-915b-09c6346bd01a",
-      "app_name": "nykaa",
-      "content": "Absolutely pathetic service! This is the THIRD time my Nykaa order has failed to reach me. Every time, they falsely mark me as “unavailable” even though I’m at home—no delivery partner comes, no proper call is made, and eventually the order gets cancelled. Now I haven’t even received my refund. Customer service is completely useless. Every time I contact them, I get the same scripted “we understand how you feel” response, but nobody actually knows where my order is or gives any proper solution.",
-      "score": 1,
-      "at": "2026-08-16T23:44:44",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-6d242892-8557-4d7f-b822-c30b74af7fb1",
-      "app_name": "nykaa",
-      "content": "Nykaa a fraudulent beauty app , pathetic customer support. While placing an order they will show you the delivery in the next 2 days but post placing the order; delivery is delayed by 20 days and ultimately the prepaid order gets cancelled. I am a Platinum member and usually I do 20K shopping yearly from this app. However, post this experience I will use Myntra. They have much better discounts, great delivery and customer support which Nykaa can't afford in there Pink beauty sales.",
-      "score": 1,
-      "at": "2026-08-16T23:18:51",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-666c0254-6848-4bf7-8e3a-67e139df89ab",
-      "app_name": "nykaa",
-      "content": "no additional discount given as promised",
-      "score": 3,
-      "at": "2026-08-16T23:05:27",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-ac4e756d-e3c7-423d-9863-6bfb43fd6173",
-      "app_name": "nykaa",
-      "content": "wow nice product very well",
-      "score": 4,
-      "at": "2026-08-16T22:43:41",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-e7e53d98-d882-4528-a0c9-c910f878e89d",
-      "app_name": "nykaa",
-      "content": "Time say kuch nahi deta hain . help center main call karne k bad work karta hain fir ruk jata hain thik say responsibility nehi leta Hain , maine 8th August ko order Kiya delevery date thi 10th august 12th August kia uske bad 14th August kia aj 16 tarik nahi mila avi tak .mujhko 8- 10 daye say asehi delevery date delay karthi ja raha hain mane online payment kia delevery vi nahi or refund vi nahi . ghatiya app hain yea . 2nd time asa hua mare sath . wrost felling",
-      "score": 1,
-      "at": "2026-08-16T22:02:18",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-16a1c8cc-6adb-4b80-9be7-198adb9979cc",
-      "app_name": "nykaa",
-      "content": "Good for skin care products ✨️",
-      "score": 4,
-      "at": "2026-08-16T21:58:36",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-ad6a2045-041d-485b-b180-8565f04dbd6f",
-      "app_name": "nykaa",
-      "content": "don't deliver on time. not loyal to the customers.",
-      "score": 1,
-      "at": "2026-08-16T21:21:47",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-720252c8-7078-472c-ab27-b2c18de4eba5",
-      "app_name": "nykaa",
-      "content": "nowadays nykaa service has become pathetic...i ordered from there twice and i am yet to receive a full order. on my first order even after 10-15 days my order was not delivered,upon asking they said the products can't be delivered as it has damage. they didn't bother to inform me,and kept on updating that those products will deliver soon.after placing the 2nd order, one of the item was damaged and asked for replacement,they took the damaged product but never replaced and now not refunding..",
-      "score": 1,
-      "at": "2026-08-16T20:37:27",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-d5484126-aa51-47d8-9ca4-a6dd2f5a15cb",
-      "app_name": "nykaa",
-      "content": "Theif ... Took 400rs mine ..",
-      "score": 1,
-      "at": "2026-08-16T20:33:46",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-711eb97d-42b4-4b3d-99be-54aa5d5581ba",
-      "app_name": "nykaa",
-      "content": "I was told to get a buy 1 get 1 free but didn't receive it even after i complainted in the customer care,they didn't address my issues it not just about how I didn't get 1 free but about how lenient the customer service was",
-      "score": 1,
-      "at": "2026-08-16T19:38:24",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-18334ae0-dfbe-4121-ae78-1b5eb13b6215",
-      "app_name": "nykaa",
-      "content": "Very Disappointing Freedom Sale Experience I’m an 8-year-old Nykaa customer. On 15th August, I placed a ₹3,000+ order with a ₹400 benefit. Shockingly, on 16th August, the benefit became ₹500 for the same order value. Customer care refused any compensation. The issue isn’t ₹100—it’s fairness and transparency. Think twice before trusting “big sale” offers!",
-      "score": 1,
-      "at": "2026-08-16T19:38:00",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-93bfc3ee-3cf6-4efa-91d2-4390d3419f20",
-      "app_name": "nykaa",
-      "content": "nykaa is always best for me🩷",
-      "score": 5,
-      "at": "2026-08-16T19:37:18",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-e12682bc-de40-4d86-9db1-0b14af5978e4",
-      "app_name": "nykaa",
-      "content": "i seems good and very useful app for skincare thinks and all all things are the 🥀✌🏻",
-      "score": 4,
-      "at": "2026-08-16T19:29:05",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-3339b4b4-8fa3-4f3a-990f-d5605a946466",
-      "app_name": "nykaa",
-      "content": "Thirdclass app customer service also doesn't reply.",
-      "score": 1,
-      "at": "2026-08-16T18:55:21",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-c57e26e7-28c8-4184-a4dc-aca74c8f8223",
-      "app_name": "nykaa",
-      "content": "good discount every time when I order",
-      "score": 4,
-      "at": "2026-08-16T18:38:11",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-223e4a17-1acf-4000-a252-0e14e736dcec",
-      "app_name": "nykaa",
-      "content": "nowadays orders don't getting delivered continuously..idk what happened to nykaa",
-      "score": 1,
-      "at": "2026-08-16T18:18:31",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-5a37e952-36c1-4cf1-a8d3-566a06afa810",
-      "app_name": "nykaa",
-      "content": "l love this App more than 10 years, easy to access and payments ... Thank you Nykaa ....",
-      "score": 5,
-      "at": "2026-08-16T17:01:34",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-92ac9225-0052-47b1-8ea6-1db245f6e905",
-      "app_name": "nykaa",
-      "content": "the service is soo rude",
-      "score": 1,
-      "at": "2026-08-16T16:16:00",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-09465349-608b-4ca9-9f7a-813d053ba4c3",
-      "app_name": "nykaa",
-      "content": "dear friends don't do any order through nyka app they all cheating the customer and taking too much delay for delivery timing and they are not give exact delivery so be careful iam very very worst experience......... my humble request friends don't buy any product at nyka ..because they are telling fake delivery date ...and nobody not proper responding... I was ordered june 27 ,delivery date 2nd July but they are still delivering the product very worst.",
-      "score": 1,
-      "at": "2026-08-16T15:43:03",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-9256f1ac-1808-4209-9d1f-483b383356dd",
-      "app_name": "nykaa",
-      "content": "uhmmmm could be more better if you stop charging more than mrp",
-      "score": 2,
-      "at": "2026-08-16T15:14:53",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-954f9064-1d32-4485-9cd2-10b94716e8ca",
-      "app_name": "nykaa",
-      "content": "the customer service is very poor, I had complained for three days that the delivery agent had not attempted the delivery but updating we are not available when we are complaining we are available but no call was made. after three days of repeated calls to the customer service they are saying we can't do anything except taking feedback. This is worst kind of experience. I had marriage in two days now they are saying we would help you get refund as a favour which I am entitled to get.",
-      "score": 1,
-      "at": "2026-08-16T15:06:07",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-cd59a26f-00eb-470e-a0e3-2eed1f983bae",
-      "app_name": "nykaa",
-      "content": "customer service is poor and ai talking nonsense and rubbish everything same problem its shows products are delivery on the way but not sure ...are mad gys or what please delivery on time I have facing this problem lots of time",
-      "score": 2,
-      "at": "2026-08-16T14:29:29",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-804513b9-3542-43af-a8a9-f40e44c3dca0",
-      "app_name": "nykaa",
-      "content": "The platform has been degraded to another level. I ordered a product and received detergent bar inside and nykaa is denying any missouts and has denied any replacement or refund. I have been ordering from the platform since 8 years and this has happened yet they are not ready to acknowledge or investigate further.",
-      "score": 1,
-      "at": "2026-08-16T13:57:01",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-1d5084eb-b0c5-4721-ba30-789e9410bef2",
-      "app_name": "nykaa",
-      "content": "Worst experience ever! I ordered on nykaa now and item gets canceled.Its been 6 days since it got canceled and I still have not received refund. I ordered again, same issue. I call customer care, they say sorry we are working on and they actually do nothing about it. they confirmed everytime don't worry it will be delivered, but no it just canceled at the end. I told them I have the wedding to attend this is important but still not resolved. I order again based on their promise still same probl",
-      "score": 1,
-      "at": "2026-08-16T13:31:32",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-456bab1f-87a3-475f-ab94-3a57df3ddacd",
-      "app_name": "nykaa",
-      "content": "it's really good",
-      "score": 5,
-      "at": "2026-08-16T13:12:51",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-93fc61b4-4e92-426c-b37a-f90695c13332",
-      "app_name": "nykaa",
-      "content": "great shopping app",
-      "score": 4,
-      "at": "2026-08-16T12:54:52",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-35927e9d-0564-48dc-bac5-3c39874634af",
-      "app_name": "nykaa",
-      "content": "worst app, please don't download this app as it is one of the worst app, does only one thing i.e scam scam and scam. always my purcel gets delayed and no action has been taken for this by the owner so one of the worst app I am deleting this app! even after complaining they are not giving my purcel what a worst app ever seen!",
-      "score": 1,
-      "at": "2026-08-16T12:34:50",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-18584c74-339e-4f2a-86ef-b64fe4955ccc",
-      "app_name": "nykaa",
-      "content": "very very worst app ever they didn't delivered product at given time also they didn't refund. do not use this app",
-      "score": 1,
-      "at": "2026-08-16T12:21:40",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-1c5c1997-ecfc-47ba-a7f7-765724bacc80",
-      "app_name": "nykaa",
-      "content": "worst experience",
-      "score": 2,
-      "at": "2026-08-16T11:56:57",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-e1b5e545-a01f-464c-9bd3-f9d2ad17a07b",
-      "app_name": "nykaa",
-      "content": "offer are amazing",
-      "score": 5,
-      "at": "2026-08-16T11:45:11",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-029ea328-08cb-43dc-b366-e8bb64af56b7",
-      "app_name": "nykaa",
-      "content": "never deliver on time..it takes long time to refund",
-      "score": 1,
-      "at": "2026-08-16T11:10:13",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-ce112bae-a733-47e5-bf43-942db3833824",
-      "app_name": "nykaa",
-      "content": "worst app nyka app have bug i cannot enter my credit card details cvv please resolve this bug",
-      "score": 1,
-      "at": "2026-08-16T11:08:16",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-b4bb039b-0e20-4ccd-bf5e-2e949705a4dc",
-      "app_name": "nykaa",
-      "content": "I hd alwys loved thr services bt this tym I jst hd vry bad experience. I hv ordered 6 prdcts frm their freedom sale & i only recvd 3. I raised query & their representatives assured of delivering my missing prdcts I jst hv to upload d replacement of d prdcts tht I hv recieved & othr missing prdcts matter will be solved frm their side. I jst did & nxt day d pickup person picked d 3 prdcts. now I received a call that the 3 missing prdcts can't be delivered as it is out of stock.",
-      "score": 2,
-      "at": "2026-08-16T11:07:37",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-8df9f66f-f49a-4b61-88bd-4ff74ff22183",
-      "app_name": "nykaa",
-      "content": "if there would be a option of giving 0 star I would tend to go for it. This app is a fraud refund are not initiated immediately they will kept saying rubbish if you prepaid the order it will be a loss of money forever cause they will nnever gave refund do not. guy from this app guys bewaree!!! I am facing a issue regards money neither I get my order nor money",
-      "score": 1,
-      "at": "2026-08-16T10:57:41",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-3f6386ef-049b-4603-b3f4-92ee7d6f82f2",
-      "app_name": "nykaa",
-      "content": "worst delivery experience",
-      "score": 1,
-      "at": "2026-08-16T10:55:43",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-d615e7e8-18bb-48f9-871e-7914464ccbb5",
-      "app_name": "nykaa",
-      "content": "when I order in the app why product is not getting in 2 hours",
-      "score": 3,
-      "at": "2026-08-16T10:37:47",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-a2740a22-3438-41ea-958d-976ba9c3fa5d",
-      "app_name": "nykaa",
-      "content": "worst app ever. Very bad delivery services, Useless customer care support. Please don't order from nykaa. Find other E-commerce platforms.",
-      "score": 1,
-      "at": "2026-08-16T10:31:04",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-7b6cc72e-0759-4be1-b5f5-3b35f1c7ef89",
-      "app_name": "nykaa",
-      "content": "iam impressed 💯",
-      "score": 5,
-      "at": "2026-08-16T10:30:02",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-d9f4ce1c-9da0-478e-a99f-83f83525b419",
-      "app_name": "nykaa",
-      "content": "nice app qnd have nice offers👍",
-      "score": 5,
-      "at": "2026-08-16T09:32:15",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-cd85da6a-ec81-481d-a40f-4192a6c688fb",
-      "app_name": "nykaa",
-      "content": "My first order with Nykaa has been a very disappointing experience. I placed my order on the 19th and received the package on the 25th, only to find that one of the products was missing from the box. I immediately raised a complaint and uploaded all the required details and proof, but I have still not received any proper assistance or resolution from a Nyka ’s customer support. For such a well-known beauty platform, this level of customer service is extremely disappointing. This experience has",
-      "score": 1,
-      "at": "2026-08-16T09:29:37",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-564db89e-a68d-41ef-b97f-dae00f562812",
-      "app_name": "nykaa",
-      "content": "all products are good",
-      "score": 5,
-      "at": "2026-08-16T08:08:16",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-2efa246b-52eb-4244-a135-be58c0d616c9",
-      "app_name": "nykaa",
-      "content": "worst app no help support recieved wrong order charged extra money no support from anything uninstalling this stupid app",
-      "score": 1,
-      "at": "2026-08-16T05:17:19",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-515dce9d-d5e8-4488-a355-d696a400be40",
-      "app_name": "nykaa",
-      "content": "not available in my country? overall, it is differently a great app, just not so good I'm not able to buy from it.",
-      "score": 3,
-      "at": "2026-08-16T04:39:57",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-da14e850-eb11-4476-9f16-8f8f8a93217c",
-      "app_name": "nykaa",
-      "content": "product hamesha original hote aur discount bhi milte hai. best aap for beauty and skincare",
-      "score": 5,
-      "at": "2026-08-16T02:38:20",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-e0ac9a3a-8d30-43ea-8ec1-eaa4da31f14b",
-      "app_name": "nykaa",
-      "content": "amazing product app",
-      "score": 4,
-      "at": "2026-08-15T23:30:10",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-d90bc15e-bd29-4bf8-9c12-22744f32fa2e",
-      "app_name": "nykaa",
-      "content": "Unnecessary emails",
-      "score": 1,
-      "at": "2026-08-15T23:10:54",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-7e837cfc-3505-47af-9411-f87cf5f03fb8",
-      "app_name": "nykaa",
-      "content": "One of the worst apps I have ever used. Earlier, I ordered via Cash on Delivery and that reached successfully. But when I paid online via UPI for the first time, Nykaa showed their true face. The order was never delivered to me, and my refund has not been credited back to my account yet. Very unprofessional. This is the worst app in India. People, don't trust this app!",
-      "score": 1,
-      "at": "2026-08-15T23:05:08",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-842b458a-6589-42bc-8e46-e19741e3139e",
-      "app_name": "nykaa",
-      "content": "always good products and timely delivered thanku nykaa",
-      "score": 5,
-      "at": "2026-08-15T22:44:06",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-4a1be9ce-4230-45c5-8551-5032bd5e9a11",
-      "app_name": "nykaa",
-      "content": "all most product very very good 😊",
-      "score": 5,
-      "at": "2026-08-15T22:30:58",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-a96506d9-1783-43b1-85ca-68d0ff09d674",
-      "app_name": "nykaa",
-      "content": "naykaa is the best app guyss😭😋",
-      "score": 5,
-      "at": "2026-08-15T22:09:51",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-56633950-f41e-462e-919d-5a8449abf713",
-      "app_name": "nykaa",
-      "content": "affordable products .wish more products in low budget. find this app very affordable and helpful thankyou for offering us a offer like this 😭🫠",
-      "score": 4,
-      "at": "2026-08-15T22:05:02",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-c53bc098-4cc9-4da5-ba37-700afcfcf002",
-      "app_name": "nykaa",
-      "content": "Worst experience ever. They initially show that the order will be delivered within 2 hours, only to delay it later with one excuse after another. It’s extremely frustrating and misleading. The customer support representatives are equally disappointing. They seem poorly trained and mostly repeat scripted apologies without actually resolving the issue. If timely delivery and reliable customer support matter to you, don’t fall for their delivery promises. A very disappointing experience Nyka..",
-      "score": 1,
-      "at": "2026-08-15T21:30:58",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-9d636813-7e60-4e63-8488-958353d80588",
-      "app_name": "nykaa",
-      "content": "best way to shoping all branded cosmetics nykaa offer discount price compare to others. Happy customer.",
-      "score": 5,
-      "at": "2026-08-15T21:26:25",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-85232581-1f08-4208-9a65-598c5356f0f0",
-      "app_name": "nykaa",
-      "content": "I had a terrible experience with Nykaa during their 'Hot Pink Sale' after ordering products ₹2,100.Everything arrived damaged,crushed and with broken seals.The delivery person refused to take the package back and visiting an offline store was useless since they took no responsibility for online orders.Customer care was unresponsive unreachable after 10 PM and provided only false assurances without any refund or replacement.Regardless of attractive sale discounts, I will never order from Nykaa.",
-      "score": 1,
-      "at": "2026-08-15T21:23:17",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-7026cf4b-f909-4b18-98b6-eff195fc6b71",
-      "app_name": "nykaa",
-      "content": "The worst app I ever see, don't buy anything from this I ordered some products and I prepayed the cash.iam order in the date July 31 and today is Aug 15 .They don't deliver my order they changing the delivery date .The most better app for shopping is amazon, flipkart etc .They don't cheat",
-      "score": 1,
-      "at": "2026-08-15T21:15:54",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-4d437c1e-904d-4386-abea-de729e71cd83",
-      "app_name": "nykaa",
-      "content": "delivery too late ...",
-      "score": 1,
-      "at": "2026-08-15T20:38:27",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-67afcbff-a815-4c79-b076-21da58003875",
-      "app_name": "nykaa",
-      "content": "very good service",
-      "score": 1,
-      "at": "2026-08-15T20:34:39",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-2c542a66-46b5-42ae-ba0a-e076a0c5d71c",
-      "app_name": "nykaa",
-      "content": "worst , my first experience becomes my last experience",
-      "score": 1,
-      "at": "2026-08-15T19:42:45",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-be0f5ef8-ced2-4898-abcb-4c4fb1464a28",
-      "app_name": "nykaa",
-      "content": "all gud but cod not available all the time that's not okey😏",
-      "score": 2,
-      "at": "2026-08-15T18:51:09",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-5c8bd504-adcb-4c79-8f00-ce0b89c5ece3",
-      "app_name": "nykaa",
-      "content": "I don't know why but I am not getting COD option from past few days do solve the issue",
-      "score": 4,
-      "at": "2026-08-15T18:46:41",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-d443af0d-72ad-4f25-a7be-446df5e738cb",
-      "app_name": "nykaa",
-      "content": "It's a nice app",
-      "score": 5,
-      "at": "2026-08-15T18:35:11",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-1e5e659f-7eaa-4af9-9d47-2a455b258868",
-      "app_name": "nykaa",
-      "content": "very good experience",
-      "score": 5,
-      "at": "2026-08-15T18:30:59",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-ed819398-3b46-4e13-b566-e0737efb129f",
-      "app_name": "nykaa",
-      "content": "nice App and offers",
-      "score": 5,
-      "at": "2026-08-15T18:03:34",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-4033d976-a011-4f8f-83a3-67832e943595",
-      "app_name": "nykaa",
-      "content": "It's Really Good Online Shopping App",
-      "score": 5,
-      "at": "2026-08-15T17:27:00",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-48404036-1c87-42b0-8f98-6d58f43af992",
-      "app_name": "nykaa",
-      "content": "I placed my order , these people pushed the delivery date by God knows how many times and in the end they said that the delivery failed cuz multiple attempts were made for the delivery but i failed to respond",
-      "score": 1,
-      "at": "2026-08-15T17:13:32",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-26fe219d-fa24-4cae-a677-ad5442d44101",
-      "app_name": "nykaa",
-      "content": "Good quality Products....",
-      "score": 5,
-      "at": "2026-08-15T17:11:03",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-a57a48e1-c2ed-4f76-a297-dfabf83f44a0",
-      "app_name": "nykaa",
-      "content": "Worst delivery experience and after a week when i asked about my order through customer care she said product is not going to deliver then why u are manipulating us by saying delivery is failed and we try to reach u after 24-48 hrs we guys are fool awaiting that our order will delivered soon and when asked about refund she said wait for another week for that...very pathetic....I suggest everyone dont rely on nykaa....disgusting",
-      "score": 1,
-      "at": "2026-08-15T16:52:57",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-7df8e632-1852-49aa-88f9-11504e8419e9",
-      "app_name": "nykaa",
-      "content": "I had a bad experience, I don't want to use this app anymore",
-      "score": 1,
-      "at": "2026-08-15T16:33:39",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-e52deda2-0f92-47a6-a209-730ce104500d",
-      "app_name": "nykaa",
-      "content": "Nyaka online shopping is best, I love the product along with free gift🎁 🥰",
-      "score": 5,
-      "at": "2026-08-15T15:38:31",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-8c1df3a6-2dbc-4a67-9f1a-e74e7d05a137",
-      "app_name": "nykaa",
-      "content": "some products are priced too high ... especially skin foundation shades description incomplete... please allow mobile screen testing tools... its very helpful for choosing perfect skin shade..",
-      "score": 4,
-      "at": "2026-08-15T15:34:39",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-cb1726df-138d-4763-8252-764e2ed55b94",
-      "app_name": "nykaa",
-      "content": "I am extremely disappointed with the way my order has been handled. I placed this order specifically as a gift, and the promised delivery date was 9 August. However, you have now changed the delivery date to 17 August and then to 27 August. This is completely irresponsible and highly unprofessional. If you cannot deliver an order within the committed timeline, you should not mention a specific delivery date at the time of placing the order.I needed this order for a specific occasion.",
-      "score": 2,
-      "at": "2026-08-15T15:14:40",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-d91205fb-649a-483c-8329-4e369bb466f5",
-      "app_name": "nykaa",
-      "content": "nice app bohot discount milta hai isme",
-      "score": 5,
-      "at": "2026-08-15T14:42:00",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-b509b54f-bc6b-4871-80e3-c279254e1166",
-      "app_name": "nykaa",
-      "content": "Nykaa is best online shopping, i personally love the app, it's convenient, easy to use, gives discounts. very nice and amazing app",
-      "score": 5,
-      "at": "2026-08-15T14:07:22",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-71db0b46-9f99-4801-8a31-ccb4fbcb663f",
-      "app_name": "nykaa",
-      "content": "fast order pleasing",
-      "score": 5,
-      "at": "2026-08-15T13:44:57",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-c92e45bb-82a4-40cf-91d0-9cd6288743c5",
-      "app_name": "nykaa",
-      "content": "nice beauty product on this app iam happy to buy products",
-      "score": 5,
-      "at": "2026-08-15T13:29:32",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-07d902ea-d7be-4ce3-9762-a6847f8c7be6",
-      "app_name": "nykaa",
-      "content": "Disgusting customer service. They don't even listen to customers.",
-      "score": 1,
-      "at": "2026-08-15T12:50:22",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-ef00bf52-e2f8-4dcf-982b-2b5090c6d2f7",
-      "app_name": "nykaa",
-      "content": "easy to make order and payment👌",
-      "score": 4,
-      "at": "2026-08-15T12:14:12",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-d9f3d497-e71a-4a38-99f8-6cbf94015d09",
-      "app_name": "nykaa",
-      "content": "nice but delay deliveries but real products so no issues",
-      "score": 4,
-      "at": "2026-08-15T11:55:17",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-8b2faa15-3101-4e53-b0a6-56b7408235bc",
-      "app_name": "nykaa",
-      "content": "Bhut hi worst experience raha h mera nyakaa ke sath bhut hi bakbas app h isse better to other tira work krta h. This was my first and last shopping from this app. and inki delivery service bhi bhut ghatiya h. Mane 2 weeks se return ma product dala h bt kisi ka koi response hi nhi h nd even ya log bar bar return cancel kr raha h. sabse jyda ghatiya app h ya. please agr koi yaha se shopping kr raha h to mt kre inki service bhut bakbas h or ulta sidha expire product de deta h ya nd retrn bi ni krte",
-      "score": 1,
-      "at": "2026-08-15T11:40:08",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-80010a93-b7f3-49f2-9cbc-0f67d8a53ca3",
-      "app_name": "nykaa",
-      "content": "I am very disappointed. I have ordered 7 products but only received one when I paid the full price.don't trust Nykaa.😞",
-      "score": 1,
-      "at": "2026-08-15T11:02:51",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-ef20d0eb-0795-46d9-a11d-f7d3b7ee1f4e",
-      "app_name": "nykaa",
-      "content": "please bring in lorial pairs no haircut cream stock",
-      "score": 4,
-      "at": "2026-08-15T10:28:36",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-a1e7ef9f-1374-4d1e-89d3-8c6774b6c119",
-      "app_name": "nykaa",
-      "content": "I had the worst experience.",
-      "score": 1,
-      "at": "2026-08-15T09:18:01",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-bf8cd92b-3ad7-490a-83e3-188e7a09a3f6",
-      "app_name": "nykaa",
-      "content": "very bad experience. till I didn't get my product",
-      "score": 1,
-      "at": "2026-08-15T08:10:41",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-34a272ec-3b97-4d06-ae08-87604b8b9d37",
-      "app_name": "nykaa",
-      "content": "please make affordable",
-      "score": 5,
-      "at": "2026-08-15T03:09:07",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-0dddbaa4-2978-4345-b705-f355e77f5c72",
-      "app_name": "nykaa",
-      "content": "the offer is good what is the quality of of products",
-      "score": 5,
-      "at": "2026-08-15T02:27:32",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-c6f6aa90-fb62-4780-8eb7-209b68ee8c3e",
-      "app_name": "nykaa",
-      "content": "wonderful product",
-      "score": 5,
-      "at": "2026-08-15T01:01:39",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-2e226c1a-b3d5-4cf7-8343-cc2a01aa95fb",
-      "app_name": "nykaa",
-      "content": "ghatiya refund amount nai deta ye aap dont believe",
-      "score": 1,
-      "at": "2026-08-14T23:47:02",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-47e70a0f-1b1e-45ee-9a35-690c341e88d2",
-      "app_name": "nykaa",
-      "content": "I am very disappointed with Nykaa also, I did not expect this from Nykaa, since 10th aug my parcel is getting out of delivery message daily but today is 14th aug and till date I have not received any parcel and today Nykaa customer support is saying that they tried to deliver the but I have not received any call till date, and the number of the delivery person in the out of delivery message shows it as of .",
-      "score": 1,
-      "at": "2026-08-14T23:08:30",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-b5dd7fe7-0669-49d5-93b5-700a0acff6c1",
-      "app_name": "nykaa",
-      "content": "bahut achcha discount milta hai aur original product bhi milte Hain",
-      "score": 5,
-      "at": "2026-08-14T22:56:12",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-a75ddf05-3e74-40c5-8943-0b64eb514e3b",
-      "app_name": "nykaa",
-      "content": "I had ordered 4 products, 3 should have been delivered by 2hours and 1 by Sunday. I still didn't receive any of the products yet, please do the needful.",
-      "score": 1,
-      "at": "2026-08-14T22:52:03",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-c3f2f3cc-fed5-4247-8feb-67f6cf95a28f",
-      "app_name": "nykaa",
-      "content": "Now a days app are not opening in one go it is taking too kuch time",
-      "score": 1,
-      "at": "2026-08-14T22:40:34",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-6491db3c-cf55-49a1-8de5-f3733a7b3eba",
-      "app_name": "nykaa",
-      "content": "My experience with my last order was extremely disappointing. they kept pushing the delivery date again and again and eventually it got cancelled after almost 10-15 and now it's been almost a month and, I still haven't received my refund or my products.",
-      "score": 1,
-      "at": "2026-08-14T22:37:57",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-6df25965-ec85-44a1-b2a8-91e3b4184b79",
-      "app_name": "nykaa",
-      "content": "Extremely disappointing and unacceptable. My order was delivered in 2 shipments, and one shipment was supposed to contain 21 items but had only 3 products inside, including 1 free gift. 19 paid products were missing! A huge waste of money, time and effort. Customer service has been extremely unhelpful and has not provided a proper resolution. Nykaa seriously needs to improve its packing and customer support. This is completely a fraud. Want immediate action on this.",
-      "score": 1,
-      "at": "2026-08-14T22:01:10",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-b7947384-6337-446e-bd28-6c24180a65e6",
-      "app_name": "nykaa",
-      "content": "very very bad experience from this useless app ..",
-      "score": 1,
-      "at": "2026-08-14T21:54:51",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-af19dfb9-563a-4cbc-9117-7ba4705a9666",
-      "app_name": "nykaa",
-      "content": "good experience",
-      "score": 5,
-      "at": "2026-08-14T20:48:01",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-755505e7-705a-493a-ae1f-c6abefec04e9",
-      "app_name": "nykaa",
-      "content": "why every week updating the app? can't you hire better developers. updates must be none mandatory. or else automatically updare should happen.",
-      "score": 2,
-      "at": "2026-08-14T20:15:45",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-c50e1446-07f3-4bd7-96bc-b4ee1c56c9e5",
-      "app_name": "nykaa",
-      "content": "a bit slow , api needs to be quicker",
-      "score": 5,
-      "at": "2026-08-14T19:42:40",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-02d74053-1e3b-490a-950f-b7460cdb7606",
-      "app_name": "nykaa",
-      "content": "totally disappointed close to expire product deta h paise full leta h maine glycolic acid ordinary ka mangaya tha ek bhi paise ka discount nhi tha phir bhi kuch hi month mai expire ho jaye aisa product snd kiya gya mujhe",
-      "score": 1,
-      "at": "2026-08-14T19:33:48",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-b4509236-a033-4472-8243-88bf2999e878",
-      "app_name": "nykaa",
-      "content": "very nice but some bugs disturbs me .nd need a nice 199 budget things for students",
-      "score": 5,
-      "at": "2026-08-14T19:14:16",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-370ad99a-f28c-43cf-83bc-fb4de8015b7d",
-      "app_name": "nykaa",
-      "content": "app is okay but their delivery partner is 3rd class like delhivery",
-      "score": 1,
-      "at": "2026-08-14T19:07:41",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-e42ad55e-f915-428b-a5dc-7b8d64ed0bab",
-      "app_name": "nykaa",
-      "content": "Return and refund policy not customer friendly. I am a regular and loyal customer I always choose nykaa. Another shopping platform offers less price of the product but I always do shopping only from nykaa but the return and refund process is not good. Not recommended.",
-      "score": 1,
-      "at": "2026-08-14T18:59:11",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-4c80fe52-f938-4d2c-b9ce-74f1ce0d78c1",
-      "app_name": "nykaa",
-      "content": "very bad service",
-      "score": 1,
-      "at": "2026-08-14T18:49:49",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-2d7ff2b2-a373-4fa8-bdca-83f0e2ac1488",
-      "app_name": "nykaa",
-      "content": "THIS is a worst app. I paid for advance but they delayed & delayed my order. Customer service also very very bad. I never use this app Again. Mayb Their all good reviews are paid.",
-      "score": 1,
-      "at": "2026-08-14T18:32:59",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-0a0fc830-233e-45f1-a428-5772eda52c2c",
-      "app_name": "nykaa",
-      "content": "don't believe nykaa. they give wrong product and they don't even take the return. they give soem nonsense reason and reject the return. they r doing fraud.",
-      "score": 1,
-      "at": "2026-08-14T17:19:01",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-82260b15-f479-45c5-a421-c45e26bd92f7",
-      "app_name": "nykaa",
-      "content": "Nykaa now is a way to fool people because the delivery is shown in 120 minutes while the delivery does not happen for 2 days...",
-      "score": 1,
-      "at": "2026-08-14T16:28:42",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-83e58662-bb7a-4e96-9693-743fa6206c4f",
-      "app_name": "nykaa",
-      "content": "this is very excellent app",
-      "score": 5,
-      "at": "2026-08-14T16:05:46",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-bfdda748-8f1d-42d8-a043-47228fcd394f",
-      "app_name": "nykaa",
-      "content": "Whenever you offer a free gift or launch an offer, please make sure the gift is fresh, original, and actually usable. Many times, the free gifts I receive are either damaged or of no use. If you are giving something to your customers for free, please give it with genuine care and good quality. There is no point in giving something just for the sake of showing that you have offered a free gift. Customers deserve fresh and useful products, not damaged or unusable items.",
-      "score": 1,
-      "at": "2026-08-14T15:08:07",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-16846e35-fd0a-4570-b920-9f92c77f1f68",
-      "app_name": "nykaa",
-      "content": "best app to shoping",
-      "score": 5,
-      "at": "2026-08-14T15:05:30",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-3487638f-f1cd-45c6-bce2-a1085ee732c9",
-      "app_name": "nykaa",
-      "content": "very bad & worst app",
-      "score": 1,
-      "at": "2026-08-14T14:09:58",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-78dc4773-0e2e-4f1f-9b28-3cbabf4cac19",
-      "app_name": "nykaa",
-      "content": "nykaa is best platform for shopping and my keyboard doesn't have words for it",
-      "score": 5,
-      "at": "2026-08-14T13:55:48",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-99d614f2-a9e4-41d5-85f3-4d812e358db2",
-      "app_name": "nykaa",
-      "content": "product best raheta hai 👍👍",
-      "score": 5,
-      "at": "2026-08-14T13:52:34",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-4475f642-574d-4a3f-939f-8bfb0bca8774",
-      "app_name": "nykaa",
-      "content": "thank you nykaa for give me best product",
-      "score": 4,
-      "at": "2026-08-14T13:31:11",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-9383cd29-9aa7-42e8-9a58-99ba91064209",
-      "app_name": "nykaa",
-      "content": "I'm the platinum member and still not once but multiple times i have faced problem regarding my order delivery and refund and the worst part about Nykaa is they have the worst customer service if they are treating there platinum member like this idk how they're treating their new customer",
-      "score": 1,
-      "at": "2026-08-14T13:23:06",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-2c69a62e-d2cd-4e8f-81b8-989bcedff793",
-      "app_name": "nykaa",
-      "content": "I had a very bad experience with nyka fashion I have ordered things which was delivered on time but I received one product in not so good condition which I want to return but no accountability at all from past 20 days They just make excuses unnecessarily . not good return policy",
-      "score": 1,
-      "at": "2026-08-14T12:45:31",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-176fea41-b827-482a-8ee0-fa53f90e5c01",
-      "app_name": "nykaa",
-      "content": "it was bad experience with nyka. every one don't buy any product through this app. this is fraudulent. I ordered almost order of 200rs product but I received wrong product worth rs 250. I repeatedly contacted their support team only promised to return the product.after 20 days now they are sending massage that from our side we sent correct product and we cannot replace. they are really fraud. 😡😡🤬",
-      "score": 1,
-      "at": "2026-08-14T12:23:32",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-a6c4367b-b5fa-4ed0-9e37-067717379366",
-      "app_name": "nykaa",
-      "content": "Nykaa has one of the worst customer service.I have seen so far.... They don't deliver the product when ordered multiple products after sending photos and video of the opening package on email still they don't even give replace the product,your request is never approved..... you need to look into this .... Returing and Replacing product is absolutely a big task .......",
-      "score": 1,
-      "at": "2026-08-14T11:50:03",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-f9d799aa-225f-4e6a-b4fe-f619bf8cec8e",
-      "app_name": "nykaa",
-      "content": "worst app ever, receives damaged products, delivery get cancelled, products are not worth buying, I have a worst experience since 2 yrs buying from nykaa.. I really hate this app. I won't give a single star to this app but to convey my reviews I have to select a star... currently I had around 3k of loss and no one is ready to help us from customer care. I'll honestly recommend everyone not to buy anything from this worst app",
-      "score": 1,
-      "at": "2026-08-14T11:27:47",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-9d0d0259-10e9-49e3-846b-d53784ae69b0",
-      "app_name": "nykaa",
-      "content": "it's very useful app 😃!!",
-      "score": 5,
-      "at": "2026-08-14T10:23:16",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-3efc6e33-a5b9-4d5b-90b5-b318d4b65e11",
-      "app_name": "nykaa",
-      "content": "service acha nehi ye app achha nehi hai",
-      "score": 1,
-      "at": "2026-08-14T09:55:16",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-587f38df-d702-4d38-a956-ec96db896eed",
-      "app_name": "nykaa",
-      "content": "service is absolutely terrible never buy anything from them. I had ordered leggings for an 11-12 years old but they delivered one for a 6-7 year old. there was another product that is showing as delivered to resident without even being delivered . their service is truly pathetic. I will never buy any product from here and you shouldn't either.",
-      "score": 1,
-      "at": "2026-08-14T09:43:52",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-3fb606a9-5781-470e-9be3-492ff42c9475",
-      "app_name": "nykaa",
-      "content": "not show more offers and coupons.",
-      "score": 2,
-      "at": "2026-08-14T09:37:39",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-defac5c3-c894-47df-9220-1c9cd0c648b9",
-      "app_name": "nykaa",
-      "content": "it's product is the best",
-      "score": 5,
-      "at": "2026-08-14T09:23:11",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-1c325cf8-a3b2-49b4-8a19-653a48d2a484",
-      "app_name": "nykaa",
-      "content": "I always trust Nykaa because their products are always good in quality and reliable.\"",
-      "score": 5,
-      "at": "2026-08-14T08:55:19",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-b30135f6-48a3-42c4-9cb7-98e46a037c45",
-      "app_name": "nykaa",
-      "content": "wow this product quality is best i like this app",
-      "score": 5,
-      "at": "2026-08-14T08:32:54",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-b83ebdb1-eda8-44a4-b46d-41358428789e",
-      "app_name": "nykaa",
-      "content": "product aa jaye fir review denge",
-      "score": 5,
-      "at": "2026-08-14T07:06:04",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-839fad32-e592-4a16-8c8c-537dffe6c21e",
-      "app_name": "nykaa",
-      "content": "fast and safe delivery good discount free products big size feels value",
-      "score": 5,
-      "at": "2026-08-14T04:08:24",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-70100555-b58c-4e83-8c3e-215438dfc9e9",
-      "app_name": "nykaa",
-      "content": "Nykaa should give more discount and offers 🫴",
-      "score": 2,
-      "at": "2026-08-14T00:54:53",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-b3580a7e-6f3e-4875-b859-4552bc9b662b",
-      "app_name": "nykaa",
-      "content": "I placed an order on Nykaa, but even after 3–4 days past the expected delivery date, my product has still not been delivered. Whenever I contact the chat support, they do not provide any proper or useful update. Every day, the Nykaa app simply shows that the product will be delivered “today” or “tomorrow,” but there is no actual progress. The customer support service has been extremely disappointing. Even cancelling the order was unnecessarily difficult. Overall, I am very disappointed",
-      "score": 1,
-      "at": "2026-08-13T23:30:37",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-537a1086-7f18-4e89-8c90-42946adb239f",
-      "app_name": "nykaa",
-      "content": "product delivery is delayed without any reason and customer service centre is not resolving it still the issue is pending and didn't receive any further update sorry to say but not happy with the service",
-      "score": 1,
-      "at": "2026-08-13T23:15:20",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-e9046b2d-bb79-4294-8d15-b5912926718a",
-      "app_name": "nykaa",
-      "content": "nice received order 😀",
-      "score": 5,
-      "at": "2026-08-13T22:27:46",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-85a0c2a8-2ca0-402b-bc33-fc44e1352b59",
-      "app_name": "nykaa",
-      "content": "agar order k sath koi issue hai toh nyka ki side se kuch quick action nahi hota prepaid order deliver karne main inko ek bar call miss hui toh 10 din se na order aaya hai nh cancel hua hai nh koi response bas call aate hai company se today tomorrow after tomorrow that's it nyka se ye expect nahi thaaa",
-      "score": 1,
-      "at": "2026-08-13T22:12:55",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-54771edd-67b6-4c70-805f-9781e3c1cb10",
-      "app_name": "nykaa",
-      "content": "App is working fine and good but the service provided by nykaa is worst ever don't buy it from here you will get your essentials in less amount in different platform and other platform provide faster delivery than this ....and their customer service is another level of scam.",
-      "score": 1,
-      "at": "2026-08-13T21:50:40",
-      "detected_lang": "en"
-    },
-    {
-      "evidence_id": "nykaa-caf68cd9-3359-45d9-bcc7-9381dbc9fe5e",
-      "app_name": "nykaa",
-      "content": "such a bad experience my 2nd order from them didn’t deliverd at all now it's showing to be delivered at 15 aug tell me which delivery guy is working on independence day such a fraud you guys are!!!",
-      "score": 1,
-      "at": "2026-08-13T20:54:50",
-      "detected_lang": "en"
+  "items": [
+    {
+      "id": "playstore-nykaa-6fc173ca-73d0-4941-8bc2-f3af679220af",
+      "source": "playstore",
+      "text": "this app is amazing mind-blowing ❤️💯",
+      "rating": 5,
+      "date": "2026-08-18T00:15:44",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-eec3b2ba-41af-4f7f-aadf-1a700d85bddb",
+      "source": "playstore",
+      "text": "it's very terrible app",
+      "rating": 1,
+      "date": "2026-08-18T00:00:21",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-99373812-b99d-4885-9dc9-769cda71fa83",
+      "source": "playstore",
+      "text": "It's good I got offer for my first order hope i will get again",
+      "rating": 4,
+      "date": "2026-08-17T23:56:16",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-d8d76b8b-a4e8-4548-a73a-d7b2d9549709",
+      "source": "playstore",
+      "text": "very good product",
+      "rating": 5,
+      "date": "2026-08-17T23:40:02",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-1f6cad8e-285e-4a7a-ab21-d978a4b11e74",
+      "source": "playstore",
+      "text": "very bad experience from nykaa the are not giving me the delivered products the orders are too delayed",
+      "rating": 1,
+      "date": "2026-08-17T23:09:59",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-73b2be82-deb0-4a15-ae90-996fe507b618",
+      "source": "playstore",
+      "text": "great app for cosmetic",
+      "rating": 4,
+      "date": "2026-08-17T23:07:17",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-d87fc4b9-3c68-462b-b517-b6e9f2e679cf",
+      "source": "playstore",
+      "text": "totally poor service..don't waste time on purchasing product from nykaa ,they show u delivery past date and order not came on your door steps upto more than weeks for all this if u ask their coustomer service they only say we are trying .only coustomer's time waste they think coustomer is mad ,to shop from their app .for refunding the money they tell u refuse the order that not approaching to ur door steps then in 5 working days u get ur block money.stop purchasing fron nykka",
+      "rating": 1,
+      "date": "2026-08-17T21:29:24",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-3bf00f1d-cae5-43d8-90df-d49e2c7f2023",
+      "source": "playstore",
+      "text": "The delivery is extremely delayed. I haven’t received the item within the expected time.",
+      "rating": 1,
+      "date": "2026-08-17T21:05:39",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-62aa3e62-d0ad-44c2-91ba-d951ef1744b4",
+      "source": "playstore",
+      "text": "maine first time nykaa se order Kiya and it was worst experience of my life my order is not return and they say ki maine order open Kiya hai agar open nahi karti to pata kaise chalta ki product kharab aya hai and maskara sukha aya hai mai ne support chat me bhi baat ki koe response nahi aya and inhone mera return bhi cancel kar diya",
+      "rating": 1,
+      "date": "2026-08-17T20:39:57",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-7530fca8-d484-41a7-b6dc-5f4abb8c85da",
+      "source": "playstore",
+      "text": "I will give more stars for their service and nicer true brand products range but worst delivery patner it's been so long it reached my near district hub but for nearly 8 days there is no update from the nykaa app side or delivery patner side. I made 3 ticket from all side, no proper reply. facing this same problem from same app through same delivery patner for 2 rd time in a row. Needed much stronger delivery patner never again ordering from nykaa for this poor service, very bad.",
+      "rating": 1,
+      "date": "2026-08-17T19:41:46",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-1f465bae-68dc-4e6d-ae5e-c1c99dd5dda4",
+      "source": "playstore",
+      "text": "customer service is soo bad and disturbing does not solve any issue at all and the delivery date is getting changed again and again I am so disappointed, did not expect this from nykaa.",
+      "rating": 1,
+      "date": "2026-08-17T19:17:53",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-2396c056-e355-46c2-a82f-261fabd11506",
+      "source": "playstore",
+      "text": "Very disappointing experience with Nikka. I ordered a combo containing 4 products plus 1 individual product, so I was supposed to receive 5 products in total. However, I received only 2 products. I contacted Nikka customer care multiple times. Every time, they told me that my refund/replacement request had been processed and that I would receive an update within 48 hours. But whenever I check the status on the app, it simply shows “Request Rejected.” I have already made 4 complaints and called",
+      "rating": 1,
+      "date": "2026-08-17T19:13:31",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-04998ac0-8e7a-498d-bc75-69d078e97933",
+      "source": "playstore",
+      "text": "Very disappointing experience with Nikka. I ordered a combo containing 4 products plus 1 individual product, so I was supposed to receive 5 products in total. However, I received only 2 products. I contacted Nikka customer care multiple times. Every time, they told me that my refund/replacement request had been processed and that I would receive an update within 48 hours. But whenever I check the status on the app, it simply shows “Request Rejected.” I have already made 4 complaints",
+      "rating": 1,
+      "date": "2026-08-17T19:10:56",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-22bc1c3a-0fd9-49b7-9417-101937911844",
+      "source": "playstore",
+      "text": "Best app for beauty products. 100% trustable ❤️",
+      "rating": 4,
+      "date": "2026-08-17T18:59:29",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-950d63c0-f05a-4565-92f3-9145c45e40a3",
+      "source": "playstore",
+      "text": "good product 👍🏻👍🏻",
+      "rating": 5,
+      "date": "2026-08-17T18:08:53",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-76491028-49c2-46c6-9aec-d58fedf7a153",
+      "source": "playstore",
+      "text": "it's a good app",
+      "rating": 5,
+      "date": "2026-08-17T17:38:16",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-aa4217ed-a927-4a9c-890c-38537f40c190",
+      "source": "playstore",
+      "text": "bad experience I ordered sum product but vo received nhi hua or naykaa valone refund bi Nhi kiya 😡😡😡",
+      "rating": 1,
+      "date": "2026-08-17T17:10:01",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-1e6aae88-dbf1-42b6-a41c-a269531a835a",
+      "source": "playstore",
+      "text": "Worst experience with both delivery and customer service. My order was supposed to arrive within 2 hours, but it has taken days. Customer support kept giving repeated responses without providing a proper solution or clear delivery timeline. Very disappointing experience.",
+      "rating": 1,
+      "date": "2026-08-17T16:34:31",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-9ff83cf7-cfe6-45a3-b932-8f3d6fb81809",
+      "source": "playstore",
+      "text": "i got my order was too late iam so disappointed by their action i thought they will be on time and without my consent they itself changed the delivery Date but in app its showing like i changed the date",
+      "rating": 3,
+      "date": "2026-08-17T15:25:57",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-8b15eead-c166-4367-95aa-92b54b32f520",
+      "source": "playstore",
+      "text": "very beautiful app for beauty....",
+      "rating": 5,
+      "date": "2026-08-17T15:24:00",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-7c4a1e22-b8c4-4af8-85b3-1562d7974110",
+      "source": "playstore",
+      "text": "do not use this app i ordered on nykaa which is not delivered to me and I can't get my refund, nykaa's customer care service is so poor, I am very frustrated with this issue I never order anything from nykaa",
+      "rating": 1,
+      "date": "2026-08-17T15:15:26",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-aa668159-b452-45be-82c5-59e74af1fc0f",
+      "source": "playstore",
+      "text": "I have ordered a insight cosmetics and paid online but not able to see it in my orders.",
+      "rating": 1,
+      "date": "2026-08-17T14:56:34",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-48a7fdea-4e1f-4a33-9ee5-770e5a1a64a9",
+      "source": "playstore",
+      "text": "worst experience ever, it was my 1st order. Delivery agent was supposed to deliver it today and he told me he forgot to pick up the parcel. told me to mark as delivered or cancel the order",
+      "rating": 1,
+      "date": "2026-08-17T14:52:17",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-ee74b15b-4fa6-4bf3-9adc-6974475a1a42",
+      "source": "playstore",
+      "text": "Nykaa sells the best cosmetic.",
+      "rating": 5,
+      "date": "2026-08-17T14:51:00",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-28decd5f-267e-48d3-82f7-499bf66a682e",
+      "source": "playstore",
+      "text": "best sellers, best quality, thank you nykaa",
+      "rating": 5,
+      "date": "2026-08-17T14:16:09",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-5ac6518e-e486-46f5-afa0-bac5e18617f1",
+      "source": "playstore",
+      "text": "very poor experience in my order",
+      "rating": 1,
+      "date": "2026-08-17T13:46:15",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-04fed112-b98a-404f-8e9f-1256db3bc9b1",
+      "source": "playstore",
+      "text": "fan of every product of nykaa beauty",
+      "rating": 5,
+      "date": "2026-08-17T13:37:12",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-254419a5-5c62-49b3-9a42-94a0b150e002",
+      "source": "playstore",
+      "text": "abi use, krna shuru kia hai but with discaunt good ap",
+      "rating": 3,
+      "date": "2026-08-17T13:31:22",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-39efb1e3-3aaf-4153-8776-6a560f4410b8",
+      "source": "playstore",
+      "text": "on my first order i order on 13august and they delayed it multiple times and now they told me they are returning back to the warehouse......Nykaa i request you to to return and deliver it back again",
+      "rating": 1,
+      "date": "2026-08-17T13:23:36",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-c061f002-bb3c-4b2a-9f2f-cb1f418de4a2",
+      "source": "playstore",
+      "text": "they provide wrong product. dont take cancellation request. sends msgs again &anain.. not the app for all.. too much bad experience i have.",
+      "rating": 1,
+      "date": "2026-08-17T13:19:11",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-1a98cd25-9a2b-460c-97c6-983eaae70900",
+      "source": "playstore",
+      "text": "Man love the nykaa there delivery is super fast and very efficient man i live in a hilly area where usually orders arrive a bit late even flipkart , Amazon are no match for nykaa i order my things and they arrive the next day or one day later that's pretty crazy for me .😘",
+      "rating": 5,
+      "date": "2026-08-17T13:07:16",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-6afcb18e-6ed9-41b8-8b6c-22eafea8d885",
+      "source": "playstore",
+      "text": "Product shades shown on website is not matching I have order dark shade but it is not dark in shade , it is clearly visible, very shameful and pathetic service , first they are sending unsealed product and when custome raised return they denyed and reason they are sharing we didn't receive opend product then why you bloody sending the unpacked /unsealed product to the customer #scammers, #fraud #nykaafraud #pathetic",
+      "rating": 1,
+      "date": "2026-08-17T13:02:52",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-6019f01b-2e2a-4ae1-b1e6-e1499aa69e77",
+      "source": "playstore",
+      "text": "nayka is the best discount",
+      "rating": 5,
+      "date": "2026-08-17T12:37:46",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-b650c58e-d861-4281-8559-9cc4073cb776",
+      "source": "playstore",
+      "text": "quality products",
+      "rating": 5,
+      "date": "2026-08-17T11:49:57",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-161deea1-6244-44a9-a56e-ea30e0a20f36",
+      "source": "playstore",
+      "text": "Very gud service and offers",
+      "rating": 4,
+      "date": "2026-08-17T11:48:37",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-34ab2116-3738-481f-bf71-6fcd22ecb6d4",
+      "source": "playstore",
+      "text": "try delivery same day",
+      "rating": 3,
+      "date": "2026-08-17T11:25:26",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-77ea951c-c502-41b4-adfd-e333e2a65d06",
+      "source": "playstore",
+      "text": "This is honestly the WORST app I have ever used. Day by day, my order keeps getting delayed, and there is still no proper update or resolution. The product has STILL not been delivered. This kind of service is extremely disappointing and frustrating.",
+      "rating": 1,
+      "date": "2026-08-17T10:35:31",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-a8d68417-3eff-4d83-8f9b-63ca9828a5c2",
+      "source": "playstore",
+      "text": "Nykaa one of the greatest app ⭐️⭐️⭐️⭐️⭐️",
+      "rating": 5,
+      "date": "2026-08-17T09:54:06",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-e5fe3fa4-403b-4c50-ae58-512bbbfe587a",
+      "source": "playstore",
+      "text": "Nykaa is not working on my phone. It keeps showing “Nykaa is unavailable in your country.” I am unable to access the app. Please fix this issue as soon as possible.",
+      "rating": 2,
+      "date": "2026-08-17T09:51:09",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-65efa11d-354c-4ae8-8f7c-0b2ac9ff86cb",
+      "source": "playstore",
+      "text": "my go to app for any makeup solution",
+      "rating": 5,
+      "date": "2026-08-17T09:50:14",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-8ef7dc95-29c2-424a-a1b6-ad09e343bc93",
+      "source": "playstore",
+      "text": "All the makeup products good quality and quantity... i love it...",
+      "rating": 4,
+      "date": "2026-08-17T08:53:58",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-e9f33ec6-492d-496e-875d-2c4aea9c04df",
+      "source": "playstore",
+      "text": "im makeup artist i like all products in nykaa",
+      "rating": 5,
+      "date": "2026-08-17T06:59:27",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-1fb57bec-5b59-4930-91fc-60fcbcc919c4",
+      "source": "playstore",
+      "text": "great experience 🥰👍🏻👍🏻dear nayka pls provide Roc under eye cream, and ordinary matrixyl soon pls.",
+      "rating": 5,
+      "date": "2026-08-17T06:45:47",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-153f3711-69dc-422a-9602-eb7dedc1611e",
+      "source": "playstore",
+      "text": "Just now I saw a discount of 15% on products above ₹500 and till now there was also a timer of 1 hour and suddenly everything was the same amount but no discount was visible, meaning you have done an absolute amazing job. I want that discount huhhh😑",
+      "rating": 1,
+      "date": "2026-08-17T01:22:40",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-243b50ca-39c8-44bc-8fbc-4b9aaa965477",
+      "source": "playstore",
+      "text": "too good experience 😉",
+      "rating": 5,
+      "date": "2026-08-17T01:21:04",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-282537a2-dc78-4b07-a781-c88e1d049648",
+      "source": "playstore",
+      "text": "Good stuff is available, the stuff is very useful.",
+      "rating": 4,
+      "date": "2026-08-17T01:03:06",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-29a0bf77-79f7-45b9-b9c0-e284b1c338d7",
+      "source": "playstore",
+      "text": "I am very happy 😊",
+      "rating": 5,
+      "date": "2026-08-17T00:04:07",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-39e4fa0f-1ca8-404b-915b-09c6346bd01a",
+      "source": "playstore",
+      "text": "Absolutely pathetic service! This is the THIRD time my Nykaa order has failed to reach me. Every time, they falsely mark me as “unavailable” even though I’m at home—no delivery partner comes, no proper call is made, and eventually the order gets cancelled. Now I haven’t even received my refund. Customer service is completely useless. Every time I contact them, I get the same scripted “we understand how you feel” response, but nobody actually knows where my order is or gives any proper solution.",
+      "rating": 1,
+      "date": "2026-08-16T23:44:44",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-6d242892-8557-4d7f-b822-c30b74af7fb1",
+      "source": "playstore",
+      "text": "Nykaa a fraudulent beauty app , pathetic customer support. While placing an order they will show you the delivery in the next 2 days but post placing the order; delivery is delayed by 20 days and ultimately the prepaid order gets cancelled. I am a Platinum member and usually I do 20K shopping yearly from this app. However, post this experience I will use Myntra. They have much better discounts, great delivery and customer support which Nykaa can't afford in there Pink beauty sales.",
+      "rating": 1,
+      "date": "2026-08-16T23:18:51",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-666c0254-6848-4bf7-8e3a-67e139df89ab",
+      "source": "playstore",
+      "text": "no additional discount given as promised",
+      "rating": 3,
+      "date": "2026-08-16T23:05:27",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-ac4e756d-e3c7-423d-9863-6bfb43fd6173",
+      "source": "playstore",
+      "text": "wow nice product very well",
+      "rating": 4,
+      "date": "2026-08-16T22:43:41",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-e7e53d98-d882-4528-a0c9-c910f878e89d",
+      "source": "playstore",
+      "text": "Time say kuch nahi deta hain . help center main call karne k bad work karta hain fir ruk jata hain thik say responsibility nehi leta Hain , maine 8th August ko order Kiya delevery date thi 10th august 12th August kia uske bad 14th August kia aj 16 tarik nahi mila avi tak .mujhko 8- 10 daye say asehi delevery date delay karthi ja raha hain mane online payment kia delevery vi nahi or refund vi nahi . ghatiya app hain yea . 2nd time asa hua mare sath . wrost felling",
+      "rating": 1,
+      "date": "2026-08-16T22:02:18",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-16a1c8cc-6adb-4b80-9be7-198adb9979cc",
+      "source": "playstore",
+      "text": "Good for skin care products ✨️",
+      "rating": 4,
+      "date": "2026-08-16T21:58:36",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-ad6a2045-041d-485b-b180-8565f04dbd6f",
+      "source": "playstore",
+      "text": "don't deliver on time. not loyal to the customers.",
+      "rating": 1,
+      "date": "2026-08-16T21:21:47",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-720252c8-7078-472c-ab27-b2c18de4eba5",
+      "source": "playstore",
+      "text": "nowadays nykaa service has become pathetic...i ordered from there twice and i am yet to receive a full order. on my first order even after 10-15 days my order was not delivered,upon asking they said the products can't be delivered as it has damage. they didn't bother to inform me,and kept on updating that those products will deliver soon.after placing the 2nd order, one of the item was damaged and asked for replacement,they took the damaged product but never replaced and now not refunding..",
+      "rating": 1,
+      "date": "2026-08-16T20:37:27",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-d5484126-aa51-47d8-9ca4-a6dd2f5a15cb",
+      "source": "playstore",
+      "text": "Theif ... Took 400rs mine ..",
+      "rating": 1,
+      "date": "2026-08-16T20:33:46",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-711eb97d-42b4-4b3d-99be-54aa5d5581ba",
+      "source": "playstore",
+      "text": "I was told to get a buy 1 get 1 free but didn't receive it even after i complainted in the customer care,they didn't address my issues it not just about how I didn't get 1 free but about how lenient the customer service was",
+      "rating": 1,
+      "date": "2026-08-16T19:38:24",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-18334ae0-dfbe-4121-ae78-1b5eb13b6215",
+      "source": "playstore",
+      "text": "Very Disappointing Freedom Sale Experience I’m an 8-year-old Nykaa customer. On 15th August, I placed a ₹3,000+ order with a ₹400 benefit. Shockingly, on 16th August, the benefit became ₹500 for the same order value. Customer care refused any compensation. The issue isn’t ₹100—it’s fairness and transparency. Think twice before trusting “big sale” offers!",
+      "rating": 1,
+      "date": "2026-08-16T19:38:00",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-93bfc3ee-3cf6-4efa-91d2-4390d3419f20",
+      "source": "playstore",
+      "text": "nykaa is always best for me🩷",
+      "rating": 5,
+      "date": "2026-08-16T19:37:18",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-e12682bc-de40-4d86-9db1-0b14af5978e4",
+      "source": "playstore",
+      "text": "i seems good and very useful app for skincare thinks and all all things are the 🥀✌🏻",
+      "rating": 4,
+      "date": "2026-08-16T19:29:05",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-3339b4b4-8fa3-4f3a-990f-d5605a946466",
+      "source": "playstore",
+      "text": "Thirdclass app customer service also doesn't reply.",
+      "rating": 1,
+      "date": "2026-08-16T18:55:21",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-c57e26e7-28c8-4184-a4dc-aca74c8f8223",
+      "source": "playstore",
+      "text": "good discount every time when I order",
+      "rating": 4,
+      "date": "2026-08-16T18:38:11",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-223e4a17-1acf-4000-a252-0e14e736dcec",
+      "source": "playstore",
+      "text": "nowadays orders don't getting delivered continuously..idk what happened to nykaa",
+      "rating": 1,
+      "date": "2026-08-16T18:18:31",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-5a37e952-36c1-4cf1-a8d3-566a06afa810",
+      "source": "playstore",
+      "text": "l love this App more than 10 years, easy to access and payments ... Thank you Nykaa ....",
+      "rating": 5,
+      "date": "2026-08-16T17:01:34",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-92ac9225-0052-47b1-8ea6-1db245f6e905",
+      "source": "playstore",
+      "text": "the service is soo rude",
+      "rating": 1,
+      "date": "2026-08-16T16:16:00",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-09465349-608b-4ca9-9f7a-813d053ba4c3",
+      "source": "playstore",
+      "text": "dear friends don't do any order through nyka app they all cheating the customer and taking too much delay for delivery timing and they are not give exact delivery so be careful iam very very worst experience......... my humble request friends don't buy any product at nyka ..because they are telling fake delivery date ...and nobody not proper responding... I was ordered june 27 ,delivery date 2nd July but they are still delivering the product very worst.",
+      "rating": 1,
+      "date": "2026-08-16T15:43:03",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-9256f1ac-1808-4209-9d1f-483b383356dd",
+      "source": "playstore",
+      "text": "uhmmmm could be more better if you stop charging more than mrp",
+      "rating": 2,
+      "date": "2026-08-16T15:14:53",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-954f9064-1d32-4485-9cd2-10b94716e8ca",
+      "source": "playstore",
+      "text": "the customer service is very poor, I had complained for three days that the delivery agent had not attempted the delivery but updating we are not available when we are complaining we are available but no call was made. after three days of repeated calls to the customer service they are saying we can't do anything except taking feedback. This is worst kind of experience. I had marriage in two days now they are saying we would help you get refund as a favour which I am entitled to get.",
+      "rating": 1,
+      "date": "2026-08-16T15:06:07",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-cd59a26f-00eb-470e-a0e3-2eed1f983bae",
+      "source": "playstore",
+      "text": "customer service is poor and ai talking nonsense and rubbish everything same problem its shows products are delivery on the way but not sure ...are mad gys or what please delivery on time I have facing this problem lots of time",
+      "rating": 2,
+      "date": "2026-08-16T14:29:29",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-804513b9-3542-43af-a8a9-f40e44c3dca0",
+      "source": "playstore",
+      "text": "The platform has been degraded to another level. I ordered a product and received detergent bar inside and nykaa is denying any missouts and has denied any replacement or refund. I have been ordering from the platform since 8 years and this has happened yet they are not ready to acknowledge or investigate further.",
+      "rating": 1,
+      "date": "2026-08-16T13:57:01",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-1d5084eb-b0c5-4721-ba30-789e9410bef2",
+      "source": "playstore",
+      "text": "Worst experience ever! I ordered on nykaa now and item gets canceled.Its been 6 days since it got canceled and I still have not received refund. I ordered again, same issue. I call customer care, they say sorry we are working on and they actually do nothing about it. they confirmed everytime don't worry it will be delivered, but no it just canceled at the end. I told them I have the wedding to attend this is important but still not resolved. I order again based on their promise still same probl",
+      "rating": 1,
+      "date": "2026-08-16T13:31:32",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-456bab1f-87a3-475f-ab94-3a57df3ddacd",
+      "source": "playstore",
+      "text": "it's really good",
+      "rating": 5,
+      "date": "2026-08-16T13:12:51",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-93fc61b4-4e92-426c-b37a-f90695c13332",
+      "source": "playstore",
+      "text": "great shopping app",
+      "rating": 4,
+      "date": "2026-08-16T12:54:52",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-35927e9d-0564-48dc-bac5-3c39874634af",
+      "source": "playstore",
+      "text": "worst app, please don't download this app as it is one of the worst app, does only one thing i.e scam scam and scam. always my purcel gets delayed and no action has been taken for this by the owner so one of the worst app I am deleting this app! even after complaining they are not giving my purcel what a worst app ever seen!",
+      "rating": 1,
+      "date": "2026-08-16T12:34:50",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-18584c74-339e-4f2a-86ef-b64fe4955ccc",
+      "source": "playstore",
+      "text": "very very worst app ever they didn't delivered product at given time also they didn't refund. do not use this app",
+      "rating": 1,
+      "date": "2026-08-16T12:21:40",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-1c5c1997-ecfc-47ba-a7f7-765724bacc80",
+      "source": "playstore",
+      "text": "worst experience",
+      "rating": 2,
+      "date": "2026-08-16T11:56:57",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-e1b5e545-a01f-464c-9bd3-f9d2ad17a07b",
+      "source": "playstore",
+      "text": "offer are amazing",
+      "rating": 5,
+      "date": "2026-08-16T11:45:11",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-029ea328-08cb-43dc-b366-e8bb64af56b7",
+      "source": "playstore",
+      "text": "never deliver on time..it takes long time to refund",
+      "rating": 1,
+      "date": "2026-08-16T11:10:13",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-ce112bae-a733-47e5-bf43-942db3833824",
+      "source": "playstore",
+      "text": "worst app nyka app have bug i cannot enter my credit card details cvv please resolve this bug",
+      "rating": 1,
+      "date": "2026-08-16T11:08:16",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-b4bb039b-0e20-4ccd-bf5e-2e949705a4dc",
+      "source": "playstore",
+      "text": "I hd alwys loved thr services bt this tym I jst hd vry bad experience. I hv ordered 6 prdcts frm their freedom sale & i only recvd 3. I raised query & their representatives assured of delivering my missing prdcts I jst hv to upload d replacement of d prdcts tht I hv recieved & othr missing prdcts matter will be solved frm their side. I jst did & nxt day d pickup person picked d 3 prdcts. now I received a call that the 3 missing prdcts can't be delivered as it is out of stock.",
+      "rating": 2,
+      "date": "2026-08-16T11:07:37",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-8df9f66f-f49a-4b61-88bd-4ff74ff22183",
+      "source": "playstore",
+      "text": "if there would be a option of giving 0 star I would tend to go for it. This app is a fraud refund are not initiated immediately they will kept saying rubbish if you prepaid the order it will be a loss of money forever cause they will nnever gave refund do not. guy from this app guys bewaree!!! I am facing a issue regards money neither I get my order nor money",
+      "rating": 1,
+      "date": "2026-08-16T10:57:41",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-3f6386ef-049b-4603-b3f4-92ee7d6f82f2",
+      "source": "playstore",
+      "text": "worst delivery experience",
+      "rating": 1,
+      "date": "2026-08-16T10:55:43",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-d615e7e8-18bb-48f9-871e-7914464ccbb5",
+      "source": "playstore",
+      "text": "when I order in the app why product is not getting in 2 hours",
+      "rating": 3,
+      "date": "2026-08-16T10:37:47",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-a2740a22-3438-41ea-958d-976ba9c3fa5d",
+      "source": "playstore",
+      "text": "worst app ever. Very bad delivery services, Useless customer care support. Please don't order from nykaa. Find other E-commerce platforms.",
+      "rating": 1,
+      "date": "2026-08-16T10:31:04",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-7b6cc72e-0759-4be1-b5f5-3b35f1c7ef89",
+      "source": "playstore",
+      "text": "iam impressed 💯",
+      "rating": 5,
+      "date": "2026-08-16T10:30:02",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-d9f4ce1c-9da0-478e-a99f-83f83525b419",
+      "source": "playstore",
+      "text": "nice app qnd have nice offers👍",
+      "rating": 5,
+      "date": "2026-08-16T09:32:15",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-cd85da6a-ec81-481d-a40f-4192a6c688fb",
+      "source": "playstore",
+      "text": "My first order with Nykaa has been a very disappointing experience. I placed my order on the 19th and received the package on the 25th, only to find that one of the products was missing from the box. I immediately raised a complaint and uploaded all the required details and proof, but I have still not received any proper assistance or resolution from a Nyka ’s customer support. For such a well-known beauty platform, this level of customer service is extremely disappointing. This experience has",
+      "rating": 1,
+      "date": "2026-08-16T09:29:37",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-564db89e-a68d-41ef-b97f-dae00f562812",
+      "source": "playstore",
+      "text": "all products are good",
+      "rating": 5,
+      "date": "2026-08-16T08:08:16",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-2efa246b-52eb-4244-a135-be58c0d616c9",
+      "source": "playstore",
+      "text": "worst app no help support recieved wrong order charged extra money no support from anything uninstalling this stupid app",
+      "rating": 1,
+      "date": "2026-08-16T05:17:19",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-515dce9d-d5e8-4488-a355-d696a400be40",
+      "source": "playstore",
+      "text": "not available in my country? overall, it is differently a great app, just not so good I'm not able to buy from it.",
+      "rating": 3,
+      "date": "2026-08-16T04:39:57",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-da14e850-eb11-4476-9f16-8f8f8a93217c",
+      "source": "playstore",
+      "text": "product hamesha original hote aur discount bhi milte hai. best aap for beauty and skincare",
+      "rating": 5,
+      "date": "2026-08-16T02:38:20",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-e0ac9a3a-8d30-43ea-8ec1-eaa4da31f14b",
+      "source": "playstore",
+      "text": "amazing product app",
+      "rating": 4,
+      "date": "2026-08-15T23:30:10",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-d90bc15e-bd29-4bf8-9c12-22744f32fa2e",
+      "source": "playstore",
+      "text": "Unnecessary emails",
+      "rating": 1,
+      "date": "2026-08-15T23:10:54",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-7e837cfc-3505-47af-9411-f87cf5f03fb8",
+      "source": "playstore",
+      "text": "One of the worst apps I have ever used. Earlier, I ordered via Cash on Delivery and that reached successfully. But when I paid online via UPI for the first time, Nykaa showed their true face. The order was never delivered to me, and my refund has not been credited back to my account yet. Very unprofessional. This is the worst app in India. People, don't trust this app!",
+      "rating": 1,
+      "date": "2026-08-15T23:05:08",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-842b458a-6589-42bc-8e46-e19741e3139e",
+      "source": "playstore",
+      "text": "always good products and timely delivered thanku nykaa",
+      "rating": 5,
+      "date": "2026-08-15T22:44:06",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-4a1be9ce-4230-45c5-8551-5032bd5e9a11",
+      "source": "playstore",
+      "text": "all most product very very good 😊",
+      "rating": 5,
+      "date": "2026-08-15T22:30:58",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-a96506d9-1783-43b1-85ca-68d0ff09d674",
+      "source": "playstore",
+      "text": "naykaa is the best app guyss😭😋",
+      "rating": 5,
+      "date": "2026-08-15T22:09:51",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-56633950-f41e-462e-919d-5a8449abf713",
+      "source": "playstore",
+      "text": "affordable products .wish more products in low budget. find this app very affordable and helpful thankyou for offering us a offer like this 😭🫠",
+      "rating": 4,
+      "date": "2026-08-15T22:05:02",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-c53bc098-4cc9-4da5-ba37-700afcfcf002",
+      "source": "playstore",
+      "text": "Worst experience ever. They initially show that the order will be delivered within 2 hours, only to delay it later with one excuse after another. It’s extremely frustrating and misleading. The customer support representatives are equally disappointing. They seem poorly trained and mostly repeat scripted apologies without actually resolving the issue. If timely delivery and reliable customer support matter to you, don’t fall for their delivery promises. A very disappointing experience Nyka..",
+      "rating": 1,
+      "date": "2026-08-15T21:30:58",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-9d636813-7e60-4e63-8488-958353d80588",
+      "source": "playstore",
+      "text": "best way to shoping all branded cosmetics nykaa offer discount price compare to others. Happy customer.",
+      "rating": 5,
+      "date": "2026-08-15T21:26:25",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-85232581-1f08-4208-9a65-598c5356f0f0",
+      "source": "playstore",
+      "text": "I had a terrible experience with Nykaa during their 'Hot Pink Sale' after ordering products ₹2,100.Everything arrived damaged,crushed and with broken seals.The delivery person refused to take the package back and visiting an offline store was useless since they took no responsibility for online orders.Customer care was unresponsive unreachable after 10 PM and provided only false assurances without any refund or replacement.Regardless of attractive sale discounts, I will never order from Nykaa.",
+      "rating": 1,
+      "date": "2026-08-15T21:23:17",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-7026cf4b-f909-4b18-98b6-eff195fc6b71",
+      "source": "playstore",
+      "text": "The worst app I ever see, don't buy anything from this I ordered some products and I prepayed the cash.iam order in the date July 31 and today is Aug 15 .They don't deliver my order they changing the delivery date .The most better app for shopping is amazon, flipkart etc .They don't cheat",
+      "rating": 1,
+      "date": "2026-08-15T21:15:54",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-4d437c1e-904d-4386-abea-de729e71cd83",
+      "source": "playstore",
+      "text": "delivery too late ...",
+      "rating": 1,
+      "date": "2026-08-15T20:38:27",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-67afcbff-a815-4c79-b076-21da58003875",
+      "source": "playstore",
+      "text": "very good service",
+      "rating": 1,
+      "date": "2026-08-15T20:34:39",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-2c542a66-46b5-42ae-ba0a-e076a0c5d71c",
+      "source": "playstore",
+      "text": "worst , my first experience becomes my last experience",
+      "rating": 1,
+      "date": "2026-08-15T19:42:45",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-be0f5ef8-ced2-4898-abcb-4c4fb1464a28",
+      "source": "playstore",
+      "text": "all gud but cod not available all the time that's not okey😏",
+      "rating": 2,
+      "date": "2026-08-15T18:51:09",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-5c8bd504-adcb-4c79-8f00-ce0b89c5ece3",
+      "source": "playstore",
+      "text": "I don't know why but I am not getting COD option from past few days do solve the issue",
+      "rating": 4,
+      "date": "2026-08-15T18:46:41",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-d443af0d-72ad-4f25-a7be-446df5e738cb",
+      "source": "playstore",
+      "text": "It's a nice app",
+      "rating": 5,
+      "date": "2026-08-15T18:35:11",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-1e5e659f-7eaa-4af9-9d47-2a455b258868",
+      "source": "playstore",
+      "text": "very good experience",
+      "rating": 5,
+      "date": "2026-08-15T18:30:59",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-ed819398-3b46-4e13-b566-e0737efb129f",
+      "source": "playstore",
+      "text": "nice App and offers",
+      "rating": 5,
+      "date": "2026-08-15T18:03:34",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-4033d976-a011-4f8f-83a3-67832e943595",
+      "source": "playstore",
+      "text": "It's Really Good Online Shopping App",
+      "rating": 5,
+      "date": "2026-08-15T17:27:00",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-48404036-1c87-42b0-8f98-6d58f43af992",
+      "source": "playstore",
+      "text": "I placed my order , these people pushed the delivery date by God knows how many times and in the end they said that the delivery failed cuz multiple attempts were made for the delivery but i failed to respond",
+      "rating": 1,
+      "date": "2026-08-15T17:13:32",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-26fe219d-fa24-4cae-a677-ad5442d44101",
+      "source": "playstore",
+      "text": "Good quality Products....",
+      "rating": 5,
+      "date": "2026-08-15T17:11:03",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-a57a48e1-c2ed-4f76-a297-dfabf83f44a0",
+      "source": "playstore",
+      "text": "Worst delivery experience and after a week when i asked about my order through customer care she said product is not going to deliver then why u are manipulating us by saying delivery is failed and we try to reach u after 24-48 hrs we guys are fool awaiting that our order will delivered soon and when asked about refund she said wait for another week for that...very pathetic....I suggest everyone dont rely on nykaa....disgusting",
+      "rating": 1,
+      "date": "2026-08-15T16:52:57",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-7df8e632-1852-49aa-88f9-11504e8419e9",
+      "source": "playstore",
+      "text": "I had a bad experience, I don't want to use this app anymore",
+      "rating": 1,
+      "date": "2026-08-15T16:33:39",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-e52deda2-0f92-47a6-a209-730ce104500d",
+      "source": "playstore",
+      "text": "Nyaka online shopping is best, I love the product along with free gift🎁 🥰",
+      "rating": 5,
+      "date": "2026-08-15T15:38:31",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-8c1df3a6-2dbc-4a67-9f1a-e74e7d05a137",
+      "source": "playstore",
+      "text": "some products are priced too high ... especially skin foundation shades description incomplete... please allow mobile screen testing tools... its very helpful for choosing perfect skin shade..",
+      "rating": 4,
+      "date": "2026-08-15T15:34:39",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-cb1726df-138d-4763-8252-764e2ed55b94",
+      "source": "playstore",
+      "text": "I am extremely disappointed with the way my order has been handled. I placed this order specifically as a gift, and the promised delivery date was 9 August. However, you have now changed the delivery date to 17 August and then to 27 August. This is completely irresponsible and highly unprofessional. If you cannot deliver an order within the committed timeline, you should not mention a specific delivery date at the time of placing the order.I needed this order for a specific occasion.",
+      "rating": 2,
+      "date": "2026-08-15T15:14:40",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-d91205fb-649a-483c-8329-4e369bb466f5",
+      "source": "playstore",
+      "text": "nice app bohot discount milta hai isme",
+      "rating": 5,
+      "date": "2026-08-15T14:42:00",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-b509b54f-bc6b-4871-80e3-c279254e1166",
+      "source": "playstore",
+      "text": "Nykaa is best online shopping, i personally love the app, it's convenient, easy to use, gives discounts. very nice and amazing app",
+      "rating": 5,
+      "date": "2026-08-15T14:07:22",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-71db0b46-9f99-4801-8a31-ccb4fbcb663f",
+      "source": "playstore",
+      "text": "fast order pleasing",
+      "rating": 5,
+      "date": "2026-08-15T13:44:57",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-c92e45bb-82a4-40cf-91d0-9cd6288743c5",
+      "source": "playstore",
+      "text": "nice beauty product on this app iam happy to buy products",
+      "rating": 5,
+      "date": "2026-08-15T13:29:32",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-07d902ea-d7be-4ce3-9762-a6847f8c7be6",
+      "source": "playstore",
+      "text": "Disgusting customer service. They don't even listen to customers.",
+      "rating": 1,
+      "date": "2026-08-15T12:50:22",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-ef00bf52-e2f8-4dcf-982b-2b5090c6d2f7",
+      "source": "playstore",
+      "text": "easy to make order and payment👌",
+      "rating": 4,
+      "date": "2026-08-15T12:14:12",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-d9f3d497-e71a-4a38-99f8-6cbf94015d09",
+      "source": "playstore",
+      "text": "nice but delay deliveries but real products so no issues",
+      "rating": 4,
+      "date": "2026-08-15T11:55:17",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-8b2faa15-3101-4e53-b0a6-56b7408235bc",
+      "source": "playstore",
+      "text": "Bhut hi worst experience raha h mera nyakaa ke sath bhut hi bakbas app h isse better to other tira work krta h. This was my first and last shopping from this app. and inki delivery service bhi bhut ghatiya h. Mane 2 weeks se return ma product dala h bt kisi ka koi response hi nhi h nd even ya log bar bar return cancel kr raha h. sabse jyda ghatiya app h ya. please agr koi yaha se shopping kr raha h to mt kre inki service bhut bakbas h or ulta sidha expire product de deta h ya nd retrn bi ni krte",
+      "rating": 1,
+      "date": "2026-08-15T11:40:08",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-80010a93-b7f3-49f2-9cbc-0f67d8a53ca3",
+      "source": "playstore",
+      "text": "I am very disappointed. I have ordered 7 products but only received one when I paid the full price.don't trust Nykaa.😞",
+      "rating": 1,
+      "date": "2026-08-15T11:02:51",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-ef20d0eb-0795-46d9-a11d-f7d3b7ee1f4e",
+      "source": "playstore",
+      "text": "please bring in lorial pairs no haircut cream stock",
+      "rating": 4,
+      "date": "2026-08-15T10:28:36",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-a1e7ef9f-1374-4d1e-89d3-8c6774b6c119",
+      "source": "playstore",
+      "text": "I had the worst experience.",
+      "rating": 1,
+      "date": "2026-08-15T09:18:01",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-bf8cd92b-3ad7-490a-83e3-188e7a09a3f6",
+      "source": "playstore",
+      "text": "very bad experience. till I didn't get my product",
+      "rating": 1,
+      "date": "2026-08-15T08:10:41",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-34a272ec-3b97-4d06-ae08-87604b8b9d37",
+      "source": "playstore",
+      "text": "please make affordable",
+      "rating": 5,
+      "date": "2026-08-15T03:09:07",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-0dddbaa4-2978-4345-b705-f355e77f5c72",
+      "source": "playstore",
+      "text": "the offer is good what is the quality of of products",
+      "rating": 5,
+      "date": "2026-08-15T02:27:32",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-c6f6aa90-fb62-4780-8eb7-209b68ee8c3e",
+      "source": "playstore",
+      "text": "wonderful product",
+      "rating": 5,
+      "date": "2026-08-15T01:01:39",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-2e226c1a-b3d5-4cf7-8343-cc2a01aa95fb",
+      "source": "playstore",
+      "text": "ghatiya refund amount nai deta ye aap dont believe",
+      "rating": 1,
+      "date": "2026-08-14T23:47:02",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-47e70a0f-1b1e-45ee-9a35-690c341e88d2",
+      "source": "playstore",
+      "text": "I am very disappointed with Nykaa also, I did not expect this from Nykaa, since 10th aug my parcel is getting out of delivery message daily but today is 14th aug and till date I have not received any parcel and today Nykaa customer support is saying that they tried to deliver the but I have not received any call till date, and the number of the delivery person in the out of delivery message shows it as of .",
+      "rating": 1,
+      "date": "2026-08-14T23:08:30",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-b5dd7fe7-0669-49d5-93b5-700a0acff6c1",
+      "source": "playstore",
+      "text": "bahut achcha discount milta hai aur original product bhi milte Hain",
+      "rating": 5,
+      "date": "2026-08-14T22:56:12",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-a75ddf05-3e74-40c5-8943-0b64eb514e3b",
+      "source": "playstore",
+      "text": "I had ordered 4 products, 3 should have been delivered by 2hours and 1 by Sunday. I still didn't receive any of the products yet, please do the needful.",
+      "rating": 1,
+      "date": "2026-08-14T22:52:03",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-c3f2f3cc-fed5-4247-8feb-67f6cf95a28f",
+      "source": "playstore",
+      "text": "Now a days app are not opening in one go it is taking too kuch time",
+      "rating": 1,
+      "date": "2026-08-14T22:40:34",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-6491db3c-cf55-49a1-8de5-f3733a7b3eba",
+      "source": "playstore",
+      "text": "My experience with my last order was extremely disappointing. they kept pushing the delivery date again and again and eventually it got cancelled after almost 10-15 and now it's been almost a month and, I still haven't received my refund or my products.",
+      "rating": 1,
+      "date": "2026-08-14T22:37:57",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-6df25965-ec85-44a1-b2a8-91e3b4184b79",
+      "source": "playstore",
+      "text": "Extremely disappointing and unacceptable. My order was delivered in 2 shipments, and one shipment was supposed to contain 21 items but had only 3 products inside, including 1 free gift. 19 paid products were missing! A huge waste of money, time and effort. Customer service has been extremely unhelpful and has not provided a proper resolution. Nykaa seriously needs to improve its packing and customer support. This is completely a fraud. Want immediate action on this.",
+      "rating": 1,
+      "date": "2026-08-14T22:01:10",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-b7947384-6337-446e-bd28-6c24180a65e6",
+      "source": "playstore",
+      "text": "very very bad experience from this useless app ..",
+      "rating": 1,
+      "date": "2026-08-14T21:54:51",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-af19dfb9-563a-4cbc-9117-7ba4705a9666",
+      "source": "playstore",
+      "text": "good experience",
+      "rating": 5,
+      "date": "2026-08-14T20:48:01",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-755505e7-705a-493a-ae1f-c6abefec04e9",
+      "source": "playstore",
+      "text": "why every week updating the app? can't you hire better developers. updates must be none mandatory. or else automatically updare should happen.",
+      "rating": 2,
+      "date": "2026-08-14T20:15:45",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-c50e1446-07f3-4bd7-96bc-b4ee1c56c9e5",
+      "source": "playstore",
+      "text": "a bit slow , api needs to be quicker",
+      "rating": 5,
+      "date": "2026-08-14T19:42:40",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-02d74053-1e3b-490a-950f-b7460cdb7606",
+      "source": "playstore",
+      "text": "totally disappointed close to expire product deta h paise full leta h maine glycolic acid ordinary ka mangaya tha ek bhi paise ka discount nhi tha phir bhi kuch hi month mai expire ho jaye aisa product snd kiya gya mujhe",
+      "rating": 1,
+      "date": "2026-08-14T19:33:48",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-b4509236-a033-4472-8243-88bf2999e878",
+      "source": "playstore",
+      "text": "very nice but some bugs disturbs me .nd need a nice 199 budget things for students",
+      "rating": 5,
+      "date": "2026-08-14T19:14:16",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-370ad99a-f28c-43cf-83bc-fb4de8015b7d",
+      "source": "playstore",
+      "text": "app is okay but their delivery partner is 3rd class like delhivery",
+      "rating": 1,
+      "date": "2026-08-14T19:07:41",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-e42ad55e-f915-428b-a5dc-7b8d64ed0bab",
+      "source": "playstore",
+      "text": "Return and refund policy not customer friendly. I am a regular and loyal customer I always choose nykaa. Another shopping platform offers less price of the product but I always do shopping only from nykaa but the return and refund process is not good. Not recommended.",
+      "rating": 1,
+      "date": "2026-08-14T18:59:11",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-4c80fe52-f938-4d2c-b9ce-74f1ce0d78c1",
+      "source": "playstore",
+      "text": "very bad service",
+      "rating": 1,
+      "date": "2026-08-14T18:49:49",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-2d7ff2b2-a373-4fa8-bdca-83f0e2ac1488",
+      "source": "playstore",
+      "text": "THIS is a worst app. I paid for advance but they delayed & delayed my order. Customer service also very very bad. I never use this app Again. Mayb Their all good reviews are paid.",
+      "rating": 1,
+      "date": "2026-08-14T18:32:59",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-0a0fc830-233e-45f1-a428-5772eda52c2c",
+      "source": "playstore",
+      "text": "don't believe nykaa. they give wrong product and they don't even take the return. they give soem nonsense reason and reject the return. they r doing fraud.",
+      "rating": 1,
+      "date": "2026-08-14T17:19:01",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-82260b15-f479-45c5-a421-c45e26bd92f7",
+      "source": "playstore",
+      "text": "Nykaa now is a way to fool people because the delivery is shown in 120 minutes while the delivery does not happen for 2 days...",
+      "rating": 1,
+      "date": "2026-08-14T16:28:42",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-83e58662-bb7a-4e96-9693-743fa6206c4f",
+      "source": "playstore",
+      "text": "this is very excellent app",
+      "rating": 5,
+      "date": "2026-08-14T16:05:46",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-bfdda748-8f1d-42d8-a043-47228fcd394f",
+      "source": "playstore",
+      "text": "Whenever you offer a free gift or launch an offer, please make sure the gift is fresh, original, and actually usable. Many times, the free gifts I receive are either damaged or of no use. If you are giving something to your customers for free, please give it with genuine care and good quality. There is no point in giving something just for the sake of showing that you have offered a free gift. Customers deserve fresh and useful products, not damaged or unusable items.",
+      "rating": 1,
+      "date": "2026-08-14T15:08:07",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-16846e35-fd0a-4570-b920-9f92c77f1f68",
+      "source": "playstore",
+      "text": "best app to shoping",
+      "rating": 5,
+      "date": "2026-08-14T15:05:30",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-3487638f-f1cd-45c6-bce2-a1085ee732c9",
+      "source": "playstore",
+      "text": "very bad & worst app",
+      "rating": 1,
+      "date": "2026-08-14T14:09:58",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-78dc4773-0e2e-4f1f-9b28-3cbabf4cac19",
+      "source": "playstore",
+      "text": "nykaa is best platform for shopping and my keyboard doesn't have words for it",
+      "rating": 5,
+      "date": "2026-08-14T13:55:48",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-99d614f2-a9e4-41d5-85f3-4d812e358db2",
+      "source": "playstore",
+      "text": "product best raheta hai 👍👍",
+      "rating": 5,
+      "date": "2026-08-14T13:52:34",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-4475f642-574d-4a3f-939f-8bfb0bca8774",
+      "source": "playstore",
+      "text": "thank you nykaa for give me best product",
+      "rating": 4,
+      "date": "2026-08-14T13:31:11",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-9383cd29-9aa7-42e8-9a58-99ba91064209",
+      "source": "playstore",
+      "text": "I'm the platinum member and still not once but multiple times i have faced problem regarding my order delivery and refund and the worst part about Nykaa is they have the worst customer service if they are treating there platinum member like this idk how they're treating their new customer",
+      "rating": 1,
+      "date": "2026-08-14T13:23:06",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-2c69a62e-d2cd-4e8f-81b8-989bcedff793",
+      "source": "playstore",
+      "text": "I had a very bad experience with nyka fashion I have ordered things which was delivered on time but I received one product in not so good condition which I want to return but no accountability at all from past 20 days They just make excuses unnecessarily . not good return policy",
+      "rating": 1,
+      "date": "2026-08-14T12:45:31",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-176fea41-b827-482a-8ee0-fa53f90e5c01",
+      "source": "playstore",
+      "text": "it was bad experience with nyka. every one don't buy any product through this app. this is fraudulent. I ordered almost order of 200rs product but I received wrong product worth rs 250. I repeatedly contacted their support team only promised to return the product.after 20 days now they are sending massage that from our side we sent correct product and we cannot replace. they are really fraud. 😡😡🤬",
+      "rating": 1,
+      "date": "2026-08-14T12:23:32",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-a6c4367b-b5fa-4ed0-9e37-067717379366",
+      "source": "playstore",
+      "text": "Nykaa has one of the worst customer service.I have seen so far.... They don't deliver the product when ordered multiple products after sending photos and video of the opening package on email still they don't even give replace the product,your request is never approved..... you need to look into this .... Returing and Replacing product is absolutely a big task .......",
+      "rating": 1,
+      "date": "2026-08-14T11:50:03",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-f9d799aa-225f-4e6a-b4fe-f619bf8cec8e",
+      "source": "playstore",
+      "text": "worst app ever, receives damaged products, delivery get cancelled, products are not worth buying, I have a worst experience since 2 yrs buying from nykaa.. I really hate this app. I won't give a single star to this app but to convey my reviews I have to select a star... currently I had around 3k of loss and no one is ready to help us from customer care. I'll honestly recommend everyone not to buy anything from this worst app",
+      "rating": 1,
+      "date": "2026-08-14T11:27:47",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-9d0d0259-10e9-49e3-846b-d53784ae69b0",
+      "source": "playstore",
+      "text": "it's very useful app 😃!!",
+      "rating": 5,
+      "date": "2026-08-14T10:23:16",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-3efc6e33-a5b9-4d5b-90b5-b318d4b65e11",
+      "source": "playstore",
+      "text": "service acha nehi ye app achha nehi hai",
+      "rating": 1,
+      "date": "2026-08-14T09:55:16",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-587f38df-d702-4d38-a956-ec96db896eed",
+      "source": "playstore",
+      "text": "service is absolutely terrible never buy anything from them. I had ordered leggings for an 11-12 years old but they delivered one for a 6-7 year old. there was another product that is showing as delivered to resident without even being delivered . their service is truly pathetic. I will never buy any product from here and you shouldn't either.",
+      "rating": 1,
+      "date": "2026-08-14T09:43:52",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-3fb606a9-5781-470e-9be3-492ff42c9475",
+      "source": "playstore",
+      "text": "not show more offers and coupons.",
+      "rating": 2,
+      "date": "2026-08-14T09:37:39",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-defac5c3-c894-47df-9220-1c9cd0c648b9",
+      "source": "playstore",
+      "text": "it's product is the best",
+      "rating": 5,
+      "date": "2026-08-14T09:23:11",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-1c325cf8-a3b2-49b4-8a19-653a48d2a484",
+      "source": "playstore",
+      "text": "I always trust Nykaa because their products are always good in quality and reliable.\"",
+      "rating": 5,
+      "date": "2026-08-14T08:55:19",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-b30135f6-48a3-42c4-9cb7-98e46a037c45",
+      "source": "playstore",
+      "text": "wow this product quality is best i like this app",
+      "rating": 5,
+      "date": "2026-08-14T08:32:54",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-b83ebdb1-eda8-44a4-b46d-41358428789e",
+      "source": "playstore",
+      "text": "product aa jaye fir review denge",
+      "rating": 5,
+      "date": "2026-08-14T07:06:04",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-839fad32-e592-4a16-8c8c-537dffe6c21e",
+      "source": "playstore",
+      "text": "fast and safe delivery good discount free products big size feels value",
+      "rating": 5,
+      "date": "2026-08-14T04:08:24",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-70100555-b58c-4e83-8c3e-215438dfc9e9",
+      "source": "playstore",
+      "text": "Nykaa should give more discount and offers 🫴",
+      "rating": 2,
+      "date": "2026-08-14T00:54:53",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-b3580a7e-6f3e-4875-b859-4552bc9b662b",
+      "source": "playstore",
+      "text": "I placed an order on Nykaa, but even after 3–4 days past the expected delivery date, my product has still not been delivered. Whenever I contact the chat support, they do not provide any proper or useful update. Every day, the Nykaa app simply shows that the product will be delivered “today” or “tomorrow,” but there is no actual progress. The customer support service has been extremely disappointing. Even cancelling the order was unnecessarily difficult. Overall, I am very disappointed",
+      "rating": 1,
+      "date": "2026-08-13T23:30:37",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-537a1086-7f18-4e89-8c90-42946adb239f",
+      "source": "playstore",
+      "text": "product delivery is delayed without any reason and customer service centre is not resolving it still the issue is pending and didn't receive any further update sorry to say but not happy with the service",
+      "rating": 1,
+      "date": "2026-08-13T23:15:20",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-e9046b2d-bb79-4294-8d15-b5912926718a",
+      "source": "playstore",
+      "text": "nice received order 😀",
+      "rating": 5,
+      "date": "2026-08-13T22:27:46",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-85a0c2a8-2ca0-402b-bc33-fc44e1352b59",
+      "source": "playstore",
+      "text": "agar order k sath koi issue hai toh nyka ki side se kuch quick action nahi hota prepaid order deliver karne main inko ek bar call miss hui toh 10 din se na order aaya hai nh cancel hua hai nh koi response bas call aate hai company se today tomorrow after tomorrow that's it nyka se ye expect nahi thaaa",
+      "rating": 1,
+      "date": "2026-08-13T22:12:55",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-54771edd-67b6-4c70-805f-9781e3c1cb10",
+      "source": "playstore",
+      "text": "App is working fine and good but the service provided by nykaa is worst ever don't buy it from here you will get your essentials in less amount in different platform and other platform provide faster delivery than this ....and their customer service is another level of scam.",
+      "rating": 1,
+      "date": "2026-08-13T21:50:40",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
+    },
+    {
+      "id": "playstore-nykaa-caf68cd9-3359-45d9-bcc7-9381dbc9fe5e",
+      "source": "playstore",
+      "text": "such a bad experience my 2nd order from them didn’t deliverd at all now it's showing to be delivered at 15 aug tell me which delivery guy is working on independence day such a fraud you guys are!!!",
+      "rating": 1,
+      "date": "2026-08-13T20:54:50",
+      "url": null,
+      "lang": "en",
+      "meta": {
+        "app_name": "nykaa"
+      }
     }
   ]
 }

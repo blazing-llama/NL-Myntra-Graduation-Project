@@ -65,16 +65,16 @@ def classify(content: str, timeout: int = 30) -> dict:
         return {"is_relevant": None, "confidence": None, "error": f"json_parse_failed: {e}", "raw": raw[:200]}
 
 
-def run_app(app_name: str) -> dict:
-    clean_path = PROCESSED_DIR / f"clean_{app_name}.json"
+def run_app(name: str) -> dict:
+    clean_path = PROCESSED_DIR / f"clean_{name}.json"
     clean = json.loads(clean_path.read_text(encoding="utf-8"))
 
     results = []
     counts = {"total": 0, "relevant": 0, "not_relevant": 0, "classification_failed": 0}
 
-    for review in clean["reviews"]:
+    for item in clean["items"]:
         counts["total"] += 1
-        result = classify(review["content"])
+        result = classify(item["text"])
         if result["is_relevant"] is None:
             counts["classification_failed"] += 1
         elif result["is_relevant"]:
@@ -84,13 +84,13 @@ def run_app(app_name: str) -> dict:
 
         results.append(
             {
-                "evidence_id": review["evidence_id"],
-                "content": review["content"],
+                "id": item["id"],
+                "text": item["text"],
                 **result,
             }
         )
 
-    return {"app_name": app_name, "counts": counts, "results": results}
+    return {"name": name, "counts": counts, "results": results}
 
 
 def main() -> None:
@@ -98,17 +98,17 @@ def main() -> None:
     for clean_file in sorted(PROCESSED_DIR.glob("clean_*.json")):
         if clean_file.name == "clean_summary.json":
             continue
-        app_name = clean_file.stem.replace("clean_", "")
-        print(f"[{app_name}] classifying {json.loads(clean_file.read_text(encoding='utf-8'))['counts']['output']} items via {MODEL} ...")
+        name = clean_file.stem.replace("clean_", "")
+        print(f"[{name}] classifying {json.loads(clean_file.read_text(encoding='utf-8'))['counts']['output']} items via {MODEL} ...")
         start = time.time()
-        result = run_app(app_name)
+        result = run_app(name)
         elapsed = time.time() - start
-        summary[app_name] = result["counts"]
-        print(f"[{app_name}] {result['counts']}  ({elapsed:.0f}s)")
+        summary[name] = result["counts"]
+        print(f"[{name}] {result['counts']}  ({elapsed:.0f}s)")
 
-        out_path = PROCESSED_DIR / f"relevance_{app_name}.json"
+        out_path = PROCESSED_DIR / f"relevance_{name}.json"
         out_path.write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8")
-        print(f"[{app_name}] written to {out_path}")
+        print(f"[{name}] written to {out_path}")
 
     summary_path = PROCESSED_DIR / "relevance_summary.json"
     summary_path.write_text(json.dumps(summary, indent=2), encoding="utf-8")

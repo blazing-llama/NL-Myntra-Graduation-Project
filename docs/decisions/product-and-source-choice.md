@@ -24,7 +24,9 @@
 
 All three sit at or below the low end of v2's own pre-registered estimate (1–3% signal rate, ≈0.8–3.2% 95% CI on 500 reviews for the winning app). None of the three apps come close.
 
-The relevant items themselves are thin and mostly adjacent rather than sharply on-target — e.g. a wishlist-capacity complaint (AJIO), two fit/size and quality-doubt mentions (Myntra), a quality-uncertainty-at-purchase comment (Nykaa) — not a rich vein of pre-purchase hesitation language.
+The relevant items themselves are thin and mostly adjacent rather than sharply on-target — e.g. a wishlist-capacity complaint (`playstore-ajio-ef906c03-...`), two fit/size and quality-doubt mentions (`playstore-myntra-401b801e-...`, `playstore-myntra-29ce8004-...`), a quality-uncertainty-at-purchase comment (`playstore-nykaa-0dddbaa4-...`) — not a rich vein of pre-purchase hesitation language.
+
+*(ids shown in the unified schema — see `docs/decisions/unified-data-schema.md` — after the 2026-08-19 migration; underlying evidence and counts unchanged.)*
 
 ## Gate check (v2 Part A.2)
 
