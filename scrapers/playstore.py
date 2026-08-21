@@ -51,18 +51,28 @@ def fetch_reviews(package_name: str, target_count: int) -> list[dict]:
     return collected[:target_count]
 
 
-def serialize(entry: dict) -> dict:
+def serialize(entry: dict, app_name: str, package_id: str) -> dict:
+    """Unified schema — see docs/decisions/unified-data-schema.md."""
+    review_id = entry.get("reviewId")
     return {
-        "review_id": entry.get("reviewId"),
-        "user_name": entry.get("userName"),
-        "content": entry.get("content"),
-        "score": entry.get("score"),
-        "thumbs_up_count": entry.get("thumbsUpCount"),
-        "review_created_version": entry.get("reviewCreatedVersion"),
-        "at": entry.get("at").isoformat() if entry.get("at") else None,
-        "reply_content": entry.get("replyContent"),
-        "reply_at": entry.get("repliedAt").isoformat() if entry.get("repliedAt") else None,
-        "app_version": entry.get("appVersion"),
+        "id": f"playstore-{app_name}-{review_id}",
+        "source": "playstore",
+        "text": entry.get("content"),
+        "rating": entry.get("score"),
+        "date": entry.get("at").isoformat() if entry.get("at") else None,
+        "url": f"https://play.google.com/store/apps/details?id={package_id}&reviewId={review_id}"
+        if review_id
+        else None,
+        "lang": None,  # filled by pipeline/clean.py
+        "meta": {
+            "app_name": app_name,
+            "user_name": entry.get("userName"),
+            "thumbs_up_count": entry.get("thumbsUpCount"),
+            "review_created_version": entry.get("reviewCreatedVersion"),
+            "app_version": entry.get("appVersion"),
+            "reply_content": entry.get("replyContent"),
+            "reply_at": entry.get("repliedAt").isoformat() if entry.get("repliedAt") else None,
+        },
     }
 
 
@@ -81,7 +91,7 @@ def main() -> None:
             "fetched_at": run_at,
             "requested_count": REVIEWS_PER_APP,
             "actual_count": len(raw_reviews),
-            "reviews": [serialize(r) for r in raw_reviews],
+            "reviews": [serialize(r, app_name, package_id) for r in raw_reviews],
         }
 
         out_path = RAW_DIR / f"playstore_{app_name}.json"

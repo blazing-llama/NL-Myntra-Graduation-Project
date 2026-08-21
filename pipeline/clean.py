@@ -1,5 +1,8 @@
 """
-Clean raw scraped reviews: dedupe, language filter, PII scrub, length filter.
+Clean raw scraped/collected items: dedupe, language filter, PII scrub,
+length filter. Source-agnostic — operates on the unified schema
+(docs/decisions/unified-data-schema.md), so it works the same way for
+Play Store JSON and hand-curated Reddit JSONL.
 
 Frozen chain per v2 Part D.1: raw/ -> clean/ -> coded/ -> analysis/ -> deck/.
 No manual edits to outputs, ever — if a number looks wrong, fix this script
@@ -8,9 +11,12 @@ and re-run.
 Usage:
     .venv/Scripts/python.exe pipeline/clean.py
 
-Reads data/raw/playstore_<app>.json, writes data/processed/clean_<app>.json.
+Reads every data/raw/*.json (one object with an "items"/"reviews" list)
+and data/raw/*.jsonl (one unified-schema record per line), writes
+data/processed/clean_<name>.json per input file, keyed by source.
 """
 
+import hashlib
 import json
 import re
 from pathlib import Path
@@ -48,12 +54,36 @@ def detect_lang(text: str) -> str | None:
         return None
 
 
-def clean_app(app_name: str) -> dict:
-    raw_path = RAW_DIR / f"playstore_{app_name}.json"
-    raw = json.loads(raw_path.read_text(encoding="utf-8"))
+def ensure_id(item: dict) -> str:
+    """Stable per-item id. Hand-curated rows (e.g. Reddit) may arrive
+    without one — derive a deterministic id from the url so re-running
+    this script never reassigns ids."""
+    if item.get("id"):
+        return item["id"]
+    source = item.get("source", "unknown")
+    basis = item.get("url") or item.get("text", "")
+    digest = hashlib.sha1(basis.encode("utf-8")).hexdigest()[:12]
+    return f"{source}-{digest}"
+
+
+def load_items(raw_path: Path) -> list[dict]:
+    if raw_path.suffix == ".jsonl":
+        items = []
+        for line in raw_path.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if line:
+                items.append(json.loads(line))
+        return items
+
+    payload = json.loads(raw_path.read_text(encoding="utf-8"))
+    return payload.get("reviews") or payload.get("items") or []
+
+
+def clean_file(raw_path: Path) -> dict:
+    items = load_items(raw_path)
 
     counts = {
-        "input": len(raw["reviews"]),
+        "input": len(items),
         "dropped_empty": 0,
         "dropped_too_short": 0,
         "dropped_non_english": 0,
@@ -65,49 +95,50 @@ def clean_app(app_name: str) -> dict:
     seen_normalized: set[str] = set()
     cleaned: list[dict] = []
 
-    for r in raw["reviews"]:
-        content = (r.get("content") or "").strip()
+    for item in items:
+        text = (item.get("text") or "").strip()
 
-        if not content:
+        if not text:
             counts["dropped_empty"] += 1
             continue
 
-        if len(content) < MIN_LENGTH_CHARS:
+        if len(text) < MIN_LENGTH_CHARS:
             counts["dropped_too_short"] += 1
             continue
 
-        norm = normalize_for_dedupe(content)
+        norm = normalize_for_dedupe(text)
         if norm in seen_normalized:
             counts["dropped_duplicate"] += 1
             continue
 
-        lang = detect_lang(content)
+        lang = detect_lang(text)
         if lang not in ALLOWED_LANGS:
             counts["dropped_non_english"] += 1
             continue
 
-        scrubbed_content, was_scrubbed = scrub_pii(content)
+        scrubbed_text, was_scrubbed = scrub_pii(text)
         if was_scrubbed:
             counts["pii_scrubbed"] += 1
 
         seen_normalized.add(norm)
         cleaned.append(
             {
-                "evidence_id": f"{app_name}-{r.get('review_id')}",
-                "app_name": app_name,
-                "content": scrubbed_content,
-                "score": r.get("score"),
-                "at": r.get("at"),
-                "detected_lang": lang,
+                "id": ensure_id(item),
+                "source": item.get("source"),
+                "text": scrubbed_text,
+                "rating": item.get("rating"),
+                "date": item.get("date"),
+                "url": item.get("url"),
+                "lang": lang,
+                "meta": item.get("meta", {}),
             }
         )
         counts["output"] += 1
 
     return {
-        "app_name": app_name,
-        "source": "playstore",
+        "raw_file": raw_path.name,
         "counts": counts,
-        "reviews": cleaned,
+        "items": cleaned,
     }
 
 
@@ -115,16 +146,17 @@ def main() -> None:
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
     summary = {}
 
-    for raw_file in sorted(RAW_DIR.glob("playstore_*.json")):
-        app_name = raw_file.stem.replace("playstore_", "")
-        print(f"[{app_name}] cleaning ...")
-        result = clean_app(app_name)
-        summary[app_name] = result["counts"]
+    raw_files = sorted(RAW_DIR.glob("*.json")) + sorted(RAW_DIR.glob("*.jsonl"))
+    for raw_file in raw_files:
+        name = raw_file.stem.replace("playstore_", "").replace("_manual", "")
+        print(f"[{name}] cleaning {raw_file.name} ...")
+        result = clean_file(raw_file)
+        summary[name] = result["counts"]
 
-        out_path = PROCESSED_DIR / f"clean_{app_name}.json"
+        out_path = PROCESSED_DIR / f"clean_{name}.json"
         out_path.write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8")
-        print(f"[{app_name}] {result['counts']}")
-        print(f"[{app_name}] written to {out_path}")
+        print(f"[{name}] {result['counts']}")
+        print(f"[{name}] written to {out_path}")
 
     summary_path = PROCESSED_DIR / "clean_summary.json"
     summary_path.write_text(json.dumps(summary, indent=2), encoding="utf-8")
