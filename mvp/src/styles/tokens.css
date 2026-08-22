@@ -1,0 +1,68 @@
+/* Design tokens — 01_MVP_DESIGN_SPEC.md Section B. Named hex values kept
+   as-authored in the spec; do not substitute generic Tailwind-style names. */
+
+:root {
+  /* Palette */
+  --color-bone: #f6f1ea;
+  --color-ink: #211d1b;
+  --color-thread-plum: #5b3a4a;
+  --color-thread-plum-dark: #43222f;
+  --color-moss: #4b6b4f;
+  --color-moss-bg: #e7efe6;
+  --color-ochre: #b5822a;
+  --color-ochre-bg: #f6ebd6;
+  --color-clay-rose: #c97b72;
+  --color-clay-rose-bg: #f8e8e5;
+  --color-border: #ddd3c4;
+  --color-neutral-bg: #eee7d9;
+
+  /* Typography */
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+  --font-body: "Public Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+  /* Layout */
+  --frame-width: 390px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --tap-target-min: 44px;
+
+  /* Motion (respected by prefers-reduced-motion below) */
+  --transition-fast: 120ms ease;
+  --transition-base: 200ms ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --transition-fast: 0ms;
+    --transition-base: 0ms;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-neutral-bg);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-thread-plum);
+  outline-offset: 2px;
+}
