@@ -15,6 +15,10 @@ __pycache__/
 node_modules/
 dist/
 .vercel/
+*.tsbuildinfo
+
+# Local n8n test instance (docs/FAILURES.md, 2026-08-22) — not a deliverable
+.n8n-local/
 
 # OS
 .DS_Store
