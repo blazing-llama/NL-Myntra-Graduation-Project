@@ -3,6 +3,16 @@ import type { Persona, WishlistItem } from "../src/types";
 // Simulated data, derived from primary research personas — not real users.
 // requirement #10: this must be labelled in the UI itself (SimulatedDataLabel),
 // not only in the deck.
+//
+// Product images: real Unsplash photos, hardcoded direct CDN URLs (not the
+// deprecated source.unsplash.com random-hotlink pattern). No live API call at
+// runtime, no key anywhere. Free to use under the Unsplash License (no
+// permission required, attribution appreciated not required). None sourced
+// from Myntra/AJIO/Nykaa or any real brand — stock editorial photography only.
+
+function unsplash(photoId: string, w = 800): string {
+  return `https://images.unsplash.com/photo-${photoId}?w=${w}&q=80&fit=crop&auto=format`;
+}
 
 export const PERSONAS: Persona[] = [
   {
@@ -28,7 +38,8 @@ export const WISHLIST_BY_PERSONA: Record<string, WishlistItem[]> = {
       id: "item-1",
       name: "Structured Blazer",
       brand: "Aurelia",
-      imageLabel: "Blazer",
+      imageUrl: unsplash("1608234808654-2a8875faa7fd"),
+      imageAlt: "Woman in a structured grey blazer and black trousers",
       price: "₹3,299",
       group: "buying_soon",
       stock: "low_stock",
@@ -49,7 +60,8 @@ export const WISHLIST_BY_PERSONA: Record<string, WishlistItem[]> = {
       id: "item-2",
       name: "Wide-Leg Trousers",
       brand: "Noor & Co.",
-      imageLabel: "Trousers",
+      imageUrl: unsplash("1687825515654-23620796760c"),
+      imageAlt: "Woman in a white top and wide-leg green trousers",
       price: "₹1,899",
       group: "buying_soon",
       stock: "in_stock",
@@ -69,7 +81,8 @@ export const WISHLIST_BY_PERSONA: Record<string, WishlistItem[]> = {
       id: "item-3",
       name: "Draped Midi Dress",
       brand: "Ilana",
-      imageLabel: "Dress",
+      imageUrl: unsplash("1704775989614-8435994e4e97"),
+      imageAlt: "Woman in a dark blue draped dress against a maroon background",
       price: "₹2,450",
       group: "style_ideas",
       stock: "out_of_stock",
@@ -90,7 +103,8 @@ export const WISHLIST_BY_PERSONA: Record<string, WishlistItem[]> = {
       id: "item-4",
       name: "Satin Slip Dress",
       brand: "Verre",
-      imageLabel: "Dress",
+      imageUrl: unsplash("1594019739447-6c8a1d744d61"),
+      imageAlt: "Woman in a black satin spaghetti-strap slip dress",
       price: "₹4,199",
       group: "buying_soon",
       stock: "back_in_stock",
@@ -106,7 +120,8 @@ export const WISHLIST_BY_PERSONA: Record<string, WishlistItem[]> = {
       id: "item-5",
       name: "Embroidered Kurta Set",
       brand: "Suta",
-      imageLabel: "Kurta",
+      imageUrl: unsplash("1741847639057-b51a25d42892"),
+      imageAlt: "Woman posing in a pink floral embroidered kurta and pants",
       price: "₹2,899",
       group: "style_ideas",
       stock: "in_stock",

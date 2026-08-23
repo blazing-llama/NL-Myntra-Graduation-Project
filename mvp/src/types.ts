@@ -24,7 +24,8 @@ export interface WishlistItem {
   id: string;
   name: string;
   brand: string;
-  imageLabel: string; // placeholder swatch text, no real product imagery in the skeleton
+  imageUrl: string; // Unsplash photo, hardcoded direct CDN URL — see mock-data/personas.ts header comment
+  imageAlt: string;
   price: string;
   group: WishlistGroup;
   stock: StockState;

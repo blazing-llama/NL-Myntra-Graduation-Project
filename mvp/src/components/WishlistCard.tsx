@@ -24,24 +24,18 @@ export function WishlistCard({ item, onOpen }: Props) {
         cursor: "pointer",
       }}
     >
-      <div
-        aria-hidden="true"
+      <img
+        src={item.imageUrl}
+        alt={item.imageAlt}
         style={{
           width: 64,
           height: 80,
           flexShrink: 0,
           borderRadius: "var(--radius-sm)",
           background: "var(--color-border)",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          fontSize: 11,
-          color: "var(--color-ink)",
-          opacity: 0.5,
+          objectFit: "cover",
         }}
-      >
-        {item.imageLabel}
-      </div>
+      />
       <div style={{ flex: 1, display: "flex", flexDirection: "column", gap: 4 }}>
         <div style={{ fontFamily: "var(--font-display)", fontSize: 16, fontWeight: 600 }}>{item.name}</div>
         <div style={{ fontSize: 12, opacity: 0.65 }}>{item.brand}</div>

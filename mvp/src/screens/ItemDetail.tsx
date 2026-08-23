@@ -33,22 +33,17 @@ export function ItemDetail({ item, onBack, onAddToCart }: Props) {
           ← Back to wishlist
         </button>
 
-        <div
-          aria-hidden="true"
+        <img
+          src={item.imageUrl}
+          alt={item.imageAlt}
           style={{
             width: "100%",
             aspectRatio: "3 / 4",
             background: "var(--color-border)",
             borderRadius: "var(--radius-lg)",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            fontSize: 14,
-            opacity: 0.5,
+            objectFit: "cover",
           }}
-        >
-          {item.imageLabel}
-        </div>
+        />
 
         <div>
           <h1 style={{ fontFamily: "var(--font-display)", fontSize: 22, margin: "0 0 4px" }}>{item.name}</h1>
