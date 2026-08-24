@@ -1,3 +1,4 @@
+import type { CSSProperties } from "react";
 import type { ConfidenceLevel } from "../types";
 
 // Requirement #6: the deterministic core decides (ComparisonStrip renders its
@@ -12,10 +13,17 @@ interface Props {
   whatWouldHelp?: string;
 }
 
+const bodyStyle: CSSProperties = {
+  fontFamily: "var(--font-body)",
+  fontSize: "var(--type-body-size)",
+  fontWeight: 400,
+  lineHeight: "var(--type-body-leading)",
+};
+
 export function NarrationBlock({ level, narration, missingForHigherConfidence, whatWouldHelp }: Props) {
   if (level === "insufficient") {
     return (
-      <div style={{ fontFamily: "var(--font-body)", fontSize: 14, lineHeight: 1.5 }}>
+      <div style={bodyStyle}>
         <p style={{ margin: 0 }}>
           We can&apos;t confidently answer this yet — {whatWouldHelp ?? "not enough past purchases to compare."}
         </p>
@@ -24,10 +32,10 @@ export function NarrationBlock({ level, narration, missingForHigherConfidence, w
   }
 
   return (
-    <div style={{ fontFamily: "var(--font-body)", fontSize: 14, lineHeight: 1.5 }}>
+    <div style={bodyStyle}>
       <p style={{ margin: 0 }}>{narration}</p>
       {level === "medium" && missingForHigherConfidence && (
-        <p style={{ margin: "6px 0 0", opacity: 0.7, fontSize: 13 }}>
+        <p style={{ margin: "6px 0 0", color: "var(--color-ink-secondary)", fontSize: 13 }}>
           What&apos;s missing: {missingForHigherConfidence}
         </p>
       )}

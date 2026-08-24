@@ -14,9 +14,9 @@ export function PersonaSwitcher({ personas, activeId, onChange }: Props) {
         display: "flex",
         flexDirection: "column",
         gap: 6,
-        padding: "10px 12px",
+        padding: "var(--space-sm) var(--space-md)",
         background: "var(--color-thread-plum-dark)",
-        borderRadius: "var(--radius-md)",
+        borderRadius: "var(--radius-xl)",
         color: "white",
       }}
     >

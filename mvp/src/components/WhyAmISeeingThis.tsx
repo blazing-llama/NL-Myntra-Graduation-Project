@@ -40,12 +40,19 @@ export function WhyAmISeeingThis({ trace }: { trace: ResearchTrace }) {
             padding: "10px 12px",
             background: "var(--color-bone)",
             border: "1px solid var(--color-border)",
-            borderRadius: "var(--radius-sm)",
+            borderRadius: "var(--radius-xl)",
             fontSize: 13,
             lineHeight: 1.5,
           }}
         >
-          <div style={{ fontFamily: "var(--font-mono)", fontSize: 12, opacity: 0.6, marginBottom: 4 }}>
+          <div
+            style={{
+              fontFamily: "var(--font-mono)",
+              fontSize: 12,
+              color: "var(--color-ink-secondary)",
+              marginBottom: 4,
+            }}
+          >
             {trace.findingId}
           </div>
           {trace.summary}

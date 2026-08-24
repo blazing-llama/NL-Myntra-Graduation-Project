@@ -16,17 +16,69 @@
   --color-border: #ddd3c4;
   --color-neutral-bg: #eee7d9;
 
+  /* Secondary text + interactive border — treatment borrowed from
+     fashion-ecommerce-design-spec.md Theme A ("Warm Humanist & Editorial"),
+     re-derived against the locked Bone/Ink pair rather than Theme A's own
+     #f7f4ed/#1c1c1c (nearly identical, but these are the actual locked
+     values — see 01_MVP_DESIGN_SPEC.md Section B). Ink at reduced opacity,
+     matching Theme A's text-secondary/text-primary relationship. */
+  --color-ink-secondary: rgba(33, 29, 27, 0.62);
+  --color-border-interactive: rgba(33, 29, 27, 0.4);
+
   /* Typography */
   --font-display: "Fraunces", ui-serif, Georgia, serif;
   --font-body: "Public Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
   --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
 
+  /* Type scale — Theme A's rhythm (tight leading + negative tracking on
+     display sizes, generous leading on body) carried over at typefaces
+     already locked (Fraunces standing in for Theme A's Camera Plain).
+     Theme A's literal px values (60/48/20/16) are desktop-scale; this is a
+     390px mobile-first frame (Section B, "Layout concept"), so hero/section
+     sizes are scaled down proportionally rather than copied verbatim —
+     copying 60px/48px headings onto a 390px frame would break layout, and
+     the brief asks for the rhythm/proportions, not the literal pixels.
+     Card-title and body are already mobile-appropriate at Theme A's own
+     sizes, so those are unscaled. */
+  --type-hero-size: 30px;
+  --type-hero-weight: 600;
+  --type-hero-leading: 1.05;
+  --type-hero-tracking: -0.025em;
+
+  --type-section-title-size: 24px;
+  --type-section-title-weight: 600;
+  --type-section-title-leading: 1;
+  --type-section-title-tracking: -0.022em;
+
+  --type-card-title-size: 20px;
+  --type-card-title-weight: 400;
+  --type-card-title-leading: 1.25;
+
+  --type-body-size: 16px;
+  --type-body-weight: 400;
+  --type-body-leading: 1.5;
+
   /* Layout */
   --frame-width: 390px;
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
   --radius-sm: 8px;
   --radius-md: 14px;
   --radius-lg: 20px;
+  --radius-xl: 20px;
   --tap-target-min: 44px;
+
+  /* Tactile button shadow — Theme A's inset-highlight recipe. Colors in the
+     shadow itself are effect-only (white top-edge highlight, dark inner
+     ring, soft drop) and carry over unchanged regardless of the button's
+     face color, so this applies directly to Thread Plum/Moss buttons. */
+  --shadow-tactile-button:
+    inset rgba(255, 255, 255, 0.2) 0px 0.5px 0px,
+    inset rgba(0, 0, 0, 0.2) 0px 0px 0px 0.5px,
+    rgba(0, 0, 0, 0.05) 0px 1px 2px;
 
   /* Motion (respected by prefers-reduced-motion below) */
   --transition-fast: 120ms ease;

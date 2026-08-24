@@ -5,6 +5,7 @@ import { NarrationBlock } from "../components/NarrationBlock";
 import { WhyAmISeeingThis } from "../components/WhyAmISeeingThis";
 import { StockBadge } from "../components/StockBadge";
 import { StickyCTA } from "../components/StickyCTA";
+import { TopNav } from "../components/TopNav";
 
 interface Props {
   item: WishlistItem;
@@ -15,24 +16,42 @@ interface Props {
 export function ItemDetail({ item, onBack, onAddToCart }: Props) {
   return (
     <div style={{ display: "flex", flexDirection: "column", minHeight: "100%" }}>
-      <div style={{ padding: 16, display: "flex", flexDirection: "column", gap: 16, flex: 1 }}>
-        <button
-          type="button"
-          onClick={onBack}
-          style={{
-            alignSelf: "flex-start",
-            background: "none",
-            border: "none",
-            color: "var(--color-thread-plum)",
-            fontSize: 14,
-            fontWeight: 600,
-            cursor: "pointer",
-            minHeight: "var(--tap-target-min)",
-          }}
-        >
-          ← Back to wishlist
-        </button>
+      <TopNav
+        leading={
+          <button
+            type="button"
+            onClick={onBack}
+            aria-label="Back to wishlist"
+            style={{
+              background: "none",
+              border: "none",
+              color: "var(--color-thread-plum)",
+              fontSize: 20,
+              cursor: "pointer",
+              minHeight: "var(--tap-target-min)",
+              minWidth: "var(--tap-target-min)",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              marginLeft: -8,
+            }}
+          >
+            ←
+          </button>
+        }
+      >
+        {item.name}
+      </TopNav>
 
+      <div
+        style={{
+          padding: "var(--space-md) 20px var(--space-lg)",
+          display: "flex",
+          flexDirection: "column",
+          gap: "var(--space-md)",
+          flex: 1,
+        }}
+      >
         <img
           src={item.imageUrl}
           alt={item.imageAlt}
@@ -41,13 +60,26 @@ export function ItemDetail({ item, onBack, onAddToCart }: Props) {
             aspectRatio: "3 / 4",
             background: "var(--color-border)",
             borderRadius: "var(--radius-lg)",
+            border: "1px solid var(--color-border)",
+            boxShadow: "inset 0 0 0 1px rgba(33, 29, 27, 0.06)",
             objectFit: "cover",
           }}
         />
 
         <div>
-          <h1 style={{ fontFamily: "var(--font-display)", fontSize: 22, margin: "0 0 4px" }}>{item.name}</h1>
-          <div style={{ fontSize: 13, opacity: 0.65 }}>{item.brand}</div>
+          <h1
+            style={{
+              fontFamily: "var(--font-display)",
+              fontSize: "var(--type-hero-size)",
+              fontWeight: "var(--type-hero-weight)",
+              lineHeight: "var(--type-hero-leading)",
+              letterSpacing: "var(--type-hero-tracking)",
+              margin: "0 0 6px",
+            }}
+          >
+            {item.name}
+          </h1>
+          <div style={{ fontSize: 13, color: "var(--color-ink-secondary)" }}>{item.brand}</div>
           <div style={{ fontFamily: "var(--font-mono)", fontSize: 16, marginTop: 6 }}>{item.price}</div>
         </div>
 
