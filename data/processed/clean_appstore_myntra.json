@@ -1,0 +1,4622 @@
+{
+  "raw_file": "appstore_myntra.json",
+  "counts": {
+    "input": 500,
+    "dropped_empty": 0,
+    "dropped_too_short": 175,
+    "dropped_non_english": 36,
+    "dropped_duplicate": 1,
+    "pii_scrubbed": 0,
+    "output": 288
+  },
+  "items": [
+    {
+      "id": "appstore-myntra-14462199510",
+      "source": "appstore",
+      "text": "I am always use this",
+      "rating": 5,
+      "date": "2026-08-23T04:26:48-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Good",
+        "author": "Varsha parab",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14462196769",
+      "source": "appstore",
+      "text": "Worst service\nReceived wrong product and they are not even helping or concern about anything\n\nworst service ever",
+      "rating": 1,
+      "date": "2026-08-23T04:25:45-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Worst service",
+        "author": "Bharat0777",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14462167276",
+      "source": "appstore",
+      "text": "Myntra has been my favourite for all in time delivery with quality products",
+      "rating": 5,
+      "date": "2026-08-23T04:14:34-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "It’s easy , breezy and quick",
+        "author": "kaundilya",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14462106171",
+      "source": "appstore",
+      "text": "This kurta looks really good with good quality",
+      "rating": 5,
+      "date": "2026-08-23T03:50:45-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Very good",
+        "author": "Heyy0204",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461979319",
+      "source": "appstore",
+      "text": "Great quality beautiful colour",
+      "rating": 5,
+      "date": "2026-08-23T02:58:53-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Tshirt",
+        "author": "magieeee",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461962387",
+      "source": "appstore",
+      "text": "Value for money. Nice colour. Love this product.",
+      "rating": 5,
+      "date": "2026-08-23T02:51:48-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Love",
+        "author": "Maharaj 😊",
+        "app_version": "4.2511.11",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461943126",
+      "source": "appstore",
+      "text": "Shoes are awesome ,fit ,look, comfortable,n price all are gud,must buy article",
+      "rating": 5,
+      "date": "2026-08-23T02:43:48-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Maza aa gya",
+        "author": "Prince rocks u",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461922530",
+      "source": "appstore",
+      "text": "All fashions at cheap price",
+      "rating": 5,
+      "date": "2026-08-23T02:35:15-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Wow app",
+        "author": "zayed_ahmd",
+        "app_version": "4.2607.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461878625",
+      "source": "appstore",
+      "text": "Never turning back journey",
+      "rating": 5,
+      "date": "2026-08-23T02:16:45-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Amazing as always",
+        "author": "Patelsnehi",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461876887",
+      "source": "appstore",
+      "text": "I have order so many things from myntra and trust me it is very easy to get refunded it is very easy to find your style …. Just a perfect app",
+      "rating": 5,
+      "date": "2026-08-23T02:16:02-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Happy me",
+        "author": "Shanno012",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461867762",
+      "source": "appstore",
+      "text": "I’m purchasing clothes from Myntra since last 7-8 yrs n Myntra never disappointed me . Always good product, n quality",
+      "rating": 5,
+      "date": "2026-08-23T02:12:13-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Awesome",
+        "author": "Dr Sweety Girase",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461861797",
+      "source": "appstore",
+      "text": "It’s a very genuine app. All services like return, exchange , money back & customer care is very good. And also quality wise also I trust this app.",
+      "rating": 5,
+      "date": "2026-08-23T02:09:43-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Nice",
+        "author": "Johnny Aangraj",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461839531",
+      "source": "appstore",
+      "text": "Provide quality plus branded products at a very reasonable price to the customers proudly happy customer by Myntra",
+      "rating": 5,
+      "date": "2026-08-23T02:00:24-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Quality products",
+        "author": "Kunalstrive",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461832011",
+      "source": "appstore",
+      "text": "Perfect Fit, Quality Fabric",
+      "rating": 5,
+      "date": "2026-08-23T01:57:13-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Suit",
+        "author": "Parvs Directory",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461824398",
+      "source": "appstore",
+      "text": "This was probably my favourite app for shopping. Now its just bad in terms of user experience. The product image quality are quite low resolution. There are stupid sponsored ads shoved so aggressively that its almost stupid. There stupid buttons here and there (why do i need a click to play constantly while i am scrolling). There is NO way to just directly click on a brand and see everything across it, which means constanly searching is the only way to do it. Half the categories cant even be found in the global categories page(caps, innerwear etc.)Earlier the previous search atleast had a way to clear specific searches now you have to clear all. I can go on and on. The deals are fine, so in terms of the actual things its good. Its just the ux that is so stupid at times that its a very annoying experience",
+      "rating": 3,
+      "date": "2026-08-23T01:54:02-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Used to be great. Now its just stupid",
+        "author": "ricraconteur",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461790678",
+      "source": "appstore",
+      "text": "very genuine product",
+      "rating": 5,
+      "date": "2026-08-23T01:39:54-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "great",
+        "author": "ns satra",
+        "app_version": "4.2607.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461784004",
+      "source": "appstore",
+      "text": "Awesome Hoodie and perfect fit and quality",
+      "rating": 5,
+      "date": "2026-08-23T01:37:07-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Wrong",
+        "author": "Don sudha",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461736694",
+      "source": "appstore",
+      "text": "Very good product",
+      "rating": 5,
+      "date": "2026-08-23T01:17:15-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Good product",
+        "author": "So nice Myntra",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461713443",
+      "source": "appstore",
+      "text": "Always satisfying products",
+      "rating": 5,
+      "date": "2026-08-23T01:07:16-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Bestest app to shop",
+        "author": "Prag24",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461710221",
+      "source": "appstore",
+      "text": "Amazing Saree and lovely fabric",
+      "rating": 5,
+      "date": "2026-08-23T01:05:51-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Amazing Saree 💫",
+        "author": "Rudra Singh bisht",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461680240",
+      "source": "appstore",
+      "text": "Scent of the day 😇😇",
+      "rating": 4,
+      "date": "2026-08-23T00:52:54-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Carlton London perfume",
+        "author": "𝑆𝖚𝘴ĥ",
+        "app_version": "4.2511.11",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461653348",
+      "source": "appstore",
+      "text": "When i was low i’ll shop and shine by myntra",
+      "rating": 5,
+      "date": "2026-08-23T00:41:19-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Really cool",
+        "author": "sriman velu",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461600723",
+      "source": "appstore",
+      "text": "Absolutely gorgeous! 😍 These cuffs look even better in person. They’re elegant, classy and have such a premium finish. The detailing is beautiful, and they instantly elevate any outfit. So happy with this purchase — definitely worth it! ✨",
+      "rating": 5,
+      "date": "2026-08-23T00:18:34-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Best pick",
+        "author": "Nishi Poonacha",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461572309",
+      "source": "appstore",
+      "text": "‘This product is too good but please buy one size above than recommended.",
+      "rating": 1,
+      "date": "2026-08-23T00:06:13-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Us polo T-shirt",
+        "author": "Rekha🥳",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461548880",
+      "source": "appstore",
+      "text": "I want to exchange one item and the process was extremely easy breezy",
+      "rating": 5,
+      "date": "2026-08-22T23:55:54-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Hassle free exchange",
+        "author": "Sahithi_Sudheer",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461548623",
+      "source": "appstore",
+      "text": "Not a great application to shop from there is soo much of unprofessional service from them orders get canceled automatically delivery agent asks for payment of the parcel which is prepaid i am really fed up with this customer service",
+      "rating": 2,
+      "date": "2026-08-22T23:55:47-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Not happy with this service",
+        "author": "Salman@18",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461544544",
+      "source": "appstore",
+      "text": "The dress is fantastic. The work, material and combination suits well.",
+      "rating": 5,
+      "date": "2026-08-22T23:53:59-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Luxurious Look!",
+        "author": "Hendathi",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461520835",
+      "source": "appstore",
+      "text": "I have been shopping from Myntra since 12 yrs or more ..Best shopping app till now ❤️❤️❤️",
+      "rating": 5,
+      "date": "2026-08-22T23:43:27-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Shopping means Myntra 🥰🥰",
+        "author": "Night partner",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461468257",
+      "source": "appstore",
+      "text": "Awm product must buy",
+      "rating": 5,
+      "date": "2026-08-22T23:20:04-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Bdhdh",
+        "author": "Bndjekd",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461444497",
+      "source": "appstore",
+      "text": "So far a better app where you can find very good quality products at good prices",
+      "rating": 5,
+      "date": "2026-08-22T23:09:18-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "A best online shopping app",
+        "author": "Dedeepya18",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461429853",
+      "source": "appstore",
+      "text": "Good verity of products with offers 👍🏻👍🏻👍🏻",
+      "rating": 5,
+      "date": "2026-08-22T23:02:40-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Nice shopping experience",
+        "author": "Sudhicici",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461343430",
+      "source": "appstore",
+      "text": "Very friendly app with the right filters and sorting.",
+      "rating": 5,
+      "date": "2026-08-22T22:23:14-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Superb app!",
+        "author": "amita0806",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461308232",
+      "source": "appstore",
+      "text": "This app is very satisfying",
+      "rating": 5,
+      "date": "2026-08-22T22:07:21-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Great app",
+        "author": "Amannn_s21",
+        "app_version": "4.2607.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461305439",
+      "source": "appstore",
+      "text": "Had a very bad experience regarding return and refund \nNot all product shows the same quality as image and they took forever to return the product \nCustomer care service is too bad \nI have been calling them from past one week and no response \nI have been facing such issues from last one year and now i am deleting this app\nHigly disappointed",
+      "rating": 1,
+      "date": "2026-08-22T22:06:05-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Bad customer service",
+        "author": "Drannmol",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461295594",
+      "source": "appstore",
+      "text": "Great platform to shop",
+      "rating": 5,
+      "date": "2026-08-22T22:01:38-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Ecom",
+        "author": "Arru28",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461287587",
+      "source": "appstore",
+      "text": "I have done most of my shopping online from Myntra and Myntra Luxe. I find the UI/ UX the best on any similar apps. \nAlthought the deals and discounts over the years have reduced significantly, but the returns/ exchange process is the most reliable.",
+      "rating": 4,
+      "date": "2026-08-22T21:58:05-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Convenient and Trustworthy",
+        "author": "TM!15.",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461283580",
+      "source": "appstore",
+      "text": "I have ordered a watch once and it got cancelled without any proper reason saying unforeseen circumstances and the coupon is also gone. When I raised a complaint and they cant do anything is the reply.\nSame thing happened again on another order. Sick of this app",
+      "rating": 1,
+      "date": "2026-08-22T21:56:13-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Order getting cancelled automatically",
+        "author": "Sagar Tharun",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461228966",
+      "source": "appstore",
+      "text": "Amazing and beyond the imagination",
+      "rating": 5,
+      "date": "2026-08-22T21:31:34-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "All products",
+        "author": "Hi this side Allen",
+        "app_version": "4.2608.10",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461176092",
+      "source": "appstore",
+      "text": "I purchase this bag for my mother in law \nShe was very happy to see this\nQuality and compact size is super awesome \nI m really happy with packaging and fast Dilivery from Myntra",
+      "rating": 5,
+      "date": "2026-08-22T21:08:23-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Zouk bag so cute",
+        "author": "mani k245",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14461074154",
+      "source": "appstore",
+      "text": "They are always delay in delivering items to locations in South. Ekartel people don’t even call or answer our calls",
+      "rating": 2,
+      "date": "2026-08-22T20:24:50-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Very Poor Delivery timelines",
+        "author": "Pooja Prabhakaran",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14460974558",
+      "source": "appstore",
+      "text": "Super product and early access",
+      "rating": 5,
+      "date": "2026-08-22T19:44:05-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Be myn lip tint",
+        "author": "Be myn",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14460834777",
+      "source": "appstore",
+      "text": "Great designs,multiple brands to choose from,fast delivery & attractive discounts! I recommend everyone should try buying from Myntra once & you will love to continue buying your outfits,shoes,..from here.",
+      "rating": 5,
+      "date": "2026-08-22T18:48:19-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Awesome Myntra!",
+        "author": "Yogilori0119",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14460732624",
+      "source": "appstore",
+      "text": "The Myntra Insider loyalty program offers valuable points, early sale access, and exclusive coupons \nI love this app ☺️❤️ 5⭐️",
+      "rating": 5,
+      "date": "2026-08-22T18:07:35-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Best shopping app",
+        "author": "Anjali Tak",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14460537981",
+      "source": "appstore",
+      "text": "Very nice and comfortable dress",
+      "rating": 5,
+      "date": "2026-08-22T16:47:38-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "White maxi",
+        "author": "Dr.Nishma",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14460404423",
+      "source": "appstore",
+      "text": "This app is litterally amazing ♥️♥️",
+      "rating": 5,
+      "date": "2026-08-22T15:51:36-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Amazing🤩",
+        "author": "Anjali dhingra",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14460108767",
+      "source": "appstore",
+      "text": "It was perfect and can’t wait to style them 😍",
+      "rating": 5,
+      "date": "2026-08-22T13:52:23-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Heels",
+        "author": "Nirjala Tamang",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14460103594",
+      "source": "appstore",
+      "text": "Great app to have branded products at maximum discounts",
+      "rating": 5,
+      "date": "2026-08-22T13:50:28-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Great",
+        "author": "Aviaadibuddy",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14460072076",
+      "source": "appstore",
+      "text": "Fraud app always cancel my order",
+      "rating": 1,
+      "date": "2026-08-22T13:38:33-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Fraud",
+        "author": "Jituritu",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14460033302",
+      "source": "appstore",
+      "text": "Stunning earring must buy product for earrings lovers",
+      "rating": 5,
+      "date": "2026-08-22T13:24:08-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Earrings",
+        "author": "Fashioned",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14460023592",
+      "source": "appstore",
+      "text": "Decent produ u can go for it .. quality is good also",
+      "rating": 4,
+      "date": "2026-08-22T13:20:32-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Decent",
+        "author": "Sayak Bhattacharjee",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14459789449",
+      "source": "appstore",
+      "text": "I changed my review from 1-star to 5- star after 8-years of using it. Good products, great deals! Just wait for good sale and you may get some fab pieces. In time delivery",
+      "rating": 5,
+      "date": "2026-08-22T11:57:08-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Improved and fantastic",
+        "author": "Yamini Upadhyay",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14459691991",
+      "source": "appstore",
+      "text": "Quality is top noch",
+      "rating": 5,
+      "date": "2026-08-22T11:24:04-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Cloth",
+        "author": "Taani Panjwani",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14459612128",
+      "source": "appstore",
+      "text": "I have been ordering for Myntra since a few years. I liked their top notch quality delivery within 30 mins or same day.",
+      "rating": 5,
+      "date": "2026-08-22T10:57:50-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Great deals uncompromised quality",
+        "author": "Schandni24",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14459571815",
+      "source": "appstore",
+      "text": "It is a good products",
+      "rating": 5,
+      "date": "2026-08-22T10:44:47-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Garners colour",
+        "author": "Misra2515",
+        "app_version": "4.2608.10",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14459463595",
+      "source": "appstore",
+      "text": "Bohot Achha h very nice 👍",
+      "rating": 5,
+      "date": "2026-08-22T10:10:32-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Nice 👍",
+        "author": "Fariya rani",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14459456149",
+      "source": "appstore",
+      "text": "Fit and material is on point",
+      "rating": 5,
+      "date": "2026-08-22T10:08:15-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Fit",
+        "author": "Sbj2407",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14459450851",
+      "source": "appstore",
+      "text": "Bed sheet quality is good and colour is same as in picture 👍🏻",
+      "rating": 5,
+      "date": "2026-08-22T10:06:38-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Bed sheet",
+        "author": "Nisks45",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14459422124",
+      "source": "appstore",
+      "text": "Really very nice quality cap it is",
+      "rating": 5,
+      "date": "2026-08-22T09:57:42-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Woollen cap",
+        "author": "shrikant more",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14459420667",
+      "source": "appstore",
+      "text": "Good range with nice products",
+      "rating": 5,
+      "date": "2026-08-22T09:57:15-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Good Deals with offers",
+        "author": "Kaksac",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14459339157",
+      "source": "appstore",
+      "text": "I always enjoy..",
+      "rating": 5,
+      "date": "2026-08-22T09:32:01-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Best experience",
+        "author": "shukant",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14459333595",
+      "source": "appstore",
+      "text": "I am disappointed with Myntra refund don’t buy with this app",
+      "rating": 1,
+      "date": "2026-08-22T09:30:20-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Refund not received",
+        "author": "Rekha12346",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14459298384",
+      "source": "appstore",
+      "text": "Super very comfortable",
+      "rating": 5,
+      "date": "2026-08-22T09:19:30-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Great fabric",
+        "author": "Ash Elu",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14459108698",
+      "source": "appstore",
+      "text": "I received a very good Tommy Hilfiger T-shirt. It was a timely delivery too. Looking forward to such great products from Myntra in upcoming shopping.",
+      "rating": 5,
+      "date": "2026-08-22T08:23:14-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Polo T-Shirt Great Experience",
+        "author": "Mambasaheb",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14459063451",
+      "source": "appstore",
+      "text": "Top good quality one shopping app",
+      "rating": 5,
+      "date": "2026-08-22T08:10:01-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Best and easy",
+        "author": "bpl2702",
+        "app_version": "4.2608.10",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14459059428",
+      "source": "appstore",
+      "text": "Myntra have a good collection of everything. I have ordered alot of items. just what i felt is its little expensive",
+      "rating": 5,
+      "date": "2026-08-22T08:08:51-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Great experience",
+        "author": "reemiks02",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14459042729",
+      "source": "appstore",
+      "text": "I really love the texture and feel of it!",
+      "rating": 4,
+      "date": "2026-08-22T08:04:08-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Burgundy kajal",
+        "author": "Sh17ani",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14459003587",
+      "source": "appstore",
+      "text": "Amazing app with great deals 👍🏻👍🏻",
+      "rating": 5,
+      "date": "2026-08-22T07:52:51-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Rajji sandhu",
+        "author": "kaur rajji",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14459003411",
+      "source": "appstore",
+      "text": "Very comfortable in summer season",
+      "rating": 5,
+      "date": "2026-08-22T07:52:48-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Best fitting",
+        "author": "meenakshi madan",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14458960081",
+      "source": "appstore",
+      "text": "Awesome Product i am very happy",
+      "rating": 5,
+      "date": "2026-08-22T07:40:20-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Serum",
+        "author": "￼ Awesome serum",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14458953863",
+      "source": "appstore",
+      "text": "INR 23 of platform fees is highest in the Indian market by far and appears that Myntra is on a customer rating declining journey now. Really sad and open loot..",
+      "rating": 1,
+      "date": "2026-08-22T07:38:33-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Very high platform fees",
+        "author": "PawanH75",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14458938501",
+      "source": "appstore",
+      "text": "Has the most easiest return policy and delivery.",
+      "rating": 5,
+      "date": "2026-08-22T07:34:08-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Best shopping app",
+        "author": "Skk695",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14458892996",
+      "source": "appstore",
+      "text": "I look forward to all the deals that come on Myntra . It’s a one stop shop for kids to adults all clothes , accessories and footwears ! Love it 💕",
+      "rating": 5,
+      "date": "2026-08-22T07:21:04-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Love the collection",
+        "author": "vkap122",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14458811902",
+      "source": "appstore",
+      "text": "Good website customer friendly",
+      "rating": 4,
+      "date": "2026-08-22T06:57:34-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Nice",
+        "author": "Xuzthi",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14458734687",
+      "source": "appstore",
+      "text": "Nice\n Product and timely delivery",
+      "rating": 5,
+      "date": "2026-08-22T06:34:51-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Great experience of purchase",
+        "author": "Verma SD",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14458615616",
+      "source": "appstore",
+      "text": "First class quality",
+      "rating": 5,
+      "date": "2026-08-22T05:58:28-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Best app for shopping",
+        "author": "🎀friendly",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14458601038",
+      "source": "appstore",
+      "text": "My favourite app for clothes and accessories 🫶🏻",
+      "rating": 5,
+      "date": "2026-08-22T05:53:53-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Myntra",
+        "author": "manyakapoor",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14458453158",
+      "source": "appstore",
+      "text": "The items are genuine and original with warranties and all documents",
+      "rating": 5,
+      "date": "2026-08-22T05:05:42-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Pretty awesome platform",
+        "author": "susham1999",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14458449024",
+      "source": "appstore",
+      "text": "Very happy that myntra is to my rescue whenever I need to shop something for myself and my family. Hassle free returns and super fast delivery are best offered by myntra.",
+      "rating": 5,
+      "date": "2026-08-22T05:04:17-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Perfect app for your fashion needs",
+        "author": "Kirti.Goel_1994",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14458440038",
+      "source": "appstore",
+      "text": "Good fabric and print so comfortable",
+      "rating": 5,
+      "date": "2026-08-22T05:01:15-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Very nice",
+        "author": "Maya ramesh rana",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14458416052",
+      "source": "appstore",
+      "text": "If you are looking for a online app which will give you best offers available and all the brands you want plus hassle free shopping experience then this is the app you must check out.",
+      "rating": 4,
+      "date": "2026-08-22T04:52:59-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Best shopping experience",
+        "author": "anita malik",
+        "app_version": "4.2607.40",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14458396582",
+      "source": "appstore",
+      "text": "never trust myntra for any product \nthey sold me a product which doesn’t work and they don’t take returns or any responsibility.. on top of that they charged me price which is higher than the products tax invoice.. this is second time exchange with no option to refund the product, exchanged product is also of very low quality and faulty..\nbig headache since past 2 months.. money stuck.. no product to use.. and rude customer service staff",
+      "rating": 1,
+      "date": "2026-08-22T04:46:12-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "worst customer service",
+        "author": "iAppLover55",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14458374719",
+      "source": "appstore",
+      "text": "There are good products but too many polyester fabrics on market, its hard to find wool aur or pure cotton.",
+      "rating": 4,
+      "date": "2026-08-22T04:38:29-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "A better deal",
+        "author": "Maverickø1",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14458293250",
+      "source": "appstore",
+      "text": "Very disappointing refund experience. Myntra provided a refund reference number, but I have not received any UPI notification or refund amount. I also checked my bank statement, and there is no refund transaction showing. When I try to contact customer support, I only get robotic/AI responses and cannot connect with a real person. Please resolve this issue instead of just providing a reference number.",
+      "rating": 1,
+      "date": "2026-08-22T04:08:55-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Refund issue",
+        "author": "Xyzcjfjkf",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14458277376",
+      "source": "appstore",
+      "text": "After purchasing the product successfully why automatically get canceled and simply providing refund without reason",
+      "rating": 1,
+      "date": "2026-08-22T04:02:51-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Worst service",
+        "author": "Mahathhhhh",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14458250840",
+      "source": "appstore",
+      "text": "Very everything",
+      "rating": 5,
+      "date": "2026-08-22T03:52:36-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Nice",
+        "author": "Cutee p pie",
+        "app_version": "4.2608.10",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14458240626",
+      "source": "appstore",
+      "text": "My Experience is good the product I received are of good quality and got the delivery on time",
+      "rating": 5,
+      "date": "2026-08-22T03:48:38-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Experience",
+        "author": "Ravinsha jindal",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14458235290",
+      "source": "appstore",
+      "text": "I regularly buy from Myntra",
+      "rating": 5,
+      "date": "2026-08-22T03:46:35-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "My Reliable fashion store",
+        "author": "Ashok veda",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14458207010",
+      "source": "appstore",
+      "text": "Very soft material, good for body during summers unlike knitted T Shirts with matty finish. Was searching for such material for long time as majority products under T shirt category are matty finish and it’s unbearable to skin in summers.",
+      "rating": 5,
+      "date": "2026-08-22T03:35:35-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Polo T Shirt with soft material",
+        "author": "S/kapoor",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14458186451",
+      "source": "appstore",
+      "text": "Quality feels completely different and cozy",
+      "rating": 5,
+      "date": "2026-08-22T03:27:23-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Absolutely fantastic shopping",
+        "author": "KavyaDubey",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14458169137",
+      "source": "appstore",
+      "text": "The product quality is good",
+      "rating": 5,
+      "date": "2026-08-22T03:20:20-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "I like It",
+        "author": "Aadlu",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14458121981",
+      "source": "appstore",
+      "text": "Best quality product on this platform",
+      "rating": 5,
+      "date": "2026-08-22T03:01:15-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Best selling",
+        "author": "Ak click",
+        "app_version": "4.2608.10",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14458102027",
+      "source": "appstore",
+      "text": "The material and quality is very good",
+      "rating": 5,
+      "date": "2026-08-22T02:53:03-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Overall good",
+        "author": "Ashmira khan",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14458093529",
+      "source": "appstore",
+      "text": "Myntra never use fake item\nAlways original",
+      "rating": 5,
+      "date": "2026-08-22T02:49:34-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Quality products",
+        "author": "MAK7080",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14458041270",
+      "source": "appstore",
+      "text": "Good service and varieties",
+      "rating": 5,
+      "date": "2026-08-22T02:27:47-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Clothes",
+        "author": "✨✨Dr",
+        "app_version": "4.2607.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14458023846",
+      "source": "appstore",
+      "text": "Product are authentic nd good quality",
+      "rating": 5,
+      "date": "2026-08-22T02:20:31-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Great",
+        "author": "surajabhay",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457994824",
+      "source": "appstore",
+      "text": "The fabric n embroidery n color, everything is good it is just that the lower is bit loose but for me it works well",
+      "rating": 4,
+      "date": "2026-08-22T02:08:26-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Blue cord set nice quality",
+        "author": "Blue cord set",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457980784",
+      "source": "appstore",
+      "text": "I just love myntra you can shop blindly on it and get the order as shown in the pics",
+      "rating": 5,
+      "date": "2026-08-22T02:02:30-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Shopping",
+        "author": "Iyniv",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457920315",
+      "source": "appstore",
+      "text": "It’s a long lasting perfume with very adorable smell 🫠❤️",
+      "rating": 5,
+      "date": "2026-08-22T01:37:02-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Riya melody perfume",
+        "author": "My Isra",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457911528",
+      "source": "appstore",
+      "text": "Myntra is one of the best shopping apps for fashion and lifestyle products. The collection is huge, the app is easy to use, and the offers and discounts are great. I also love the variety of brands and the smooth shopping experience. Highly recommended for anyone who loves online shopping! 🛍️✨",
+      "rating": 5,
+      "date": "2026-08-22T01:33:20-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Best Overall\n\n⭐⭐⭐⭐⭐",
+        "author": "Feroz shaikh 1902",
+        "app_version": "4.2608.10",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457907938",
+      "source": "appstore",
+      "text": "Loved the product SBS the time taken to deliver",
+      "rating": 5,
+      "date": "2026-08-22T01:31:48-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Exceptionally quick delivery",
+        "author": "Suchela",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457892984",
+      "source": "appstore",
+      "text": "Best products and best service",
+      "rating": 5,
+      "date": "2026-08-22T01:25:31-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Genuine",
+        "author": "imuions",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457883349",
+      "source": "appstore",
+      "text": "Love to shop with myntra",
+      "rating": 5,
+      "date": "2026-08-22T01:21:26-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Shopping lover",
+        "author": "Vikeeka",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457871243",
+      "source": "appstore",
+      "text": "Service was very fast…they delivered one day before they say date…and also great discount or freebies then other platforms…very much improved brand",
+      "rating": 5,
+      "date": "2026-08-22T01:16:18-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Delivery & discount",
+        "author": "Saagam",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457833320",
+      "source": "appstore",
+      "text": "Pathetic app with no customer service at all. Ordered 8 items out of which delivery of 4 items never happened and they just cancelled it. 2 items were returned due to size issue which also took few days to pick up and refund. Never using it again",
+      "rating": 1,
+      "date": "2026-08-22T01:00:15-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Worst app",
+        "author": "Kushdon",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457790795",
+      "source": "appstore",
+      "text": "Don’t know what exactly is the calculation behind Platform fee",
+      "rating": 4,
+      "date": "2026-08-22T00:42:07-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Good",
+        "author": "Kuchtohhai",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457778285",
+      "source": "appstore",
+      "text": "Good for latest collection",
+      "rating": 4,
+      "date": "2026-08-22T00:36:48-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Good platform",
+        "author": "Pat_Jass",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457751521",
+      "source": "appstore",
+      "text": "Lovely collection👍👍",
+      "rating": 5,
+      "date": "2026-08-22T00:25:22-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Nice",
+        "author": "shuchi gandhi",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457749562",
+      "source": "appstore",
+      "text": "The quality is good love the item very comfortable to wear my son is very happy",
+      "rating": 5,
+      "date": "2026-08-22T00:24:31-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Puma sneaker",
+        "author": "Angelika aye",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457748204",
+      "source": "appstore",
+      "text": "I always get the best deals and the returns process is super easy and quick.",
+      "rating": 5,
+      "date": "2026-08-22T00:23:56-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "MoodForLasagna",
+        "author": "inTheRamen",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457738055",
+      "source": "appstore",
+      "text": "Really good product and timely delivery",
+      "rating": 5,
+      "date": "2026-08-22T00:19:28-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Nice delivery",
+        "author": "reviewmyntrajahnvi",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457732980",
+      "source": "appstore",
+      "text": "Very beautiful and smart bag .\nQuality also very good",
+      "rating": 5,
+      "date": "2026-08-22T00:17:15-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Good bag",
+        "author": "Sushma30",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457723009",
+      "source": "appstore",
+      "text": "Good looking trousers for young boys",
+      "rating": 5,
+      "date": "2026-08-22T00:12:59-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Nice trouser",
+        "author": "machineegunee",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457661085",
+      "source": "appstore",
+      "text": "Even the customer care executive is not know anything…. They are moron.",
+      "rating": 1,
+      "date": "2026-08-21T23:45:50-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Mnow is worst",
+        "author": "GURUDUTT VISHWAKARMA",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457657037",
+      "source": "appstore",
+      "text": "Nice colour . Only gonna suit in fair skin tone.",
+      "rating": 5,
+      "date": "2026-08-21T23:44:02-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Shade no -540. Nu Unstoppable",
+        "author": "Nu Unstoppable",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457648877",
+      "source": "appstore",
+      "text": "Very nice fabric and size is well fitted",
+      "rating": 5,
+      "date": "2026-08-21T23:40:26-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Very nice👍",
+        "author": "Madhu Singh Sonu",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457619021",
+      "source": "appstore",
+      "text": "It is a very good app.",
+      "rating": 5,
+      "date": "2026-08-21T23:27:20-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Best",
+        "author": "riya1804",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457543359",
+      "source": "appstore",
+      "text": "I really like the texture and the stain it leave even after removing it.",
+      "rating": 5,
+      "date": "2026-08-21T22:53:48-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Love the lip stain",
+        "author": "Texture is good",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457515141",
+      "source": "appstore",
+      "text": "Good one. Happy to shop with Myntra 🫶",
+      "rating": 5,
+      "date": "2026-08-21T22:40:59-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Dr. Manjula Nair",
+        "author": "Dr. Manjula Nair",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457503052",
+      "source": "appstore",
+      "text": "quality is very good",
+      "rating": 5,
+      "date": "2026-08-21T22:35:31-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "fancy clutch",
+        "author": "bdjxlzozssznzss",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457479891",
+      "source": "appstore",
+      "text": "Been a fan of Myntra for a decade at least and I find shopping so hassle free and exchanges easily done,returns taken with no questions asked:)\nI love it!",
+      "rating": 5,
+      "date": "2026-08-21T22:25:06-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "They always deliver the best❤️",
+        "author": "Beadgames",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457457330",
+      "source": "appstore",
+      "text": "Nice dress I like it",
+      "rating": 5,
+      "date": "2026-08-21T22:15:03-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "👌",
+        "author": "Vijivjii",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457443048",
+      "source": "appstore",
+      "text": "Worth for money,comfort,good fabric",
+      "rating": 5,
+      "date": "2026-08-21T22:08:37-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Good quality",
+        "author": "Yuvithepug",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457385235",
+      "source": "appstore",
+      "text": "Love to shop from Myntra. Almost everything is available ❣️",
+      "rating": 5,
+      "date": "2026-08-21T21:42:35-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Awesome price with awesome variety !!!",
+        "author": "PSAPRIL",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457380243",
+      "source": "appstore",
+      "text": "Always my first preference app",
+      "rating": 5,
+      "date": "2026-08-21T21:40:22-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Always 😍",
+        "author": "Mkkmkittu",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457374248",
+      "source": "appstore",
+      "text": "Myntra’s server has been down/very slow and the app is not working properly. Because of these technical issues, my posts are not getting the expected likes and views. Please fix the server and technical problems as soon as possible. It’s really affecting the user experience and engagement.",
+      "rating": 1,
+      "date": "2026-08-21T21:37:41-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Very Disappointing Experience",
+        "author": "Kajalgarg",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457340512",
+      "source": "appstore",
+      "text": "Very nice product worth it",
+      "rating": 5,
+      "date": "2026-08-21T21:22:51-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Thomas crick shoes",
+        "author": "Shivambudwa",
+        "app_version": "4.2607.40",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457273362",
+      "source": "appstore",
+      "text": "Good product as shown in app",
+      "rating": 5,
+      "date": "2026-08-21T20:53:36-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Reliable",
+        "author": "Yashwant patil",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457248107",
+      "source": "appstore",
+      "text": "This was truly a wonderful experience, and I appreciate it",
+      "rating": 5,
+      "date": "2026-08-21T20:42:52-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Aesthetic",
+        "author": "Myntrasaaj",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457202403",
+      "source": "appstore",
+      "text": "Like it vary products best quality",
+      "rating": 5,
+      "date": "2026-08-21T20:23:50-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Nice quality",
+        "author": "Sunny_23@",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457174759",
+      "source": "appstore",
+      "text": "Branded apparels!Good!",
+      "rating": 5,
+      "date": "2026-08-21T20:12:25-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Excellent app!",
+        "author": "Dhandayuth",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457158764",
+      "source": "appstore",
+      "text": "Best quality products",
+      "rating": 5,
+      "date": "2026-08-21T20:05:53-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Quality",
+        "author": "Dr Shruti Shukla",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457148161",
+      "source": "appstore",
+      "text": "very comfertable n soft sole...easy to ware..",
+      "rating": 5,
+      "date": "2026-08-21T20:01:31-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "crocss",
+        "author": "minplucky",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457044483",
+      "source": "appstore",
+      "text": "best and amazing shopping app",
+      "rating": 5,
+      "date": "2026-08-21T19:20:24-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "love myntra",
+        "author": "nancygautams",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457043243",
+      "source": "appstore",
+      "text": "Purchased 42 size and it is good",
+      "rating": 5,
+      "date": "2026-08-21T19:19:54-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Good",
+        "author": "Jyothiswarupa",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457039469",
+      "source": "appstore",
+      "text": "Very comfortable and perfect",
+      "rating": 5,
+      "date": "2026-08-21T19:18:22-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Awesome product",
+        "author": "Joselin82",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14457011279",
+      "source": "appstore",
+      "text": "There discounts is so bad",
+      "rating": 5,
+      "date": "2026-08-21T19:07:24-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Offer is so bad here",
+        "author": "jass6890",
+        "app_version": "4.2607.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14456960681",
+      "source": "appstore",
+      "text": "App experience is seamless and good for perfume shopping and apparel shopping.",
+      "rating": 5,
+      "date": "2026-08-21T18:47:31-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Good price and original",
+        "author": "Jpnayak",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14456948168",
+      "source": "appstore",
+      "text": "I really like Myntra",
+      "rating": 5,
+      "date": "2026-08-21T18:42:35-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "👌",
+        "author": "Tanish###",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14456769896",
+      "source": "appstore",
+      "text": "Love the ethnic caped dress.",
+      "rating": 5,
+      "date": "2026-08-21T17:32:17-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Lovely dress",
+        "author": "Ethnic cape dress",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14456358150",
+      "source": "appstore",
+      "text": "I believe as a customer who has been using Myntra for 6+ years and ongoing in the beginning it was all legit direct company’s and very good products . If u want to buy things its easily available and delivered within few days and with the help of coupon and discount we can save a lot of money and also get good quality direct form the company \nBut one cons is that recently Myntra has invited few marketing which seems to be quite fishy and not a qualified company \nBut overall I love Myntra and its products and services best shopping app for me 🩷🫶🏼",
+      "rating": 5,
+      "date": "2026-08-21T14:46:48-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "My fav. Shopping app",
+        "author": "Faeby choi",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14456184804",
+      "source": "appstore",
+      "text": "fabric and fit is superb",
+      "rating": 5,
+      "date": "2026-08-21T13:39:52-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "awesome",
+        "author": "buddykakkar",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14456106058",
+      "source": "appstore",
+      "text": "Super comfy, the fabric’s too good.",
+      "rating": 5,
+      "date": "2026-08-21T13:10:30-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Sanskruti homes nightsuit",
+        "author": "P Kukreja",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14455973573",
+      "source": "appstore",
+      "text": "Worst customer service. I ordered on 8th with the expected delivery of 14th.\nI didn’t receive delivery and started chasing. They have created an incident on 16th. I continued chasing daily and i got same response that we are actively working on your incident but I haven’t seen even a single response on the incident.\nCustomer care person mentioned on 17th that I will receive my order in 24 hours.\nWhen I didn’t receive order till 20th. I tried talking to customer care again.\nRepresentatives Unnati and Abhishek continued saying that we want to build the trust but when I asked about delivery of the order, they again commented that I will get in 24 hours.\nI checked on 21st evening, my order was cancelled automatically.\nPathetic experience, if you can’t deliver, tell this the very first time. Why waste customer’s time and effort?\nI will try to keep the order minimal or may be not order from such non-reliable companies.",
+      "rating": 1,
+      "date": "2026-08-21T12:22:29-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Pathetic customer service",
+        "author": "Varun Manchanda",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14455902636",
+      "source": "appstore",
+      "text": "I have ordered a plazzo kurta set that was not fit in size so I requested for exchange/ refund \nThe delivery partner took the dress and marked my request rejected I didn’t receive the exchange of that and I didn’t get any refund from them and i am contacting the customer service team but I am unable to contact them by any way and i am not getting the revert from the mail also my refund is stuck and my dress is also with them \nAnd my complaint has not been resolved yet \nPlease kindly be careful while placing your order on myntra \nI had a very bad experience with them",
+      "rating": 1,
+      "date": "2026-08-21T11:57:38-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Poor delivery customer care is pathetic and payment issue",
+        "author": "Zankhana Makwana",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14455874640",
+      "source": "appstore",
+      "text": "Best online shopping app",
+      "rating": 5,
+      "date": "2026-08-21T11:47:56-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Love it",
+        "author": "karan sakpal",
+        "app_version": "4.2607.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14455761237",
+      "source": "appstore",
+      "text": "The jeans quality is very good, and the fitting is also perfect. 👍😊",
+      "rating": 5,
+      "date": "2026-08-21T11:09:44-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Highly recommended 👍",
+        "author": "Karishma Rankhambe",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14455735136",
+      "source": "appstore",
+      "text": "Very fast delivery, well done Myntra 👍👍❤️❤️❤️",
+      "rating": 5,
+      "date": "2026-08-21T11:00:59-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Time on delivery 👏👏👍👍",
+        "author": "jiaansh dudu",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14455721404",
+      "source": "appstore",
+      "text": "What an authentic bag Myntra has delivered at my doorstep. Quality of the bag is too impressive and design is connoisseur!",
+      "rating": 5,
+      "date": "2026-08-21T10:56:22-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Fur Jaden Bag",
+        "author": "RDM1315",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14455704083",
+      "source": "appstore",
+      "text": "Awesome quality n fitting \nLove the product",
+      "rating": 5,
+      "date": "2026-08-21T10:50:45-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Trouser",
+        "author": "Mạnuu",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14455636178",
+      "source": "appstore",
+      "text": "Good service by myntra it is trustable site I have found variety in this site  use since 8 years....from ajit Bhandare ,Kolhapur",
+      "rating": 5,
+      "date": "2026-08-21T10:28:26-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Good service by myntra it is trustable site I have found variety in this site",
+        "author": "Ajit Bhandare Kolhapur",
+        "app_version": "4.2607.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14455633851",
+      "source": "appstore",
+      "text": "Product was good but too large \nAnd the option of size change can’t show",
+      "rating": 5,
+      "date": "2026-08-21T10:27:43-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Product was good",
+        "author": "Okokoookokokkheiwhah",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14455585362",
+      "source": "appstore",
+      "text": "Best product and delivery ❤️",
+      "rating": 5,
+      "date": "2026-08-21T10:12:14-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Product",
+        "author": "har_sh_07766",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14455473914",
+      "source": "appstore",
+      "text": "I love this co Prd set",
+      "rating": 5,
+      "date": "2026-08-21T09:37:15-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Very good fitting",
+        "author": "Megha’s 123",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14455424067",
+      "source": "appstore",
+      "text": "It maintains its quality",
+      "rating": 5,
+      "date": "2026-08-21T09:21:56-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Awesome Purchase",
+        "author": "Satheesh.Jim",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14455405946",
+      "source": "appstore",
+      "text": "Very poor service. I only called the delivery boy to ask how long he would take to arrive, but he cancelled my order without any reason. Very disappointing experi",
+      "rating": 1,
+      "date": "2026-08-21T09:16:23-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Fake app",
+        "author": "Vishwjeet.kumar",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14455387468",
+      "source": "appstore",
+      "text": "Nice things too good",
+      "rating": 5,
+      "date": "2026-08-21T09:10:43-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Shoping",
+        "author": "My stall",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14455379732",
+      "source": "appstore",
+      "text": "Avoid Myntra!! No more the authentic marketplace it once used to be.",
+      "rating": 1,
+      "date": "2026-08-21T09:08:27-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "I’m an Iconic member but I’m saying this",
+        "author": "Ariana phillip",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14455364044",
+      "source": "appstore",
+      "text": "Very good for shopping",
+      "rating": 5,
+      "date": "2026-08-21T09:03:44-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Good",
+        "author": "KomalNMahajan",
+        "app_version": "4.2511.11",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14455273693",
+      "source": "appstore",
+      "text": "Its a very affordable place to buy clothes",
+      "rating": 5,
+      "date": "2026-08-21T08:36:50-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Very good app",
+        "author": "Ungomma daiii",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14455245578",
+      "source": "appstore",
+      "text": "Just loved it..will definitely recommend.",
+      "rating": 5,
+      "date": "2026-08-21T08:28:37-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Wonderful Experience",
+        "author": "Good dining options available",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14455187657",
+      "source": "appstore",
+      "text": "I love shopping from myntra they have almost every brand.\nMuch more to you just go and checkout mynta.\nHappy shopping",
+      "rating": 5,
+      "date": "2026-08-21T08:11:50-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Unlimited brands deals",
+        "author": "Vikas1306",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14455179885",
+      "source": "appstore",
+      "text": "Superb services. Trust worthy app. Good fabric !!",
+      "rating": 5,
+      "date": "2026-08-21T08:09:36-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Awesome",
+        "author": "paarthav",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14455114044",
+      "source": "appstore",
+      "text": "Top notch quality",
+      "rating": 5,
+      "date": "2026-08-21T07:50:45-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Palmonas",
+        "author": "Ree.ro",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14454868067",
+      "source": "appstore",
+      "text": "Good and Worthy. Fabric look like silk and light weight.",
+      "rating": 5,
+      "date": "2026-08-21T06:40:45-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Superb look",
+        "author": "Arun Vanam",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14454810582",
+      "source": "appstore",
+      "text": "If you add a platform fee that’s too much. Then y don’t you return it while returning the item.",
+      "rating": 2,
+      "date": "2026-08-21T06:24:01-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "About return",
+        "author": "HER@26",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14454650174",
+      "source": "appstore",
+      "text": "Quality is great",
+      "rating": 5,
+      "date": "2026-08-21T05:35:57-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Mango jeans",
+        "author": "Manjula ta",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14454594816",
+      "source": "appstore",
+      "text": "Good quality products",
+      "rating": 5,
+      "date": "2026-08-21T05:18:49-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Reviews",
+        "author": "Rush-new",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14454508909",
+      "source": "appstore",
+      "text": "Clothesline is good but order processing is badly handled.Size issues are mostly there forcing you to exchange",
+      "rating": 2,
+      "date": "2026-08-21T04:51:34-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Size issues",
+        "author": "RamaPadi",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14454501304",
+      "source": "appstore",
+      "text": "Best app for shopping",
+      "rating": 5,
+      "date": "2026-08-21T04:49:07-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Shopping",
+        "author": "Lakhi shergill",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14454473848",
+      "source": "appstore",
+      "text": "Material soft aahe",
+      "rating": 5,
+      "date": "2026-08-21T04:40:05-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Spider-Man shirt",
+        "author": "Anku.m",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14454456406",
+      "source": "appstore",
+      "text": "Hi, off late, the optimum catalog of many brands like Max, Pantaloons and Lifestyle is not available to shop on the app. Has there been any changes?",
+      "rating": 1,
+      "date": "2026-08-21T04:34:21-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Catalog of Many Brands Unavailable",
+        "author": "S_rish",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14454443234",
+      "source": "appstore",
+      "text": "Very nice app for shopping",
+      "rating": 5,
+      "date": "2026-08-21T04:29:56-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Product",
+        "author": "Tiyashatma",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14454426327",
+      "source": "appstore",
+      "text": "Best site and unlimited products with an awesome quality!",
+      "rating": 5,
+      "date": "2026-08-21T04:24:16-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Best site for shopping",
+        "author": "Mon1234@1234",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14454370114",
+      "source": "appstore",
+      "text": "One of the best app for buying cloths",
+      "rating": 5,
+      "date": "2026-08-21T04:04:48-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Best",
+        "author": "Manish Tadge",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14454319789",
+      "source": "appstore",
+      "text": "Light weight comfortable Chappel",
+      "rating": 5,
+      "date": "2026-08-21T03:46:57-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Good",
+        "author": "vijay kumari",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14454291052",
+      "source": "appstore",
+      "text": "Very soft & comfteble dresh",
+      "rating": 5,
+      "date": "2026-08-21T03:36:29-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "I am so happy",
+        "author": "To good👌",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14454219983",
+      "source": "appstore",
+      "text": "Always us MYNTRA",
+      "rating": 5,
+      "date": "2026-08-21T03:09:27-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Good services",
+        "author": "Aman@1991",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14454182648",
+      "source": "appstore",
+      "text": "I do love to get all my required daily and formal wear and all my Fashion need a wide range of collections with easy payment option and on time delivery .👏👏",
+      "rating": 5,
+      "date": "2026-08-21T02:55:01-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Love to spend time Witt Myntra..",
+        "author": "Addres not updated in portal",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14454179075",
+      "source": "appstore",
+      "text": "I like the product n quality",
+      "rating": 4,
+      "date": "2026-08-21T02:53:36-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Mast shopping app",
+        "author": "Sonujinu",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14454151475",
+      "source": "appstore",
+      "text": "Best in all terms",
+      "rating": 5,
+      "date": "2026-08-21T02:42:39-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Best service and price n quality",
+        "author": "sushmadevani",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14454108874",
+      "source": "appstore",
+      "text": "Excellent\nThread",
+      "rating": 5,
+      "date": "2026-08-21T02:25:47-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Excepted",
+        "author": "Rakhi Gautam",
+        "app_version": "4.2608.10",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14454065885",
+      "source": "appstore",
+      "text": "All time favourite pur here",
+      "rating": 5,
+      "date": "2026-08-21T02:08:17-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Very nice app",
+        "author": "Dr Samridhi",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14454051508",
+      "source": "appstore",
+      "text": "Excellent user interface. Products collection is good. Quick return and refund service !!",
+      "rating": 5,
+      "date": "2026-08-21T02:02:26-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Great app experience",
+        "author": "Venus Sanghavi",
+        "app_version": "4.2608.10",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14454001996",
+      "source": "appstore",
+      "text": "Pathetic app, I ordered a bag worth 6.5k. Payment is done and all. I placed my order on 4th august. Its 21st August today, my bag has not arrived yet. The initial delivery was supposed to happen on 11th, then 13th then they raised a ticket on 14th asking until 18th, on 18th they asked for 48 hours and on 20th they asked for 24 hours. Im done waiting. No accountability, at this point Myntra is simply waiting for me to cancel it without any accountability. Pathetic app, pathetic customer service.",
+      "rating": 1,
+      "date": "2026-08-21T01:42:12-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Delayed Delivery",
+        "author": "Rifat Parween",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14453997502",
+      "source": "appstore",
+      "text": "Nice fit and good quality",
+      "rating": 5,
+      "date": "2026-08-21T01:40:20-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Feeling fabulous",
+        "author": "Lookfabulous",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14453972952",
+      "source": "appstore",
+      "text": "Fully satisfied this suit",
+      "rating": 5,
+      "date": "2026-08-21T01:30:15-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Happy",
+        "author": "Mannu & maahi",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14453934324",
+      "source": "appstore",
+      "text": "This is third item delivery got auto cancelled. I have decided that not to order any other item from Myntra in future. Good bye!",
+      "rating": 1,
+      "date": "2026-08-21T01:14:15-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Worst delivery",
+        "author": "Prasad6303",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14453836582",
+      "source": "appstore",
+      "text": "Highly recommended product. Perfect size and superb quality. Thank you so much Myntra for this fantastic product.",
+      "rating": 5,
+      "date": "2026-08-21T00:33:04-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Perfect size",
+        "author": "Manoj Pattabhi",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14453835988",
+      "source": "appstore",
+      "text": "Love Myntra and good stuff",
+      "rating": 5,
+      "date": "2026-08-21T00:32:50-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Love Myntra",
+        "author": "vintage vaani",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14453804168",
+      "source": "appstore",
+      "text": "Best product it’s effect on hair .",
+      "rating": 5,
+      "date": "2026-08-21T00:19:13-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Remi Mushahary",
+        "author": "Remi mhry",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14453796799",
+      "source": "appstore",
+      "text": "Ordered cotton kurta and they sent completely different product and when u will place return then the pickup agent will say the product is different we can’t accept return.\nFRAUD APP!!!!",
+      "rating": 1,
+      "date": "2026-08-21T00:16:09-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Becoming scam app",
+        "author": "Sanaya’s",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14453778530",
+      "source": "appstore",
+      "text": "I have bought two tees from them they first delayed the delivery and now cancelled my prepaid order even meesho\nHas better service than them",
+      "rating": 1,
+      "date": "2026-08-21T00:08:27-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Worst experience",
+        "author": "Ashu3473",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14453693160",
+      "source": "appstore",
+      "text": "Good app with nice variety",
+      "rating": 4,
+      "date": "2026-08-20T23:31:15-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Good app",
+        "author": "SR Ate",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14453649064",
+      "source": "appstore",
+      "text": "Really happy with this lip liner! The application is smooth and easy, and it gives a clean, defined look to the lips. I really like how effortlessly it blends with lipstick and helps give the overall lip look a more polished finish. The quality is really good for the price. Definitely a product I’d recommend! ❤️",
+      "rating": 5,
+      "date": "2026-08-20T23:12:03-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Smooth and beautiful finish",
+        "author": "Makeup diaries",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14453647714",
+      "source": "appstore",
+      "text": "Purchased for 6 year old and 2 year old",
+      "rating": 5,
+      "date": "2026-08-20T23:11:28-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Good quality. Nice color.",
+        "author": "MyntraUser07",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14453641696",
+      "source": "appstore",
+      "text": "It was up to the mark . Bang on",
+      "rating": 5,
+      "date": "2026-08-20T23:08:51-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Amazing",
+        "author": "Anku1412",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14453629100",
+      "source": "appstore",
+      "text": "Myntra is honestly one of the best shopping apps! Great variety, easy-to-use interface, smooth delivery, and plenty of offers. Finding good products is super easy, and the overall shopping experience is excellent. Definitely my go-to fashion app! ⭐⭐⭐⭐⭐",
+      "rating": 3,
+      "date": "2026-08-20T23:03:20-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Slaps 🔥",
+        "author": "uday0000",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14453628115",
+      "source": "appstore",
+      "text": "Loved it! Everything was smooth and the products were beautiful😍✨",
+      "rating": 5,
+      "date": "2026-08-20T23:02:54-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Amazing experience",
+        "author": "Ezrabhujel",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14453619917",
+      "source": "appstore",
+      "text": "Awesome shopping platform",
+      "rating": 5,
+      "date": "2026-08-20T22:59:16-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Awesome",
+        "author": "kruti pathak",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14453568603",
+      "source": "appstore",
+      "text": "The fit is really good and material is  also nice",
+      "rating": 5,
+      "date": "2026-08-20T22:36:28-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Good dress",
+        "author": "dips jolly",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14453525866",
+      "source": "appstore",
+      "text": "This is very useable for daily and it’s comfortable to live in every situation",
+      "rating": 5,
+      "date": "2026-08-20T22:17:40-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Best perfume in this budget",
+        "author": "Ankit666₹",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14453462795",
+      "source": "appstore",
+      "text": "An app without any glitch",
+      "rating": 5,
+      "date": "2026-08-20T21:49:48-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Gup Gup",
+        "author": "jhon juju",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14453413521",
+      "source": "appstore",
+      "text": "Alwys on time n easy return",
+      "rating": 5,
+      "date": "2026-08-20T21:27:58-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Best",
+        "author": "Gurbani kaur arora",
+        "app_version": "4.2608.30",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14453360962",
+      "source": "appstore",
+      "text": "Great experience as always",
+      "rating": 5,
+      "date": "2026-08-20T21:04:59-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Brilliant",
+        "author": "Aftab AH",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14453313406",
+      "source": "appstore",
+      "text": "Myntra brands are worrest and Myntra service was very very worrest",
+      "rating": 1,
+      "date": "2026-08-20T20:44:57-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Worrest service",
+        "author": "Tillu 3",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14453280377",
+      "source": "appstore",
+      "text": "I love doing shopping from Myntra. Staff of all the product is so good and real and luxurious. You can also enjoy Glam clean from here. You can earn from Myntra also by giving review of the product.",
+      "rating": 5,
+      "date": "2026-08-20T20:31:29-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Love shopping myntra",
+        "author": "Aarti kashyapp",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14453204988",
+      "source": "appstore",
+      "text": "Best items at best price. And vast variety of products to choose from - Only available in Myntra.",
+      "rating": 5,
+      "date": "2026-08-20T20:01:32-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "My shopping experience",
+        "author": "Riyusss",
+        "app_version": "4.2608.10",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14453095059",
+      "source": "appstore",
+      "text": "Easy to find n order",
+      "rating": 5,
+      "date": "2026-08-20T19:19:19-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Soorts shoe",
+        "author": "ਬਹਜਜ",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14452835483",
+      "source": "appstore",
+      "text": "Myntra serve, genuine quality, and exactly same piece with a good amount of discount, love to be a part of a Myntra customer!",
+      "rating": 5,
+      "date": "2026-08-20T17:40:15-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Quality",
+        "author": "Nohi Singh",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14452729177",
+      "source": "appstore",
+      "text": "I always shopping this app and very easy to buy",
+      "rating": 5,
+      "date": "2026-08-20T16:58:55-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Awesome for shopping app",
+        "author": "Dus. \"10",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14452697556",
+      "source": "appstore",
+      "text": "Delivery is fast and convenience",
+      "rating": 4,
+      "date": "2026-08-20T16:46:16-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Good Product for fashion",
+        "author": "JinLal",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14452412223",
+      "source": "appstore",
+      "text": "Ordered 5 shirts and glad to receive what the quality was shown",
+      "rating": 5,
+      "date": "2026-08-20T14:52:34-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Received what ordered",
+        "author": "Guessinggg",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14452268424",
+      "source": "appstore",
+      "text": "They have closed all the ways to reach customer care agents and you must deal with the AI responses until they feel you are worth it…. What a pathetic downgrade to save money. The worst part is they are paying people to give hyped reviews.",
+      "rating": 1,
+      "date": "2026-08-20T13:56:56-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "What a downfall of service",
+        "author": "Snehapower",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14452233991",
+      "source": "appstore",
+      "text": "Thank you for a great shopping experience .. You’ve added so much happiness to my life by delivering products before time..😊🌸",
+      "rating": 5,
+      "date": "2026-08-20T13:44:03-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Best website",
+        "author": "Sandhy@",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14452119416",
+      "source": "appstore",
+      "text": "I bought all my shopping only from Myntra. Great variety brands offers exchange return on time refund policy awesome",
+      "rating": 5,
+      "date": "2026-08-20T13:02:00-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Best",
+        "author": "Kalpana Avhad",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14452056477",
+      "source": "appstore",
+      "text": "Most of the reviews photos are Ai images so how we go with this app",
+      "rating": 2,
+      "date": "2026-08-20T12:39:41-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Scary",
+        "author": "116 Reporting",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14451912300",
+      "source": "appstore",
+      "text": "Placing an order with them and returning items is such a big hassle. The order is always delayed and the customer care is unprofessional. They neither make a refund nor exchange items. Don’t use myntra",
+      "rating": 1,
+      "date": "2026-08-20T11:49:54-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Worst experience with myntra",
+        "author": "Kanika chanana",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14451892772",
+      "source": "appstore",
+      "text": "Very nice but price high overall nice product",
+      "rating": 5,
+      "date": "2026-08-20T11:43:15-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Nice product",
+        "author": "Ujala pareek",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14451887275",
+      "source": "appstore",
+      "text": "Many many options i love shopping on mytra",
+      "rating": 5,
+      "date": "2026-08-20T11:41:21-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Awesome",
+        "author": "Ak47-98",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14451818772",
+      "source": "appstore",
+      "text": "I ordered a puma sneaker and returned it but still they haven’t received it and also didn’t refunded me one of the worst online shopping experience",
+      "rating": 1,
+      "date": "2026-08-20T11:18:25-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Worst Myntra",
+        "author": "Raghav siuu",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14451741676",
+      "source": "appstore",
+      "text": "Its the best app for clothing. Very affordable and pocket friendly.",
+      "rating": 5,
+      "date": "2026-08-20T10:53:34-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Best App",
+        "author": "Neha1996A1995",
+        "app_version": "4.2607.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14451728062",
+      "source": "appstore",
+      "text": "Taking platform fee and other fees and price is high according to cloth material and day to day order quality is degrading",
+      "rating": 1,
+      "date": "2026-08-20T10:49:12-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Taking platform fee and Aldo other fees",
+        "author": "Tanuj89",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14451714398",
+      "source": "appstore",
+      "text": "Best for prewinter, cotton but thick",
+      "rating": 5,
+      "date": "2026-08-20T10:44:50-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Lalit",
+        "author": "Wild Chosse",
+        "app_version": "4.2607.40",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14451528558",
+      "source": "appstore",
+      "text": "Myntra is providing the worst quality of everything with poorest delivery and pickup services. Meesho is far better than Myntra. Better opt for meesho than Myntra",
+      "rating": 1,
+      "date": "2026-08-20T09:46:11-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Service quality",
+        "author": "Aayushi kh",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14451505587",
+      "source": "appstore",
+      "text": "products was so good good quality",
+      "rating": 5,
+      "date": "2026-08-20T09:39:11-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "product",
+        "author": "janudeeo",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14451498089",
+      "source": "appstore",
+      "text": "Very nice products",
+      "rating": 5,
+      "date": "2026-08-20T09:36:53-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Review",
+        "author": "Znb2000",
+        "app_version": "4.2607.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14451396848",
+      "source": "appstore",
+      "text": "Very good as prefer cotton products",
+      "rating": 5,
+      "date": "2026-08-20T09:06:31-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Good",
+        "author": "Vijaykumar 3",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14451362931",
+      "source": "appstore",
+      "text": "Just love it ❤️",
+      "rating": 5,
+      "date": "2026-08-20T08:56:28-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Top review",
+        "author": "Kritika tyagi",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14451178697",
+      "source": "appstore",
+      "text": "One of the best high impact sports bra❤️",
+      "rating": 5,
+      "date": "2026-08-20T08:03:45-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Amazing Fit and comfortable",
+        "author": "simi sahil",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14450936477",
+      "source": "appstore",
+      "text": "Absolutely love shopping from myntra ❤️",
+      "rating": 5,
+      "date": "2026-08-20T06:55:43-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Best shopping app",
+        "author": "Ayushmaaan",
+        "app_version": "4.2608.10",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14450878590",
+      "source": "appstore",
+      "text": "Multi purpose bag..that you can use every where…top notch quality..you can go for it",
+      "rating": 5,
+      "date": "2026-08-20T06:39:17-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Best bag ever..",
+        "author": "Rashmi Sadgir",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14450869812",
+      "source": "appstore",
+      "text": "They’re literally selling reused stuff like if someone has returned a product they won’t discard it but sell it other customers. Also I ordered a different size product and still they send me smaller size product so annoying.",
+      "rating": 1,
+      "date": "2026-08-20T06:36:46-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Disgusting app",
+        "author": "Nishghhji",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14450841384",
+      "source": "appstore",
+      "text": "I don't know what happened to myntra, earlier they have smooth delivery, nowadays deliveries not has promised or deliveries are not happening and delivery timing is horrible, one day their delivery agent calling me at 11'O clock night, I have a healthy habit of sleeping at 10, please fix the issue.",
+      "rating": 3,
+      "date": "2026-08-20T06:28:36-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Delivery issues",
+        "author": "v s s s s s",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14450834294",
+      "source": "appstore",
+      "text": "Material is not that comfortable, but I like the fit 👍\nSo I kept it.",
+      "rating": 5,
+      "date": "2026-08-20T06:26:34-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Denim Bermuda",
+        "author": "Gilhery",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14450778030",
+      "source": "appstore",
+      "text": "very comfortable",
+      "rating": 5,
+      "date": "2026-08-20T06:10:17-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "puma glat",
+        "author": "sanmotra",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14450601032",
+      "source": "appstore",
+      "text": "Myntra looks fake these days, images are blurry and some customer reviews are AI generated, images shared by the customers are also AI generated, not able to understand which one is AI and which one is original",
+      "rating": 2,
+      "date": "2026-08-20T05:17:04-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Myntra AI 🤦🏻‍♀️",
+        "author": "pandey mehak",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14450600554",
+      "source": "appstore",
+      "text": "Awesome collection can’t underestimate Myntra fashion so cool collection",
+      "rating": 5,
+      "date": "2026-08-20T05:16:55-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Code word dress",
+        "author": "Code fashion",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14450584749",
+      "source": "appstore",
+      "text": "Very nice product super comfortable and looking nice",
+      "rating": 5,
+      "date": "2026-08-20T05:12:00-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Top",
+        "author": "Ashi27@",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14450534197",
+      "source": "appstore",
+      "text": "Myntra delivered empty packet for ordered Bitterlime women grey and coffee brown solid top and skirt. Then on request to guide on how to request product as the parcel was empty. They asked me to upload the image in the exchange section. Then they cancelled the exchange. And said no refund. To top it on call they are mentioning there was no image that was uploaded. Now they deny the refund and even the dress",
+      "rating": 1,
+      "date": "2026-08-20T04:55:59-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Empty packet, no refund, denial of the uploaded image",
+        "author": "Pmp17",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14450478977",
+      "source": "appstore",
+      "text": "best quality of product",
+      "rating": 5,
+      "date": "2026-08-20T04:38:09-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Best quality of product",
+        "author": "Ashok Bokade",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14450451791",
+      "source": "appstore",
+      "text": "the delivery was smooth",
+      "rating": 5,
+      "date": "2026-08-20T04:29:09-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "delivery",
+        "author": "urvashi99",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14450418512",
+      "source": "appstore",
+      "text": "such a nice fabric and it looks so beautiful",
+      "rating": 5,
+      "date": "2026-08-20T04:17:57-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Suit review",
+        "author": "Worst company .",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14450414584",
+      "source": "appstore",
+      "text": "Best app delivers on time best products u can search for any product any will get with the best quality",
+      "rating": 5,
+      "date": "2026-08-20T04:16:39-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Best app",
+        "author": "Ally2604",
+        "app_version": "4.2607.40",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14450392167",
+      "source": "appstore",
+      "text": "Great for its price",
+      "rating": 5,
+      "date": "2026-08-20T04:09:06-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Wow",
+        "author": "Ravisaiishu",
+        "app_version": "4.2607.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14450335856",
+      "source": "appstore",
+      "text": "Product is Good",
+      "rating": 5,
+      "date": "2026-08-20T03:49:19-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Wallet",
+        "author": "Bhavferi",
+        "app_version": "4.2512.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14450324160",
+      "source": "appstore",
+      "text": "Order kiya hua products myntra shipping hone ke bad cancel karta hai",
+      "rating": 1,
+      "date": "2026-08-20T03:45:11-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "3 time hua hai.",
+        "author": "Radhika w",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14450289668",
+      "source": "appstore",
+      "text": "Very good quality",
+      "rating": 5,
+      "date": "2026-08-20T03:32:35-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Very good quity",
+        "author": "kethavath jashwanth",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14450289252",
+      "source": "appstore",
+      "text": "I’ve been ordering from Myntra since 2016–17, and after what happened with my latest order, I genuinely cannot believe how badly this platform has deteriorated.\n\nI ordered a pair of Roadster shoes. It took ages to arrive, and when I finally went to the shipment warehouse at my university mall to collect it, the staff were completely inattentive and acted like they couldn’t care less.\n\nBut the real shock came when I got back to my room and opened the package.\n\nInstead of the Roadster shoes I ordered, I received some cheap-looking knockoffs from a completely different brand called “Amico.”\n\nI immediately contacted customer support, only to be greeted by an absolutely useless chatbot. There was no straightforward option to speak to a real person. I had to click through an absurd number of menus just to reach an actual support agent.\n\nAnd then, when I finally got there, the app itself started glitching. I couldn’t even upload a photo of the product I received. It just sat there endlessly saying “Uploading…”\n\nThis is not what you expect from a platform I’ve been trusting with my orders for nearly a decade.\n\nWrong product. Poor delivery experience. Unhelpful staff. A frustrating support system. And then an app that doesn’t even let you submit the evidence needed to resolve the issue.\n\nMyntra, this is absolutely unacceptable.\n\nAfter almost 10 years of ordering from you, this is the last time I’m using Myntra. You’ve completely lost my trust.",
+      "rating": 1,
+      "date": "2026-08-20T03:32:26-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Been Ordering Since 2016. Today, I’m Done.",
+        "author": "krriishhx",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14450241598",
+      "source": "appstore",
+      "text": "I had really very good shopping experience",
+      "rating": 5,
+      "date": "2026-08-20T03:14:44-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Fabulous",
+        "author": "Sai krishna devalla",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14450228382",
+      "source": "appstore",
+      "text": "Absolutely love shopping on Myntra! ❤️ The collection is amazing and there are so many stylish options to choose from. The app is easy to use, product variety is great, and the overall shopping experience is really smooth. I also love the discounts and offers available on different brands. Delivery and packaging have been good too. Overall, Myntra is one of my favourite fashion shopping apps. Highly recommended! ⭐⭐⭐⭐⭐",
+      "rating": 5,
+      "date": "2026-08-20T03:09:41-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Amazing Shopping Experience ❤️✨",
+        "author": "sanjali_versatile1",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14450180499",
+      "source": "appstore",
+      "text": "Very nice color, perfect fit for me",
+      "rating": 5,
+      "date": "2026-08-20T02:51:06-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Cool and vibrant",
+        "author": "Sidrudra",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14450155006",
+      "source": "appstore",
+      "text": "Very beautiful dresses always",
+      "rating": 5,
+      "date": "2026-08-20T02:41:08-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Gorgeous",
+        "author": "khushi rajput jha",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14450112735",
+      "source": "appstore",
+      "text": "Best perfume ever you could go for. Lasts about 4-5hours for sure. My fav so far.",
+      "rating": 5,
+      "date": "2026-08-20T02:24:22-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Perfect fragrance",
+        "author": "izzukhan",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14450108425",
+      "source": "appstore",
+      "text": "Good product. Amazing quality",
+      "rating": 5,
+      "date": "2026-08-20T02:22:36-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Fondue set",
+        "author": "Spamiksha",
+        "app_version": "4.2608.10",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14450108072",
+      "source": "appstore",
+      "text": "Amazing watch beautiful loved it",
+      "rating": 5,
+      "date": "2026-08-20T02:22:29-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Carlton London watch",
+        "author": "Ayushibehl",
+        "app_version": "4.2607.40",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14450083292",
+      "source": "appstore",
+      "text": "Very nice app very useful",
+      "rating": 5,
+      "date": "2026-08-20T02:12:31-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Shopping",
+        "author": "Stifling beauty",
+        "app_version": "4.2606.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14450070737",
+      "source": "appstore",
+      "text": "Easy shopping good stuff",
+      "rating": 5,
+      "date": "2026-08-20T02:07:26-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Easy shopping",
+        "author": "Tarsh3998",
+        "app_version": "4.2608.10",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14449945867",
+      "source": "appstore",
+      "text": "Great app for all your fashion needs",
+      "rating": 5,
+      "date": "2026-08-20T01:16:12-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Fantastic",
+        "author": "Aditi23_",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14449908803",
+      "source": "appstore",
+      "text": "Its very beautiful kurti 🥰 thank you Myntra",
+      "rating": 5,
+      "date": "2026-08-20T01:00:47-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Super🫶🏼",
+        "author": "Jana Roy Bir",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14449884466",
+      "source": "appstore",
+      "text": "Beautiful kurta must buy piece best for casual outings",
+      "rating": 4,
+      "date": "2026-08-20T00:50:33-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Kurta",
+        "author": "Mushef",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14449833280",
+      "source": "appstore",
+      "text": "fabric is very nice, and also a good fit",
+      "rating": 5,
+      "date": "2026-08-20T00:28:46-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Good fit and soft material",
+        "author": "Purple_phu",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14449823766",
+      "source": "appstore",
+      "text": "Awesome service, and great replacement options",
+      "rating": 5,
+      "date": "2026-08-20T00:24:43-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Many variety options",
+        "author": "nicks gurung",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14449776160",
+      "source": "appstore",
+      "text": "This product is worth to money. Impressed",
+      "rating": 5,
+      "date": "2026-08-20T00:04:42-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Venkat",
+        "author": "Buddiga Nani",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14449764593",
+      "source": "appstore",
+      "text": "I love using this app, so affordable products w best quality be it skincare,bodycare, haircare or clothes everything is just bestttt",
+      "rating": 5,
+      "date": "2026-08-19T23:59:49-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Wonderful experience",
+        "author": "Mansi Rawat123",
+        "app_version": "4.2607.40",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14449759654",
+      "source": "appstore",
+      "text": "Loved the Tshirt, its very comfortable to wear",
+      "rating": 5,
+      "date": "2026-08-19T23:57:45-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Beautiful soft fabric",
+        "author": "DeepsVerma",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14449752935",
+      "source": "appstore",
+      "text": "Very good quality & must buy perfume \nEspecially Nirvana & Oud Rocks",
+      "rating": 5,
+      "date": "2026-08-19T23:54:50-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Best fragrance",
+        "author": "Raashavi",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14449718030",
+      "source": "appstore",
+      "text": "I am using this app from ages and this is kinda always my go to place .. so comfortable from purchase to return everything ❤️",
+      "rating": 5,
+      "date": "2026-08-19T23:39:56-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Myntra review",
+        "author": "Sonakshi tri",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14449709089",
+      "source": "appstore",
+      "text": "These are really good headphones, and the sound quality is also very good.",
+      "rating": 5,
+      "date": "2026-08-19T23:36:02-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "OnePlus4Pro",
+        "author": "12;)8@&(46",
+        "app_version": "4.2606.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14449669663",
+      "source": "appstore",
+      "text": "Fabric is too good and very comfortable",
+      "rating": 5,
+      "date": "2026-08-19T23:19:07-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Happy with product",
+        "author": "ritu chug",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14449644541",
+      "source": "appstore",
+      "text": "Been using for years now so good",
+      "rating": 5,
+      "date": "2026-08-19T23:08:10-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Excellent",
+        "author": "Foodnoms",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14449640634",
+      "source": "appstore",
+      "text": "Best for shopping",
+      "rating": 5,
+      "date": "2026-08-19T23:06:26-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Loved it!!!",
+        "author": "Kirupardesi",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14449614920",
+      "source": "appstore",
+      "text": "This site is best for collection and price and all above brand for genuine products",
+      "rating": 5,
+      "date": "2026-08-19T22:55:06-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Genuine products",
+        "author": "BIG BRO 86",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14449612060",
+      "source": "appstore",
+      "text": "Very nice and best fabric",
+      "rating": 5,
+      "date": "2026-08-19T22:53:51-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Thank you team Myntra",
+        "author": "Garv Mishra",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14449604259",
+      "source": "appstore",
+      "text": "This delay has caused me significant inconvenience. I have already checked with my neighbours and reviewed the tracking information, but there are no helpful updates.\n\nSince your company failed to deliver the product within the promised timeframe, I no longer require the item.",
+      "rating": 1,
+      "date": "2026-08-19T22:50:24-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Delivery not get on time",
+        "author": "Swapnil gaikar",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14449585485",
+      "source": "appstore",
+      "text": "Track pant is very comfortable and fabric is best",
+      "rating": 5,
+      "date": "2026-08-19T22:41:57-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Best app for shopping",
+        "author": "Best fabric",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14449582231",
+      "source": "appstore",
+      "text": "Sabse bekar  app h jb koi return krna hota h to delevry boy apne aap write kr deta h ke coustmer not available \nAger help line pe ph kro to agent busy hote h naa wapis ph krte naa cunct krte koi subhidha nhi h \nMyntra se achha to messo or flipcart h",
+      "rating": 1,
+      "date": "2026-08-19T22:40:29-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Complain",
+        "author": "Puja 12",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14449575953",
+      "source": "appstore",
+      "text": "Very cool and very well done product and very good quality product",
+      "rating": 5,
+      "date": "2026-08-19T22:37:39-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Owsome",
+        "author": "K Somor",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14449507971",
+      "source": "appstore",
+      "text": "I really like the product its very comfortable\nI just love it",
+      "rating": 5,
+      "date": "2026-08-19T22:07:50-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Love it",
+        "author": "Prohelika’s",
+        "app_version": "4.2608.10",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14449494717",
+      "source": "appstore",
+      "text": "Best for online shopping",
+      "rating": 5,
+      "date": "2026-08-19T22:02:01-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Best",
+        "author": "Divyanis",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14449494250",
+      "source": "appstore",
+      "text": "Nyc and original brand",
+      "rating": 4,
+      "date": "2026-08-19T22:01:48-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Gud product",
+        "author": "Ansh villain",
+        "app_version": "4.2608.10",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14449477798",
+      "source": "appstore",
+      "text": "The blazer has awesome fitting and breathable material 😍",
+      "rating": 5,
+      "date": "2026-08-19T21:54:39-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Good",
+        "author": "Dr. Takvani",
+        "app_version": "4.2608.10",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14449427703",
+      "source": "appstore",
+      "text": "Its a better app for mycash earnings and purchasing in budget things and useful things are available in deals and earn daily my cash i loved this app i hope always maintain your own speciality",
+      "rating": 5,
+      "date": "2026-08-19T21:32:40-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Good gesture",
+        "author": "Shalu aligarh",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14449416087",
+      "source": "appstore",
+      "text": "My account log out without any reason",
+      "rating": 1,
+      "date": "2026-08-19T21:27:34-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Very poor customer service",
+        "author": "Avishek09",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14449375316",
+      "source": "appstore",
+      "text": "Please do not buy anything from Myntra, as they are selling fake products and refusing to take accountability. I ordered an H&M pair of jeans that turned out to be ill-fitted, but when the delivery agent arrived for the pickup, he outright refused the return, claiming that the brand name \"H&M\" was not engraved on the button. How is an everyday consumer supposed to inspect microscopic details like button engravings when all the original tags and packaging were completely intact?\nMyntra delivered a counterfeit item in the first place, and now their customer support has trapped me in a loop of empty promises. Since August 14th—nearly a week now—they have repeatedly delayed resolving the issue with false assurances of \"24 to 48 hours.\" Their callback service fails to connect, customer care lines are perpetually busy, and no one has initiated the pickup or processed my refund. This is not merely about the cost of the jeans; it is a breach of consumer trust. If Myntra delivers a fake product, penalizing the customer and refusing a legitimate return is unacceptable. Avoid shopping on Myntra unless you are willing to risk losing your money on counterfeit items with zero customer support.",
+      "rating": 1,
+      "date": "2026-08-19T21:09:56-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Myntra selling fake brand product",
+        "author": "Debadrita Paul",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14449349192",
+      "source": "appstore",
+      "text": "vast variety of clothing along with quality checks.",
+      "rating": 4,
+      "date": "2026-08-19T20:58:50-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "nice experience",
+        "author": "abhilesh19",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14449346813",
+      "source": "appstore",
+      "text": "Four Myntra to be the best fashion app",
+      "rating": 5,
+      "date": "2026-08-19T20:57:48-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Best app",
+        "author": "&32123",
+        "app_version": "4.2608.10",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14449273013",
+      "source": "appstore",
+      "text": "Quality is nice . I like it.",
+      "rating": 5,
+      "date": "2026-08-19T20:27:16-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Aruna Dhanapaul",
+        "author": "Dhanapaul",
+        "app_version": "4.2607.40",
+        "vote_sum": "0"
+      }
+    },
+    {
+      "id": "appstore-myntra-14449241046",
+      "source": "appstore",
+      "text": "After placing the order they give the delivery date 20 days after.and on the date of delivery they cancel the order.i m an icon customer and this has happened to me twice.and when u call the customer care they ask u to wait for the sale and place the order again.pathetic service.never expected this from Myntra",
+      "rating": 1,
+      "date": "2026-08-19T20:14:23-07:00",
+      "url": "https://itunes.apple.com/in/review?id=907394059&type=Purple%20Software",
+      "lang": "en",
+      "meta": {
+        "app_name": "myntra",
+        "title": "Cancelling the order at the date of delivery",
+        "author": "Jyoti or",
+        "app_version": "4.2608.20",
+        "vote_sum": "0"
+      }
+    }
+  ]
+}

@@ -2,6 +2,22 @@
 
 One entry per failure. Updated the day it happens — not reconstructed at the end.
 
+## 2026-08-24 — app-store-scraper broke the venv, reverted to Apple's own RSS feed
+
+**Attempt:** installed the PyPI package `app-store-scraper` to build `scrapers/appstore.py`, mirroring `scrapers/playstore.py`'s use of `google-play-scraper`.
+
+**Observed error:** the install pinned `requests==2.23.0`, downgrading the already-installed modern `requests`/`urllib3`. Importing anything depending on `requests` (including `pipeline/relevance_prefilter.py`, `pipeline/migrate_to_unified_schema.py`) immediately broke with `ModuleNotFoundError: No module named 'urllib3.packages.six.moves'` — the old `requests` version expects an old vendored `urllib3` shape that the installed modern `urllib3` doesn't have.
+
+**Root cause:** `app-store-scraper` is unmaintained (no updates in years) and never updated its `requests` pin; installing it silently downgrades a core shared dependency for the whole venv, not just itself.
+
+**Fix:** uninstalled `app-store-scraper`, force-upgraded `requests` back to `>=2.31`. Verified `praw`, `google_play_scraper`, `langdetect`, and `requests` all still import cleanly afterward. Did not reattempt the package.
+
+**Real fix, not a workaround:** wrote `scrapers/appstore.py` against Apple's own public customer-reviews RSS feed (`itunes.apple.com/{country}/rss/customerreviews/id={id}/sortBy=mostRecent/page={n}/json`) directly via `requests` — no third-party library, no auth, officially documented Apple endpoint. Verified live: 500 reviews fetched per app across all three (Myntra, AJIO, Nykaa Fashion).
+
+**Lesson:** an unmaintained scraping package is a bigger risk than "it might not work" — it can silently corrupt shared dependencies for everything else in the same environment. Prefer a first-party API/feed over a third-party wrapper when one exists, especially for a package with no recent maintenance activity.
+
+**Do-not-repeat rule:** before installing any new PyPI package into this shared venv, check its most recent release date and pinned dependency versions for actual/likely conflicts with what's already installed — and re-verify core imports (`requests`, `praw`, `google_play_scraper`) immediately after any new install, not just at the point something visibly breaks later.
+
 ## 2026-08-22 — First live n8n test of discovery-engine-webhook.json: four real bugs found
 
 **Attempt:** the workflow had only ever been statically validated (2026-08-19), never imported into a live n8n instance, per the project's own "don't treat it as working until tested" rule. Self-hosted a local n8n 2.35.7 instance (no Docker available; ran via `npx n8n start`, isolated `N8N_USER_FOLDER`), created a local-only owner account (placeholder credentials, not the user's real identity — this is local software configuration, not a third-party signup), and imported/activated the workflow.

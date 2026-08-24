@@ -1,0 +1,28 @@
+{
+  "raw_file": "reddit_manual.jsonl",
+  "counts": {
+    "input": 1,
+    "dropped_empty": 0,
+    "dropped_too_short": 0,
+    "dropped_non_english": 0,
+    "dropped_duplicate": 0,
+    "pii_scrubbed": 0,
+    "output": 1
+  },
+  "items": [
+    {
+      "id": "reddit-e9869500748e",
+      "source": "reddit",
+      "text": "EXAMPLE ROW — delete before use. I always end up wishlisting stuff on Myntra and then never buying it because I'm not sure it'll actually fit right.",
+      "rating": null,
+      "date": "2026-05-14",
+      "url": "https://reddit.com/r/example/comments/example123/",
+      "lang": "en",
+      "meta": {
+        "subreddit": "IndianFashionAddicts",
+        "type": "comment",
+        "upvotes": 12
+      }
+    }
+  ]
+}

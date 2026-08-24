@@ -1,4 +1,31 @@
 {
+  "appstore_ajio": {
+    "input": 500,
+    "dropped_empty": 0,
+    "dropped_too_short": 63,
+    "dropped_non_english": 25,
+    "dropped_duplicate": 1,
+    "pii_scrubbed": 0,
+    "output": 411
+  },
+  "appstore_myntra": {
+    "input": 500,
+    "dropped_empty": 0,
+    "dropped_too_short": 175,
+    "dropped_non_english": 36,
+    "dropped_duplicate": 1,
+    "pii_scrubbed": 0,
+    "output": 288
+  },
+  "appstore_nykaa": {
+    "input": 500,
+    "dropped_empty": 0,
+    "dropped_too_short": 38,
+    "dropped_non_english": 22,
+    "dropped_duplicate": 0,
+    "pii_scrubbed": 0,
+    "output": 440
+  },
   "ajio": {
     "input": 500,
     "dropped_empty": 0,
@@ -25,5 +52,14 @@
     "dropped_duplicate": 2,
     "pii_scrubbed": 0,
     "output": 180
+  },
+  "reddit": {
+    "input": 1,
+    "dropped_empty": 0,
+    "dropped_too_short": 0,
+    "dropped_non_english": 0,
+    "dropped_duplicate": 0,
+    "pii_scrubbed": 0,
+    "output": 1
   }
 }

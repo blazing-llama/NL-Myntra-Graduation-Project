@@ -14,6 +14,7 @@ Reads data/processed/clean_<app>.json, writes data/processed/relevance_<app>.jso
 
 import json
 import re
+import sys
 import time
 from pathlib import Path
 
@@ -94,11 +95,17 @@ def run_app(name: str) -> dict:
 
 
 def main() -> None:
-    summary = {}
+    only = set(sys.argv[1:]) or None  # optional: run only for these names, e.g. appstore_myntra
+
+    summary_path = PROCESSED_DIR / "relevance_summary.json"
+    summary = json.loads(summary_path.read_text(encoding="utf-8")) if summary_path.exists() else {}
+
     for clean_file in sorted(PROCESSED_DIR.glob("clean_*.json")):
         if clean_file.name == "clean_summary.json":
             continue
         name = clean_file.stem.replace("clean_", "")
+        if only and name not in only:
+            continue
         print(f"[{name}] classifying {json.loads(clean_file.read_text(encoding='utf-8'))['counts']['output']} items via {MODEL} ...")
         start = time.time()
         result = run_app(name)
@@ -110,7 +117,6 @@ def main() -> None:
         out_path.write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8")
         print(f"[{name}] written to {out_path}")
 
-    summary_path = PROCESSED_DIR / "relevance_summary.json"
     summary_path.write_text(json.dumps(summary, indent=2), encoding="utf-8")
     print(f"Summary written to {summary_path}")
 
