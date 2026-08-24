@@ -28,6 +28,7 @@ export interface WishlistItem {
   imageAlt: string;
   price: string;
   group: WishlistGroup;
+  wishlistedAt: string; // ISO datetime — drives the "why now" badge's ~48h age gate
   stock: StockState;
   addedToCartAt: string | null; // requirement #1: item stays wishlisted even after cart-add
   confidence: ConfidenceLevel;

@@ -3,17 +3,19 @@ import { ConfidenceBadge } from "../components/ConfidenceBadge";
 import { ComparisonStrip } from "../components/ComparisonStrip";
 import { NarrationBlock } from "../components/NarrationBlock";
 import { WhyAmISeeingThis } from "../components/WhyAmISeeingThis";
+import { WhyNowBadge } from "../components/WhyNowBadge";
 import { StockBadge } from "../components/StockBadge";
 import { StickyCTA } from "../components/StickyCTA";
 import { TopNav } from "../components/TopNav";
 
 interface Props {
   item: WishlistItem;
+  personaId: string;
   onBack: () => void;
   onAddToCart: () => void;
 }
 
-export function ItemDetail({ item, onBack, onAddToCart }: Props) {
+export function ItemDetail({ item, personaId, onBack, onAddToCart }: Props) {
   return (
     <div style={{ display: "flex", flexDirection: "column", minHeight: "100%" }}>
       <TopNav
@@ -88,6 +90,8 @@ export function ItemDetail({ item, onBack, onAddToCart }: Props) {
           <StockBadge state={item.stock} />
         </div>
 
+        <WhyNowBadge item={item} personaId={personaId} />
+
         <ComparisonStrip rows={item.comparisonRows} />
 
         <NarrationBlock
@@ -97,7 +101,7 @@ export function ItemDetail({ item, onBack, onAddToCart }: Props) {
           whatWouldHelp={item.whatWouldHelp}
         />
 
-        <WhyAmISeeingThis trace={item.trace} />
+        <WhyAmISeeingThis trace={item.trace} itemId={item.id} personaId={personaId} />
       </div>
 
       <StickyCTA level={item.confidence} onAddToCart={onAddToCart} addedToCart={Boolean(item.addedToCartAt)} />

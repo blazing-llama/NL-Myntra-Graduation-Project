@@ -14,6 +14,12 @@ function unsplash(photoId: string, w = 800): string {
   return `https://images.unsplash.com/photo-${photoId}?w=${w}&q=80&fit=crop&auto=format`;
 }
 
+// Relative to "now" so the WhyNowBadge's ~48h age gate demos correctly
+// whenever this is viewed, rather than going stale against a hardcoded date.
+function hoursAgo(n: number): string {
+  return new Date(Date.now() - n * 60 * 60 * 1000).toISOString();
+}
+
 export const PERSONAS: Persona[] = [
   {
     id: "frequent-wishlister",
@@ -42,6 +48,7 @@ export const WISHLIST_BY_PERSONA: Record<string, WishlistItem[]> = {
       imageAlt: "Woman in a structured grey blazer and black trousers",
       price: "₹3,299",
       group: "buying_soon",
+      wishlistedAt: hoursAgo(24 * 5), // 5 days ago — past the 48h gate, badge shows
       stock: "low_stock",
       addedToCartAt: "2026-08-15T10:00:00Z",
       confidence: "high",
@@ -64,6 +71,7 @@ export const WISHLIST_BY_PERSONA: Record<string, WishlistItem[]> = {
       imageAlt: "Woman in a white top and wide-leg green trousers",
       price: "₹1,899",
       group: "buying_soon",
+      wishlistedAt: hoursAgo(6), // 6h ago — under the 48h gate, badge hidden despite confidence != insufficient
       stock: "in_stock",
       addedToCartAt: null,
       confidence: "medium",
@@ -85,6 +93,7 @@ export const WISHLIST_BY_PERSONA: Record<string, WishlistItem[]> = {
       imageAlt: "Woman in a dark blue draped dress against a maroon background",
       price: "₹2,450",
       group: "style_ideas",
+      wishlistedAt: hoursAgo(24 * 10), // 10 days ago — old enough, but insufficient-evidence gate keeps badge hidden
       stock: "out_of_stock",
       addedToCartAt: null,
       confidence: "insufficient",
@@ -107,6 +116,7 @@ export const WISHLIST_BY_PERSONA: Record<string, WishlistItem[]> = {
       imageAlt: "Woman in a black satin spaghetti-strap slip dress",
       price: "₹4,199",
       group: "buying_soon",
+      wishlistedAt: hoursAgo(24 * 4), // 4 days ago — badge shows, "what if I wait" cites the real back-in-stock fact
       stock: "back_in_stock",
       addedToCartAt: null,
       confidence: "high",
@@ -124,6 +134,7 @@ export const WISHLIST_BY_PERSONA: Record<string, WishlistItem[]> = {
       imageAlt: "Woman posing in a pink floral embroidered kurta and pants",
       price: "₹2,899",
       group: "style_ideas",
+      wishlistedAt: hoursAgo(24 * 3), // 3 days ago — old enough, but insufficient-evidence gate keeps badge hidden
       stock: "in_stock",
       addedToCartAt: null,
       confidence: "insufficient",
