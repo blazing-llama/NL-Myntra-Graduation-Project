@@ -1,18 +1,33 @@
 import { useState } from "react";
 import type { ResearchTrace } from "../types";
+import { logEvent } from "../lib/logEvent";
 
 // Requirement #8: every recommendation has a visible "why am I seeing this"
 // trace to a research finding. findingId is a placeholder until Phase 5
 // selects the barrier and the real finding IDs from the discovery engine exist.
 
-export function WhyAmISeeingThis({ trace }: { trace: ResearchTrace }) {
+interface Props {
+  trace: ResearchTrace;
+  itemId: string;
+  personaId: string;
+}
+
+export function WhyAmISeeingThis({ trace, itemId, personaId }: Props) {
   const [open, setOpen] = useState(false);
+
+  function handleToggle() {
+    setOpen((o) => {
+      const next = !o;
+      if (next) logEvent(itemId, "trace_expand", personaId); // log on open, not on close
+      return next;
+    });
+  }
 
   return (
     <div style={{ fontFamily: "var(--font-body)" }}>
       <button
         type="button"
-        onClick={() => setOpen((o) => !o)}
+        onClick={handleToggle}
         aria-expanded={open}
         style={{
           background: "none",

@@ -2,6 +2,20 @@
 
 One entry per failure. Updated the day it happens — not reconstructed at the end.
 
+## 2026-08-25 — event_log insert failed with "permission denied", not an RLS rejection
+
+**Attempt:** first live verification of the Supabase event log (`mvp/supabase/schema.sql`) after adding real credentials to `mvp/.env` and Vercel production env vars, and redeploying. Added an item to cart on the live site and checked the browser console/network for the resulting `add_to_cart` insert.
+
+**Observed error:** `401`, console: `logEvent failed: permission denied for table event_log`.
+
+**Root cause:** the original `schema.sql` enabled RLS and added a policy allowing `anon` to `INSERT`, but never granted the base table-level privilege. Postgres requires both: an RLS policy only restricts *which* rows a role may touch once it already has the underlying SQL privilege — it does not grant that privilege itself. Without `GRANT INSERT ON public.event_log TO anon`, every insert attempt fails at the privilege-check stage, before RLS is even evaluated. (An RLS rejection has a distinct error — "new row violates row-level security policy" — this was a different, earlier failure.)
+
+**Fix:** added `grant insert on public.event_log to anon;` and `grant usage on sequence public.event_log_id_seq to anon;` to `mvp/supabase/schema.sql`. The user ran these in the Supabase SQL Editor. Re-verified live: a fresh browser tab's add-to-cart click produced no error, and a direct REST `curl` matching the app's exact request shape (`Prefer: return=minimal`, no `.select()`) returned `201 Created`. Confirmed working.
+
+**Lesson:** RLS policies and table-level GRANTs are two separate, both-required layers in Postgres. A correct-looking RLS policy with no matching GRANT fails silently in exactly this way — "permission denied," not an RLS-specific message — which is easy to misdiagnose as a policy bug when it's actually a missing grant.
+
+**Do-not-repeat rule:** whenever writing `enable row level security` + a `create policy ... for insert/select/update/delete`, always pair it with the matching `grant <privilege> on <table> to <role>` in the same migration — never assume the policy alone is sufficient.
+
 ## 2026-08-24 — app-store-scraper broke the venv, reverted to Apple's own RSS feed
 
 **Attempt:** installed the PyPI package `app-store-scraper` to build `scrapers/appstore.py`, mirroring `scrapers/playstore.py`'s use of `google-play-scraper`.

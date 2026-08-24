@@ -3,6 +3,7 @@ import { PERSONAS, WISHLIST_BY_PERSONA } from "../mock-data/personas";
 import { WishlistHome } from "./screens/WishlistHome";
 import { ItemDetail } from "./screens/ItemDetail";
 import type { WishlistItem } from "./types";
+import { logEvent } from "./lib/logEvent";
 
 // requirement #1: adding to cart never removes the item from the wishlist —
 // modelled here as setting addedToCartAt on the same item, never deleting it.
@@ -22,6 +23,7 @@ export default function App() {
     setItems((prev) =>
       prev.map((i) => (i.id === itemId ? { ...i, addedToCartAt: new Date().toISOString() } : i)),
     );
+    logEvent(itemId, "add_to_cart", personaId);
   }
 
   const openItem = items.find((i) => i.id === openItemId) ?? null;
@@ -37,7 +39,12 @@ export default function App() {
       }}
     >
       {openItem ? (
-        <ItemDetail item={openItem} onBack={() => setOpenItemId(null)} onAddToCart={() => handleAddToCart(openItem.id)} />
+        <ItemDetail
+          item={openItem}
+          personaId={personaId}
+          onBack={() => setOpenItemId(null)}
+          onAddToCart={() => handleAddToCart(openItem.id)}
+        />
       ) : (
         <WishlistHome
           items={items}
