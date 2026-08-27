@@ -24,15 +24,18 @@ export interface WishlistItem {
   id: string;
   name: string;
   brand: string;
-  imageUrl: string; // Unsplash photo, hardcoded direct CDN URL — see mock-data/personas.ts header comment
+  category: string; // e.g. "Jeans", "Dresses" — drives the wishlist grid's category chips
+  imageUrl: string; // AI-generated sample imagery — see mock-data/personas.ts header comment
   imageAlt: string;
   price: string;
   group: WishlistGroup;
   wishlistedAt: string; // ISO datetime — drives the "why now" badge's ~48h age gate
   stock: StockState;
+  restockedAt: string | null; // round 2 item 8: a genuine restock event (went out of stock, came back) — real evidence, not fabricated
   addedToCartAt: string | null; // requirement #1: item stays wishlisted even after cart-add
   confidence: ConfidenceLevel;
   comparisonRows: ComparisonRow[]; // empty for "insufficient"
+  priceHistory?: number[]; // round 2 item 5: recent price points (oldest -> newest) driving the price-pulse sparkline; only present when price is part of the confidence reasoning
   narration: string; // placeholder for the LLM explanation layer — see mvp/api/narrate.ts
   missingForHigherConfidence?: string; // shown only in "medium"
   whatWouldHelp?: string; // shown only in "insufficient"
@@ -42,5 +45,7 @@ export interface WishlistItem {
 export interface Persona {
   id: string;
   name: string;
-  description: string;
+  description: string; // real interview quote, shown on the picker's info-panel step
+  barrier: string; // plain-language barrier summary, no internal jargon
+  researchNote: string; // "where this comes from" — honest sourcing line, round 2 item 1
 }

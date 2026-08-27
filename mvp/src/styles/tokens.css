@@ -118,3 +118,170 @@ button {
   outline: 3px solid var(--color-thread-plum);
   outline-offset: 2px;
 }
+
+/* Persona picker cards: subtle tilt on hover/press. Reduced-motion users
+   still get the state change (border/shadow), just without the rotation —
+   same principle as the Measurement Strip's delta indicator. */
+.persona-card {
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+  box-shadow: var(--shadow-tactile-button);
+}
+.persona-card:hover {
+  transform: rotate(-0.6deg) translateY(-2px);
+  box-shadow: 0 4px 12px rgba(33, 29, 27, 0.1);
+}
+.persona-card:active {
+  transform: rotate(0.4deg) scale(0.98);
+}
+@media (prefers-reduced-motion: reduce) {
+  .persona-card:hover,
+  .persona-card:active {
+    transform: none;
+  }
+}
+
+/* Wishlist grid cards: same subtle-tilt language as persona-card, kept
+   consistent across the app rather than inventing a second interaction
+   style. */
+.wishlist-card {
+  transition: transform var(--transition-base);
+}
+.wishlist-card:hover {
+  transform: rotate(-0.5deg) translateY(-2px);
+}
+.wishlist-card:active {
+  transform: rotate(0.3deg) scale(0.98);
+}
+@media (prefers-reduced-motion: reduce) {
+  .wishlist-card:hover,
+  .wishlist-card:active {
+    transform: none;
+  }
+}
+
+/* AI trace widget: gentle icon pulse (personality, not urgency — never
+   implies scarcity or a countdown), card expand, and crossfade+slide when
+   switching between the 3 fixed prompts. */
+.trace-widget-icon {
+  display: inline-block;
+  animation: trace-icon-breathe 2400ms ease-in-out infinite;
+}
+@keyframes trace-icon-breathe {
+  0%, 100% {
+    transform: scale(1) rotate(0deg);
+    opacity: 0.85;
+  }
+  50% {
+    transform: scale(1.15) rotate(8deg);
+    opacity: 1;
+  }
+}
+.trace-card-enter {
+  animation: trace-card-open var(--transition-base) ease both;
+}
+@keyframes trace-card-open {
+  from {
+    opacity: 0;
+    transform: scaleY(0.92);
+    transform-origin: top;
+  }
+  to {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+}
+.trace-answer-enter {
+  animation: trace-answer-fade 180ms ease both;
+}
+@keyframes trace-answer-fade {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .trace-widget-icon,
+  .trace-card-enter,
+  .trace-answer-enter {
+    animation: none;
+  }
+}
+
+/* Toast enter/exit and the sticky-CTA "added" pulse. */
+.toast-enter {
+  animation: toast-pop var(--transition-base) ease both;
+}
+@keyframes toast-pop {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+.cta-pulse {
+  animation: cta-pulse-kf 320ms ease;
+}
+@keyframes cta-pulse-kf {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.04);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .toast-enter,
+  .cta-pulse {
+    animation: none;
+  }
+}
+
+/* Similar-items bottom sheet slide-up. */
+.bottom-sheet-enter {
+  animation: sheet-slide-up var(--transition-base) ease both;
+}
+@keyframes sheet-slide-up {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .bottom-sheet-enter {
+    animation: none;
+  }
+}
+
+/* Screen-transition fade+slide used between PersonaPicker -> WishlistHome
+   and WishlistHome -> ItemDetail. Respects reduced-motion via the
+   --transition-base override above (already zeroed there). */
+.screen-transition-enter {
+  animation: screen-fade-in var(--transition-base) ease both;
+}
+@keyframes screen-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .screen-transition-enter {
+    animation: none;
+  }
+}

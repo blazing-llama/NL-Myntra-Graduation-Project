@@ -1,12 +1,13 @@
+import { useState } from "react";
 import type { WishlistItem } from "../types";
 import { ConfidenceBadge } from "../components/ConfidenceBadge";
 import { ComparisonStrip } from "../components/ComparisonStrip";
 import { NarrationBlock } from "../components/NarrationBlock";
-import { WhyAmISeeingThis } from "../components/WhyAmISeeingThis";
-import { WhyNowBadge } from "../components/WhyNowBadge";
+import { AITraceWidget } from "../components/AITraceWidget";
 import { StockBadge } from "../components/StockBadge";
 import { StickyCTA } from "../components/StickyCTA";
 import { TopNav } from "../components/TopNav";
+import { Toast } from "../components/Toast";
 
 interface Props {
   item: WishlistItem;
@@ -16,6 +17,17 @@ interface Props {
 }
 
 export function ItemDetail({ item, personaId, onBack, onAddToCart }: Props) {
+  // Round 2 item 4: a monotonic token, not a boolean — every tap gets a
+  // distinct key, forcing Toast to fully remount (fresh timer, fresh
+  // message snapshot) rather than risking a stale instance lingering from
+  // a previous trigger.
+  const [toastToken, setToastToken] = useState(0);
+
+  function handleAddToCart() {
+    onAddToCart();
+    setToastToken((t) => t + 1);
+  }
+
   return (
     <div style={{ display: "flex", flexDirection: "column", minHeight: "100%" }}>
       <TopNav
@@ -90,9 +102,7 @@ export function ItemDetail({ item, personaId, onBack, onAddToCart }: Props) {
           <StockBadge state={item.stock} />
         </div>
 
-        <WhyNowBadge item={item} personaId={personaId} />
-
-        <ComparisonStrip rows={item.comparisonRows} />
+        <ComparisonStrip rows={item.comparisonRows} priceHistory={item.priceHistory} />
 
         <NarrationBlock
           level={item.confidence}
@@ -101,10 +111,14 @@ export function ItemDetail({ item, personaId, onBack, onAddToCart }: Props) {
           whatWouldHelp={item.whatWouldHelp}
         />
 
-        <WhyAmISeeingThis trace={item.trace} itemId={item.id} personaId={personaId} />
+        <AITraceWidget item={item} personaId={personaId} />
       </div>
 
-      <StickyCTA level={item.confidence} onAddToCart={onAddToCart} addedToCart={Boolean(item.addedToCartAt)} />
+      <StickyCTA level={item.confidence} onAddToCart={handleAddToCart} addedToCart={Boolean(item.addedToCartAt)} />
+
+      {toastToken > 0 && (
+        <Toast key={toastToken} message={`Added ${item.name} to cart`} onDismiss={() => setToastToken(0)} />
+      )}
     </div>
   );
 }

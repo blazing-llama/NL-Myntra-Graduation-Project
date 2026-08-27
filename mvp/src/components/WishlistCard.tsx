@@ -1,71 +1,101 @@
-import { useState } from "react";
 import type { WishlistItem } from "../types";
-import { ConfidenceBadge } from "./ConfidenceBadge";
 import { StockBadge } from "./StockBadge";
+
+// Confidence indicator deliberately NOT shown here — it belongs only on the
+// item-detail screen (explicit product decision). Grid cards show identity
+// (image/name/price) + availability only.
 
 interface Props {
   item: WishlistItem;
+  span: "wide" | "tall"; // asymmetric grid: alternates which cards run bigger
+  hasSimilarItems: boolean; // round-2 QA item 2: hide the trigger rather than dead-end on a genuinely empty sheet
   onOpen: () => void;
+  onShowSimilar: () => void;
 }
 
-export function WishlistCard({ item, onOpen }: Props) {
-  const [hovered, setHovered] = useState(false);
+export function WishlistCard({ item, span, hasSimilarItems, onOpen, onShowSimilar }: Props) {
+  const aspectRatio = span === "wide" ? "4 / 3" : "3 / 4";
+  // Organic shape: each card gets a slightly different corner treatment
+  // rather than one uniform radius — alternates by a stable hash of id so
+  // it doesn't reshuffle on every render.
+  const asymmetricRadius = item.id.charCodeAt(item.id.length - 1) % 2 === 0
+    ? "28px 14px 28px 14px"
+    : "14px 28px 14px 28px";
 
   return (
-    <button
-      type="button"
-      onClick={onOpen}
-      onMouseEnter={() => setHovered(true)}
-      onMouseLeave={() => setHovered(false)}
-      onFocus={() => setHovered(true)}
-      onBlur={() => setHovered(false)}
+    <div
+      className="wishlist-card"
       style={{
         display: "flex",
-        gap: 12,
-        width: "100%",
-        textAlign: "left",
-        padding: 12,
-        background: "var(--color-bone)",
-        border: `1px solid ${hovered ? "var(--color-border-interactive)" : "var(--color-border)"}`,
-        borderRadius: "var(--radius-xl)",
-        cursor: "pointer",
-        transition: `border-color var(--transition-fast)`,
+        flexDirection: "column",
+        gridColumn: span === "wide" ? "span 2" : "span 1",
       }}
     >
-      <img
-        src={item.imageUrl}
-        alt={item.imageAlt}
+      <button
+        type="button"
+        onClick={onOpen}
         style={{
-          width: 64,
-          height: 80,
-          flexShrink: 0,
-          borderRadius: "var(--radius-sm)",
-          border: "1px solid var(--color-border)",
-          background: "var(--color-border)",
-          objectFit: "cover",
+          display: "flex",
+          flexDirection: "column",
+          width: "100%",
+          textAlign: "left",
+          padding: 0,
+          background: "transparent",
+          border: "none",
+          cursor: "pointer",
         }}
-      />
-      <div style={{ flex: 1, display: "flex", flexDirection: "column", gap: 4 }}>
-        <div
+      >
+        <img
+          src={item.imageUrl}
+          alt={item.imageAlt}
           style={{
-            fontFamily: "var(--font-display)",
-            fontSize: "var(--type-card-title-size)",
-            fontWeight: "var(--type-card-title-weight)",
-            lineHeight: "var(--type-card-title-leading)",
+            width: "100%",
+            aspectRatio,
+            borderRadius: asymmetricRadius,
+            border: "1px solid var(--color-border)",
+            background: "var(--color-border)",
+            objectFit: "cover",
           }}
-        >
-          {item.name}
+        />
+        <div style={{ padding: "8px 2px 0", display: "flex", flexDirection: "column", gap: 2 }}>
+          <span
+            style={{
+              fontFamily: "var(--font-display)",
+              fontSize: 15,
+              lineHeight: 1.25,
+            }}
+          >
+            {item.name}
+          </span>
+          <span style={{ fontSize: 11, color: "var(--color-ink-secondary)" }}>{item.brand}</span>
+          <span style={{ fontFamily: "var(--font-mono)", fontSize: 13 }}>{item.price}</span>
         </div>
-        <div style={{ fontSize: 12, color: "var(--color-ink-secondary)" }}>{item.brand}</div>
-        <div style={{ fontSize: 14, fontFamily: "var(--font-mono)" }}>{item.price}</div>
-        <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginTop: 2 }}>
-          <ConfidenceBadge level={item.confidence} />
-          <StockBadge state={item.stock} />
-          {item.addedToCartAt && (
-            <span style={{ fontSize: 12, color: "var(--color-ink-secondary)" }}>In cart — still wishlisted</span>
-          )}
-        </div>
+      </button>
+
+      <div style={{ display: "flex", flexWrap: "wrap", gap: 6, padding: "6px 2px 0", alignItems: "center" }}>
+        <StockBadge state={item.stock} />
+        {item.addedToCartAt && (
+          <span style={{ fontSize: 11, color: "var(--color-ink-secondary)" }}>In cart</span>
+        )}
+        {hasSimilarItems && (
+          <button
+            type="button"
+            onClick={onShowSimilar}
+            style={{
+              marginLeft: "auto",
+              border: "none",
+              background: "transparent",
+              color: "var(--color-thread-plum)",
+              fontSize: 11,
+              fontWeight: 600,
+              cursor: "pointer",
+              padding: "4px 0",
+            }}
+          >
+            Similar items ›
+          </button>
+        )}
       </div>
-    </button>
+    </div>
   );
 }

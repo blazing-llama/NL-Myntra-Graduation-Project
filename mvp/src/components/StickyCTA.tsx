@@ -18,6 +18,13 @@ interface Props {
 
 export function StickyCTA({ level, onAddToCart, addedToCart }: Props) {
   const [pressed, setPressed] = useState(false);
+  const [pulse, setPulse] = useState(false);
+
+  function handleClick() {
+    onAddToCart();
+    setPulse(true);
+    setTimeout(() => setPulse(false), 320);
+  }
 
   const label = addedToCart
     ? "In cart — still in your wishlist"
@@ -37,10 +44,11 @@ export function StickyCTA({ level, onAddToCart, addedToCart }: Props) {
     >
       <button
         type="button"
-        onClick={onAddToCart}
+        onClick={handleClick}
         onMouseDown={() => setPressed(true)}
         onMouseUp={() => setPressed(false)}
         onMouseLeave={() => setPressed(false)}
+        className={pulse ? "cta-pulse" : undefined}
         style={{
           width: "100%",
           minHeight: "var(--tap-target-min)",
@@ -67,7 +75,7 @@ export function StickyCTA({ level, onAddToCart, addedToCart }: Props) {
             color: "var(--color-ink-secondary)",
           }}
         >
-          Unendorsed — we don&apos;t have enough evidence to recommend for or against this.
+          We don&apos;t have enough evidence yet for a confident recommendation.
         </p>
       )}
     </div>
