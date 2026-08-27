@@ -1,20 +1,32 @@
 {
-  "ajio": {
-    "total": 185,
+  "appstore_ajio": {
+    "total": 411,
     "relevant": 2,
-    "not_relevant": 183,
+    "not_relevant": 409,
+    "classification_failed": 0
+  },
+  "appstore_myntra": {
+    "total": 288,
+    "relevant": 8,
+    "not_relevant": 280,
+    "classification_failed": 0
+  },
+  "appstore_nykaa": {
+    "total": 440,
+    "relevant": 5,
+    "not_relevant": 435,
+    "classification_failed": 0
+  },
+  "ajio": {
+    "total": 576,
+    "relevant": 20,
+    "not_relevant": 556,
     "classification_failed": 0
   },
   "myntra": {
-    "total": 248,
-    "relevant": 2,
-    "not_relevant": 246,
-    "classification_failed": 0
-  },
-  "nykaa": {
-    "total": 180,
-    "relevant": 1,
-    "not_relevant": 179,
+    "total": 488,
+    "relevant": 4,
+    "not_relevant": 484,
     "classification_failed": 0
   }
 }

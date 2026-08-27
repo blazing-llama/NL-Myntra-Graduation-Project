@@ -29,7 +29,8 @@ SYSTEM_PROMPT = """You classify a single app review for a pre-purchase relevance
 Question: does this text discuss pre-purchase hesitation, wishlist/save
 behaviour, or comparison-shopping for a fashion item (uncertainty about
 fit, price, occasion fit, quality, availability, or forgetting about a
-saved item)?
+saved item), or a save/bookmark made for inspiration or styling ideas
+rather than near-term purchase intent?
 
 Answer FALSE for: delivery complaints, refund/return-processing-time
 complaints, app-crash or login complaints, generic praise or complaints
@@ -37,12 +38,31 @@ with no purchase-decision content, complaints about an order already
 placed with no earlier hesitation mentioned.
 
 Return ONLY a single JSON object, no other text:
-{"is_relevant": boolean, "confidence": number between 0 and 1}"""
+{"is_relevant": boolean, "confidence": number between 0 and 1}"""  # v2 (see prompts/relevance_prefilter_CHANGELOG.md)
 
 JSON_OBJECT_RE = re.compile(r"\{.*\}", re.DOTALL)
 
+MAX_RETRIES = 2  # retries on top of the first attempt, so 3 tries total
+RETRY_BACKOFF_SECONDS = 3  # doubles each retry: 3s, 6s
+SKIPPED_ITEMS_PATH = PROCESSED_DIR / "relevance_v2_skipped.jsonl"
 
-def classify(content: str, timeout: int = 30) -> dict:
+
+def _log_skipped_item(item_id: str | None, content: str, error: str) -> None:
+    """A single item exhausted its retries -- record it and move on. Never
+    let one bad item take down hours of otherwise-good progress."""
+    row = {
+        "id": item_id,
+        "text_preview": content[:200],
+        "error": error,
+        "skipped_at": time.strftime("%Y-%m-%dT%H:%M:%S"),
+    }
+    with SKIPPED_ITEMS_PATH.open("a", encoding="utf-8") as f:
+        f.write(json.dumps(row, ensure_ascii=False) + "\n")
+
+
+def classify(content: str, item_id: str | None = None, timeout: int = 60) -> dict:
+    """Never raises -- always returns a result dict, even on total failure,
+    so one slow/unreachable Ollama call can't crash a multi-hour run."""
     prompt = f'{SYSTEM_PROMPT}\n\nReview text: "{content}"'
     payload = {
         "model": MODEL,
@@ -51,8 +71,22 @@ def classify(content: str, timeout: int = 30) -> dict:
         "format": "json",
         "options": {"temperature": 0},
     }
-    resp = requests.post(OLLAMA_URL, json=payload, timeout=timeout)
-    resp.raise_for_status()
+
+    last_error: Exception | None = None
+    for attempt in range(MAX_RETRIES + 1):
+        try:
+            resp = requests.post(OLLAMA_URL, json=payload, timeout=timeout)
+            resp.raise_for_status()
+            break
+        except (requests.exceptions.ReadTimeout, requests.exceptions.ConnectionError) as e:
+            last_error = e
+            if attempt < MAX_RETRIES:
+                time.sleep(RETRY_BACKOFF_SECONDS * (attempt + 1))
+                continue
+            error_msg = f"gave_up_after_{MAX_RETRIES}_retries: {type(e).__name__}: {e}"
+            _log_skipped_item(item_id, content, error_msg)
+            return {"is_relevant": None, "confidence": None, "error": error_msg}
+
     raw = resp.json().get("response", "")
     match = JSON_OBJECT_RE.search(raw)
     if not match:
@@ -75,7 +109,7 @@ def run_app(name: str) -> dict:
 
     for item in clean["items"]:
         counts["total"] += 1
-        result = classify(item["text"])
+        result = classify(item["text"], item_id=item["id"])
         if result["is_relevant"] is None:
             counts["classification_failed"] += 1
         elif result["is_relevant"]:

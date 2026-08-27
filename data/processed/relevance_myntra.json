@@ -1,9 +1,9 @@
 {
   "name": "myntra",
   "counts": {
-    "total": 248,
-    "relevant": 2,
-    "not_relevant": 246,
+    "total": 488,
+    "relevant": 4,
+    "not_relevant": 484,
     "classification_failed": 0
   },
   "results": [
@@ -191,7 +191,7 @@
       "id": "playstore-myntra-bfe1e843-6c36-4a4e-bbd6-be825c87c3b0",
       "text": "Products are of avg quality and they didn't even replace shoes which was not fitting well, saying I have used it. The policies need improvement. Thanks for now, uninstalling the app for now.",
       "is_relevant": false,
-      "confidence": 0
+      "confidence": 0.8
     },
     {
       "id": "playstore-myntra-145656d3-0521-41fe-8166-eafdb1a298a5",
@@ -490,8 +490,8 @@
     {
       "id": "playstore-myntra-5bea6de1-0cdb-4aa2-842d-0dd702f29336",
       "text": "low price, better quality.",
-      "is_relevant": false,
-      "confidence": 0
+      "is_relevant": true,
+      "confidence": 0.8
     },
     {
       "id": "playstore-myntra-f4f3bcf8-16d3-422e-a2ed-5f965d216970",
@@ -989,7 +989,7 @@
       "id": "playstore-myntra-f336df48-e580-438b-af11-35ea037dcb6c",
       "text": "The app shows Express Delivery, but the item is still getting delivered very late. I’ve had the same experience with multiple products, which is extremely disappointing. The express delivery promise doesn’t seem reliable at all. If you need an item urgently, I would not recommend trusting the express delivery option. Very bad experience.",
       "is_relevant": false,
-      "confidence": 0
+      "confidence": 1
     },
     {
       "id": "playstore-myntra-afec030b-732f-44b7-a600-e2aca4522db6",
@@ -1259,7 +1259,7 @@
       "id": "playstore-myntra-0005df0d-f52f-467d-a184-243abfa4a4cf",
       "text": "original product, can buy without doubt",
       "is_relevant": false,
-      "confidence": 0
+      "confidence": 0.8
     },
     {
       "id": "playstore-myntra-704f5fd8-d175-46f3-9cac-d1a6a160e41b",
@@ -1313,7 +1313,7 @@
       "id": "playstore-myntra-fd1ca33c-d8ee-48d4-85fa-76bc488f079a",
       "text": "not many good options in shoes otherwise good app",
       "is_relevant": false,
-      "confidence": 0
+      "confidence": 0.5
     },
     {
       "id": "playstore-myntra-8a37dc22-4d91-42d5-85ec-e50f68f7573a",
@@ -1492,6 +1492,1446 @@
     {
       "id": "playstore-myntra-e8e0fc9f-4f69-46e3-8d8c-11b52d283200",
       "text": "right place to buy your own products on right price",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-f344f65a-e715-4ab9-9351-06ae551acaf2",
+      "text": "I've been using Myntra for the last 9 years, and honestly, it's my go-to shopping app for almost everything. Whether I'm shopping for fashion, home essentials, makeup, or even something for my daughter, Myntra always has so many amazing options. What I love the most is how easy the app is to use. It's super simple to explore, find exactly what you're looking for, and discover new products. Plus, the deals and discounts are always amazing, so you can shop without spending a fortune.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-fee7b106-7d9a-46a5-8d9d-90e67b2f1d77",
+      "text": "Absolutely loved my experience with this shopping app! 🛍️✨ The app is easy to use, the product variety is amazing, and the ordering process is smooth and hassle-free. The products arrived on time, were well-packaged, and matched the descriptions perfectly. The quality was also really good for the price. Overall, a reliable and convenient shopping app with great service. Highly recommended! ⭐⭐⭐⭐⭐",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-e4bc67c3-8184-4188-95d1-c6f90779024f",
+      "text": "“Absolutely loved these jeans! The fitting is perfect and the fabric feels really comfortable. The quality is also very good and the jeans look exactly like the pictures. The fit is flattering and easy to style with both crop tops and oversized tops. I’ve worn them for long hours and they’re still comfortable. Definitely worth the price and would recommend them! ❤️”",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-3d22ed7b-2b38-4a62-bda3-3771f00e11cd",
+      "text": "Dot & Key is a wonderful skincare brand that offers a variety of products designed to make skincare simple, effective, and enjoyable. I recently tried a Dot & Key product and had a really positive experience with it. The product has a pleasant texture, feels comfortable on the skin, and is easy to use as part of a daily skincare routine. One of the things I liked most is that it feels lightweight and does not leave an uncomfortable or heavy feeling after application. I loved this product .🥰🤩😍",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-2d9f737b-558c-4f11-a646-44a2e8f1f7dd",
+      "text": "Myntra is one of the best shopping apps for fashion and clothing. The app is easy to use, there are plenty of options from different brands, and the product quality is generally very good. Delivery is also fast and the return/exchange process is quite convenient. Overall, I’ve had a great shopping experience with Myntra and would definitely recommend it to others.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-42388d31-c873-4be3-ae80-3386fb3c1558",
+      "text": "My experience with Myntra was overall very good and learning-oriented. The work environment was professional, and I got opportunities to learn new skills and improve my knowledge. The team members were supportive, and working with them helped me develop better communication, teamwork, and problem-solving skills. Although some tasks were challenging and required meeting deadlines, the overall experience was valuable and beneficial for my personal and professional growth.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-462b34cf-861d-4f2e-9058-9799063a908a",
+      "text": "Absolutely loved my experience with Myntra! The app is easy to use, the collection is amazing, and there are plenty of options to choose from. The product quality was excellent, delivery was quick, and everything arrived well-packed. Overall, a smooth and satisfying shopping experience. Definitely recommend Myntra!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-e2bd09d6-6a98-442f-b1cd-bc4c8abff561",
+      "text": "⭐⭐⭐⭐⭐ I've had a great shopping experience with Myntra. The app is easy to use, the collection is trendy, and there are plenty of options for every style and budget. The products I've received matched the description, delivery was quick, and the packaging was neat. Returns and exchanges are also hassle-free, which makes shopping stress-free. Overall, it's one of my favorite apps for fashion shopping. Highly recommended!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-eabcb627-5cfd-4c82-97fd-619add05e29d",
+      "text": "⭐⭐⭐⭐⭐ I've been using Myntra for a long time, and my experience has been amazing. The app is easy to use, offers a huge variety of brands and styles, and the quality of products is usually excellent. Deliveries are quick, packaging is neat, and returns or exchanges are hassle-free. I also love the frequent sales and discounts, which make shopping even more enjoyable. Overall, Myntra is one of the best online shopping apps, and I highly recommend it!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-f21bbcd5-d326-4483-9c5a-0de06a62b36e",
+      "text": "I've been using Myntra for a long time, and it's my favorite shopping app. The product quality is always good, the prices are affordable, and there are so many varieties to choose from. I love the stylish collections, regular discounts, and the smooth shopping experience. The return experience is good and easy, and delivery is usually fast. Overall, I'm very happy with Myntra and highly recommend it to anyone who loves shopping for quality products at great prices. 👍",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-8e71f6a4-ef8f-4d75-843e-565ae52246dc",
+      "text": "I had a wonderful experience shopping on the app. So far I have only purchased clothes, but the entire process has been extremely smooth and easy. The deliveries are prompt, and even the return process is quick and completely hassle-free—just a simple click. What impressed me most was the speed of the refunds; the amount was credited within hours on the very same day. Overall, it has been an amazing shopping experience. 😊",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-c9d2a3a3-59b8-4418-9d9d-5909a2059109",
+      "text": "I’ve been using Myntra for almost 7 years, and I genuinely love the app! ❤️ The variety of clothes, footwear, beauty products, and brands is amazing, and I’ve always had a great shopping experience. The app is easy to use, products are usually good quality, delivery is convenient, and the offers and discounts are a big plus. 🛍️✨ Myntra has been one of my favourite shopping apps for years, and I’ll definitely continue shopping here! ❤️",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-6b64f173-aefe-4e9b-9532-79739cf9c672",
+      "text": "Absolutely love shopping on Myntra! The app is super smooth, easy to navigate, and offers a huge collection of authentic brands... Delivery experience is good.. packaging is neat, and whenever there's a sizing issue, the exchange and return process is completely hassle-free.. Definitely my go-to app for fashion!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-796d1a7c-bdd6-4be2-8c55-62fa6ed17120",
+      "text": "very good quality product affordable price love myntra.Myntra is a great shopping app with a wide variety of products and brands. The app is easy to use, deliveries are usually quick, and the quality of products is good. The offers and discounts are also quite attractive. Overall, I’ve had a very good shopping experience with Myntra and would definitely recommend it.I’ve had a really good experience shopping on Myntra. The collection is trendy, the prices are reasonable, Myntra never disappoint",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-67929da1-3f27-4942-8881-02da7f330522",
+      "text": "Balanced I’ve had a pretty good experience with Myntra overall. The app is easy to use, there are lots of products and brands to choose from, and the delivery tracking is helpful. Prices and discounts are also usually good. There are occasional delivery issues, but overall it’s a convenient shopping app.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-4ff461a0-7963-4861-9219-153dbc42d83b",
+      "text": "⭐⭐⭐⭐⭐ Great shopping experience! The products matched the description, the quality was excellent, and the delivery was quick. The app is easy to use, with plenty of options and great discounts. Returns and exchanges were also smooth. Overall, I'm very satisfied with my purchase and would definitely shop on Myntra again.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-68218d2d-fe3d-46a3-9973-309492cbdb35",
+      "text": "Great shopping experience with Myntra! I’m really happy with my purchase. The product quality was excellent, exactly as shown in the pictures, and the fit was perfect. The ordering process was smooth and delivery was on time. Overall, a convenient and reliable shopping experience.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-99b3adaa-47a5-4966-b5d6-fad8e7955730",
+      "text": "Satisfying experience..... Had a really good experience shopping from Myntra. The products were genuine, well-packed, and delivered on time. The overall shopping experience was smooth and hassle free, with plenty of options to choose from. Definitely a reliable platform for online shopping!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-90e46fdc-d7d7-4858-8957-8801ed1ba923",
+      "text": "Myntra is honestly one of my favourite shopping apps! ❤️ The app is very easy to use. the collection is amazing & there are always great discounts & offers. I love how easy it is to search products compare options & check reviews before buying. The product variety is excellent & the overall shopping experience is smooth and convenient. 🛍️ Delivery & packaging have also been good in my experience & the return/exchange process is quite convenient. Thank u Myntra for making online shopping so easy",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-6e5b6ae4-c551-4c4e-ad62-af4721d27b9d",
+      "text": "one of the best online shopping apps! The app is fast, easy to use, and offers a huge collection of fashion, footwear, beauty, and lifestyle products from top brands. The quality of products is excellent, delivery is usually quick, and returns/exchanges are smooth and hassle-free. I also love the regular discounts, coupons, and sales that help save money. Overall, a reliable shopping app with a great user experience",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-9d3bb82a-4e6c-4e45-a7c1-a6ac2c1d6ca5",
+      "text": "I absolutely love shopping on Myntra! The collection is huge, from trendy outfits to ethnic wear and even shoes, watches, and beauty. Delivery is usually fast, return/exchange is super easy, and the app interface is very smooth. The sale deals and Myntra coupons make it even better. Definitely my go-to fashion app!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-51aba27e-3f91-4d42-a157-a32b94d53713",
+      "text": "\"Myntra is my absolute go-to app for fashion and lifestyle shopping! The user interface is very smooth, search filters are highly accurate, and the sizing guides are mostly perfect. Delivery is usually on time, and refunds are processed swiftly. Highly recommended!\"",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-5be177e2-6c17-4b1f-a0a6-8c7833f6308d",
+      "text": "Great app for fashion lovers! Myntra has an amazing collection of brands and the latest trends. The user interface is clean, making it very easy to browse and filter products by size, price, and color. I love the frequent sales and discounts. Delivery is usually on time, and the return/exchange process has been completely hassle-free for me so far. Highly recommend it for a seamless online shopping experience!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-620b719c-79dc-4d5d-98b7-b5f1241df4b1",
+      "text": "I had a great shopping experience with Myntra. The product quality was exactly as described and exceeded my expectations. The packaging was neat, secure, and ensured the item arrived in perfect condition. The delivery was also quick and hassle-free, with timely updates throughout the process. Overall, I'm very satisfied with my purchase and would definitely shop from Myntra again.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-422edc17-41aa-48f9-b53c-e5c3e1965d55",
+      "text": "Myntra has become my go-to shopping app for fashion! The app is smooth, easy to use, and offers a huge collection of brands and styles. Deliveries are usually on time, product quality is excellent, and returns are hassle-free. I also love the frequent discounts and personalized recommendations. Overall, a fantastic shopping experience every time. Highly recommended! 😊",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-bcc97450-de8b-4961-b78c-0ac575f4d70f",
+      "text": "⭐⭐⭐⭐⭐ Myntra is one of the best shopping apps. The delivery is very fast, and the delivery partners bring the order right to the doorstep. If I need to cancel an order, the cancellation process is simple and hassle-free. Refunds are processed quickly, making the whole experience smooth. The product quality matches the pictures shown in the app, so I receive exactly what I expect. Overall, the entire shopping process on Myntra is easy, reliable, and convenient. Highly recommended!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-c76c000f-8af0-4383-a437-97b748d7e9ea",
+      "text": "I've been using Myntra for a long time, and my experience has been amazing. The app is easy to use, offers a huge variety of brands and styles, and the quality of products is usually excellent. Deliveries are quick, packaging is neat, and returns or exchanges are hassle-free. I also love the frequent sales and discounts, which make shopping even more enjoyable. Overall, Myntra is one of the best online shopping apps, and I highly recommend it!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-67963596-b2f1-404d-bacc-56077a740be7",
+      "text": "\"Excellent shopping experience! The app has a massive collection of top brands and the user interface is very smooth. Filtering products is super easy, and I always get genuine items. Delivery is fast, and the return/exchange process is completely hassle-free. Highly recommended for fashion lovers!\"❤️❤️❤️❤️",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-1efa794a-b2b3-4b8e-ac43-2a127d20fe21",
+      "text": "Absolutely love Myntra! 🛍️✨The collection is super trendy nd always up 2 date w the latest fashion. The quality of products is amazing nd totally worth the price. Delivery is always on tym, nd the packaging is neat nd secure. What I love the most is their smooth return & exchange process no hassle at all! Even when I received a different product once, the issue was handled quickly nd I got my refund without any stress. Overall, a very reliable shopping app w great deals, offer. highly recommend",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-16ea9d99-2449-4ac0-8c32-e7e3fb6107f3",
+      "text": "Myntra is one of the best online fashion shopping platforms. It offers a huge collection of branded clothing, footwear, and accessories at great prices. The delivery is usually fast, the products are genuine, and the return/exchange process is simple and hassle-free. I had a great shopping experience and would definitely recommend Myntra to anyone looking for quality fashion products.\"",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-c2853d97-d463-4d89-8aa2-c39b1afd0449",
+      "text": "⭐⭐⭐⭐⭐ 10/10! Amazing shopping experience on Myntra! Great collection, good quality products, easy-to-use app, and amazing discounts. Totally loved it! ❤️ Myntra has a great variety of clothes, footwear and beauty products. The app is easy to use, filters are helpful, and there are usually good discounts. Overall, a good shopping app, though customer support and return issues could be improved.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-5489d211-20be-4cbc-8203-374343b170d2",
+      "text": "I have been using Mantra for a few years now. Earlier, I used to order only a few things, but now I keep buying something or the other regularly. So far, everything I have ordered has been really good. Especially since they introduced the cashback and daily rewards options, it has been even more beneficial. I’m really happy with the experience. Thank you, Mantra! ❤️",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-f3e36e52-3516-4836-8053-08e9d33d6cb9",
+      "text": "Absolutely! Here's a detailed positive feedback you can post for Myntra: ⭐⭐⭐⭐⭐ Excellent Shopping Experience with Myntra! I have had a really great experience shopping with Myntra. The app is very user-friendly, well-designed, and makes online shopping extremely convenient. There is a huge variety of products available, including clothing, footwear, accessories, beauty products, and many other fashion items. I especially appreciate the wide range of brands and styles available, which makes it ea",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-8f057054-a047-442d-8dfb-3b2faf46443d",
+      "text": "Have been buying garments from Myntra for quite some years now and am quite satisfied with the pricing and quality. This app has changed the way I used to shop earlier. Lots of items to choose from, even plus size products, which are quite scanty in local markets. So thumbs up to Myntra! 👍",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-79554f53-13a4-4781-a8d3-aae7b2abd275",
+      "text": "I had a wonderful experience shopping with Myntra! The delivery was quick, and the discounts and offers were amazing. They have a huge collection with plenty of options to choose from. Overall, a great shopping experience! ⭐⭐⭐⭐⭐",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-aded7ae4-6215-48f1-a09a-554f648123eb",
+      "text": "⭐️⭐️⭐️⭐️⭐️ My Myntra Experience My experience with Myntra has been really good. I love the wide variety of clothes, footwear, beauty products, and accessories available on the app. The products are easy to browse, and the filters and size options make shopping more convenient.I also like the discounts and offers available during sales.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-8a935ee8-5640-4d32-8067-826624c36bf5",
+      "text": "I really had a great experience using the Myntra app. The app is easy to use, well-designed, and has a wide variety of products to choose from. I especially like the easy search, filters, product details, and smooth shopping experience. The delivery process is also convenient, and the products I received were good in quality. Overall, Myntra makes online shopping simple, comfortable, and enjoyable. I am very satisfied with the app and would definitely recommend it to others. ⭐⭐⭐⭐⭐",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-95d6f46c-ffaa-4b80-802e-485751c92609",
+      "text": "It is always fantastic experience on ordering in Myntra with great offer and exciting pricing . I used to do my most of shopping on Amazon but now from last few months I installed Myntra and offers I get on this app is better than Amazon . I also like play and win game on Myntra where one can earn real money everyday and use that money on shopping . Thanks Myntra for such a great service .",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-65c2bcc6-143d-4a38-a36e-ae45a4a943e7",
+      "text": "Really happy with my Myntra experience! 🛍️ The app is easy to use, there are lots of options to choose from, and the products are generally good quality. Delivery was smooth and the overall shopping experience was great. Definitely one of my favourite shopping apps! ❤️",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-1bcca7c8-8a1b-4236-8007-d2b1d3505650",
+      "text": "Please add a Hide/Delete Order History feature in Myntra. Users should have the option to hide, archive, or permanently delete individual orders for privacy. Many people buy surprise gifts or personal items, and old orders can sometimes create unnecessary misunderstandings. This feature would improve user privacy, give customers more control over their accounts, and enhance the overall shopping experience. I hope myntra will consider adding this option in a future update. Thank you.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-58a11346-1c7c-43b4-b14c-62bcc7116ff5",
+      "text": "Large Variety: Users like the wide range of clothing, beauty, and lifestyle brands. App Design: The interface is clean, smooth, and easy to navigate for browsing. Convenience: Many praise the simple return and exchange steps for correctly sized or non-defective items.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-9d4a7176-8298-4be5-ba55-b4899b136a1f",
+      "text": "Myntra is one of the best shopping apps for fashion and lifestyle products. The app is easy to use, has a great variety of products, and the delivery is usually fast. Product quality and packaging are also good. Overall, I’ve had a smooth and satisfying shopping experience with Myntra. Highly recommended! 🛍️✨",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-ba600e74-82b2-42e9-b4ed-bc03b1c0c0b2",
+      "text": "Amazing shopping experience !the app is very easy to use and the collection are amazing it has huge amount of brands and all type of fashion and the fwd section is one of my favourite , product quality is also good.And the best part is that my orders often get delivered even before the expected delivery date.Even when I have had to cancel the an order after making an online payment ,the refund was processed quickly . overall a smooth and reliable shopping experience.highly satisfied!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-7f28e345-e263-4435-ab64-bfcbced1c068",
+      "text": "⭐⭐⭐⭐⭐ Amazing shopping experience! The app is easy to use, the collection is huge, and the quality of products is excellent. Delivery was on time, packaging was neat, and the prices are great with amazing discounts. Highly recommended for anyone looking for trendy fashion and genuine branded products. Keep up the great work!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-792c1c00-f621-4836-ae60-a98fc3fe3b5f",
+      "text": "I love using Myntra because the items are delivered very fast and safe, and it has a fantastic collection of brands. The app interface is smooth and makes it really easy to find exactly what I am looking for. I also appreciate the Myntra Insider loyalty program which rewards frequent shoppers. The return and exchange policy is usually hassle-free, making it a highly reliable shopping platform.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-32471096-b339-4dd4-ac4f-58825ef978cd",
+      "text": "I've had a great shopping experience with Myntra. The app is easy to use, offers a wide variety of fashion brands, and the delivery is usually on time. Product quality matches the description, and the return/exchange process is smooth. Regular discounts and deals make shopping even better. Highly recommended for fashion lovers!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-fa108c31-2448-4e3c-9b82-8757645af02d",
+      "text": "Myntra is my favorite app for fashion shopping! It has a very clean design, easy search options, and original brands. Delivery is fast, though customer service could be a bit more helpful with returns. Overall, a great app for shopping.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-fcb9f02d-b2de-43b6-8060-f129897df8fe",
+      "text": "Fashion has always been a beautiful way for me to express my personality, creativity, and confidence. I enjoy exploring different styles, discovering new trends, and creating outfits that reflect my mood and individuality. Whether it is casual wear, ethnic collections, western fashion, or seasonal trends, I believe every outfit tells a unique story. I love choosing clothes that are comfortable, stylish, and suitable for every occasion. From everyday essentials to special event outfits, nice",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-e7e42c5e-bf2a-47b6-8d37-0ccdbe5354b3",
+      "text": "First of all, you get everything at a reasonable price, and the return and exchange process is very easy—which is something I really liked about Myntra. Sometimes, a product we buy doesn't look good on us, but here, exchanging it is simple. It feels just like shopping at a showroom: \"This doesn't look right? Let's try another one. Not that one? Let's try something else.\" Thank you, Myntra.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-783de70e-cb0d-4adc-98fe-aa0f654f7f61",
+      "text": "Myntra support is pathetic nowadays according to the Myntra Insider page, customers who make purchases above a specified amount are eligible to move to the Icon tier. I made purchases exceeding the required amount. It has now been more than 60 days, but my Insider status and purchase details have still not been updated. My account continues to show me as an Elite member instead of upgrading me to the Icon tier, even though I believe I have already spent a significant amount.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-18208611-dd24-4392-bcad-4aea218a8792",
+      "text": "So, previously I gave 1 star due to the price issue but again after installing Myntra a couple of months ago they really seemed to have taken the review and launched so many good and stylish clothes and accessories; that I was looking forward to for quite long in other apps. But although now I happily shopping here because of the vastness, glad Myntra didn't disappoint when it comes to COLLECTION regardless of the price of the qualities are great! So now it's 5 stars from my side!",
+      "is_relevant": false,
+      "confidence": 0.0
+    },
+    {
+      "id": "playstore-myntra-3cef787c-9f8e-4c6a-b164-8487faa23025",
+      "text": "Absolutely loved this purchase! The product is exactly as shown in the pictures. The quality is excellent, the fabric feels premium, and the fit is perfect. Delivery was quick, and the packaging was neat and secure. It offers great value for money and exceeded my expectations. I would definitely recommend it to anyone looking for a stylish and comfortable option. Will surely shop again!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-2cbb51d4-060e-487a-b314-4dc37997ca88",
+      "text": "I have almost stopped buying clothes offlline since last 6-7 years. Myntra has nice collection and prices are nearly always lower than offline for same item. No questions asked return and exchange is the biggest reason for me to move away from offline",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-1c1a9a84-8f0b-4fe5-8af9-bf23e9e59944",
+      "text": "myntra is one of the best platform to shop,evey items are here and no duplicate products unlike other shopping apps, and in myntra we can get items at low price than other shopping apps, I've been using myntra for quite some time and it has never disappointed me, so i insist that you guys to use myntra , one of the best app for shopping...",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-9a8362ef-c606-4377-98e6-ff3776006115",
+      "text": "Excellent product! The quality is amazing, the fabric feels premium, and it fits perfectly. The color is exactly as shown in the pictures. Delivery was fast, and the packaging was neat. I'm very happy with my purchase and would definitely recommend it to others.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-4924227c-d940-4bf3-b878-c042b0052976",
+      "text": "One of the best online shopping apps for fashion and lifestyle products. It offers a wide range of clothing, footwear, accessories, and beauty products from popular brands. The app is user-friendly, with easy navigation and secure payment options. Delivery is usually fast, and the return/exchange process is simple and hassle-free. Regular discounts and sales make shopping more affordable. Overall, Myntra provides a convenient and enjoyable shopping experience. ⭐⭐⭐⭐⭐",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-9b85b420-a859-4238-82e3-6c2ab63aa76c",
+      "text": "Excellent product! The quality is exactly as shown in the pictures. The fit is perfect, the material feels premium, and it's very comfortable to wear. Delivery was quick, and the packaging was neat. Great value for moneybhighly recommended!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-1aa89492-3f0b-4dbe-8e8c-f0306206d87c",
+      "text": "I have been shopping on Myntra for quite some time, and my overall experience has been very good. The app is easy to use, with a wide variety of fashion, beauty, and lifestyle products from trusted brands. Product descriptions, size guides, and customer reviews help in making the right purchase decisions. The delivery service is usually fast, and the products I have received have always been genuine and matched the images shown on the app. The return and exchange process is also simple and hass",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-75023222-6e1e-44d5-abd2-0f576cf2cb83",
+      "text": "Excellent in terms of variety, diversity and choice; all at reasonable prices with various offers ! You just have to pick what suits your taste and budget ! Always or majorly, a smooth, and happy experience with minor shipping and delivery hiccups, here and there ! Keep going ! Good wishes Thank you",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-c98e512e-0ac6-4315-ba0c-7bec82913123",
+      "text": "Myntra is one of my favorite shopping apps because it offers a fantastic combination of variety, quality, convenience, and a smooth shopping experience. The app has a huge collection of clothing, footwear, accessories, beauty products, and many other lifestyle items, making it easy to find something for every style and occasion. I especially love how simple and user-friendly the app is, with clear product pictures, detailed descriptions, size options, customer reviews.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-96b8a070-acb8-4a4c-9054-045f52576a01",
+      "text": "I've had a great shopping experience with Myntra. The app is easy to use, offers a wide variety of brands, and delivery is usually on time. The product quality matches the descriptions, and returns are hassle-free. Overall, it's a reliable app for fashion shopping.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-64864748-a40a-46d4-8e84-3358ef7f2982",
+      "text": "\"Myntra is my favorite app for shopping! The collection of the latest fashion and top brands is absolutely amazing. Delivery is always on time, and their return/exchange policy is the smoothest. Highly recommended!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-bb45fc65-08f6-4df8-822a-6f376b9b2ef3",
+      "text": "Myntra is one of the best shopping apps. ❤️ It offers a huge collection of genuine fashion products at great prices. The app is easy to use, delivery is fast, and customer service is excellent. I really love the amazing discounts, smooth shopping experience, and hassle-free returns. Highly recommended for online fashion shopping 🛍️❤️",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-1a198116-2759-4c04-8837-354ea0fd2f10",
+      "text": "⭐⭐⭐⭐⭐ Myntra is one of my favorite shopping apps! The collection is amazing, the app is easy to use, and the overall shopping experience is smooth and convenient. Great choice for fashion and lifestyle shopping! 🛍️✨",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-4a9f7170-3823-4c40-829b-1715bfba1e1f",
+      "text": "Great shopping experience! The product was nice, the quality is excellent, and the fit is perfect. Delivery was quick, and the packaging was neat. Very happy with my purchase and would definitely recommend it. Thank you, Myntra!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-b41c3fab-a3f5-4944-84bd-d57a27b9f23e",
+      "text": "I recently ordered a formal shirt from Myntra, and it exceeded my expectations. The fabric quality is top-notch—soft, breathable, and premium to touch. The fit is true to size, giving a clean, tailored look, while the color matches the product photos online. Stitching and details are well-crafted with no loose threads. It handles washing well without shrinking or fading. Myntra's delivery was fast, and the packaging kept everything in perfect shape. Great",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-36e10b36-7079-486f-99af-bb70a5b0d9b4",
+      "text": "⭐⭐⭐⭐⭐ I've had a wonderful shopping experience with the Myntra app. The app is very user-friendly, making it easy to browse, compare products, and place orders. One of the things I love the most is the frequent cashback offers, discounts, and reward coupons, which help me save a lot on every purchase. The delivery is always fast and reliable, and my orders usually arrive before the expected date. The products are genuine, well-packaged, and match the descriptions and images shown in the app.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-a514763e-78b8-48e0-a727-e07c2a4401e1",
+      "text": "I am happy with myntra shopping ..the . dresses 👗 and other makeup kits accessary are too good 👍🏿..kids items are also very nice and my daughter feels very happy... shoes, bally, sleepers are good... the colour and size are perfect .. all the things they showed are same delivered 😍 I am glad ... myntra but my one item is missing.. and I completed it but .. they ignored.. it's not good.. so my experience with this is mixed feelings .. some times good and some time uuuuuffffff shhhhhhaaaaa ...",
+      "is_relevant": false,
+      "confidence": 0.5
+    },
+    {
+      "id": "playstore-myntra-bed93902-2506-4d32-a8bc-fa7559c290c4",
+      "text": "Very Best App... A good place where we can explore wide range of products... Products are of good quality and economical too.... App offers different categories where we can easily get access to our desired products... Offers on the products are super and budget friendly... Very Much Satisfied with the App.... Hope and suggest to maintain such high standards throughout...",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-e627e05c-9965-4420-b121-504a32b9ed9e",
+      "text": "Excellent fashion app Incredible collection for every occasion and budget. The deals during sales are unbeatable, and the quality of products has always been reliable. Seamless browsing and fast delivery!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-5eca6d21-6863-4377-8e36-b6db9d6035a2",
+      "text": "Great shopping experience✨the quality was excellent, and the delivery was quick. The app is easy to use, with great discounts. Returns and exchanges were also smooth. Overall, I'm very satisfied with my purchase👍",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-3c428db1-e0ac-4208-893d-87527e0cc59b",
+      "text": "Myntra is honestly one of the best shopping apps I've ever used. I've been using it since 2018 and it has never disappointed me. From trendy collections to genuine products, everything is always on point. The app is super easy to use, delivery is smooth, and the quality of products is really amazing. Also, the offers and discounts make shopping even better. Myntra has truly become my go-to shopping app for fashion and lifestyle products. Highly recommended!💗",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-e3881119-a121-4082-9584-773f6c8e8627",
+      "text": "Best Fashion Find Ever—Totally Worth It! ⭐⭐⭐⭐⭐\"Myntra never disappoints with its clothing collection! This piece offers incredible value for money. The fabric didn't shrink or lose color after the first wash, which proves its top-notch quality. The entire shopping experience—from browsing to the lightning-fast delivery—was incredibly smooth. Check out my styling video to see how it moves!\"",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-3d01e7d6-1e14-427a-8a11-38c4092b447a",
+      "text": "Really happy with this purchase. The product quality is good, the fit is comfortable, and it looks exactly like the pictures. Myntra is also a great and reliable platform with a smooth shopping experience. The product is worth the price. Definitely recommended",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-48935ce2-6cc7-479e-bc08-802ed9e348b4",
+      "text": "⭐⭐⭐⭐⭐Amazing experience! Everything arrived exactly as we ordered, and all the items were in perfect condition. The quality was excellent, and we're very happy with the purchase. The only small suggestion is that the delivery could be a little faster or the delivery dates could be a bit earlier. Other than that, everything was perfect. Highly recommended!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-a686f0c8-d5c5-4e19-aac4-60bc2b75f3b9",
+      "text": "\"Myntra is one of the best shopping apps. The app is easy to use, delivery is fast, and the products are genuine. Great discounts, a wide variety of brands, and smooth return/exchange process. Overall, a very good shopping experience. Highly recommended!\"",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-b010b647-f1e6-4719-b81c-1fc7ef6942a9",
+      "text": "Myntra is one of my favourite shopping apps! 🛍️✨ The app is easy to use, has a great variety of products, and the offers and discounts are really helpful. I also love the Glam Clan feature—it makes shopping even more fun! Overall, a great experience with Myntra. ❤️",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-017b6aed-494e-4fa5-b3ad-9ce9b6453f78",
+      "text": "\"I have been using Myntra for years. They have a great collection of clothes and trendy brands. Delivery is usually fast, and the return process works smoothly when something doesn't fit. Great app for fashion shopping!\"",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-a5dd1721-3163-40ed-822b-5d65a0ea5569",
+      "text": "Had a great overall experience with Myntra. Navigating the platform and placing orders is seamless and user-friendly. The only area where they could improve slightly is their customer service. Otherwise, it is a reliable platform for shopping.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-2f11c1a1-cff0-4ac5-b959-d2f9b0a003a6",
+      "text": "Just installed the Myntra app, and my first impression is really good. The app looks clean, is easy to navigate, and has a huge collection of fashion and lifestyle products. Browsing is smooth, and finding what I was looking for was quick and simple. Looking forward to placing my first order and hoping the shopping experience is just as good!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-bac3c1f9-952a-4671-a613-7c3e8356b9bc",
+      "text": "I’ve been shopping on Myntra for a while now, and it consistently delivers a smooth experience. The selection of brands and trendy styles is impressive. The app interface is super easy to navigate, and the filtering options make finding the right fit simple. My package arrived on time and was securely packed. The fabric quality matched the product description on the app. Highly satisfied with my purchase and will definitely keep coming back",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-b67e7abc-acce-4cc5-b968-53581019dcab",
+      "text": "\"One of the best shopping apps out there! Huge brand collection, genuine products, fast delivery and super easy returns. The app is smooth, and the sale offers are amazing. Highly recommend Myntra!\"",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-aee3cf7e-71cd-4924-8564-75bdd2809fdf",
+      "text": "Discovering a wide array of stylish clothing has been a delightful experience. The selection available offers something for every preference and occasion. Finding exactly what you were looking for proved to be quite straightforward. The quality of the items surpasses expectations, ensuring satisfaction with each purchase. It's a truly wonderful platform for enhancing your wardrobe.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-02cafb55-8d76-4d4b-be3d-9361adb6700c",
+      "text": "\"Hi everyone! I've been using the Myntra app for shopping, and my experience has been really good. The app is easy to use, there are lots of fashion options, and the delivery is usually on time. I also like the discounts and offers available. Overall, it's a convenient app for shopping. Thank you, Myntra!\"",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-d7e1866c-d476-4454-891c-d465a4aad9b4",
+      "text": "Really nice looking Polo's. Fitting is great. colour doesn't wash away. The striking white border near the buttons and the collar enhances the look. Fantastic product in the price range. By the way Status Quo is a really nice brand. They make really nice quality products. Negatives: I was expecting a little thicker cloth. The logo is made up of rubber which is pasted and will come off with time.",
+      "is_relevant": true,
+      "confidence": 0.8
+    },
+    {
+      "id": "playstore-myntra-700cf399-16c0-4c24-a22b-12c72b762a81",
+      "text": "Myntra is one of the best shopping apps. It has a great collection of fashion products, genuine quality, fast delivery, and easy returns. The app is user-friendly, and the discounts are really good. Overall, I had a smooth shopping experience and would definitely recommend it to others.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-2a7e2742-b052-41ae-a4a2-fe86c8d2165d",
+      "text": "I have been purchasing dresses from Myntra since last few years and am extremely happy with the complete experience. It has a lot of variety, reasonable prices and very smooth purchase, delivery as well as exchange and refund process. It's my go to app when it comes to dresses. Thank you Myntra and its team😊",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-dc537559-913a-4a78-984e-28c2a04f51bd",
+      "text": "very gud quality dresses , return payment process also very easy and quick,most beautiful dresses,nice collection for both adult and kids,more options, designes most recommended app ,very useful easy to shp , geniune review, excellent collections and brands,jellewery collection also very gud ,skin care ,hair care having more discount, fashion accessories,home needs very thing are gud ,we have more options here to shop everything,must buy 3 picec kurtis , lovable collection, footwear worth for mu",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-8f8193a1-7f43-4948-974e-148851c6992c",
+      "text": "i love myntra... using this app since 2018 . Delivery is fast, easy exchange return process, the collection is so vast, suits every pocket from budget friendly items to high end products you can get everything on this platform very easily..",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-20d89186-a360-46a6-b2fa-7143ae40643d",
+      "text": "I've had a great shopping experience with Myntra. The app is easy to use, there are plenty of brands and styles to choose from, and the prices are often very competitive with great offers. My orders have always been delivered on time, and the product quality has matched the descriptions. The exchange and return process is smooth and hassle-free, making online shopping stress-free. Overall, I'm very satisfied with Myntra and would definitely recommend it to anyone looking for a reliable online fa",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-fd29c469-247c-4702-b8c3-958cb4863484",
+      "text": "good experience. the best thing is ...they don't lag on products which we want to return ...they will pick the product just after the next day of return has placed ... best experience. try this application... you will love it 💕💖💓🎊🎈 Happy shopping shop more ...🎉 enjoy 🛍️ shopping... thank you Myntra ...🌼",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-fe6b8e86-1638-4b4e-b4d8-d527a1d554f9",
+      "text": "myntra is my Go-to app for almost everything since 9-10 years now...the quality , quantity and even the fit n the design is top notch! prices r always reasonable.. never had I ever faced any trouble or issues in returning or exchanging anything if there was a need. myntra is the best!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-07390c75-07c2-4749-9bdd-6a736893aeb8",
+      "text": "Great collection of brands and very easy to navigate the UI. However, the size charts for certain categories can be inconsistent, and I would love to see more filtering options for budget ranges. Delivery is usually on time, but customer support can be slow to resolve return queries",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-51cae501-4816-496a-bc47-297d6abd9f58",
+      "text": "My shopping experience with Myntra has been convenient and enjoyable. The app is easy to use, with a wide variety of fashion products from well-known brands. The search and filter options make it simple to find the right products, and detailed descriptions, customer reviews, and size guides help in making informed purchase decisions. The ordering process is smooth, delivery is usually on time, and the return and exchange process is quick and hassle-free.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-ece7a554-dfaa-49c1-82ee-cfcb03223cde",
+      "text": "⭐⭐⭐⭐⭐I've been using Myntra for quite some time and overall my experience has been really good. The app is easy to use and has a great collection of trendy clothes and brands. What I like the most is their discounts during sales and fast delivery. The quality of most products is good, but sometimes the sizing can be a bit confusing depending on the brand. Returns and refunds are generally smooth, but occasionally they may take a little time. Overall, it's a great app.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-4b05fcb9-d6cf-4338-9e18-f6ab27aeff09",
+      "text": "Amazing shopping experience on Myntra! The app is very easy to use, delivery is always fast, and the quality of products is really good. I love the variety of fashion brands and the frequent discounts. Customer service is also helpful. Highly recommended for online shopping!....and most importantly the delivery is very fast ... mostly in 2-3 business days....so I love it .... I genuinely think myntra products quality is better than other apps....I have ordered so many items from this app ...👍",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-2f184158-e562-473b-adad-f0302301db16",
+      "text": "Very satisfied with my purchase from Myntra! I ordered the MagMax Nitro 2, and the product arrived on time in perfect condition. The packaging was secure, the product is 100% genuine, and the overall shopping experience was smooth from ordering to delivery. Great deals, easy tracking, and excellent service. Highly recommended—I'll definitely shop from Myntra again!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-09174608-44ea-49aa-be7d-69c685b9615b",
+      "text": "I had a very good experience using the Myntra app. The interface is simple and easy to navigate, and there are many fashion options available. Product quality and delivery were good, and tracking orders was convenient. Discounts and offers also make shopping more enjoyable. Overall, a smooth and satisfying shopping experience.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-ef739fdf-7691-48a9-9515-0adf485f71f7",
+      "text": "⭐⭐⭐⭐⭐ I had a great shopping experience with Myntra. The app is easy to use, offers a wide variety of products, and the delivery was on time. The product quality matched the description, and the discounts and rewards make shopping even more enjoyable. Overall, I'm very satisfied and would definitely recommend Myntra to others.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-0cef9f1d-ef28-4989-9a03-8bb8ba6bac39",
+      "text": "⭐⭐⭐⭐⭐ I had an excellent shopping experience on the Myntra app! The app is easy to use, with a wide range of authentic products and great deals. I found exactly what I was looking for, and the ordering process was quick and hassle-free. My order was delivered on time, the packaging was neat, and the product quality matched the description perfectly. The size and fit were accurate, making the overall experience even better. I highly recommend Myntra to everyone",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-c6f49e51-eb66-4d35-8366-b6a4fce3634e",
+      "text": "⭐⭐⭐⭐⭐ I had a really great shopping experience with Myntra. The app is easy to use, and I found exactly what I was looking for at a good price. The product quality was excellent and matched the images and description perfectly. Delivery was quick, and the packaging was neat and secure. I also liked the variety of brands and styles available, making it easy to compare different options before buying. The size guide was accurate, and the fit was perfect. The return and exchange process is simple",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-d5db2ab4-9582-4f81-a60c-59c26c9a6286",
+      "text": "Great shopping experience! The app is easy to use, delivery is fast, and the products are of good quality. I'm happy with my purchase.. I ordered a chain from Myntra, and I'm very happy with it. The quality is excellent, it looks exactly like the pictures, and the delivery was quick. Great shopping experience... Love shopping on this app! It has a wide variety of products, great deals, and smooth delivery. Very satisfied with my experience.Great experience every time..i love shopping on myntra",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-f891b7b4-0598-457b-a5b7-7af0096147e7",
+      "text": "Amazing shopping experience! Myntra offers genuine products, fast delivery, and excellent customer service. The app is smooth, easy to use, and the order tracking is accurate. Packaging is always neat, and returns or exchanges are hassle-free. Highly recommended for anyone looking for a reliable online shopping app. Keep up the great work!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-9009c896-8a72-4eff-a8ac-9627f4e3056a",
+      "text": "I've had a great experience shopping on Myntra. The app is easy to use, offers a wide variety of products, and always has trendy options to choose from. I especially love the discounts and coupon codes, which help save money on purchases. Delivery is usually quick, and the return process is simple and hassle-free. Overall, Myntra makes online shopping convenient, affordable, and enjoyable.🛍️✨",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-3ced8244-87fd-46f4-ac7f-bea9f0a08a34",
+      "text": "Writing Absolutely amazing shopping experience! Every product I have ordered from Myntra has been exactly as shown in the pictures, with excellent quality and perfect fitting. The delivery, packaging, and overall service have always been outstanding. If I had the option, I would gladly give 10 stars instead of 5. Highly recommended and my favorite shopping app. Keep up the excellent work, Myntra! shopping here and highly recommend it to my family and friends. ⭐⭐⭐⭐⭐ (10/10 from me!)",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-22d26657-409d-43c3-bef5-74116393d911",
+      "text": "I had a great shopping experience on Myntra. The app is easy to use, with a wide variety of fashion products available at reasonable prices. The product descriptions and size guides were accurate, making it easy to choose the right item. Delivery was quick, and the product arrived in excellent condition. The quality matched the images shown on the app, and the return process was simple and hassle-free. Overall, Myntra is a reliable platform for online shopping.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-a6dd9007-1050-4ad4-8730-188d0b9dd1a1",
+      "text": "Excellent shopping app! The app is easy to use, products are genuine, and delivery is usually on time. Discounts during sales are amazing and customer support is helpful. I would love it even more if all users could get equal access to scratch cards and MynCash rewards. Overall, a great shopping experience!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-724437fb-996f-43e8-8e5e-d60f3d9df93b",
+      "text": "Myntra is easily one of my favorite fashion apps! The platform is super user-friendly, and they have an amazing, trendy collection that fits any budget or style. Every order arrives quickly, looks exactly like the pictures, and comes neatly packaged. Plus, their hassle-free returns and exchanges make the whole experience completely stress-free. Highly recommended!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-ae267f24-84db-4bb9-9184-d82f306d692a",
+      "text": "simply great, I love ordering cotton clothes, need more of good cotton stuff the delivery is always much before the scheduled date, return and exchange are too fast refund ,if any is also very quick, my kith and kins too prefer \"MYNTRA\"for their formals , ethinics etc love to visit time and again, discounts ,bank discounts should increase with effecting the price so that it reaches all \"PRICING BE MADE REACHABLE TO ALL\" products for classes and masses are there hope you take my bits seriously.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-666ffd19-5ba6-4f07-8b65-e2f0d7f4a939",
+      "text": "I've been using Myntra for quite a while, and it has become my go-to app for shopping. The app is smooth, easy to navigate, and the product collection is huge. I especially like the frequent discounts, fast delivery, and hassle-free returns. The quality of products has been consistently good, and the reviews and size recommendations make shopping much easier. Overall, a reliable shopping app with a great user experience. Highly recommended!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-c0167019-0cb6-4601-b6af-dda322b67abe",
+      "text": "Perfect fit and quality Loved the products. Fabric is soft, color is exactly like the pictures, and the fit is true to size. Delivery from Myntra was super fast. Stitching is neat with no loose threads. Will definitely order more from this brand. Fast delivery by Myntra. Happy purchase. Exactly as shown. Good material, nice finish. Value for money. Authentic products, neatly packed. Delivery was quick. Recommended.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-114edaf3-c9b0-416c-952a-83ad29dd4553",
+      "text": "Here is a quick, 3-line review you can use for the Play Store: \"Myntra is my go-to app for fashion shopping thanks to its massive variety of brands and super smooth interface. The search filters make finding exactly what I need effortless, and the checkout process is always seamless. Plus, the fast delivery and app-exclusive deals make the whole experience completely worth it!\"",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-d13e1c11-c585-4d81-b4b0-af85d53031bb",
+      "text": "Myntra has been one of my favorite shopping apps. I really like that it rewards users with MynCash for reviews and ratings, which encourages genuine feedback. The express delivery is fast and reliable, and the product quality is usually excellent. Even if the wrong item is delivered or there's a size issue, the return and exchange process is smooth and hassle-free. Overall, it's a trustworthy platform with great service, good deals, and a seamle.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-a970f860-3d4c-48ec-869d-faea024e2871",
+      "text": "I've been shopping on Myntra for quite a while now, and it's honestly one of my favorite shopping apps. As a girl, I love the huge variety of clothes, footwear, makeup, and accessories available. The app is easy to use, and the size guide and customer reviews really help me choose the right products.The quality of most items I've ordered has been great, and the delivery is usually on time. I also like the frequent discounts and sales, which help me buy my favorite brands at good prices.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-d9295d9b-29bb-4605-9928-ab1e1df646d2",
+      "text": "I've had a great experience shopping on the Myntra app. The interface is easy to use, and there is a wide range of genuine fashion products from popular brands. Product descriptions and size guides are helpful, and the delivery is usually on time. Returns and exchanges are simple and hassle-free. The discounts and deals are an added bonus. Overall, it's a reliable app for buying clothing, footwear, and accessories. Highly recommended!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-f4bdc6ec-ac59-47c7-b680-ced4a94a4bb3",
+      "text": "Myntra is my go-to shopping app for fashion and beauty products. The app is easy to use, offers genuine products, frequent discounts, and fast delivery. I also love the reward points, easy returns, and smooth shopping experience. Overall, a reliable app with a great collection of brands. Highly recommended!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-278348c5-cc97-4a15-a66d-f58f66202c13",
+      "text": "\"Great shopping experience! The app has a massive collection of trendy clothes and brands. The user interface is very smooth, making it easy to filter and find exactly what I want. Delivery is usually on time, and the return policy is hassle-free. Highly recommended for fashion lovers!\"",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-d83a516f-f901-402c-b4e8-cb6648bbc3d6",
+      "text": "⭐⭐⭐⭐⭐ Excellent shopping experience! Myntra has a great collection of trendy fashion, genuine products, and amazing discounts. The app is easy to use, delivery is fast, and returns are hassle-free. I love the variety of brands and the overall shopping experience. Highly recommended for fashion lovers!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-c91446e3-1276-4e3f-9d55-160e896c22f6",
+      "text": "I had a great shopping experience with the Myntra app. It offers a wide range of genuine products from top brands at attractive prices. The app is easy to use, deliveries are usually on time, and the product quality matches the description. Returns and refunds are simple and hassle-free, and customer support is responsive. Overall, Myntra is one of the best online shopping apps, and I highly recommend it.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-7db853e8-e233-40b4-a8e2-b0efe2e157d2",
+      "text": "I've been shopping on Myntra for around 10 years, and I've always had a great experience. This time, I accidentally missed the return/exchange window by a few hours, but the support team still understood my situation and approved my refund request. Thank you, Myntra, for your kind support. The pickup and refund process was also very quick and smooth. I'm really happy with the service and will definitely keep shopping with Myntra. Highly recommended!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-dfab192f-9375-49c4-bda2-e1b0785dc3f5",
+      "text": "Excellent shopping app with a huge collection of fashion brands at great prices. The app is easy to use, delivery is usually on time, and the return/exchange process is smooth. I especially love the frequent discounts and offers. Overall, a great shopping experience. Highly recommended!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-b979fefe-01e1-4400-8840-600603762211",
+      "text": "Recently ordered a product which shrunk so much that it became frock size from a full length nighty & faded in first wash that I cannot even use it, experienced similar problem with a product from a local store and they were kind enough to get that exchanged.But myntra cc simply chose to give illogical reasons. Not likely buying from them onwards. Update : received full refund after giving negative review and the whole process after that.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-4bdce3ae-256d-4ed0-8985-4f633c28c8aa",
+      "text": "Myntra is my absolute go-to platform for all fashion and beauty needs. They have an amazing collection of authentic brands and the latest trends. The user interface is very smooth, delivery is always on time, and returns are completely hassle-free. Highly recommended for a premium shopping experience!. Shopping on Myntra is always a great experience because they offer genuine, high-quality products. Their discounts and seasonal sales are unbeatable. The packaging is always secure, and customer .",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-d991d975-fac3-444c-ad08-5ce7af29cbdb",
+      "text": "Excellent shopping experience! Myntra offers a wide range of genuine products from top brands at great prices. The app is easy to use, delivery is fast, and the product quality is always impressive. I also like the frequent discounts and smooth return process. Highly recommended for anyone who loves online fashion shopping!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-fd90f256-a851-46f6-a637-c4f45ea12340",
+      "text": "Great variety of collection and user friendly experience with Myntra, Great customer support. Didn't find a reason to look for other shopping application except Myntra.. Faced few instances during payment part and return window after purchase. except few glitches best shopping experience with Myntra for the past 7 years",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-856ed9a6-ab2b-4fcc-894e-a2e872134446",
+      "text": "My experience with Myntra has been very good. The app is easy to use and offers a wide variety of clothes, shoes, accessories, and beauty products. I like how the products are neatly organized, making shopping simple and enjoyable. The delivery service is usually fast, and the items arrive in good condition. The quality of the products is often as described in the app",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-f66fbe27-1e92-4f5f-8a47-250d87146f5f",
+      "text": "The app interface is smooth, fast, and very easy to navigate. I love the \"Size Finder\" tool because it actually helps reduce returns by suggesting the correct fit based on height and weight. Brand authenticity is reliable, and the sales offer genuine discounts. Delivery is usually on time, and returns are completely hassle-free with doorstep pickup. The only major downside is the sheer volume of spammy push notifications sent daily. You have to manually turn them off in the settings to avoid clu",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-8767c4fd-eea8-4fe4-b002-55249d69a095",
+      "text": "I have been shopping on Myntra for quite some time, and overall, my experience has been very positive. It has become one of my preferred online shopping platforms because of its wide range of products, reliable delivery, and easy-to-use app. Whether I am looking for clothing, footwear, accessories, or beauty products, I can usually find a good variety of options from well-known brands as well as affordable alternatives. One of the biggest advantage",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-363469b5-c7d6-482c-a8c7-0f8996ffeb88",
+      "text": "This online shopping app is easy to use and has a simple, user-friendly interface. It offers a wide variety of products at reasonable prices. The search and filter options help users find products quickly, and the secure payment methods make shopping convenient. Delivery is usually on time, and customer support is helpful. However, the app can be improved by reducing delivery delays, adding more detailed product descriptions, and making the return and refund p",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-f855b828-85bb-462e-b3bc-c885a9149193",
+      "text": "Great Shopping Experience Myntra is my favorite platform for buying clothes online. The prices are good, the quality is reliable, and the delivery is usually on time. If there's a size issue, damage, or any other problem, the exchange and refund process is quick and hassle-free. Overall, I've had a great shopping experience and would definitely recommend Myntra.😍",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-c27e2692-daf1-4300-9e65-6af3b0fd4efa",
+      "text": "Myntra is one of the best online fashion shopping apps, offering a wide range of clothing, footwear, beauty products, and accessories from popular brands. The app is easy to use, provides attractive discounts, and usually delivers products on time. The product quality is generally good, and the return and exchange process is convenient. While some users have reported occasional delivery delays or customer support issues, Myntra continues to be a popular choice for fas",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-83af5bf0-7e5f-4783-b5c0-8e11b1d89088",
+      "text": "⭐⭐⭐⭐⭐ \"Myntra is one of the best online shopping apps for fashion and lifestyle products. The app is easy to use, offers a huge variety of brands, and provides genuine products at great discounts. Delivery is usually fast, and the return/exchange process is simple and hassle-free. I especially like the regular sales, personalized recommendations, and smooth shopping experience. Highly recommended for anyone looking for quality fashion",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-1d7c0083-d4a1-4f2c-941e-ec97fb1a2dfd",
+      "text": "⭐⭐⭐⭐⭐ My Experience with the Myntra App Myntra is one of the best online shopping apps I have used. It offers a wide range of products, including clothing, footwear, accessories, beauty products, and home essentials from many trusted brands. The app is very easy to use, and its simple interface makes shopping convenient for everyone. Finding products is easy because the search filters help uThe app frequently offers discounts, sales, coupons, and cashbackoffers making shopping affordable",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-001f88f1-c759-407f-bdb6-fc2006e954c4",
+      "text": "Excellent shopping app! Great collection of fashion, quick delivery, genuine products, and frequent discounts. The app is smooth, easy to use, and the return/exchange process is hassle-free. Highly recommended for anyone who loves online shopping!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-a7b0c619-be12-41e8-ab61-35223292b1b5",
+      "text": "⭐⭐⭐⭐⭐ Great shopping experience! The Myntra app is easy to use, has a wide variety of products, and offers great discounts. Delivery is usually fast, and the quality of the items matches the description. Overall, a reliable and convenient app for fashion shopping.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-7a4f87b2-291f-4c31-a8a3-2528122ce587",
+      "text": "it's good for shopping 🛍️🛒 and it can be purchaseable because myntra have best quality product and dress also so we can easily buy this and make happy.. if we start for shopping then it can be give a discount on your order and make affordable price their quality it best and also it give free coupons when we finished shopping and then we earn award for it .. I aslo earn mainy rewards and cash price on it so don't waste your time and jont with myntra and start to shopping 🛒🛍️ make your day",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-9ebeed38-bc94-4956-967a-067eb53de15b",
+      "text": "one of the best fashionable delivery app out there I ordered something on 11 aug the expected delivery date is 18 but I just received my order on 13 what an absolute service and the item and clothes quality are unmatchable here u can find all varieties of clothes damnn it's an absolute service hats off to you MYNTRA ❤️",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-1a393519-8a76-4bb5-bdfc-c67d87c7b97c",
+      "text": "⭐⭐⭐⭐⭐ Absolutely loved the watch! The design looks even better in person, the finishing is impressive, and it feels premium on the wrist. ⌚✨ Definitely worth the price — stylish, comfortable, and perfect for everyday wear. Really happy with the purchase! ❤️",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-5f8be56a-9fad-4156-bce4-34b45ada0dbb",
+      "text": "Worst experience with the last few orders and returns. Fraud and fake messages about the delivery attempt while no delivery attempt was actually made. Wrong number given as delivery agent number. Return requests withheld for months for no reason. And even worse is no help from the help centre. No call back or any attempt to help. Myntra was good before but now its going to dogs.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-67a7f749-0a57-4d6b-8391-b3c8a3245ee8",
+      "text": "I had a great experience purchasing a bedsheet from the Myntra app. The ordering process was smooth, the product matched the description and images, and the quality of the bedsheet was excellent. Delivery was on time. Overall, I'm happy with my purchase and would recommend Myntra for home furnishing products as well.😊",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-f5a0fb8e-8926-4a5e-bbee-96b9ec396da1",
+      "text": "Myntra is one of the better choices in India for clothes, shoes and fashion, especially when buying from established brands. However, I'd still check the seller, product reviews/photos, return policy and size chart before ordering expensive items.",
+      "is_relevant": false,
+      "confidence": 0.8
+    },
+    {
+      "id": "playstore-myntra-5f4f2666-5e0f-4074-a4b6-935a8b9e2c82",
+      "text": "I've been shopping with Myntra for the last 12–13 years, and my experience has always been excellent. Great quality, fast delivery, and easy returns. I've never had a bad experience. Myntra is always my first choice for online shopping. Highly recommended!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-a1235e02-2200-4f1b-afa7-48a017c1984b",
+      "text": "Myntra is hands down the best online shopping app for fashion and lifestyle! The user interface is smooth and easy to navigate. They have an amazing collection of top brands, great discounts, fast delivery, and hassle-free returns. Highly recommended!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-1d4ff019-3f2d-47ef-b768-36d88ae0d7e1",
+      "text": "A Game-Changer for Finding My Personal Style! I have been using the Myntra app for a while now, and I can confidently say the experience has been nothing short of excellent. Before using this app, I always struggled with putting outfits together and figuring out what actually looked good on me. Myntra hasn't just been a shopping platform; it has genuinely helped me discover, refine, and build confidence in my personal style.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-0094ffb7-9670-4761-96ee-a8d9e1abcd8e",
+      "text": "Myntra is my go-to shopping app! 🛍️ Amazing collection, genuine products, great deals, super-fast delivery, and a smooth shopping experience every time. Totally love it! 💖✨",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-7d803e4c-460a-4a13-8ec7-06866065363e",
+      "text": "OMG I love shopping on myntra, it's like a no brainer for me, love their customer support, they resolve issues in minutes and also their delivery executives are so polite and their styel exchange, return policy everything is just so smooth. I hope it doesn't change by time as stays as good as it is now.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-4d861752-d891-4a16-a111-440a688c032d",
+      "text": "⭐⭐⭐⭐⭐ I am extremely happy with my purchase! The quality of the slippers is outstanding. They feel premium, durable, sturdy, and very well made. The comfort and finish exceeded my expectations, and they look exactly as shown. The delivery and overall service were excellent. Everything from packaging to product quality was perfect. Highly recommended to anyone looking for high-quality footwear. Thank you for such an amazing product and excellent service. Keep up the great work! 👏❤️",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-5aa4610b-16df-480e-aa9a-cd79a125963c",
+      "text": "⭐⭐⭐⭐⭐ Excellent Shopping Experience! Myntra is one of the best shopping apps for fashion. It has a huge collection of trendy clothes, footwear, and accessories from trusted brands. The app is easy to use, delivery is fast, and the product quality is excellent. I also love the great discounts and hassle-free returns. Overall, a smooth and satisfying shopping experience. Highly recommended! 😊 thank you myntra",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-01a16cf4-5ecd-43da-a24a-07213669b194",
+      "text": "Simple to connect with customer service, easy to navigate the app. I use various apps like Amazon, Flipkart, etc., but I find this app to be the easiest, smoothest, and best among them.❤️",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-acdcf76f-7442-49cc-9a7b-5f598a564c74",
+      "text": "Myntra is an amazing app. I love it because you never have to worry about the quality and authenticity of the brand plus the prices are also well moderated. Overall a great app and well maintained by the team.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-ec7f41c9-f90c-45a7-8adc-cfbe924d9d4d",
+      "text": "My experience with Myntra was really fantastic. I received my order on time, and the delivery was quick and smooth. The product was exactly as shown in the pictures and was of excellent quality. I am very happy with the service and the overall shopping experience. I would definitely recommend Myntra to others.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-e7e4e57e-b300-4a3b-9b2b-6fc77f4ac093",
+      "text": "Myntra is my go-to app for fashion. It hosts a massive collection of brands, and the app performance is stellar—never lags or crashes. The sizing guides are generally accurate, and the regular sales offer amazing value. 5 stars all the way!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-6634eff3-6e04-4edb-9fab-07e7b597900c",
+      "text": "Honestly, from my personal experience, Myntra has been a really helpful and convenient app for shopping, especially when it comes to fashion. I have used this app multiple times, and most of the time my experience has been good, which is why I feel comfortable sharing my genuine feedback about itAnother thing I personally like is the variety of options available. Whether I am looking for daily wear, something trendy, or even traditional outfits, I usually find good options on Myntra. There are b",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-85181fe9-657c-4e1d-929d-a3511b96d383",
+      "text": "Really happy with my purchase! ❤️ The shirt is comfortable, stylish, and fit perfectly. The fabric quality is good and they look exactly like the pictures. Perfect for everyday wear. Totally worth the money! ✨",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-211f6662-3b1e-488c-8bc0-91d4e8b44992",
+      "text": "Absolutely obsessed with this lip liner! I can't believe I got it for just ₹67. The pigmentation is amazing, the texture is super smooth, and it glides on effortlessly. It gives my lips a perfect definition and lasts for hours without smudging. The quality is honestly far better than I expected at this price. I'm so happy with this purchase and will definitely buy more shades. If you're thinking about buying it, just go for it—you won't regret it. Totally worth every penny! ❤️✨",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-0f4ad5b3-6397-4e0f-9620-3b338685e401",
+      "text": "I was really happy 😊 by using myntra ... very trustworthy app they really giving what they were showing as in the pictures..... and also they all worth for the money 💰... I'll get more offers and cashback Copens as well by ordering through this.... 😁✨️ mantra is the one of the best branded product purchasing app....✨️ by budget friendly 🤩",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-b4375509-2bcb-483f-91f1-93756a65a7f0",
+      "text": "My overall shopping experience on Myntra has been positive because of the wide product selection and easy-to-use app interface. The product recommendations are often relevant, and delivery updates are clear. One improvement would be adding more detailed size guidance based on previous purchases to help customers choose the right fit and reduce returns. Faster resolution for exchange requests during peak sale periods would also enhance the customer experience.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-6a0ddf56-0562-4a0c-9121-59202fda9f23",
+      "text": "Myntra has a user-friendly app, good discounts, and a wide range of products. However, I was disappointed to receive a package that appeared to have been opened before delivery. Customers should receive properly sealed parcels to ensure product safety and authenticity. Improving packaging and handling standards would greatly increase trust. Overall, a good shopping platform, but package security needs attention.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-7bcdc1cf-1eed-4e67-ae56-e25f1c425f8a",
+      "text": "My experience with Myntra has been very convenient and enjoyable. The app is easy to use, with a simple interface that makes browsing smooth. It offers a wide range of clothing, footwear, and accessories for different styles. The discounts and offers are helpful, and product details with reviews make choosing easy. Delivery is fast and reliable, and the return process is simple. Overall, Myntra provides a smooth and satisfying shopping experience 👏🏻📦❤️‍🔥",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-409b9a83-0c97-4674-acde-d1e14710c3a4",
+      "text": "Absolutely loved the product! Great quality and perfect fit.Super stylish and comfortable. Exactly as shown in the picture. \"Great value for money! High-quality fabric and fast deliveryThe quality is good, but the size runs a bit small.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-64b2cbff-be32-4355-9151-fe2e3382a97d",
+      "text": "Myntra.. shopping through myntra is really a great choice for me n I recommend my friends n family members also, I never got disappointed by myntra where in quality of the products delivery of the product i order n the customer support is also very good quick n got resolved in minutes. i love to do my shopping with myntra, hope ll keepup the same n improve in future with more designs, offers n all . thank you myntra for all the designs you update as quickly as possible 😊 .",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-545446fc-cf6d-463a-89e7-77aa3dfe6ebc",
+      "text": "\"Absolutely loved this app clothes The fabric is soft, breathable, and very comfortable to wear. The fit is perfect, and the color looks exactly as shown in the pictures. The quality exceeded my expectations, and it feels premium for the price. Definitely one of my best purchases from Myntra. Highly recommended!\"",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-727a35d0-8d4f-474e-b542-c3a8aca8a9c7",
+      "text": "I’m really happy with my experience on Myntra. The app is easy to use, the collection is amazing, and the products are trendy and good quality. Delivery was also smooth. Overall, a great app for online fashion shopping. Highly recommended!”",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-91fa0e44-ed36-426b-b57d-7dadd0ebed0b",
+      "text": "\"I had a great shopping experience on Myntra. I ordered skincare products and received genuine products in good packaging. The prices were reasonable, delivery was on time, and the app is very easy to use. There are also good discounts available. Overall, I am very satisfied with my purchase and would highly recommend Myntra for skincare and beauty products.\"♥️",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-2fb7be27-36b6-42ea-824f-19b6e84df8f9",
+      "text": "I m using this app ,Super happy with the product and the service! The material is high quality, the color matches the pictures, and the fit is absolute perfection. Fast delivery too!\"",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-eb193634-7db0-4b13-ba88-4704cbfc085d",
+      "text": "I appreciate the wide variety of fashion products and competitive prices on Myntra. However, the shopping experience would improve with faster customer support, more reliable delivery timelines, and smoother return/refund processing. Overall, the app is easy to use, but better after-sales service would increase customer satisfaction.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-4540050d-07bb-4fdb-856a-f2332f7cf43f",
+      "text": "I've been using myntra for long time,Myntra is one of India's most popular fashion shopping apps. It's a good choice for buying branded fashion and beauty products, especially during sales. Genuine products from popular brands,Easy-to-use app with good search and filter options.Simple return and exchange process for most eligible items.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-73c717d8-d157-4318-b575-2829930c0544",
+      "text": "The app is really very good and the weather is price or product qualities that it suggests in a lower price plus give more offer/discount and many more , just go for it one of the best app I ever downloaded.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-62cc5c03-42f9-4a2d-a176-59fa3e03be9b",
+      "text": "simply superb with various choices in all categories. I purchased last year some kitchen glass containers on a discount. can I except discount again for the same. The ribbed glass containers of 300ml which are solid ones which I am still using them without any damages. thank you.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-7b1a0683-0997-4694-9e8f-8ed91b74c049",
+      "text": "Myntra is my go-to app for all clothing and fashion shopping! It has a huge variety of trendy styles, top brands, and the delivery is always fast and smooth. Highly recommended!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-1b0ee875-6a18-4431-bf3c-92350f3df648",
+      "text": "good spread of clothes and accessories. I have stopped going to amazon fashion after myntra have stepped up their game. all colours, in all price ranges available. just have to try very hard not to overindulge...",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-8e863c3a-111d-4713-a655-90ee45054740",
+      "text": "Mantra Fashion has a great collection of stylish products at reasonable prices. The quality is good, and the products look just like the pictures. Delivery was quick and the packaging was neat. Overall, a smooth shopping experience—would definitely recommend. Customer support is excellent",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-1e872f63-5da1-4972-92b8-5f5cb17975de",
+      "text": "Myntra is one of the best shopping apps for fashion and lifestyle products. It offers a huge collection of brands, genuine products, great discounts, and a smooth shopping experience. The app is easy to use, deliveries are usually on time, and returns or exchanges are simple. Highly recommended for anyone who loves online shopping! 🛍️✨",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-d7f55811-50d1-439f-89c2-4d122e0d7d1e",
+      "text": "I’m really happy with this app. The fabric feels comfortable, the fitting is great, and the design looks exactly as shown in the pictures. The quality exceeded my expectations, and it’s definitely worth the price. Overall, I had a wonderful shopping experience and would happily recommend it to others. Thank you, Myntra, for delivering such a beautiful orders ! :::",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-c1c5e6f5-a369-4fb2-92da-7fdcb0d403c7",
+      "text": "★ Excellent Quality & Worth Every Penny! I'm really impressed with these ASIAN shoes. The design is stylish, the quality is premium, and they are super lightweight. The cushioning is soft, making them very comfortable even after wearing them for long hours. They fit perfectly . Great for college, daily wear, walking, and casual outings. At this price, it's one of the best shoes I have purchased. Highly recommended to anyone looking for comfort, style, THANK YOU MYNTRA ❤️👟",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-3c562dcf-ee87-4c4c-8880-0b53601866a8",
+      "text": "Great shopping experience! The app is easy to use, the products are genuine, and delivery was quick. The quality matched the description, and the packaging was neat. Returns and exchanges are also hassle-free. Overall, a reliable platform for fashion shopping.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-7fb5c592-146b-442b-a4fa-8ec5d788cbf1",
+      "text": "\"I absolutely loved this Gerua by Libas suit set. The fabric feels comfortable and lightweight, making it perfect for both casual and festive occasions. The embroidery/print is elegant and looks exactly as shown in the pictures. The fitting is true to size, and the stitching quality is impressive for the price. The dupatta adds a graceful touch to the overall look. I received many compliments when I wore it. Great value for money and highly recommended!\"",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-fc30e96e-4e1c-454e-912e-766013a85f3d",
+      "text": "\"Myntra is one of the best shopping apps. The interface is easy to use, products are genuine, delivery is fast, and returns are hassle-free. Great discounts and a wide variety of brands. Highly recommended!\"",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-e38c26ca-9bd4-43ac-bd77-13cfd7dce3af",
+      "text": "\"Great app for fashion! The user interface is super smooth, and the collection of brands is unmatched. Deliveries are mostly on time, and the return/exchange process is completely hassle-free. Highly recommend!\"",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-df8a56cb-9367-418b-b07c-97f439ef0beb",
+      "text": "⭐⭐⭐⭐⭐ Amazing Fashion Destination!I absolutely love shopping on Myntra. The app is incredibly smooth, and the user interface makes filtering through styles effortless. They have the best collection of top brands, and the delivery is always right on time. Highly recommended for all fashion lovers!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-f05afb5c-9312-423d-be01-0cd50f3d97f9",
+      "text": "Excellent shopping experience! The product quality is exactly as shown in the pictures, the fit is perfect, and the packaging was neat. Delivery was fast, and the overall shopping process was smooth. I'm very satisfied with my purchase and would definitely recommend Myntra for genuine products, great discounts, and reliable service.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-19b76f99-d5e9-41fb-a626-d1f0a4529803",
+      "text": "Had a great shopping experience with Myntra. The collection is trendy, stylish and has options for every occasion. The product quality was amazing and exactly as shown in the pictures. Delivery was smooth and the packaging was good. Really love the variety of brands and easy shopping experience. Myntra is my go-to app for fashion shopping! ✨”",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-d7ddba37-1e88-43c8-9ae5-18f441e662af",
+      "text": "the quality of the product is very good and the delivery is so fast that I cannot expect and the delivery fee is also not more and it looks good no leg in the app the app is very nice there is option for coupon code also that's why the price got less in the customers become happy I am using till last year the experience is so good I like to say that you can use this app this app is very useful to buy clothes shoes slippers perfumes my by the products from Myntra thankyou Myntra for discount ok",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-a3833ad8-9d98-4625-af4d-ed5d3956e609",
+      "text": "Myntra is one of the best online shopping apps for fashion and lifestyle products. The app is easy to use, offers a wide variety of brands, and frequently provides attractive discounts and deals. Product quality is generally good, delivery is fast, and the return/exchange process is simple and hassle-free. The user interface is smooth, making it easy to browse and find products. Overall, Myntra provides a convenient and reliable shopping experience.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-119ceba9-54d4-4339-9cd8-caca0c1d6297",
+      "text": "\"This is easily one of the best shopping apps I’ve used! The interface is clean, incredibly smooth, and bug-free. I love how easy it is to find what I’m looking for, apply coupons, and track my orders. Highly recommend to anyone looking for a seamless shopping experience!\"",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-72e9fbc4-2dc6-4f48-ab98-0bfc4533c1ce",
+      "text": "⭐⭐⭐⭐⭐ Myntra is one of the best online shopping apps for fashion. It offers a wide range of branded products, great discounts, fast delivery, and an easy return process. The app is user-friendly, and the product quality is usually excellent. Overall, a great shopping experience. Highly recommended!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-0e6683ea-4424-4cd1-9404-e28acf9a4241",
+      "text": "⭐⭐⭐⭐⭐ Absolutely amazing shopping experience! The app is easy to use, offers a great collection of products, and delivery is always on time. The quality of the items is excellent, and customer service is very helpful. Highly recommended for fashion shopping!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-2d8f5433-f0cd-4253-a8d6-d75e128de867",
+      "text": "I have purchased many clothes from Myntra, and I'm very satisfied with the products. The quality, fitting, and designs have been absolutely perfect. Delivery has also been smooth, and my overall shopping experience has been great. Highly recommended!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-8f3aafbf-8155-40f1-9910-b4ddff754cf6",
+      "text": "I absolutely loved this product! 💙 The quality is amazing and it looks exactly the same as shown in the pictures. The fabric is soft, lightweight, and very comfortable to wear for long hours. The stitching is neat, and the finishing is excellent. The color is vibrant and doesn't fade even after washing. The fitting is perfect according to the size chart, and it gives a very elegant and stylish look. It can be worn casually as well as for small gatherings or outings. I received so many complimen",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-f1a8ae0f-56b0-4445-9117-21f56e962d33",
+      "text": "Myntra is too much amazing in my phone it is less cost but when I listening about this app from anyone they told me that it is very high cost platform means high cost app and when I download it and enter and order my product and then I was like oh my God it is very less cost but if the product cost would be something less it will best for needy people and the quality is very good thank you",
+      "is_relevant": false,
+      "confidence": 0.5
+    },
+    {
+      "id": "playstore-myntra-a162861a-e672-4fce-a692-aafff8e85299",
+      "text": "⭐⭐⭐⭐⭐ (5/5) \"This is one of the best shopping apps I've ever used. The app is easy to navigate, offers a huge variety of products, and provides great deals at affordable prices. Delivery is fast, payments are secure, and customer service is very helpful. My overall shopping experience has been smooth and satisfying. I highly recommend this app to anyone looking for convenient and reliable online shopping.\"",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-0633089b-c2b1-4024-b3ec-b9091859813b",
+      "text": "This app/service is nothing less than a blessing for me! It suggests everything so perfectly and fits my style effortlessly. The outfit designs and the brand collaborations they have done are absolutely amazing. On top of that, the fabric and material quality of the clothes are top-notch. Highly recommended, a solid 5 stars",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-8c51ebb6-3ec5-4abc-a9aa-ddffe29b59d8",
+      "text": "Myntra Great app for branded fashion at discounted prices⭐⭐⭐⭐⭐ The variety is unmatched, and the app interface is smooth and easy to navigate. Shipping is generally fast.🥰🥰🥰🥰 Easy To Use Aap💎 Easy To Product Exchange And Return 💎 I've been using the Myntra app for five years💎💎 Customer support is excellent, and delivery is always on time. Great App For Branded Shopping Product ⭐⭐⭐⭐⭐",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-34ad2f09-0d9e-4125-9d97-82d9c52d49d7",
+      "text": "I have tried many shopping apps before but Mantra is the best in terms of product quality and shipping, everything is on time.Myntra's customer care support is also very good.And if I have to buy any beauty products or clothes, I prefer Myntra only.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-7d69243d-7889-4762-93fd-8f891437fc4a",
+      "text": "Really good shopping app with lots of options and good discounts. The app is easy to use and delivery is also fast. I’ve had a good experience shopping on Myntra. ❤️",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-a5c0e6a2-e9ba-4819-a47f-5212cc6c85a0",
+      "text": "Myntra is one of the best shopping apps for fashion and lifestyle products. The app is easy to use, has a great variety of products, and the ordering and delivery experience has been smooth. Overall, a very convenient and reliable shopping experience. Highly recommended! 👍",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-7f9fc2e2-e5b9-4de7-8291-fb7d8c5f40fa",
+      "text": "i had a great shopping experience with Myntra. The app is easy to use, offers a wide variety of products, and the quality matches the descriptions. Delivery was on time, and the packaging was good. Returns and exchanges are also simple and hassle-free. Overall, I'm very satisfied and would definitely recommend Myntra to others.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-af07d095-43de-4e4e-98a8-54448ea5f792",
+      "text": "Excellent 👍🏻⭐⭐⭐⭐⭐ Myntra App Review I’ve had a great experience using the Myntra app. It has a wide variety of fashion products, an easy-to-use interface, and frequent discounts. The delivery is usually on time, the product quality is good, and the return/exchange process is simple and hassle-free. Overall, it’s one of the best apps for online fashion shopping. Highly recommended!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-66518f13-ff3d-4604-b234-448d37dcc51e",
+      "text": "Good selection of clothing and items are available. I hope available sizes are shown too at first glance along with delivery times. With this people can go through items quicker to find what they want.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-96161895-7c01-4aa1-841e-463c423b5fac",
+      "text": "\"I had a really good shopping experience on Myntra.\" I really like their two new policies 1- size exchange 2- style exchange These two policies have completely transformed the shopping experience. It now feels like shopping at a nearby local shop, where we could simply exchange the product if the size wasn't right or the design didn't match our liking",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-ae2775d4-4c90-45b2-b614-f31dedbd4725",
+      "text": "Myntra is an amazing shopping app with a wide variety of trendy clothes and accessories. The quality of the products is excellent and delivery is always on time. The app is easy to use and offers great discounts and deals. Returns and exchanges are hassle-free, making shopping very convenient. I highly recommend Myntra for a great online shopping experience.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-3045572c-e091-4a18-8b73-fbd3e3318835",
+      "text": "absolutely loved the Myntra app! ❤️ It’s so easy to use, has a great variety of products, and the shopping experience is really smooth. Definitely one of my favourite shopping apps! ✨",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-6b9f1ef9-6121-44ab-8867-895482d74fef",
+      "text": "Essential White Half-Socks Rating: ★★★★★ The Perfect Daily Driver I recently picked up these white half-socks, and they have quickly become my go-to choice for daily wear. Finding a pair that balances comfort with a clean look isn't always easy, but these nail it. Key Highlights: Ideal Length: The \"half-sock\" (mid-cut) height is perfect. They sit high enough to prevent any heel rubbing from sneakers or loafers but stay low enough to maintain a modern, streamlined silhouette. Material & Com",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-797c07ab-7d82-4d94-8c9c-1a3e9969e5d9",
+      "text": "\"Great shopping experience! I absolutely love the variety of brands on Myntra. The app is user-friendly, and my order arrived neatly packaged and a day early. The return process is also hassle-free.\"",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-ce6339c4-1dd2-489e-9333-48579736e689",
+      "text": "I am extremely happy with this purchase. The product is exactly as shown in the pictures, and the quality exceeded my expectations. The fabric feels soft, comfortable, and premium, while the stitching and finishing are neat and well done. The fitting is perfect, and the color looks even better in person. It is very comfortable to wear for long hours and gives a stylish look. The packaging was secure, and the delivery was on time. Overall, this product offers great value for money.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-59ee1f3b-c33c-4abb-a952-46d185acc5f6",
+      "text": "i have been using the Myntra app from the past 6-7 years and I had a great experience with Myntra. my every order from Myntra is always so good. since I started using the Myntra app they always make me believe in them. I am totally obsessed with their collation and with their reasonable price.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-cf0efceb-b5e6-4609-83cc-3e1821a0783b",
+      "text": "I thought that whatever I would order online from Myntra would be defective but unfortunately the product has arrived awesome and its quality is also very good. And this was my first order from Myntra and after seeing this product I will order more things. And I would like to tell people that if you want to order anything then you can order it from Myntra app. I am very happy with my product. Thanks to Myntra and your groups....... 😎💫",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-5c221d26-e10f-4e76-8278-a2fa61f1470a",
+      "text": "Myntra is my absolute go-to for fashion! 👗✨ The app makes browsing trendy outfits incredibly easy, and the personalized recommendations are always spot-on. 💖 Fast delivery, great quality, and hassle-free returns make it the ultimate shopping companion. 🛍️🚚 Highly recommend staying stylish with it! 🔥",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-38202fe0-4eba-48db-b75d-bc93e8877c85",
+      "text": "myntra is a very good shopping app,thanks for your all good products and I am happy 👌👌👌👌.Everyone want the quality of the product,so after using the product of myntra ,I can say everyone can shop with myntra without any hesitation.I suggest my relatives about the myntra shopping app that they can also continue shopping with myntra because it is amazing and all types of variety are present here , we can easily purchase any type of product in one place. So my friends you can go for it.Thanks.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-2d262a4e-5a1e-42e6-aeee-b2fed1cd94a2",
+      "text": "have been using the Myntra app for quite some time, and overall, my experience has been very positive. The app is easy to use, well-designed, and offers a smooth shopping experience. Whether I am looking for clothing, footwear, accessories, beauty products, or home essentials, I can easily find a wide variety of options from different brands in one place. One of the best features of the app is its simple and user-friendly interface. The categories are organized properly, and the search and filte",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-4ac3ebad-8f6d-4fd1-a83e-3879bfb7f638",
+      "text": "Amazing product! Stylish, comfortable, and made with good-quality material. The color and design are exactly as shown. Delivery was quick, and the packaging was also good. Completely satisfied with my purchase.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-88c1db3f-f139-4e22-a110-4e6b62c15a96",
+      "text": "I've been using the Myntra app for quite some time now, and overall it's a good platform for fashion shopping. The app has a wide variety of brands and styles, and I really like how easy it is to browse and find trendy outfits.and the filters make shopping convenient. The best part is the frequent discounts and sales, which make branded products more affordable. Delivery is usually quick, and most of the time the quality matches expectations.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-198da1e1-870e-4947-9508-389f611f442b",
+      "text": "​\"Ordered this suit as a gift for my mother, and she absolutely loved it! The fabric is soft, breathable, and comfortable for all-day wear. The fitting and color are exactly as shown in the pictures. Totally worth the price!\"",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-3e5cf025-d131-418c-b13c-596b317aa61d",
+      "text": "This app is recently making me really really frustrated... I can't literally click on any bottons which are on the upper side... Like search, bag, lovelist etc... It just doest click.. It's been a month such it's like this.. Please improve your app. after my last complain they, really took it into consideration and now the app works just fine and easy to use",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-07185b20-c9a2-48e9-ad33-84fb3cdee76d",
+      "text": "\"Myntra is my go-to app for fashion. The quality of products is excellent, and I've always been satisfied with brands like Levis, Snitch, and Jockey. The vast collection caters to all tastes, making it easy to find exactly what I'm looking for.\"",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-225857f0-a9f8-4f6e-bbd1-9f802cdc3f4e",
+      "text": "rating 1st time :- This app is love ❤️❤️ 💎💎 rating 2nd time:- best and flexible app ever. offers huge discount and return/delivery policies are insane good. customer service is the best.💖💖 rating 3rd time:- Though the app and it's product are top notch but now from past 1 year they are like inflexible in delivering products in some areas during sale. like they don't deliver the products during sale at my place anymore despite being a religious coustomer for past 10 years. rating 4th time :-",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-ae504ba8-6c68-422e-9688-dd4c12e96540",
+      "text": "Great shopping experience! Love the wide variety of brands and trendy collections available. The app interface is smooth, filters make it super easy to find what I want, and delivery is usually fast. Highly recommended for fashion lovers!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-41932092-3280-40e8-8d89-48673efbf33a",
+      "text": "Excellent shopping experience! The quality of the clothes exceeded my expectations, the fabric feels premium, and the fitting is perfect. The product was exactly as shown in the pictures and arrived on time in secure packaging. Overall, I'm very satisfied with my purchase and would definitely recommend it to others. Looking forward to shopping from Myntra again!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-d9128eba-e049-402e-ba64-5f54b2d251b2",
+      "text": "MYNTRA is always my favourite shopping app.I am shopping since 5-6 years from myntra !!! I purchased many things from myntra clothes , jwellery, bedsheets, and other products and my all products which I received till today are amazing, beautiful and pretty with high quality material. Except shopping,myntra also give opportunities to gain myntra credit by posting videos and images only the app myntra gives such a big opportunity to gain myntra credit!!Thanku myntra for giving products!! THANKU!!!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-0e697d92-88e5-4824-9c77-d4aa880e4d05",
+      "text": "Myntra is a fantastic online shopping platform for fashion and lifestyle, offering a huge selection, trendy styles, and easy returns. Key highlights include big brand variety, fast delivery, and helpful size guides. Amazing shopping experience! Myntra has the best collection of trendy clothes and top brands. Delivery is always on time, and the return policy is super smooth. Highly recommended for fashion lovers!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-278cbb17-7b4d-4830-b734-c10d41165e6e",
+      "text": "One of those apps I can blindly trust! 🫶 From clothing to skincare to makeup, everything is just so exceptional. And the biggest plus point? The amazing offers! 😍",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-234eefbc-18e6-4044-8752-bd78250f64d1",
+      "text": "The next day delivery is mind blowing actually it's makes everything easier and faster and better very much happy with this app... Everyone should download and experience its great service's and products are good obvious thing and with great packaging thanks to this app",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-a042064e-2b21-416c-83ac-02f3d9774d8f",
+      "text": "Among all fashion platforms, Myntra is the easiest to shop from online. The exchange process is also very simple, and you can easily manage everything through the app without having to contact customer care. I’m really happy to have this app!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-976ac3f7-060a-49e9-9387-c0abde7b1345",
+      "text": "⭐⭐⭐⭐⭐ Excellent shopping app! The shopping experience is smooth and user-friendly. There are plenty of fashion choices, delivery is reliable, and the rewards and offers are really great. I enjoy shopping on Myntra because it provides a hassle-free experience with good discounts and exciting rewards. Highly recommended!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-020513dc-8e73-4a34-962b-d33c07a58a0f",
+      "text": "I always enjoy shopping on this app. they have a huge variety of designs of shoes and clothes ...material of all the things was as described. Good pics and right explanations. I find shoppers reviews very useful.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-5f0627c3-bd29-452f-99da-d7663451167d",
+      "text": "A very beautiful dress, perfect stich.But the only thing i was dissatisfied is i thought the gold pattern was embroidery but in reality it's just gold print. Otherwise the fit and outlook is really good. Thank you.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-a41d5874-c7fe-4c58-9f06-e7385dc1f491",
+      "text": "Good and effortless ordering experience and let's not say anything about the quality and affordability of the products. The range is vivid and thus making it accessible for all lovelies out there! 🌟🌟🌟❤️❤️",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-1b1172d6-ba1d-41ae-aeae-649426de022f",
+      "text": "Perfect fit and high-quality material. Exactly as shown in the picture.\" \"Very comfortable fabric. Worth every penny. Delivery was super fast.\" \"Beautiful design and great packaging. Will definitely buy again.\"",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-c37df586-60f8-446d-87b8-54ce0d160205",
+      "text": "Myntra is an outstanding shopping app. I always get original products from it. The only drawback is that the price of all products is higher here than other apps.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-c7c48c8d-a7a3-420c-adbe-cbc30f9430eb",
+      "text": "⭐⭐⭐⭐⭐ Amazing shopping experience! The product quality is excellent and exactly as shown in the pictures. Delivery was quick, the packaging was neat, and the product was worth every penny. I'm very happy with my purchase and will definitely shop from Myntra again. Highly recommended!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-2bb5d38f-8808-4e34-b4b2-f5f936749fff",
+      "text": "Excellent shopping experience with Myntra! The product quality was great, delivery was quick, and the overall service was smooth and reliable. I’m very satisfied with my purchase and would definitely recommend Myntra to others.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-f3fa0862-280f-4eb3-a225-0af199577c2f",
+      "text": "“I’ve had a really good experience shopping on Myntra. The products are good quality, stylish, and worth the price. I’m very happy with my purchases and will definitely shop again. Highly recommended!”",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-2b6a4487-0efb-4a5b-9347-d7c644aa1308",
+      "text": "\"Myntra is one of the best online shopping apps. The app is easy to use, offers a wide variety of fashion products, and provides great discounts on top brands. Delivery is usually fast, and the return/refund process is smooth and hassle-free. The quality of products is generally very good, and customer support is helpful. Overall, a great shopping experience. Highly recommended!\"",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-4d0d1230-1bd9-4a5a-8ca7-151847f2564a",
+      "text": "one of the best e-commerce fashion apps. you can find products in all price ranges and it's very easy to navigate through the app. The packing of the products is good and delivery is on time. It has one of the best return policies.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-4eec9dbd-364d-4954-8dd4-7bc59f81f2bc",
+      "text": "one of the most bestest app..delivers all the orders on or before the time, having all the trendy dresses and also gives the authentic items.... delivery was so smooth and the delivery guys of this app are also so good at talking and there nature is too good...loved this app for my every purchase",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-0b0d2188-4742-4d0c-b4a4-d9a3373ac0bf",
+      "text": "Large collection of fashion brands and styles. Frequent discounts and sales (especially End of Reason Sale). Easy-to-use app with personalized recommendations. Fast delivery in many locations. Easy returns and exchanges for most products.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-e7b55f37-dd75-44c1-b81f-011bfc576c79",
+      "text": "the delivery boy was very polite and good my experience was also good but some products come with no warranty no exchange and no return but we can buy everything on cod (cash on delivery) it also have variety of items I will say use it for low prices I ordered badminton racket and it had the policy if no return no exchange and no return I was worried about it that if it will be not good or not new or not proper or breaken but the product came good",
+      "is_relevant": false,
+      "confidence": 0.8
+    },
+    {
+      "id": "playstore-myntra-722d90f5-0327-44a6-b7f5-431c0d2189cf",
+      "text": "Myntra has a great collection of clothes, shoes, and accessories. The app is easy to use and ordering is convenient. Overall, a good shopping experience! ✨",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-dba436be-da63-4fe3-93e4-7c8f0eef86b4",
+      "text": "A big thank you to Myntra for the excellent shopping experience! From the wide range of quality products to the smooth ordering process and timely delivery, everything was seamless. The user-friendly app, attractive offers, and reliable customer service make shopping truly enjoyable. Keep up the great work, Myntra! Looking forward to many more amazing shopping experiences.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "playstore-myntra-0de19a08-de32-4e1a-9957-ffac0a836d74",
+      "text": "As a young girl it is always best experience to do shopping but if it's myntra shopping naturally becomes a hobby 😍😇 thank you mantra for great shopping experience with numerous choices with latest fashion 🤗",
       "is_relevant": false,
       "confidence": 0
     }

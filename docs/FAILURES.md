@@ -2,6 +2,20 @@
 
 One entry per failure. Updated the day it happens — not reconstructed at the end.
 
+## 2026-08-26 — naive equal-grid-division cropping corrupted 9/30 MVP product images
+
+**Attempt:** sourced 30 AI-generated product images for the MVP's persona wishlists (`mvp/public/product-images/`), cropped from larger source collages down to individual product shots.
+
+**Observed error:** a second-pass visual QA (reading each of the 30 PNGs directly, since this environment's Browser pane couldn't render a screenshot) found 9 images with visible artifacts: 3 had an entire unrelated cropped image stacked above the real product photo (`06_white_linen_shirt_m`, `09_gray_formal_trousers_m`, `10_striped_shirt_m`), and 6 had a sliver of an unrelated adjacent product bleeding in on one edge (`13_navy_floral_dress`, `14_black_ankle_strap_heels`, `18_navy_formal_trousers_m`, `19_black_laceup_boots_m`, `28_charcoal_formal_trousers_m`, `29_black_chelsea_boots_m`).
+
+**Root cause:** the crop tool divided the source collages into equal-sized grid cells rather than detecting the collages' actual (irregular) gutter positions — real grid boundaries didn't line up with an even division, so a fixed-fraction crop occasionally sliced into the neighbouring cell.
+
+**Fix:** re-cropped all 9 using detected true gutter positions instead of even division (v2 set, delivered as `mvp_product_images_v2.zip`, same 30 filenames + manifest structure — no code changes needed). Re-verified: all 30 files load 200 OK across every persona in-app, and all 9 previously-flagged filenames plus a spot-check of 4 previously-clean ones were re-read directly and confirmed clean.
+
+**Lesson:** "crop N images out of one collage" is not safe to do by even division unless the collage's actual grid is confirmed regular first — a plausible-looking systematic approach (divide by N) silently produced wrong output on 30% of a batch, and it wasn't obvious from any single image in isolation, only from checking every one.
+
+**Do-not-repeat rule:** when batch-cropping images from a multi-item source (collage, sprite sheet, contact sheet), confirm actual cell/gutter boundaries before applying a uniform crop — and always do a full visual pass of every output image afterward, not a sample, since a boundary-detection error tends to be systematic (it hit specific cells consistently) rather than random.
+
 ## 2026-08-25 — event_log insert failed with "permission denied", not an RLS rejection
 
 **Attempt:** first live verification of the Supabase event log (`mvp/supabase/schema.sql`) after adding real credentials to `mvp/.env` and Vercel production env vars, and redeploying. Added an item to cart on the live site and checked the browser console/network for the resulting `add_to_cart` insert.

@@ -1,0 +1,1739 @@
+{
+  "name": "appstore_myntra",
+  "counts": {
+    "total": 288,
+    "relevant": 8,
+    "not_relevant": 280,
+    "classification_failed": 0
+  },
+  "results": [
+    {
+      "id": "appstore-myntra-14462199510",
+      "text": "I am always use this",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14462196769",
+      "text": "Worst service\nReceived wrong product and they are not even helping or concern about anything\n\nworst service ever",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14462167276",
+      "text": "Myntra has been my favourite for all in time delivery with quality products",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14462106171",
+      "text": "This kurta looks really good with good quality",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461979319",
+      "text": "Great quality beautiful colour",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461962387",
+      "text": "Value for money. Nice colour. Love this product.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461943126",
+      "text": "Shoes are awesome ,fit ,look, comfortable,n price all are gud,must buy article",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461922530",
+      "text": "All fashions at cheap price",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461878625",
+      "text": "Never turning back journey",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461876887",
+      "text": "I have order so many things from myntra and trust me it is very easy to get refunded it is very easy to find your style …. Just a perfect app",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461867762",
+      "text": "I’m purchasing clothes from Myntra since last 7-8 yrs n Myntra never disappointed me . Always good product, n quality",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461861797",
+      "text": "It’s a very genuine app. All services like return, exchange , money back & customer care is very good. And also quality wise also I trust this app.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461839531",
+      "text": "Provide quality plus branded products at a very reasonable price to the customers proudly happy customer by Myntra",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461832011",
+      "text": "Perfect Fit, Quality Fabric",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461824398",
+      "text": "This was probably my favourite app for shopping. Now its just bad in terms of user experience. The product image quality are quite low resolution. There are stupid sponsored ads shoved so aggressively that its almost stupid. There stupid buttons here and there (why do i need a click to play constantly while i am scrolling). There is NO way to just directly click on a brand and see everything across it, which means constanly searching is the only way to do it. Half the categories cant even be found in the global categories page(caps, innerwear etc.)Earlier the previous search atleast had a way to clear specific searches now you have to clear all. I can go on and on. The deals are fine, so in terms of the actual things its good. Its just the ux that is so stupid at times that its a very annoying experience",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461790678",
+      "text": "very genuine product",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461784004",
+      "text": "Awesome Hoodie and perfect fit and quality",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461736694",
+      "text": "Very good product",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461713443",
+      "text": "Always satisfying products",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461710221",
+      "text": "Amazing Saree and lovely fabric",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461680240",
+      "text": "Scent of the day 😇😇",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461653348",
+      "text": "When i was low i’ll shop and shine by myntra",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461600723",
+      "text": "Absolutely gorgeous! 😍 These cuffs look even better in person. They’re elegant, classy and have such a premium finish. The detailing is beautiful, and they instantly elevate any outfit. So happy with this purchase — definitely worth it! ✨",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461572309",
+      "text": "‘This product is too good but please buy one size above than recommended.",
+      "is_relevant": true,
+      "confidence": 0.8
+    },
+    {
+      "id": "appstore-myntra-14461548880",
+      "text": "I want to exchange one item and the process was extremely easy breezy",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461548623",
+      "text": "Not a great application to shop from there is soo much of unprofessional service from them orders get canceled automatically delivery agent asks for payment of the parcel which is prepaid i am really fed up with this customer service",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461544544",
+      "text": "The dress is fantastic. The work, material and combination suits well.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461520835",
+      "text": "I have been shopping from Myntra since 12 yrs or more ..Best shopping app till now ❤️❤️❤️",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461468257",
+      "text": "Awm product must buy",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461444497",
+      "text": "So far a better app where you can find very good quality products at good prices",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461429853",
+      "text": "Good verity of products with offers 👍🏻👍🏻👍🏻",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461343430",
+      "text": "Very friendly app with the right filters and sorting.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461308232",
+      "text": "This app is very satisfying",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461305439",
+      "text": "Had a very bad experience regarding return and refund \nNot all product shows the same quality as image and they took forever to return the product \nCustomer care service is too bad \nI have been calling them from past one week and no response \nI have been facing such issues from last one year and now i am deleting this app\nHigly disappointed",
+      "is_relevant": false,
+      "confidence": 1
+    },
+    {
+      "id": "appstore-myntra-14461295594",
+      "text": "Great platform to shop",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461287587",
+      "text": "I have done most of my shopping online from Myntra and Myntra Luxe. I find the UI/ UX the best on any similar apps. \nAlthought the deals and discounts over the years have reduced significantly, but the returns/ exchange process is the most reliable.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461283580",
+      "text": "I have ordered a watch once and it got cancelled without any proper reason saying unforeseen circumstances and the coupon is also gone. When I raised a complaint and they cant do anything is the reply.\nSame thing happened again on another order. Sick of this app",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461228966",
+      "text": "Amazing and beyond the imagination",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461176092",
+      "text": "I purchase this bag for my mother in law \nShe was very happy to see this\nQuality and compact size is super awesome \nI m really happy with packaging and fast Dilivery from Myntra",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14461074154",
+      "text": "They are always delay in delivering items to locations in South. Ekartel people don’t even call or answer our calls",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14460974558",
+      "text": "Super product and early access",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14460834777",
+      "text": "Great designs,multiple brands to choose from,fast delivery & attractive discounts! I recommend everyone should try buying from Myntra once & you will love to continue buying your outfits,shoes,..from here.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14460732624",
+      "text": "The Myntra Insider loyalty program offers valuable points, early sale access, and exclusive coupons \nI love this app ☺️❤️ 5⭐️",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14460537981",
+      "text": "Very nice and comfortable dress",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14460404423",
+      "text": "This app is litterally amazing ♥️♥️",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14460108767",
+      "text": "It was perfect and can’t wait to style them 😍",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14460103594",
+      "text": "Great app to have branded products at maximum discounts",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14460072076",
+      "text": "Fraud app always cancel my order",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14460033302",
+      "text": "Stunning earring must buy product for earrings lovers",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14460023592",
+      "text": "Decent produ u can go for it .. quality is good also",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14459789449",
+      "text": "I changed my review from 1-star to 5- star after 8-years of using it. Good products, great deals! Just wait for good sale and you may get some fab pieces. In time delivery",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14459691991",
+      "text": "Quality is top noch",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14459612128",
+      "text": "I have been ordering for Myntra since a few years. I liked their top notch quality delivery within 30 mins or same day.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14459571815",
+      "text": "It is a good products",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14459463595",
+      "text": "Bohot Achha h very nice 👍",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14459456149",
+      "text": "Fit and material is on point",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14459450851",
+      "text": "Bed sheet quality is good and colour is same as in picture 👍🏻",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14459422124",
+      "text": "Really very nice quality cap it is",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14459420667",
+      "text": "Good range with nice products",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14459339157",
+      "text": "I always enjoy..",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14459333595",
+      "text": "I am disappointed with Myntra refund don’t buy with this app",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14459298384",
+      "text": "Super very comfortable",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14459108698",
+      "text": "I received a very good Tommy Hilfiger T-shirt. It was a timely delivery too. Looking forward to such great products from Myntra in upcoming shopping.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14459063451",
+      "text": "Top good quality one shopping app",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14459059428",
+      "text": "Myntra have a good collection of everything. I have ordered alot of items. just what i felt is its little expensive",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14459042729",
+      "text": "I really love the texture and feel of it!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14459003587",
+      "text": "Amazing app with great deals 👍🏻👍🏻",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14459003411",
+      "text": "Very comfortable in summer season",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14458960081",
+      "text": "Awesome Product i am very happy",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14458953863",
+      "text": "INR 23 of platform fees is highest in the Indian market by far and appears that Myntra is on a customer rating declining journey now. Really sad and open loot..",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14458938501",
+      "text": "Has the most easiest return policy and delivery.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14458892996",
+      "text": "I look forward to all the deals that come on Myntra . It’s a one stop shop for kids to adults all clothes , accessories and footwears ! Love it 💕",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14458811902",
+      "text": "Good website customer friendly",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14458734687",
+      "text": "Nice\n Product and timely delivery",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14458615616",
+      "text": "First class quality",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14458601038",
+      "text": "My favourite app for clothes and accessories 🫶🏻",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14458453158",
+      "text": "The items are genuine and original with warranties and all documents",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14458449024",
+      "text": "Very happy that myntra is to my rescue whenever I need to shop something for myself and my family. Hassle free returns and super fast delivery are best offered by myntra.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14458440038",
+      "text": "Good fabric and print so comfortable",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14458416052",
+      "text": "If you are looking for a online app which will give you best offers available and all the brands you want plus hassle free shopping experience then this is the app you must check out.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14458396582",
+      "text": "never trust myntra for any product \nthey sold me a product which doesn’t work and they don’t take returns or any responsibility.. on top of that they charged me price which is higher than the products tax invoice.. this is second time exchange with no option to refund the product, exchanged product is also of very low quality and faulty..\nbig headache since past 2 months.. money stuck.. no product to use.. and rude customer service staff",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14458374719",
+      "text": "There are good products but too many polyester fabrics on market, its hard to find wool aur or pure cotton.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14458293250",
+      "text": "Very disappointing refund experience. Myntra provided a refund reference number, but I have not received any UPI notification or refund amount. I also checked my bank statement, and there is no refund transaction showing. When I try to contact customer support, I only get robotic/AI responses and cannot connect with a real person. Please resolve this issue instead of just providing a reference number.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14458277376",
+      "text": "After purchasing the product successfully why automatically get canceled and simply providing refund without reason",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14458250840",
+      "text": "Very everything",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14458240626",
+      "text": "My Experience is good the product I received are of good quality and got the delivery on time",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14458235290",
+      "text": "I regularly buy from Myntra",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14458207010",
+      "text": "Very soft material, good for body during summers unlike knitted T Shirts with matty finish. Was searching for such material for long time as majority products under T shirt category are matty finish and it’s unbearable to skin in summers.",
+      "is_relevant": true,
+      "confidence": 0.8
+    },
+    {
+      "id": "appstore-myntra-14458186451",
+      "text": "Quality feels completely different and cozy",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14458169137",
+      "text": "The product quality is good",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14458121981",
+      "text": "Best quality product on this platform",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14458102027",
+      "text": "The material and quality is very good",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14458093529",
+      "text": "Myntra never use fake item\nAlways original",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14458041270",
+      "text": "Good service and varieties",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14458023846",
+      "text": "Product are authentic nd good quality",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457994824",
+      "text": "The fabric n embroidery n color, everything is good it is just that the lower is bit loose but for me it works well",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457980784",
+      "text": "I just love myntra you can shop blindly on it and get the order as shown in the pics",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457920315",
+      "text": "It’s a long lasting perfume with very adorable smell 🫠❤️",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457911528",
+      "text": "Myntra is one of the best shopping apps for fashion and lifestyle products. The collection is huge, the app is easy to use, and the offers and discounts are great. I also love the variety of brands and the smooth shopping experience. Highly recommended for anyone who loves online shopping! 🛍️✨",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457907938",
+      "text": "Loved the product SBS the time taken to deliver",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457892984",
+      "text": "Best products and best service",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457883349",
+      "text": "Love to shop with myntra",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457871243",
+      "text": "Service was very fast…they delivered one day before they say date…and also great discount or freebies then other platforms…very much improved brand",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457833320",
+      "text": "Pathetic app with no customer service at all. Ordered 8 items out of which delivery of 4 items never happened and they just cancelled it. 2 items were returned due to size issue which also took few days to pick up and refund. Never using it again",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457790795",
+      "text": "Don’t know what exactly is the calculation behind Platform fee",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457778285",
+      "text": "Good for latest collection",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457751521",
+      "text": "Lovely collection👍👍",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457749562",
+      "text": "The quality is good love the item very comfortable to wear my son is very happy",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457748204",
+      "text": "I always get the best deals and the returns process is super easy and quick.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457738055",
+      "text": "Really good product and timely delivery",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457732980",
+      "text": "Very beautiful and smart bag .\nQuality also very good",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457723009",
+      "text": "Good looking trousers for young boys",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457661085",
+      "text": "Even the customer care executive is not know anything…. They are moron.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457657037",
+      "text": "Nice colour . Only gonna suit in fair skin tone.",
+      "is_relevant": true,
+      "confidence": 0.8
+    },
+    {
+      "id": "appstore-myntra-14457648877",
+      "text": "Very nice fabric and size is well fitted",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457619021",
+      "text": "It is a very good app.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457543359",
+      "text": "I really like the texture and the stain it leave even after removing it.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457515141",
+      "text": "Good one. Happy to shop with Myntra 🫶",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457503052",
+      "text": "quality is very good",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457479891",
+      "text": "Been a fan of Myntra for a decade at least and I find shopping so hassle free and exchanges easily done,returns taken with no questions asked:)\nI love it!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457457330",
+      "text": "Nice dress I like it",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457443048",
+      "text": "Worth for money,comfort,good fabric",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457385235",
+      "text": "Love to shop from Myntra. Almost everything is available ❣️",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457380243",
+      "text": "Always my first preference app",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457374248",
+      "text": "Myntra’s server has been down/very slow and the app is not working properly. Because of these technical issues, my posts are not getting the expected likes and views. Please fix the server and technical problems as soon as possible. It’s really affecting the user experience and engagement.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457340512",
+      "text": "Very nice product worth it",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457273362",
+      "text": "Good product as shown in app",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457248107",
+      "text": "This was truly a wonderful experience, and I appreciate it",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457202403",
+      "text": "Like it vary products best quality",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457174759",
+      "text": "Branded apparels!Good!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457158764",
+      "text": "Best quality products",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457148161",
+      "text": "very comfertable n soft sole...easy to ware..",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457044483",
+      "text": "best and amazing shopping app",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457043243",
+      "text": "Purchased 42 size and it is good",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457039469",
+      "text": "Very comfortable and perfect",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14457011279",
+      "text": "There discounts is so bad",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14456960681",
+      "text": "App experience is seamless and good for perfume shopping and apparel shopping.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14456948168",
+      "text": "I really like Myntra",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14456769896",
+      "text": "Love the ethnic caped dress.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14456358150",
+      "text": "I believe as a customer who has been using Myntra for 6+ years and ongoing in the beginning it was all legit direct company’s and very good products . If u want to buy things its easily available and delivered within few days and with the help of coupon and discount we can save a lot of money and also get good quality direct form the company \nBut one cons is that recently Myntra has invited few marketing which seems to be quite fishy and not a qualified company \nBut overall I love Myntra and its products and services best shopping app for me 🩷🫶🏼",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14456184804",
+      "text": "fabric and fit is superb",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14456106058",
+      "text": "Super comfy, the fabric’s too good.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14455973573",
+      "text": "Worst customer service. I ordered on 8th with the expected delivery of 14th.\nI didn’t receive delivery and started chasing. They have created an incident on 16th. I continued chasing daily and i got same response that we are actively working on your incident but I haven’t seen even a single response on the incident.\nCustomer care person mentioned on 17th that I will receive my order in 24 hours.\nWhen I didn’t receive order till 20th. I tried talking to customer care again.\nRepresentatives Unnati and Abhishek continued saying that we want to build the trust but when I asked about delivery of the order, they again commented that I will get in 24 hours.\nI checked on 21st evening, my order was cancelled automatically.\nPathetic experience, if you can’t deliver, tell this the very first time. Why waste customer’s time and effort?\nI will try to keep the order minimal or may be not order from such non-reliable companies.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14455902636",
+      "text": "I have ordered a plazzo kurta set that was not fit in size so I requested for exchange/ refund \nThe delivery partner took the dress and marked my request rejected I didn’t receive the exchange of that and I didn’t get any refund from them and i am contacting the customer service team but I am unable to contact them by any way and i am not getting the revert from the mail also my refund is stuck and my dress is also with them \nAnd my complaint has not been resolved yet \nPlease kindly be careful while placing your order on myntra \nI had a very bad experience with them",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14455874640",
+      "text": "Best online shopping app",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14455761237",
+      "text": "The jeans quality is very good, and the fitting is also perfect. 👍😊",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14455735136",
+      "text": "Very fast delivery, well done Myntra 👍👍❤️❤️❤️",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14455721404",
+      "text": "What an authentic bag Myntra has delivered at my doorstep. Quality of the bag is too impressive and design is connoisseur!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14455704083",
+      "text": "Awesome quality n fitting \nLove the product",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14455636178",
+      "text": "Good service by myntra it is trustable site I have found variety in this site  use since 8 years....from ajit Bhandare ,Kolhapur",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14455633851",
+      "text": "Product was good but too large \nAnd the option of size change can’t show",
+      "is_relevant": true,
+      "confidence": 0.8
+    },
+    {
+      "id": "appstore-myntra-14455585362",
+      "text": "Best product and delivery ❤️",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14455473914",
+      "text": "I love this co Prd set",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14455424067",
+      "text": "It maintains its quality",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14455405946",
+      "text": "Very poor service. I only called the delivery boy to ask how long he would take to arrive, but he cancelled my order without any reason. Very disappointing experi",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14455387468",
+      "text": "Nice things too good",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14455379732",
+      "text": "Avoid Myntra!! No more the authentic marketplace it once used to be.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14455364044",
+      "text": "Very good for shopping",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14455273693",
+      "text": "Its a very affordable place to buy clothes",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14455245578",
+      "text": "Just loved it..will definitely recommend.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14455187657",
+      "text": "I love shopping from myntra they have almost every brand.\nMuch more to you just go and checkout mynta.\nHappy shopping",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14455179885",
+      "text": "Superb services. Trust worthy app. Good fabric !!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14455114044",
+      "text": "Top notch quality",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14454868067",
+      "text": "Good and Worthy. Fabric look like silk and light weight.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14454810582",
+      "text": "If you add a platform fee that’s too much. Then y don’t you return it while returning the item.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14454650174",
+      "text": "Quality is great",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14454594816",
+      "text": "Good quality products",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14454508909",
+      "text": "Clothesline is good but order processing is badly handled.Size issues are mostly there forcing you to exchange",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14454501304",
+      "text": "Best app for shopping",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14454473848",
+      "text": "Material soft aahe",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14454456406",
+      "text": "Hi, off late, the optimum catalog of many brands like Max, Pantaloons and Lifestyle is not available to shop on the app. Has there been any changes?",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14454443234",
+      "text": "Very nice app for shopping",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14454426327",
+      "text": "Best site and unlimited products with an awesome quality!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14454370114",
+      "text": "One of the best app for buying cloths",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14454319789",
+      "text": "Light weight comfortable Chappel",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14454291052",
+      "text": "Very soft & comfteble dresh",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14454219983",
+      "text": "Always us MYNTRA",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14454182648",
+      "text": "I do love to get all my required daily and formal wear and all my Fashion need a wide range of collections with easy payment option and on time delivery .👏👏",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14454179075",
+      "text": "I like the product n quality",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14454151475",
+      "text": "Best in all terms",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14454108874",
+      "text": "Excellent\nThread",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14454065885",
+      "text": "All time favourite pur here",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14454051508",
+      "text": "Excellent user interface. Products collection is good. Quick return and refund service !!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14454001996",
+      "text": "Pathetic app, I ordered a bag worth 6.5k. Payment is done and all. I placed my order on 4th august. Its 21st August today, my bag has not arrived yet. The initial delivery was supposed to happen on 11th, then 13th then they raised a ticket on 14th asking until 18th, on 18th they asked for 48 hours and on 20th they asked for 24 hours. Im done waiting. No accountability, at this point Myntra is simply waiting for me to cancel it without any accountability. Pathetic app, pathetic customer service.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14453997502",
+      "text": "Nice fit and good quality",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14453972952",
+      "text": "Fully satisfied this suit",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14453934324",
+      "text": "This is third item delivery got auto cancelled. I have decided that not to order any other item from Myntra in future. Good bye!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14453836582",
+      "text": "Highly recommended product. Perfect size and superb quality. Thank you so much Myntra for this fantastic product.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14453835988",
+      "text": "Love Myntra and good stuff",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14453804168",
+      "text": "Best product it’s effect on hair .",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14453796799",
+      "text": "Ordered cotton kurta and they sent completely different product and when u will place return then the pickup agent will say the product is different we can’t accept return.\nFRAUD APP!!!!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14453778530",
+      "text": "I have bought two tees from them they first delayed the delivery and now cancelled my prepaid order even meesho\nHas better service than them",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14453693160",
+      "text": "Good app with nice variety",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14453649064",
+      "text": "Really happy with this lip liner! The application is smooth and easy, and it gives a clean, defined look to the lips. I really like how effortlessly it blends with lipstick and helps give the overall lip look a more polished finish. The quality is really good for the price. Definitely a product I’d recommend! ❤️",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14453647714",
+      "text": "Purchased for 6 year old and 2 year old",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14453641696",
+      "text": "It was up to the mark . Bang on",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14453629100",
+      "text": "Myntra is honestly one of the best shopping apps! Great variety, easy-to-use interface, smooth delivery, and plenty of offers. Finding good products is super easy, and the overall shopping experience is excellent. Definitely my go-to fashion app! ⭐⭐⭐⭐⭐",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14453628115",
+      "text": "Loved it! Everything was smooth and the products were beautiful😍✨",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14453619917",
+      "text": "Awesome shopping platform",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14453568603",
+      "text": "The fit is really good and material is  also nice",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14453525866",
+      "text": "This is very useable for daily and it’s comfortable to live in every situation",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14453462795",
+      "text": "An app without any glitch",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14453413521",
+      "text": "Alwys on time n easy return",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14453360962",
+      "text": "Great experience as always",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14453313406",
+      "text": "Myntra brands are worrest and Myntra service was very very worrest",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14453280377",
+      "text": "I love doing shopping from Myntra. Staff of all the product is so good and real and luxurious. You can also enjoy Glam clean from here. You can earn from Myntra also by giving review of the product.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14453204988",
+      "text": "Best items at best price. And vast variety of products to choose from - Only available in Myntra.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14453095059",
+      "text": "Easy to find n order",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14452835483",
+      "text": "Myntra serve, genuine quality, and exactly same piece with a good amount of discount, love to be a part of a Myntra customer!",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14452729177",
+      "text": "I always shopping this app and very easy to buy",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14452697556",
+      "text": "Delivery is fast and convenience",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14452412223",
+      "text": "Ordered 5 shirts and glad to receive what the quality was shown",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14452268424",
+      "text": "They have closed all the ways to reach customer care agents and you must deal with the AI responses until they feel you are worth it…. What a pathetic downgrade to save money. The worst part is they are paying people to give hyped reviews.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14452233991",
+      "text": "Thank you for a great shopping experience .. You’ve added so much happiness to my life by delivering products before time..😊🌸",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14452119416",
+      "text": "I bought all my shopping only from Myntra. Great variety brands offers exchange return on time refund policy awesome",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14452056477",
+      "text": "Most of the reviews photos are Ai images so how we go with this app",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14451912300",
+      "text": "Placing an order with them and returning items is such a big hassle. The order is always delayed and the customer care is unprofessional. They neither make a refund nor exchange items. Don’t use myntra",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14451892772",
+      "text": "Very nice but price high overall nice product",
+      "is_relevant": true,
+      "confidence": 0.8
+    },
+    {
+      "id": "appstore-myntra-14451887275",
+      "text": "Many many options i love shopping on mytra",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14451818772",
+      "text": "I ordered a puma sneaker and returned it but still they haven’t received it and also didn’t refunded me one of the worst online shopping experience",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14451741676",
+      "text": "Its the best app for clothing. Very affordable and pocket friendly.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14451728062",
+      "text": "Taking platform fee and other fees and price is high according to cloth material and day to day order quality is degrading",
+      "is_relevant": true,
+      "confidence": 0.8
+    },
+    {
+      "id": "appstore-myntra-14451714398",
+      "text": "Best for prewinter, cotton but thick",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14451528558",
+      "text": "Myntra is providing the worst quality of everything with poorest delivery and pickup services. Meesho is far better than Myntra. Better opt for meesho than Myntra",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14451505587",
+      "text": "products was so good good quality",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14451498089",
+      "text": "Very nice products",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14451396848",
+      "text": "Very good as prefer cotton products",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14451362931",
+      "text": "Just love it ❤️",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14451178697",
+      "text": "One of the best high impact sports bra❤️",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14450936477",
+      "text": "Absolutely love shopping from myntra ❤️",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14450878590",
+      "text": "Multi purpose bag..that you can use every where…top notch quality..you can go for it",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14450869812",
+      "text": "They’re literally selling reused stuff like if someone has returned a product they won’t discard it but sell it other customers. Also I ordered a different size product and still they send me smaller size product so annoying.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14450841384",
+      "text": "I don't know what happened to myntra, earlier they have smooth delivery, nowadays deliveries not has promised or deliveries are not happening and delivery timing is horrible, one day their delivery agent calling me at 11'O clock night, I have a healthy habit of sleeping at 10, please fix the issue.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14450834294",
+      "text": "Material is not that comfortable, but I like the fit 👍\nSo I kept it.",
+      "is_relevant": false,
+      "confidence": 0.5
+    },
+    {
+      "id": "appstore-myntra-14450778030",
+      "text": "very comfortable",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14450601032",
+      "text": "Myntra looks fake these days, images are blurry and some customer reviews are AI generated, images shared by the customers are also AI generated, not able to understand which one is AI and which one is original",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14450600554",
+      "text": "Awesome collection can’t underestimate Myntra fashion so cool collection",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14450584749",
+      "text": "Very nice product super comfortable and looking nice",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14450534197",
+      "text": "Myntra delivered empty packet for ordered Bitterlime women grey and coffee brown solid top and skirt. Then on request to guide on how to request product as the parcel was empty. They asked me to upload the image in the exchange section. Then they cancelled the exchange. And said no refund. To top it on call they are mentioning there was no image that was uploaded. Now they deny the refund and even the dress",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14450478977",
+      "text": "best quality of product",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14450451791",
+      "text": "the delivery was smooth",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14450418512",
+      "text": "such a nice fabric and it looks so beautiful",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14450414584",
+      "text": "Best app delivers on time best products u can search for any product any will get with the best quality",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14450392167",
+      "text": "Great for its price",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14450335856",
+      "text": "Product is Good",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14450324160",
+      "text": "Order kiya hua products myntra shipping hone ke bad cancel karta hai",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14450289668",
+      "text": "Very good quality",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14450289252",
+      "text": "I’ve been ordering from Myntra since 2016–17, and after what happened with my latest order, I genuinely cannot believe how badly this platform has deteriorated.\n\nI ordered a pair of Roadster shoes. It took ages to arrive, and when I finally went to the shipment warehouse at my university mall to collect it, the staff were completely inattentive and acted like they couldn’t care less.\n\nBut the real shock came when I got back to my room and opened the package.\n\nInstead of the Roadster shoes I ordered, I received some cheap-looking knockoffs from a completely different brand called “Amico.”\n\nI immediately contacted customer support, only to be greeted by an absolutely useless chatbot. There was no straightforward option to speak to a real person. I had to click through an absurd number of menus just to reach an actual support agent.\n\nAnd then, when I finally got there, the app itself started glitching. I couldn’t even upload a photo of the product I received. It just sat there endlessly saying “Uploading…”\n\nThis is not what you expect from a platform I’ve been trusting with my orders for nearly a decade.\n\nWrong product. Poor delivery experience. Unhelpful staff. A frustrating support system. And then an app that doesn’t even let you submit the evidence needed to resolve the issue.\n\nMyntra, this is absolutely unacceptable.\n\nAfter almost 10 years of ordering from you, this is the last time I’m using Myntra. You’ve completely lost my trust.",
+      "is_relevant": false,
+      "confidence": 0.8
+    },
+    {
+      "id": "appstore-myntra-14450241598",
+      "text": "I had really very good shopping experience",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14450228382",
+      "text": "Absolutely love shopping on Myntra! ❤️ The collection is amazing and there are so many stylish options to choose from. The app is easy to use, product variety is great, and the overall shopping experience is really smooth. I also love the discounts and offers available on different brands. Delivery and packaging have been good too. Overall, Myntra is one of my favourite fashion shopping apps. Highly recommended! ⭐⭐⭐⭐⭐",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14450180499",
+      "text": "Very nice color, perfect fit for me",
+      "is_relevant": true,
+      "confidence": 0.8
+    },
+    {
+      "id": "appstore-myntra-14450155006",
+      "text": "Very beautiful dresses always",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14450112735",
+      "text": "Best perfume ever you could go for. Lasts about 4-5hours for sure. My fav so far.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14450108425",
+      "text": "Good product. Amazing quality",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14450108072",
+      "text": "Amazing watch beautiful loved it",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14450083292",
+      "text": "Very nice app very useful",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14450070737",
+      "text": "Easy shopping good stuff",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14449945867",
+      "text": "Great app for all your fashion needs",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14449908803",
+      "text": "Its very beautiful kurti 🥰 thank you Myntra",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14449884466",
+      "text": "Beautiful kurta must buy piece best for casual outings",
+      "is_relevant": true,
+      "confidence": 0.8
+    },
+    {
+      "id": "appstore-myntra-14449833280",
+      "text": "fabric is very nice, and also a good fit",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14449823766",
+      "text": "Awesome service, and great replacement options",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14449776160",
+      "text": "This product is worth to money. Impressed",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14449764593",
+      "text": "I love using this app, so affordable products w best quality be it skincare,bodycare, haircare or clothes everything is just bestttt",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14449759654",
+      "text": "Loved the Tshirt, its very comfortable to wear",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14449752935",
+      "text": "Very good quality & must buy perfume \nEspecially Nirvana & Oud Rocks",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14449718030",
+      "text": "I am using this app from ages and this is kinda always my go to place .. so comfortable from purchase to return everything ❤️",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14449709089",
+      "text": "These are really good headphones, and the sound quality is also very good.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14449669663",
+      "text": "Fabric is too good and very comfortable",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14449644541",
+      "text": "Been using for years now so good",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14449640634",
+      "text": "Best for shopping",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14449614920",
+      "text": "This site is best for collection and price and all above brand for genuine products",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14449612060",
+      "text": "Very nice and best fabric",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14449604259",
+      "text": "This delay has caused me significant inconvenience. I have already checked with my neighbours and reviewed the tracking information, but there are no helpful updates.\n\nSince your company failed to deliver the product within the promised timeframe, I no longer require the item.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14449585485",
+      "text": "Track pant is very comfortable and fabric is best",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14449582231",
+      "text": "Sabse bekar  app h jb koi return krna hota h to delevry boy apne aap write kr deta h ke coustmer not available \nAger help line pe ph kro to agent busy hote h naa wapis ph krte naa cunct krte koi subhidha nhi h \nMyntra se achha to messo or flipcart h",
+      "is_relevant": false,
+      "confidence": 0.8
+    },
+    {
+      "id": "appstore-myntra-14449575953",
+      "text": "Very cool and very well done product and very good quality product",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14449507971",
+      "text": "I really like the product its very comfortable\nI just love it",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14449494717",
+      "text": "Best for online shopping",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14449494250",
+      "text": "Nyc and original brand",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14449477798",
+      "text": "The blazer has awesome fitting and breathable material 😍",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14449427703",
+      "text": "Its a better app for mycash earnings and purchasing in budget things and useful things are available in deals and earn daily my cash i loved this app i hope always maintain your own speciality",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14449416087",
+      "text": "My account log out without any reason",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14449375316",
+      "text": "Please do not buy anything from Myntra, as they are selling fake products and refusing to take accountability. I ordered an H&M pair of jeans that turned out to be ill-fitted, but when the delivery agent arrived for the pickup, he outright refused the return, claiming that the brand name \"H&M\" was not engraved on the button. How is an everyday consumer supposed to inspect microscopic details like button engravings when all the original tags and packaging were completely intact?\nMyntra delivered a counterfeit item in the first place, and now their customer support has trapped me in a loop of empty promises. Since August 14th—nearly a week now—they have repeatedly delayed resolving the issue with false assurances of \"24 to 48 hours.\" Their callback service fails to connect, customer care lines are perpetually busy, and no one has initiated the pickup or processed my refund. This is not merely about the cost of the jeans; it is a breach of consumer trust. If Myntra delivers a fake product, penalizing the customer and refusing a legitimate return is unacceptable. Avoid shopping on Myntra unless you are willing to risk losing your money on counterfeit items with zero customer support.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14449349192",
+      "text": "vast variety of clothing along with quality checks.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14449346813",
+      "text": "Four Myntra to be the best fashion app",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14449273013",
+      "text": "Quality is nice . I like it.",
+      "is_relevant": false,
+      "confidence": 0
+    },
+    {
+      "id": "appstore-myntra-14449241046",
+      "text": "After placing the order they give the delivery date 20 days after.and on the date of delivery they cancel the order.i m an icon customer and this has happened to me twice.and when u call the customer care they ask u to wait for the sale and place the order again.pathetic service.never expected this from Myntra",
+      "is_relevant": false,
+      "confidence": 0
+    }
+  ]
+}
