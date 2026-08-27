@@ -23,6 +23,8 @@ One cell gets picked and defended (Phase 5) — see `docs/decisions/opportunity-
 
 ## C.3 — Kill criteria (pre-committed, relative)
 
+**Note, added 2026-08-27:** this process was not run as originally designed. Criteria 1–2 require a per-segment barrier ranking that the data cannot support (no segment-tagged corpus, and retroactively tagging it now was rejected on methodology-integrity grounds — see `docs/decisions/opportunity-selection.md`), and the underlying evidence itself does not point to one dominant barrier — four are each independently confirmed by a different method. Forcing a single winner would have been less rigorous, not more. Full reasoning and the deck-narrative resolution (which barrier leads the problem statement vs. which stays the flagship MVP case) are in `docs/decisions/opportunity-selection.md`, not silently left unresolved here.
+
 The chosen opportunity must satisfy **all four**:
 
 1. Ranks #1 or #2 among barriers within its segment

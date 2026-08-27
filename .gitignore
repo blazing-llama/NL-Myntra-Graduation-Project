@@ -20,6 +20,9 @@ dist/
 # Local n8n test instance (docs/FAILURES.md, 2026-08-22) — not a deliverable
 .n8n-local/
 
+# Auto-generated run logs (pipeline/run_v2_full_pass.py) — not a deliverable
+logs/
+
 # OS
 .DS_Store
 Thumbs.db
