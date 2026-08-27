@@ -1,0 +1,43 @@
+{
+  "price_timing_waiter": [
+    "01_wideleg_jeans",
+    "02_white_sneakers",
+    "03_black_sneakers",
+    "04_olive_trousers_f",
+    "05_black_oversized_tee_m",
+    "06_white_linen_shirt_m"
+  ],
+  "fit_cautious_returner": [
+    "07_denim_jacket_m",
+    "08_beige_blazer_m",
+    "09_gray_formal_trousers_m",
+    "10_striped_shirt_m",
+    "16_charcoal_wool_jacket_m",
+    "28_charcoal_formal_trousers_m"
+  ],
+  "occasion_driven": [
+    "11_burgundy_wrap_dress",
+    "12_gold_satin_slip_dress",
+    "13_navy_floral_dress",
+    "14_black_ankle_strap_heels",
+    "15_sparkly_clutch",
+    "25_layered_gold_necklace"
+  ],
+  "quality_evidence_seeker": [
+    "17_black_crew_sweater_m",
+    "18_navy_formal_trousers_m",
+    "19_black_laceup_boots_m",
+    "20_brown_leather_tote",
+    "26_beige_textured_jacket_m",
+    "29_black_chelsea_boots_m"
+  ],
+  "inspiration_moodboard_saver": [
+    "21_black_vest_trousers_set_f",
+    "22_olive_embroidered_kurta_set_f",
+    "23_printed_blouse_f",
+    "24_cream_pleated_skirt_f",
+    "27_navy_cableknit_sweater_m",
+    "30_taupe_leather_tote"
+  ],
+  "_note": "AI-generated sample imagery for MVP demonstration only, not real product photography. Re-cropped v2: original v1 crop used naive equal-division and had bleed/stacking artifacts on 9 images; v2 crops use detected true grid-cell boundaries."
+}
