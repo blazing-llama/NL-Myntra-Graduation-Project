@@ -1,4 +1,4 @@
-# Codebook — v2 (draft, pulled from real corpus — NOT yet frozen)
+# Codebook — v2 (frozen 2026-08-25 — gold set merged, `evals/gold_set/gold_set_final_frozen.jsonl`, n=137)
 
 Source: field schema and category definitions originally drafted in `docs/blueprints/02_AGENT_ORCHESTRATION.md` (Coding Agent system prompt). This version replaces v1's placeholder examples with real phrases pulled from the 613-item cleaned Play Store corpus (`data/processed/clean_myntra.json`, `clean_ajio.json`, `clean_nykaa.json`).
 

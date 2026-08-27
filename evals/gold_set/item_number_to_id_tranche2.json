@@ -1,0 +1,190 @@
+{
+  "1": {
+    "id": "playstore-ajio-468c6d5e-5a35-4e2a-8687-f3b16e5466d8",
+    "source": "v2_checkpoint"
+  },
+  "2": {
+    "id": "appstore-nykaa-14269122272",
+    "source": "v2_checkpoint"
+  },
+  "3": {
+    "id": "playstore-ajio-c2843978-0df7-4fc5-a6ab-364bc3cda2d6",
+    "source": "v2_checkpoint"
+  },
+  "4": {
+    "id": "playstore-ajio-f18ef91f-2e09-495c-96b8-63b28117458f",
+    "source": "v2_checkpoint"
+  },
+  "5": {
+    "id": "playstore-ajio-8cae2b91-674b-4f05-959e-3dbd2b2ed052",
+    "source": "v2_checkpoint"
+  },
+  "6": {
+    "id": "playstore-myntra-d7e1866c-d476-4454-891c-d465a4aad9b4",
+    "source": "v2_checkpoint"
+  },
+  "7": {
+    "id": "appstore-nykaa-13959995074",
+    "source": "v2_checkpoint"
+  },
+  "8": {
+    "id": "playstore-ajio-ec9b0467-c53d-4d78-a5c9-54ed3d1b46fd",
+    "source": "v2_checkpoint"
+  },
+  "9": {
+    "id": "playstore-ajio-4d7fb715-6878-4f78-bb27-458874c5d8a0",
+    "source": "v2_checkpoint"
+  },
+  "10": {
+    "id": "appstore-ajio-14420135660",
+    "source": "v2_checkpoint"
+  },
+  "11": {
+    "id": "playstore-ajio-0da4949c-e718-4daa-bb4d-9c9d1a52b8dc",
+    "source": "v2_checkpoint"
+  },
+  "12": {
+    "id": "appstore-myntra-14449884466",
+    "source": "v2_checkpoint"
+  },
+  "13": {
+    "id": "playstore-ajio-5a61c3fa-0232-4ab6-9f4c-c9a069689539",
+    "source": "v2_checkpoint"
+  },
+  "14": {
+    "id": "playstore-ajio-9a3b5d65-f475-4d7d-a3dd-7fd7b5d86283",
+    "source": "v2_checkpoint"
+  },
+  "15": {
+    "id": "appstore-myntra-14451892772",
+    "source": "v2_checkpoint"
+  },
+  "16": {
+    "id": "playstore-myntra-e3881119-a121-4082-9584-773f6c8e8627",
+    "source": "v2_checkpoint"
+  },
+  "17": {
+    "id": "playstore-ajio-13dede8b-f5c7-4db8-91a1-b35e5cb630a4",
+    "source": "v2_checkpoint"
+  },
+  "18": {
+    "id": "playstore-ajio-563e7a70-2a25-4da5-863e-01bee42f7b08",
+    "source": "v2_checkpoint"
+  },
+  "19": {
+    "id": "appstore-myntra-14455633851",
+    "source": "v2_checkpoint"
+  },
+  "20": {
+    "id": "appstore-myntra-14451728062",
+    "source": "v2_checkpoint"
+  },
+  "21": {
+    "id": "appstore-myntra-14450180499",
+    "source": "v2_checkpoint"
+  },
+  "22": {
+    "id": "appstore-ajio-14073815073",
+    "source": "v2_checkpoint"
+  },
+  "23": {
+    "id": "playstore-myntra-5bea6de1-0cdb-4aa2-842d-0dd702f29336",
+    "source": "v2_checkpoint"
+  },
+  "24": {
+    "id": "playstore-ajio-580ed932-7ba2-408c-95fe-5473c2acdfc0",
+    "source": "v2_checkpoint"
+  },
+  "25": {
+    "id": "appstore-nykaa-13867903374",
+    "source": "v2_checkpoint"
+  },
+  "26": {
+    "id": "playstore-ajio-28b26ca3-652c-40fa-8f4c-08a0de6cc60b",
+    "source": "v2_checkpoint"
+  },
+  "27": {
+    "id": "appstore-myntra-14458207010",
+    "source": "v2_checkpoint"
+  },
+  "28": {
+    "id": "appstore-nykaa-14255075959",
+    "source": "v2_checkpoint"
+  },
+  "29": {
+    "id": "appstore-myntra-14457657037",
+    "source": "v2_checkpoint"
+  },
+  "30": {
+    "id": "playstore-ajio-683e7335-295e-4077-95dd-1550c6923914",
+    "source": "v2_checkpoint"
+  },
+  "31": {
+    "id": "appstore-nykaa-14055128879",
+    "source": "v2_checkpoint"
+  },
+  "32": {
+    "id": "appstore-nykaa-14033101325",
+    "source": "v2_checkpoint"
+  },
+  "33": {
+    "id": "playstore-ajio-c155b534-3d7f-43f9-82cb-693a5cf5d86e",
+    "source": "v2_checkpoint"
+  },
+  "34": {
+    "id": "appstore-ajio-14036744343",
+    "source": "v2_checkpoint"
+  },
+  "35": {
+    "id": "appstore-myntra-14461572309",
+    "source": "v2_checkpoint"
+  },
+  "36": {
+    "id": "playstore-ajio-c2b70a6d-a881-40cc-a9ee-7eeba66c9a1d",
+    "source": "v2_checkpoint"
+  },
+  "37": {
+    "id": "appstore-ajio-14182456372",
+    "source": "v2_checkpoint"
+  },
+  "38": {
+    "id": "appstore-ajio-14184813120",
+    "source": "v2_checkpoint"
+  },
+  "39": {
+    "id": "playstore-myntra-9d3bb82a-4e6c-4e45-a7c1-a6ac2c1d6ca5",
+    "source": "v2_checkpoint"
+  },
+  "40": {
+    "id": "playstore-myntra-3ced8244-87fd-46f4-ac7f-bea9f0a08a34",
+    "source": "v2_checkpoint"
+  },
+  "41": {
+    "id": "playstore-ajio-67478d2a-b3c2-4c6f-b0c8-0dfec50e4017",
+    "source": "v2_checkpoint"
+  },
+  "42": {
+    "id": "playstore-ajio-0429f30a-6d1d-449c-ba51-cd2153231371",
+    "source": "v2_checkpoint"
+  },
+  "43": {
+    "id": "playstore-ajio-c5e10644-991f-4deb-bd24-e7b70d835ef4",
+    "source": "v2_checkpoint"
+  },
+  "44": {
+    "id": "playstore-ajio-474cff3d-b317-424a-b00b-8a4362b24492",
+    "source": "v2_checkpoint"
+  },
+  "45": {
+    "id": "playstore-ajio-3778a0dc-e968-4669-9ecf-2700cabfd388",
+    "source": "v2_checkpoint"
+  },
+  "46": {
+    "id": "appstore-nykaa-14391764401",
+    "source": "v2_checkpoint"
+  },
+  "47": {
+    "id": "playstore-ajio-b993005c-a058-4545-aa87-da134709cdf8",
+    "source": "v2_checkpoint"
+  }
+}

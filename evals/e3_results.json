@@ -1,0 +1,11 @@
+{
+  "n_sampled": 136,
+  "n_scored": 136,
+  "n_dropped_classification_failure": 0,
+  "model_a": "openai/gpt-oss-20b (Groq)",
+  "model_b": "llama3.2:3b (Ollama, substituted for hermes3:8b -- see module docstring)",
+  "raw_agreement_primary_barrier": 0.3014705882352941,
+  "cohens_kappa_primary_barrier": 0.1594014313597918,
+  "cohens_kappa_is_relevant": 0.22156573116691272,
+  "note": "Cross-model AGREEMENT, not validation. Does not establish either model is correct -- see evals/e1_gold_set_eval.py for accuracy."
+}
