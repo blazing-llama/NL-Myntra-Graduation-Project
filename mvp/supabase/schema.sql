@@ -13,10 +13,18 @@
 create table if not exists public.event_log (
   id bigint generated always as identity primary key,
   item_id text not null,
-  event_type text not null check (event_type in ('add_to_cart', 'trace_expand', 'badge_tap')),
+  event_type text not null check (event_type in ('add_to_cart', 'buy_now', 'trace_expand', 'badge_tap')),
   persona_id text not null,
   created_at timestamptz not null default now()
 );
+
+-- Phase 4 (docs/PHASE_PLAN.md, 2026-08-28): added the buy_now event type so
+-- Buy Now can be measured distinctly from Add to Cart. `create table if not
+-- exists` above does NOT retroactively widen a CHECK constraint on a table
+-- that already exists live -- run this against the already-deployed table:
+alter table public.event_log drop constraint if exists event_log_event_type_check;
+alter table public.event_log add constraint event_log_event_type_check
+  check (event_type in ('add_to_cart', 'buy_now', 'trace_expand', 'badge_tap'));
 
 create index if not exists event_log_item_id_idx on public.event_log (item_id);
 create index if not exists event_log_event_type_idx on public.event_log (event_type);

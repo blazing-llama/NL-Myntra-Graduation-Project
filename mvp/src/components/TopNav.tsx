@@ -8,9 +8,10 @@ import type { ReactNode } from "react";
 interface Props {
   children: ReactNode;
   leading?: ReactNode;
+  trailing?: ReactNode; // Phase 3: header icons (heart/cart) on the Discovery page
 }
 
-export function TopNav({ children, leading }: Props) {
+export function TopNav({ children, leading, trailing }: Props) {
   return (
     <div
       style={{
@@ -30,6 +31,7 @@ export function TopNav({ children, leading }: Props) {
       {leading}
       <div
         style={{
+          flex: 1,
           fontFamily: "var(--font-display)",
           fontSize: "var(--type-section-title-size)",
           fontWeight: "var(--type-section-title-weight)",
@@ -39,6 +41,7 @@ export function TopNav({ children, leading }: Props) {
       >
         {children}
       </div>
+      {trailing}
     </div>
   );
 }

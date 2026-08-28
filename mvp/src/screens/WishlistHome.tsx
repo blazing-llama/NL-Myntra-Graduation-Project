@@ -5,6 +5,7 @@ import { GroupFilterBar } from "../components/GroupFilterBar";
 import { CategoryChips } from "../components/CategoryChips";
 import { WishlistCard } from "../components/WishlistCard";
 import { OutOfStockSection } from "../components/OutOfStockSection";
+import { WishlistSection } from "../components/WishlistSection";
 import { SimilarItemsSheet } from "../components/SimilarItemsSheet";
 import { SimulatedDataLabel } from "../components/SimulatedDataLabel";
 import { TopNav } from "../components/TopNav";
@@ -17,6 +18,9 @@ interface Props {
   onOpenItem: (id: string) => void;
   onRemoveItems: (ids: string[]) => void;
   onOpenCart: () => void;
+  onBackToDiscovery: () => void;
+  onAddToCart: (id: string) => void;
+  onBuyNow: (id: string) => void;
 }
 
 export function WishlistHome({
@@ -27,6 +31,9 @@ export function WishlistHome({
   onOpenItem,
   onRemoveItems,
   onOpenCart,
+  onBackToDiscovery,
+  onAddToCart,
+  onBuyNow,
 }: Props) {
   const activePersona = personas.find((p) => p.id === activePersonaId);
   const [activeGroup, setActiveGroup] = useState<WishlistGroup | "all">("all");
@@ -44,13 +51,37 @@ export function WishlistHome({
   const inStockItems = items.filter((i) => i.stock !== "out_of_stock");
   const outOfStockItems = items.filter((i) => i.stock === "out_of_stock");
 
+  // Phase 5 (docs/PHASE_PLAN.md): three new sections, ABOVE the untouched
+  // Out-of-Stock section, driven entirely by mock-data fields already on
+  // WishlistItem (restock events, price history, low-stock flags) — nothing
+  // invented. Featured items move OUT of the general editorial grid below,
+  // so nothing is listed twice.
+  const backInStockItems = useMemo(() => inStockItems.filter((i) => i.stock === "back_in_stock"), [inStockItems]);
+
+  const priceDropItems = useMemo(() => {
+    return inStockItems
+      .filter((i) => i.priceHistory && i.priceHistory.length >= 2 && i.priceHistory[i.priceHistory.length - 1] < i.priceHistory[0])
+      .sort((a, b) => {
+        const dropPct = (h: number[]) => (h[0] - h[h.length - 1]) / h[0];
+        return dropPct(b.priceHistory!) - dropPct(a.priceHistory!);
+      });
+  }, [inStockItems]);
+
+  const lowQuantityItems = useMemo(() => inStockItems.filter((i) => i.stock === "low_stock"), [inStockItems]);
+
+  const featuredIds = useMemo(
+    () => new Set([...backInStockItems, ...priceDropItems, ...lowQuantityItems].map((i) => i.id)),
+    [backInStockItems, priceDropItems, lowQuantityItems],
+  );
+
   const visible = useMemo(() => {
     return inStockItems.filter((item) => {
+      if (featuredIds.has(item.id)) return false;
       if (activeGroup !== "all" && item.group !== activeGroup) return false;
       if (activeCategory && item.category !== activeCategory) return false;
       return true;
     });
-  }, [inStockItems, activeGroup, activeCategory]);
+  }, [inStockItems, activeGroup, activeCategory, featuredIds]);
 
   // Round 2 item 6: never render the sheet with zero results. Try the same
   // persona's own wishlist first (most relevant — same shopper's context);
@@ -81,31 +112,53 @@ export function WishlistHome({
     <div style={{ display: "flex", flexDirection: "column" }}>
       <TopNav
         leading={
-          cartCount > 0 ? (
+          <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
             <button
               type="button"
-              onClick={onOpenCart}
-              aria-label={`View cart, ${cartCount} item${cartCount === 1 ? "" : "s"}`}
+              onClick={onBackToDiscovery}
+              aria-label="Back to Discover"
               style={{
-                display: "inline-flex",
+                background: "none",
+                border: "none",
+                color: "var(--color-thread-plum)",
+                fontSize: 20,
+                cursor: "pointer",
+                minHeight: "var(--tap-target-min)",
+                minWidth: "var(--tap-target-min)",
+                display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
-                minWidth: 24,
-                height: 24,
-                borderRadius: 999,
-                background: "var(--color-thread-plum)",
-                color: "white",
-                fontFamily: "var(--font-mono)",
-                fontSize: 12,
-                fontWeight: 700,
-                padding: "0 6px",
-                border: "none",
-                cursor: "pointer",
+                marginLeft: -8,
               }}
             >
-              🛍 {cartCount}
+              ←
             </button>
-          ) : undefined
+            {cartCount > 0 && (
+              <button
+                type="button"
+                onClick={onOpenCart}
+                aria-label={`View cart, ${cartCount} item${cartCount === 1 ? "" : "s"}`}
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  minWidth: 24,
+                  height: 24,
+                  borderRadius: 999,
+                  background: "var(--color-thread-plum)",
+                  color: "white",
+                  fontFamily: "var(--font-mono)",
+                  fontSize: 12,
+                  fontWeight: 700,
+                  padding: "0 6px",
+                  border: "none",
+                  cursor: "pointer",
+                }}
+              >
+                🛍 {cartCount}
+              </button>
+            )}
+          </div>
         }
       >
         Your wishlist <span style={{ fontFamily: "var(--font-mono)", fontSize: 15, opacity: 0.6 }}>({items.length})</span>
@@ -156,6 +209,10 @@ export function WishlistHome({
             Switch
           </button>
         </div>
+
+        <WishlistSection title="Back in Stock" items={backInStockItems} onOpenItem={onOpenItem} onAddToCart={onAddToCart} onBuyNow={onBuyNow} />
+        <WishlistSection title="Price Drop" items={priceDropItems} onOpenItem={onOpenItem} onAddToCart={onAddToCart} onBuyNow={onBuyNow} />
+        <WishlistSection title="Low Quantity" items={lowQuantityItems} onOpenItem={onOpenItem} onAddToCart={onAddToCart} onBuyNow={onBuyNow} />
 
         <CategoryChips categories={categories} activeCategory={activeCategory} onChange={setActiveCategory} />
 

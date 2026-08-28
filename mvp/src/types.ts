@@ -42,6 +42,20 @@ export interface WishlistItem {
   trace: ResearchTrace;
 }
 
+// Phase 3 (docs/PHASE_PLAN.md): a catalog product shown on the Browse/
+// Discovery page, distinct from WishlistItem until a shopper saves it (the
+// heart toggle promotes a BrowseItem into a full WishlistItem — see
+// App.tsx's handleToggleWishlist).
+export interface BrowseItem {
+  id: string;
+  name: string;
+  brand: string;
+  category: string; // matched against a persona's own wishlist categories to drive the similarity indicator
+  imageUrl: string;
+  imageAlt: string;
+  price: string;
+}
+
 export interface Persona {
   id: string;
   name: string;

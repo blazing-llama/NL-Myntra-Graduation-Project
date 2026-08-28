@@ -1,6 +1,6 @@
 import { supabase } from "./supabaseClient";
 
-export type EventType = "add_to_cart" | "trace_expand" | "badge_tap";
+export type EventType = "add_to_cart" | "buy_now" | "trace_expand" | "badge_tap";
 
 // Fire-and-forget telemetry. Never throws, never blocks the UI, never
 // surfaces an error to the user -- a failed/missing event log must not

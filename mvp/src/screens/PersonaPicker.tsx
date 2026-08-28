@@ -5,11 +5,13 @@ import { SimulatedDataLabel } from "../components/SimulatedDataLabel";
 // Requirement #10 still applies here: even the landing screen must disclose
 // simulated data, not just the wishlist screens.
 //
-// Round 2 item 1: two-step flow. Step 1 is a small grid of title-only
-// cards — tapping one does NOT route anywhere, it opens an info panel
-// (step 2) with the persona's real barrier and an honest "where this comes
-// from" sourcing line. Only the explicit "View wishlist" action in step 2
-// actually navigates.
+// Round 2 item 1 (superseded by Phase 2 of docs/PHASE_PLAN.md): the two-step
+// flow (tap -> separate info-panel screen -> Select) is now a single-step
+// inline accordion. Tapping a card expands it IN PLACE within the grid
+// (pushing later cards down a row via CSS grid reflow, no navigation away)
+// showing the same real content this always had — barrier, quote, sourcing
+// line — with "Select" now living inside the expanded card itself. Only one
+// card is expanded at a time; tapping the expanded card again collapses it.
 //
 // Accent colors are drawn strictly from the locked palette
 // (01_MVP_DESIGN_SPEC.md Section B) — no new colors introduced. Four of the
@@ -33,8 +35,11 @@ interface Props {
 }
 
 export function PersonaPicker({ personas, onSelect }: Props) {
-  const [focusedId, setFocusedId] = useState<string | null>(null);
-  const focused = personas.find((p) => p.id === focusedId) ?? null;
+  const [expandedId, setExpandedId] = useState<string | null>(null);
+
+  function toggle(id: string) {
+    setExpandedId((current) => (current === id ? null : id));
+  }
 
   return (
     <div
@@ -58,142 +63,160 @@ export function PersonaPicker({ personas, onSelect }: Props) {
             margin: 0,
           }}
         >
-          {focused ? focused.name : "Whose wishlist do you want to see?"}
+          Whose wishlist do you want to see?
         </h1>
-        {!focused && (
-          <p
-            style={{
-              margin: 0,
-              fontSize: "var(--type-body-size)",
-              lineHeight: "var(--type-body-leading)",
-              color: "var(--color-ink-secondary)",
-            }}
-          >
-            Five real patterns from the project's own interviews — tap one to learn more.
-          </p>
-        )}
-      </div>
-
-      {focused ? (
-        <div className="screen-transition-enter" style={{ display: "flex", flexDirection: "column", gap: "var(--space-md)" }}>
-          <button
-            type="button"
-            onClick={() => setFocusedId(null)}
-            style={{
-              alignSelf: "flex-start",
-              background: "none",
-              border: "none",
-              color: "var(--color-thread-plum)",
-              fontSize: 13,
-              fontWeight: 600,
-              cursor: "pointer",
-              padding: 0,
-              minHeight: "var(--tap-target-min)",
-            }}
-          >
-            ← All personas
-          </button>
-
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              gap: "var(--space-sm)",
-              padding: "var(--space-lg)",
-              borderRadius: "var(--radius-xl)",
-              border: `1px solid ${accentFor(focused.id).fg}`,
-              background: accentFor(focused.id).bg,
-            }}
-          >
-            <div style={{ fontSize: 12, fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.06em", color: accentFor(focused.id).fg }}>
-              The barrier
-            </div>
-            <p style={{ margin: 0, fontSize: 15, lineHeight: 1.5, color: "var(--color-ink)" }}>{focused.barrier}</p>
-
-            <div style={{ fontSize: 12, fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.06em", color: accentFor(focused.id).fg, marginTop: 8 }}>
-              In their own words
-            </div>
-            <p style={{ margin: 0, fontSize: 15, lineHeight: 1.5, color: "var(--color-ink)" }}>{focused.description}</p>
-
-            <div
-              style={{
-                marginTop: 8,
-                paddingTop: 8,
-                borderTop: `1px solid ${accentFor(focused.id).fg}`,
-                fontSize: 12,
-                color: "var(--color-ink-secondary)",
-              }}
-            >
-              Where this comes from: {focused.researchNote}
-            </div>
-          </div>
-
-          <button
-            type="button"
-            onClick={() => onSelect(focused.id)}
-            style={{
-              minHeight: "var(--tap-target-min)",
-              borderRadius: "var(--radius-md)",
-              border: "none",
-              background: "var(--color-thread-plum)",
-              color: "white",
-              fontSize: "var(--type-body-size)",
-              fontWeight: 600,
-              cursor: "pointer",
-              boxShadow: "var(--shadow-tactile-button)",
-            }}
-          >
-            View {focused.name}'s wishlist
-          </button>
-        </div>
-      ) : (
-        <div
+        <p
           style={{
-            display: "grid",
-            gridTemplateColumns: "1fr 1fr",
-            gap: "var(--space-sm)",
+            margin: 0,
+            fontSize: "var(--type-body-size)",
+            lineHeight: "var(--type-body-leading)",
+            color: "var(--color-ink-secondary)",
           }}
         >
-          {personas.map((persona) => {
-            const accent = accentFor(persona.id);
+          Five real patterns from the project's own interviews — tap one to learn more.
+        </p>
+      </div>
+
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: "1fr 1fr",
+          gap: "var(--space-sm)",
+          alignItems: "start",
+        }}
+      >
+        {personas.map((persona) => {
+          const accent = accentFor(persona.id);
+          const isExpanded = expandedId === persona.id;
+
+          if (isExpanded) {
             return (
-              <button
+              <div
                 key={persona.id}
-                type="button"
-                onClick={() => setFocusedId(persona.id)}
-                aria-haspopup="dialog"
-                className="persona-card"
+                className="trace-card-enter"
                 style={{
-                  textAlign: "left",
+                  gridColumn: "1 / -1",
                   display: "flex",
                   flexDirection: "column",
-                  gap: 6,
-                  padding: "var(--space-md)",
+                  gap: "var(--space-sm)",
+                  padding: "var(--space-lg)",
                   borderRadius: "var(--radius-xl)",
                   border: `1px solid ${accent.fg}`,
                   background: accent.bg,
-                  cursor: "pointer",
-                  minHeight: 88,
                 }}
               >
-                <span aria-hidden="true" style={{ fontSize: 20, color: accent.fg }}>
-                  ●
-                </span>
-                <span
+                <button
+                  type="button"
+                  onClick={() => toggle(persona.id)}
+                  aria-expanded="true"
                   style={{
-                    fontFamily: "var(--font-display)",
-                    fontSize: 15,
-                    lineHeight: 1.25,
-                    color: accent.fg,
+                    textAlign: "left",
+                    background: "none",
+                    border: "none",
+                    padding: 0,
+                    cursor: "pointer",
+                    display: "flex",
+                    alignItems: "center",
+                    gap: 8,
+                    minHeight: "var(--tap-target-min)",
                   }}
                 >
-                  {persona.name}
-                </span>
-              </button>
+                  <span aria-hidden="true" style={{ fontSize: 20, color: accent.fg }}>
+                    ●
+                  </span>
+                  <span
+                    style={{
+                      fontFamily: "var(--font-display)",
+                      fontSize: "var(--type-card-title-size)",
+                      lineHeight: 1.25,
+                      color: accent.fg,
+                    }}
+                  >
+                    {persona.name}
+                  </span>
+                </button>
+
+                <div style={{ fontSize: 12, fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.06em", color: accent.fg }}>
+                  The barrier
+                </div>
+                <p style={{ margin: 0, fontSize: 15, lineHeight: 1.5, color: "var(--color-ink)" }}>{persona.barrier}</p>
+
+                <div style={{ fontSize: 12, fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.06em", color: accent.fg, marginTop: 8 }}>
+                  In their own words
+                </div>
+                <p style={{ margin: 0, fontSize: 15, lineHeight: 1.5, color: "var(--color-ink)" }}>{persona.description}</p>
+
+                <div
+                  style={{
+                    marginTop: 8,
+                    paddingTop: 8,
+                    borderTop: `1px solid ${accent.fg}`,
+                    fontSize: 12,
+                    color: "var(--color-ink-secondary)",
+                  }}
+                >
+                  Where this comes from: {persona.researchNote}
+                </div>
+
+                <button
+                  type="button"
+                  onClick={() => onSelect(persona.id)}
+                  style={{
+                    marginTop: 8,
+                    minHeight: "var(--tap-target-min)",
+                    borderRadius: "var(--radius-md)",
+                    border: "none",
+                    background: "var(--color-thread-plum)",
+                    color: "white",
+                    fontSize: "var(--type-body-size)",
+                    fontWeight: 600,
+                    cursor: "pointer",
+                    boxShadow: "var(--shadow-tactile-button)",
+                  }}
+                >
+                  Select {persona.name}
+                </button>
+              </div>
             );
-          })}
-        </div>
-      )}
+          }
+
+          return (
+            <button
+              key={persona.id}
+              type="button"
+              onClick={() => toggle(persona.id)}
+              aria-expanded="false"
+              className="persona-card"
+              style={{
+                textAlign: "left",
+                display: "flex",
+                flexDirection: "column",
+                gap: 6,
+                padding: "var(--space-md)",
+                borderRadius: "var(--radius-xl)",
+                border: `1px solid ${accent.fg}`,
+                background: accent.bg,
+                cursor: "pointer",
+                minHeight: 88,
+              }}
+            >
+              <span aria-hidden="true" style={{ fontSize: 20, color: accent.fg }}>
+                ●
+              </span>
+              <span
+                style={{
+                  fontFamily: "var(--font-display)",
+                  fontSize: 15,
+                  lineHeight: 1.25,
+                  color: accent.fg,
+                }}
+              >
+                {persona.name}
+              </span>
+            </button>
+          );
+        })}
+      </div>
     </div>
   );
 }

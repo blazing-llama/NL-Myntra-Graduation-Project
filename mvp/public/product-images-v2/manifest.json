@@ -1,0 +1,42 @@
+{
+  "_note": "AI-generated sample imagery for MVP demonstration only, not real product photography. Same v2 gutter-detection crop method used for the original 30 - verified clean, no bleed/stacking artifacts.",
+  "browse_page_candidates": [
+    "a02_olive_polo_m",
+    "a03_denim_shirt_f",
+    "a04_beige_hoodie_m",
+    "a05_olive_strap_sandals",
+    "a07_cream_knit_polo_m",
+    "a09_navy_overshirt_m",
+    "b02_cream_textured_shirt_m",
+    "b04_sage_overshirt_m",
+    "b05_tan_crossband_sandals",
+    "b07_teal_tshirt_shorts_m",
+    "b09_graphic_tee_cargo_m",
+    "a10_striped_duffel_bag"
+  ],
+  "occasion_driven_saver_additions": [
+    "c01_purple_anarkali_f",
+    "c03_green_banarasi_saree_f",
+    "c05_yellow_lehenga_f",
+    "c07_blush_anarkali_f",
+    "c09_maroon_anarkali_f",
+    "c10_embellished_juttis",
+    "b06_ivory_kurta_set_f",
+    "b08_maroon_kurta_set_f"
+  ],
+  "inspiration_moodboard_saver_additions": [
+    "a01_one_shoulder_top_wide_trousers_f",
+    "a06_black_vest_trousers_f",
+    "a08_sage_wrap_dress_f",
+    "b01_cream_maxi_skirt_f",
+    "b03_navy_linen_set_f"
+  ],
+  "fit_cautious_returner_or_quality_seeker_additions": [
+    "c02_ivory_kurta_m",
+    "c04_navy_sherwani_m",
+    "c06_black_kurta_m",
+    "c08_mint_nehru_jacket_m",
+    "a10_striped_duffel_bag",
+    "b10_black_backpack"
+  ]
+}
