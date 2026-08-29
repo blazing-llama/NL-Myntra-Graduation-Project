@@ -1,32 +1,33 @@
-import { useState } from "react";
 import type { WishlistItem } from "../types";
 import { ConfidenceBadge } from "../components/ConfidenceBadge";
 import { ComparisonStrip } from "../components/ComparisonStrip";
 import { NarrationBlock } from "../components/NarrationBlock";
-import { AITraceWidget } from "../components/AITraceWidget";
+import { DecisionCheck } from "../components/DecisionCheck";
 import { StockBadge } from "../components/StockBadge";
 import { StickyCTA } from "../components/StickyCTA";
 import { TopNav } from "../components/TopNav";
-import { Toast } from "../components/Toast";
 
+// Phase E (docs/PHASE_PLAN_2.md): the sticky CTA is now always "Move to
+// cart" — adds the item (if not already) and navigates straight to Cart,
+// same honest add+navigate behavior as Discovery/Alternatives' equivalent
+// action. There's no longer a separate "stay and toast" state on this
+// screen: the Wishlist Intelligence grid's cards only offer Review
+// decision/Compare similar (Phase D), so this is the one place a decision
+// actually turns into a cart action.
 interface Props {
   item: WishlistItem;
   personaId: string;
   onBack: () => void;
-  onAddToCart: () => void;
+  onMoveToCart: () => void;
 }
 
-export function ItemDetail({ item, personaId, onBack, onAddToCart }: Props) {
-  // Round 2 item 4: a monotonic token, not a boolean — every tap gets a
-  // distinct key, forcing Toast to fully remount (fresh timer, fresh
-  // message snapshot) rather than risking a stale instance lingering from
-  // a previous trigger.
-  const [toastToken, setToastToken] = useState(0);
+function verdictFor(item: WishlistItem): string {
+  if (item.confidence === "high") return "Enough evidence to make a confident call.";
+  if (item.confidence === "medium") return "Worth a second look before deciding.";
+  return "Not enough evidence yet for a confident call.";
+}
 
-  function handleAddToCart() {
-    onAddToCart();
-    setToastToken((t) => t + 1);
-  }
+export function ItemDetail({ item, personaId, onBack, onMoveToCart }: Props) {
 
   return (
     <div style={{ display: "flex", flexDirection: "column", minHeight: "100%" }}>
@@ -102,6 +103,8 @@ export function ItemDetail({ item, personaId, onBack, onAddToCart }: Props) {
           <StockBadge state={item.stock} />
         </div>
 
+        <p style={{ margin: 0, fontSize: 14, fontWeight: 600, color: "var(--color-ink)" }}>{verdictFor(item)}</p>
+
         <ComparisonStrip rows={item.comparisonRows} priceHistory={item.priceHistory} />
 
         <NarrationBlock
@@ -111,14 +114,10 @@ export function ItemDetail({ item, personaId, onBack, onAddToCart }: Props) {
           whatWouldHelp={item.whatWouldHelp}
         />
 
-        <AITraceWidget item={item} personaId={personaId} />
+        <DecisionCheck item={item} personaId={personaId} />
       </div>
 
-      <StickyCTA level={item.confidence} onAddToCart={handleAddToCart} addedToCart={Boolean(item.addedToCartAt)} />
-
-      {toastToken > 0 && (
-        <Toast key={toastToken} message={`Added ${item.name} to cart`} onDismiss={() => setToastToken(0)} />
-      )}
+      <StickyCTA level={item.confidence} onMoveToCart={onMoveToCart} addedToCart={Boolean(item.addedToCartAt)} />
     </div>
   );
 }

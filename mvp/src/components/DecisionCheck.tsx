@@ -23,11 +23,11 @@ function hoursSince(iso: string): number {
 function whatIfIWaitCopy(item: WishlistItem): string {
   switch (item.stock) {
     case "low_stock":
-      return "Real fact: this is low in stock in your size right now — waiting risks it selling out before you decide.";
+      return "This is low in stock in your size right now — waiting risks it selling out before you decide.";
     case "back_in_stock":
-      return "Real fact: this just came back in stock after being unavailable — sizes have gone quickly here before.";
+      return "This just came back in stock after being unavailable — sizes have gone quickly here before.";
     case "out_of_stock":
-      return "Real fact: this is currently out of stock in your size — waiting doesn't change that. We'll let you know if it returns.";
+      return "This is currently out of stock in your size — waiting doesn't change that. We'll let you know if it returns.";
     case "in_stock":
       return "Nothing changes if you wait — this item isn't low on stock, and we have no evidence the price is about to move.";
   }
@@ -58,17 +58,21 @@ function summaryLine(item: WishlistItem): string {
   }
   if (item.stock === "low_stock") return "Running low in your size right now.";
   if (item.stock === "out_of_stock") return "Currently out of stock in your size.";
-  if (item.confidence === "high") return "Strong signal on file for this one.";
+  if (item.confidence === "high") return "Enough evidence to make a confident call.";
   if (item.confidence === "medium") return "Partial signal — worth a second look before deciding.";
   return "Not enough history yet to compare this one confidently.";
 }
 
+// Phase E (docs/PHASE_PLAN_2.md): renamed from AI Trace to Decision Check,
+// tabs renamed to plain language. Same hard constraint as before: exactly
+// 3 fixed prompts, no free-text input, no LLM call — a presentation layer
+// over already-computed fields, not a chatbot.
 type PromptId = "resolves_now" | "what_if_wait" | "seeing_this";
 
 const PROMPTS: Array<{ id: PromptId; label: string }> = [
-  { id: "resolves_now", label: "Why resolves now" },
-  { id: "what_if_wait", label: "What if I wait" },
-  { id: "seeing_this", label: "Why am I seeing this" },
+  { id: "resolves_now", label: "Why now" },
+  { id: "what_if_wait", label: "If you wait" },
+  { id: "seeing_this", label: "Evidence" },
 ];
 
 interface Props {
@@ -76,7 +80,7 @@ interface Props {
   personaId: string;
 }
 
-export function AITraceWidget({ item, personaId }: Props) {
+export function DecisionCheck({ item, personaId }: Props) {
   const [open, setOpen] = useState(false);
   const [activePrompt, setActivePrompt] = useState<PromptId>("resolves_now");
   const [animKey, setAnimKey] = useState(0);
@@ -134,7 +138,7 @@ export function AITraceWidget({ item, personaId }: Props) {
         <span aria-hidden="true" className="trace-widget-icon">
           ◈
         </span>
-        Why am I seeing this?
+        Decision Check
       </button>
 
       {open && (
@@ -142,7 +146,7 @@ export function AITraceWidget({ item, personaId }: Props) {
           className="trace-card-enter"
           style={{
             marginTop: 8,
-            borderRadius: "var(--radius-xl)",
+            borderRadius: "var(--radius-card)",
             border: "1px solid var(--color-border)",
             background: "var(--color-bone)",
             overflow: "hidden",
@@ -176,6 +180,7 @@ export function AITraceWidget({ item, personaId }: Props) {
                   aria-pressed={active}
                   style={{
                     flexShrink: 0,
+                    minHeight: "var(--tap-target-min)",
                     padding: "6px 12px",
                     borderRadius: 999,
                     border: `1px solid ${active ? "var(--color-thread-plum)" : "var(--color-border)"}`,

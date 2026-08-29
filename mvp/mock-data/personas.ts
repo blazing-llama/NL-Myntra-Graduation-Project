@@ -146,7 +146,7 @@ function priceTimingWaiterItems(): WishlistItem[] {
       comparisonRows: [],
       priceHistory: [2999, 2999, 2999, 2999],
       narration: "",
-      whatWouldHelp: "No price-history data yet for this specific colourway — one more sale cycle would let us compare confidently.",
+      whatWouldHelp: "We don't have enough price history for this color yet — one more sale cycle would let us compare confidently.",
       trace: { findingId: "INT-P6", summary: "Low in stock with no price-history baseline yet for this colourway." },
     },
     {

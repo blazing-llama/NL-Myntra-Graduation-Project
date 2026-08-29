@@ -4,20 +4,19 @@ import { BROWSE_CATALOG } from "../../mock-data/browse-catalog";
 import { TopNav } from "../components/TopNav";
 import { SimulatedDataLabel } from "../components/SimulatedDataLabel";
 import { ProductActionCard } from "../components/ProductActionCard";
+import { AlternativeCompareSheet } from "../components/AlternativeCompareSheet";
 import { Toast } from "../components/Toast";
 
-// Phase 3 (docs/PHASE_PLAN.md): genuinely new screen — the persona's
-// shopping home after selection. Wishlist and cart become reachable via
-// header icons rather than a strictly linear flow.
+// Phase G (docs/PHASE_PLAN_2.md): kept secondary — substitutes related to
+// this persona's existing wishlist items, not generic browsing. Honest CTAs
+// only (Save/Compare/Move to cart), no "Buy Now" anywhere.
 
 interface Props {
   persona: Persona;
   items: WishlistItem[]; // this persona's current wishlist, used both for the banner and the similarity indicator
-  onOpenWishlist: () => void;
-  onOpenCart: () => void;
+  onOpenItem: (id: string) => void;
   onToggleWishlist: (item: BrowseItem) => void;
-  onAddToCart: (item: BrowseItem) => void;
-  onBuyNow: (item: BrowseItem) => void;
+  onMoveToCart: (item: BrowseItem) => void;
 }
 
 function daysAgo(iso: string): number {
@@ -46,96 +45,35 @@ function bannerCopy(items: WishlistItem[]): string {
   return "Here's what's new to browse.";
 }
 
-export function Discovery({ persona, items, onOpenWishlist, onOpenCart, onToggleWishlist, onAddToCart, onBuyNow }: Props) {
-  const cartCount = items.filter((i) => i.addedToCartAt).length;
+export function Alternatives({ persona, items, onOpenItem, onToggleWishlist, onMoveToCart }: Props) {
   const banner = useMemo(() => bannerCopy(items), [items]);
+  const [compareFor, setCompareFor] = useState<{ browseItem: BrowseItem; relatedItem: WishlistItem } | null>(null);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
   const [toastToken, setToastToken] = useState(0);
 
-  function handleAddToCartWithToast(browseItem: BrowseItem) {
-    onAddToCart(browseItem);
-    setToastMessage(`Added ${browseItem.name} to cart`);
+  // Phase J (docs/PHASE_PLAN_2.md): the heart toggle was silent — no
+  // feedback that the tap registered. A brief toast closes that gap without
+  // reviving the retired "stay and toast" cart button.
+  function handleToggleWishlistWithToast(browseItem: BrowseItem, wasWishlisted: boolean) {
+    onToggleWishlist(browseItem);
+    setToastMessage(wasWishlisted ? `Removed ${browseItem.name} from wishlist` : `Saved ${browseItem.name} to wishlist`);
     setToastToken((t) => t + 1);
   }
 
-  // Similarity precedence (Phase 3 spec): check cart first — if a same-
-  // category item is already in cart, that takes priority over suggesting
-  // the shopper save another one. Only fall back to a wishlist-similarity
-  // message if nothing similar is in the cart. If neither, no indicator.
-  function similarityFor(browseItem: BrowseItem): { kind: "cart" | "wishlist"; itemName: string } | null {
+  // Similarity precedence (unchanged from the prior round): check cart
+  // first — if a same-category item is already in cart, that takes
+  // priority over suggesting the shopper save another one.
+  function relatedItemFor(browseItem: BrowseItem): WishlistItem | null {
     const sameCategory = items.filter((i) => i.category === browseItem.category && i.id !== browseItem.id);
     const inCart = sameCategory.find((i) => i.addedToCartAt);
-    if (inCart) return { kind: "cart", itemName: inCart.name };
-    if (sameCategory.length > 0) return { kind: "wishlist", itemName: sameCategory[0].name };
+    if (inCart) return inCart;
+    if (sameCategory.length > 0) return sameCategory[0];
     return null;
   }
 
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
-      <TopNav
-        trailing={
-          <div style={{ display: "flex", alignItems: "center", gap: 4 }}>
-            <button
-              type="button"
-              onClick={onOpenWishlist}
-              aria-label={`View wishlist, ${items.length} item${items.length === 1 ? "" : "s"}`}
-              style={{
-                minWidth: "var(--tap-target-min)",
-                minHeight: "var(--tap-target-min)",
-                border: "none",
-                background: "transparent",
-                fontSize: 20,
-                cursor: "pointer",
-                color: "var(--color-thread-plum)",
-              }}
-            >
-              ♡
-            </button>
-            <button
-              type="button"
-              onClick={onOpenCart}
-              aria-label={`View cart, ${cartCount} item${cartCount === 1 ? "" : "s"}`}
-              style={{
-                position: "relative",
-                minWidth: "var(--tap-target-min)",
-                minHeight: "var(--tap-target-min)",
-                border: "none",
-                background: "transparent",
-                fontSize: 20,
-                cursor: "pointer",
-                color: "var(--color-thread-plum)",
-              }}
-            >
-              🛍
-              {cartCount > 0 && (
-                <span
-                  style={{
-                    position: "absolute",
-                    top: 2,
-                    right: 2,
-                    minWidth: 16,
-                    height: 16,
-                    borderRadius: 999,
-                    background: "var(--color-thread-plum)",
-                    color: "white",
-                    fontFamily: "var(--font-mono)",
-                    fontSize: 10,
-                    fontWeight: 700,
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    padding: "0 3px",
-                  }}
-                >
-                  {cartCount}
-                </span>
-              )}
-            </button>
-          </div>
-        }
-      >
-        Discover
-      </TopNav>
+      <TopNav>Alternatives</TopNav>
 
       <div style={{ display: "flex", flexDirection: "column", gap: "var(--space-md)", padding: "var(--space-md) 20px var(--space-lg)" }}>
         <SimulatedDataLabel />
@@ -143,7 +81,7 @@ export function Discovery({ persona, items, onOpenWishlist, onOpenCart, onToggle
         <div
           style={{
             padding: "var(--space-md)",
-            borderRadius: "var(--radius-xl)",
+            borderRadius: "var(--radius-card)",
             background: "var(--color-thread-plum-dark)",
             color: "white",
           }}
@@ -158,7 +96,7 @@ export function Discovery({ persona, items, onOpenWishlist, onOpenCart, onToggle
           {BROWSE_CATALOG.map((browseItem) => {
             const isWishlisted = items.some((i) => i.id === browseItem.id);
             const addedToCart = items.some((i) => i.id === browseItem.id && i.addedToCartAt);
-            const similarity = similarityFor(browseItem);
+            const related = relatedItemFor(browseItem);
 
             return (
               <ProductActionCard
@@ -169,16 +107,14 @@ export function Discovery({ persona, items, onOpenWishlist, onOpenCart, onToggle
                 imageUrl={browseItem.imageUrl}
                 imageAlt={browseItem.imageAlt}
                 isWishlisted={isWishlisted}
-                onToggleWishlist={() => onToggleWishlist(browseItem)}
+                onToggleWishlist={() => handleToggleWishlistWithToast(browseItem, isWishlisted)}
+                onCompare={related ? () => setCompareFor({ browseItem, relatedItem: related }) : undefined}
                 addedToCart={addedToCart}
-                onAddToCart={() => handleAddToCartWithToast(browseItem)}
-                onBuyNow={() => onBuyNow(browseItem)}
+                onMoveToCart={() => onMoveToCart(browseItem)}
                 similarityIndicator={
-                  similarity ? (
+                  related ? (
                     <span style={{ fontSize: 11, color: "var(--color-ink-secondary)" }}>
-                      {similarity.kind === "cart"
-                        ? `You already have something similar to ${similarity.itemName} in your cart`
-                        : `Similar to ${similarity.itemName} in your wishlist`}
+                      {related.addedToCartAt ? `Already similar to item in cart` : `Similar to ${related.name}`}
                     </span>
                   ) : undefined
                 }
@@ -187,6 +123,18 @@ export function Discovery({ persona, items, onOpenWishlist, onOpenCart, onToggle
           })}
         </div>
       </div>
+
+      {compareFor && (
+        <AlternativeCompareSheet
+          browseItem={compareFor.browseItem}
+          relatedItem={compareFor.relatedItem}
+          onClose={() => setCompareFor(null)}
+          onOpenRelated={() => {
+            onOpenItem(compareFor.relatedItem.id);
+            setCompareFor(null);
+          }}
+        />
+      )}
 
       {toastMessage && (
         <Toast key={toastToken} message={toastMessage} onDismiss={() => setToastMessage(null)} />

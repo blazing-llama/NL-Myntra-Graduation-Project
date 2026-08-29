@@ -1,10 +1,11 @@
 import type { ReactNode } from "react";
 
-// Phase 3 (docs/PHASE_PLAN.md): the shared card used by the Browse/Discovery
-// grid and, per Phase 5, reused as-is (not duplicated) for every section of
-// the restructured wishlist. Confidence badge deliberately never appears
-// here, matching WishlistCard's existing locked rule — that indicator only
-// belongs on the item-detail screen.
+// Phase G (docs/PHASE_PLAN_2.md): Alternatives' card, honest 3-CTA set only
+// — Save (heart), Compare (only when there's something to compare against),
+// Move to cart (add + navigate, the same behavior as everywhere else in
+// this app; no separate "stay and toast" add-to-cart button anymore, and no
+// "Buy Now" label). Confidence badge deliberately never appears here,
+// matching the Wishlist Intelligence grid's own locked rule.
 
 interface Props {
   name: string;
@@ -13,13 +14,12 @@ interface Props {
   imageUrl: string;
   imageAlt: string;
   onOpen?: () => void;
-  stockBadge?: ReactNode; // wishlist-section reuse only; Browse cards omit this
-  similarityIndicator?: ReactNode; // Browse-only
+  similarityIndicator?: ReactNode;
   isWishlisted?: boolean; // heart state; omitted (undefined) hides the heart entirely
   onToggleWishlist?: () => void;
+  onCompare?: () => void; // shown only when there's a related wishlist item to compare against
   addedToCart: boolean;
-  onAddToCart: () => void;
-  onBuyNow: () => void;
+  onMoveToCart: () => void;
 }
 
 export function ProductActionCard({
@@ -29,13 +29,12 @@ export function ProductActionCard({
   imageUrl,
   imageAlt,
   onOpen,
-  stockBadge,
   similarityIndicator,
   isWishlisted,
   onToggleWishlist,
+  onCompare,
   addedToCart,
-  onAddToCart,
-  onBuyNow,
+  onMoveToCart,
 }: Props) {
   return (
     <div
@@ -43,11 +42,7 @@ export function ProductActionCard({
       style={{
         display: "flex",
         flexDirection: "column",
-        gap: 6,
-        padding: "var(--space-sm)",
-        borderRadius: "var(--radius-xl)",
-        border: "1px solid var(--color-border)",
-        background: "var(--color-bone)",
+        gap: 8,
       }}
     >
       <div style={{ position: "relative" }}>
@@ -70,8 +65,7 @@ export function ProductActionCard({
             style={{
               width: "100%",
               aspectRatio: "3 / 4",
-              borderRadius: "var(--radius-md)",
-              border: "1px solid var(--color-border)",
+              borderRadius: "var(--radius-card)",
               background: "var(--color-border)",
               objectFit: "cover",
             }}
@@ -112,34 +106,35 @@ export function ProductActionCard({
         <span style={{ fontFamily: "var(--font-mono)", fontSize: 13 }}>{price}</span>
       </div>
 
-      {stockBadge}
       {similarityIndicator}
 
       <div style={{ display: "flex", flexDirection: "column", gap: 6, marginTop: 2 }}>
+        {onCompare && (
+          <button
+            type="button"
+            onClick={onCompare}
+            style={{
+              minHeight: 36,
+              borderRadius: "var(--radius-card)",
+              border: "none",
+              background: "var(--color-clay-rose-bg)",
+              color: "var(--color-thread-plum)",
+              fontSize: 12,
+              fontWeight: 600,
+              cursor: "pointer",
+            }}
+          >
+            Compare
+          </button>
+        )}
         <button
           type="button"
-          onClick={onAddToCart}
+          onClick={onMoveToCart}
           style={{
             minHeight: 36,
-            borderRadius: "var(--radius-sm)",
-            border: `1px solid var(--color-thread-plum)`,
-            background: addedToCart ? "var(--color-neutral-bg)" : "transparent",
-            color: "var(--color-thread-plum)",
-            fontSize: 12,
-            fontWeight: 600,
-            cursor: "pointer",
-          }}
-        >
-          {addedToCart ? "In cart" : "Add to Cart"}
-        </button>
-        <button
-          type="button"
-          onClick={onBuyNow}
-          style={{
-            minHeight: 36,
-            borderRadius: "var(--radius-sm)",
+            borderRadius: "var(--radius-card)",
             border: "none",
-            background: "var(--color-thread-plum)",
+            background: addedToCart ? "var(--color-moss)" : "var(--color-thread-plum)",
             color: "white",
             fontSize: 12,
             fontWeight: 600,
@@ -147,7 +142,7 @@ export function ProductActionCard({
             boxShadow: "var(--shadow-tactile-button)",
           }}
         >
-          Buy Now
+          {addedToCart ? "In cart" : "Move to cart"}
         </button>
       </div>
     </div>

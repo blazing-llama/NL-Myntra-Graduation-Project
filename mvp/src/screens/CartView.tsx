@@ -8,39 +8,18 @@ import { TopNav } from "../components/TopNav";
 interface Props {
   items: WishlistItem[]; // already scoped to the active persona
   personaName: string;
-  onBack: () => void;
   onOpenItem: (id: string) => void;
 }
 
-export function CartView({ items, personaName, onBack, onOpenItem }: Props) {
+// Phase A (docs/PHASE_PLAN_2.md): the persistent TabBar now handles
+// navigation back to Wishlist/Alternatives, so this screen no longer needs
+// its own back arrow.
+export function CartView({ items, personaName, onOpenItem }: Props) {
   const cartItems = items.filter((i) => i.addedToCartAt);
 
   return (
     <div style={{ display: "flex", flexDirection: "column", minHeight: "100%" }}>
-      <TopNav
-        leading={
-          <button
-            type="button"
-            onClick={onBack}
-            aria-label="Back to wishlist"
-            style={{
-              background: "none",
-              border: "none",
-              color: "var(--color-thread-plum)",
-              fontSize: 20,
-              cursor: "pointer",
-              minHeight: "var(--tap-target-min)",
-              minWidth: "var(--tap-target-min)",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              marginLeft: -8,
-            }}
-          >
-            ←
-          </button>
-        }
-      >
+      <TopNav>
         Your cart <span style={{ fontFamily: "var(--font-mono)", fontSize: 15, opacity: 0.6 }}>({cartItems.length})</span>
       </TopNav>
 
@@ -67,9 +46,9 @@ export function CartView({ items, personaName, onBack, onOpenItem }: Props) {
                 width: "100%",
                 textAlign: "left",
                 padding: 12,
-                background: "var(--color-bone)",
-                border: "1px solid var(--color-border)",
-                borderRadius: "var(--radius-xl)",
+                background: "var(--color-neutral-bg)",
+                border: "none",
+                borderRadius: "var(--radius-card)",
                 cursor: "pointer",
               }}
             >
@@ -80,8 +59,7 @@ export function CartView({ items, personaName, onBack, onOpenItem }: Props) {
                   width: 64,
                   height: 80,
                   flexShrink: 0,
-                  borderRadius: "var(--radius-sm)",
-                  border: "1px solid var(--color-border)",
+                  borderRadius: "var(--radius-card)",
                   background: "var(--color-border)",
                   objectFit: "cover",
                 }}

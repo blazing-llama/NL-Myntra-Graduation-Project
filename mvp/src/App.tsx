@@ -1,20 +1,21 @@
 import { useState } from "react";
 import { PERSONAS, WISHLIST_BY_PERSONA } from "../mock-data/personas";
 import { PersonaPicker } from "./screens/PersonaPicker";
-import { Discovery } from "./screens/Discovery";
+import { Alternatives } from "./screens/Alternatives";
 import { WishlistHome } from "./screens/WishlistHome";
 import { ItemDetail } from "./screens/ItemDetail";
 import { CartView } from "./screens/CartView";
+import { TabBar, type TabScreen } from "./components/TabBar";
 import type { BrowseItem, WishlistItem } from "./types";
 import { logEvent } from "./lib/logEvent";
 
 // requirement #1: adding to cart never removes the item from the wishlist —
 // modelled here as setting addedToCartAt on the same item, never deleting it.
 
-// Phase 3 (docs/PHASE_PLAN.md): Discovery is now the persona's shopping
-// home after selection; wishlist/cart are reachable via its header icons,
-// not a strictly linear flow.
-type Screen = "discovery" | "wishlist" | "cart";
+// Phase A (docs/PHASE_PLAN_2.md): Wishlist is the primary experience —
+// persona select lands here directly. Alternatives (formerly Discovery)
+// and Cart are reachable secondary screens via the persistent TabBar.
+type Screen = TabScreen;
 
 // Phase 3: promotes a Browse card into a real WishlistItem the moment a
 // shopper hearts it. Honestly labelled as having no research trace yet —
@@ -46,36 +47,32 @@ export default function App() {
   const [personaId, setPersonaId] = useState<string | null>(null);
   const [items, setItems] = useState<WishlistItem[]>([]);
   const [openItemId, setOpenItemId] = useState<string | null>(null);
-  const [screen, setScreen] = useState<Screen>("discovery");
+  const [screen, setScreen] = useState<Screen>("wishlist");
 
   function handlePersonaSelect(id: string) {
     setPersonaId(id);
     setItems(WISHLIST_BY_PERSONA[id]);
     setOpenItemId(null);
-    setScreen("discovery");
+    setScreen("wishlist");
   }
 
   function handleSwitchPersona() {
     setPersonaId(null);
     setOpenItemId(null);
-    setScreen("discovery");
+    setScreen("wishlist");
   }
 
-  function handleAddToCart(itemId: string) {
-    setItems((prev) =>
-      prev.map((i) => (i.id === itemId ? { ...i, addedToCartAt: new Date().toISOString() } : i)),
-    );
-    if (personaId) logEvent(itemId, "add_to_cart", personaId);
-  }
-
-  // Phase 5: same distinct-from-Add-to-Cart behavior as handleBrowseBuyNow,
-  // for an item that's already a real WishlistItem (Back in Stock / Price
-  // Drop / Low Quantity section cards) rather than a Browse catalog item.
-  function handleWishlistBuyNow(itemId: string) {
+  // Phase E (docs/PHASE_PLAN_2.md): the Item Decision Page's sticky CTA is
+  // always "Move to cart" now — adds the item and navigates straight to
+  // Cart, logged as buy_now (the honest event type for an add+navigate
+  // action, same contract as Discovery/Alternatives' equivalent). There is
+  // no more "stay on this screen" add-to-cart path from the decision page.
+  function handleMoveToCart(itemId: string) {
     setItems((prev) =>
       prev.map((i) => (i.id === itemId ? { ...i, addedToCartAt: new Date().toISOString() } : i)),
     );
     if (personaId) logEvent(itemId, "buy_now", personaId);
+    setOpenItemId(null);
     setScreen("cart");
   }
 
@@ -86,21 +83,10 @@ export default function App() {
     });
   }
 
-  function handleAddBrowseItemToCart(browseItem: BrowseItem) {
-    setItems((prev) => {
-      const exists = prev.some((i) => i.id === browseItem.id);
-      const base = exists ? prev : [...prev, toWishlistItem(browseItem)];
-      return base.map((i) => (i.id === browseItem.id ? { ...i, addedToCartAt: new Date().toISOString() } : i));
-    });
-    if (personaId) logEvent(browseItem.id, "add_to_cart", personaId);
-  }
-
-  // Phase 4 (docs/PHASE_PLAN.md): the honest behavioral difference from Add
-  // to Cart — this adds the item (if not already present) AND navigates
-  // straight to the existing cart page, logged as a distinct buy_now event
-  // rather than reusing add_to_cart. Add to Cart, by contrast, stays on the
-  // current page with a toast.
-  function handleBrowseBuyNow(browseItem: BrowseItem) {
+  // Phase G (docs/PHASE_PLAN_2.md): Alternatives' sole cart action —
+  // consolidated from the old Add to Cart/Buy Now pair into one honest
+  // "Move to cart" (add + navigate), matching the Item Decision Page.
+  function handleAlternativeMoveToCart(browseItem: BrowseItem) {
     setItems((prev) => {
       const exists = prev.some((i) => i.id === browseItem.id);
       const base = exists ? prev : [...prev, toWishlistItem(browseItem)];
@@ -137,43 +123,41 @@ export default function App() {
             item={openItem}
             personaId={personaId}
             onBack={() => setOpenItemId(null)}
-            onAddToCart={() => handleAddToCart(openItem.id)}
-          />
-        </div>
-      ) : screen === "cart" ? (
-        <div key={`cart-${personaId}`} className="screen-transition-enter">
-          <CartView
-            items={items}
-            personaName={PERSONAS.find((p) => p.id === personaId)?.name ?? ""}
-            onBack={() => setScreen("discovery")}
-            onOpenItem={setOpenItemId}
-          />
-        </div>
-      ) : screen === "wishlist" ? (
-        <div key={`wishlist-${personaId}`} className="screen-transition-enter">
-          <WishlistHome
-            items={items}
-            activePersonaId={personaId}
-            personas={PERSONAS}
-            onSwitchPersona={handleSwitchPersona}
-            onOpenItem={setOpenItemId}
-            onRemoveItems={handleRemoveItems}
-            onOpenCart={() => setScreen("cart")}
-            onBackToDiscovery={() => setScreen("discovery")}
-            onAddToCart={handleAddToCart}
-            onBuyNow={handleWishlistBuyNow}
+            onMoveToCart={() => handleMoveToCart(openItem.id)}
           />
         </div>
       ) : (
-        <div key={`discovery-${personaId}`} className="screen-transition-enter">
-          <Discovery
-            persona={PERSONAS.find((p) => p.id === personaId)!}
-            items={items}
-            onOpenWishlist={() => setScreen("wishlist")}
-            onOpenCart={() => setScreen("cart")}
-            onToggleWishlist={handleToggleWishlist}
-            onAddToCart={handleAddBrowseItemToCart}
-            onBuyNow={handleBrowseBuyNow}
+        <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
+          <div style={{ flex: 1 }} className="screen-transition-enter" key={`${screen}-${personaId}`}>
+            {screen === "cart" ? (
+              <CartView
+                items={items}
+                personaName={PERSONAS.find((p) => p.id === personaId)?.name ?? ""}
+                onOpenItem={setOpenItemId}
+              />
+            ) : screen === "wishlist" ? (
+              <WishlistHome
+                items={items}
+                activePersonaId={personaId}
+                personas={PERSONAS}
+                onOpenItem={setOpenItemId}
+                onRemoveItems={handleRemoveItems}
+              />
+            ) : (
+              <Alternatives
+                persona={PERSONAS.find((p) => p.id === personaId)!}
+                items={items}
+                onOpenItem={setOpenItemId}
+                onToggleWishlist={handleToggleWishlist}
+                onMoveToCart={handleAlternativeMoveToCart}
+              />
+            )}
+          </div>
+          <TabBar
+            active={screen}
+            cartCount={items.filter((i) => i.addedToCartAt).length}
+            onNavigate={setScreen}
+            onSwitchPersona={handleSwitchPersona}
           />
         </div>
       )}

@@ -12,25 +12,25 @@ import type { ConfidenceLevel } from "../types";
 
 interface Props {
   level: ConfidenceLevel;
-  onAddToCart: () => void;
+  onMoveToCart: () => void;
   addedToCart: boolean;
 }
 
-export function StickyCTA({ level, onAddToCart, addedToCart }: Props) {
+export function StickyCTA({ level, onMoveToCart, addedToCart }: Props) {
   const [pressed, setPressed] = useState(false);
   const [pulse, setPulse] = useState(false);
 
   function handleClick() {
-    onAddToCart();
+    onMoveToCart();
     setPulse(true);
     setTimeout(() => setPulse(false), 320);
   }
 
   const label = addedToCart
-    ? "In cart — still in your wishlist"
+    ? "In cart — still in wishlist"
     : level === "insufficient"
-      ? "Add to cart anyway"
-      : "Add to cart";
+      ? "Move to cart anyway"
+      : "Move to cart";
 
   return (
     <div

@@ -29,6 +29,24 @@ function accentFor(id: string) {
   return ACCENTS[id] ?? { fg: "var(--color-thread-plum)", bg: "var(--color-neutral-bg)" };
 }
 
+// Phase C (docs/PHASE_PLAN_2.md): a small human-readable marker per blocker
+// type, shown on the compact card. Not a new taxonomy — just a one-word
+// label for the same `barrier` field already on each persona.
+const BLOCKER_TYPE: Record<string, string> = {
+  price_timing_waiter: "Price",
+  fit_cautious_returner: "Fit",
+  occasion_driven: "Timing",
+  quality_evidence_seeker: "Trust",
+  inspiration_moodboard_saver: "Intent",
+};
+
+// Every persona's `description` opens with a real interview quote in curly
+// quotes — pull just that for the compact card rather than the full sentence.
+function extractQuote(description: string): string | null {
+  const match = description.match(/^“([^”]+)”/);
+  return match ? match[1] : null;
+}
+
 interface Props {
   personas: Persona[];
   onSelect: (id: string) => void;
@@ -85,7 +103,7 @@ export function PersonaPicker({ personas, onSelect }: Props) {
           alignItems: "start",
         }}
       >
-        {personas.map((persona) => {
+        {personas.map((persona, index) => {
           const accent = accentFor(persona.id);
           const isExpanded = expandedId === persona.id;
 
@@ -100,8 +118,7 @@ export function PersonaPicker({ personas, onSelect }: Props) {
                   flexDirection: "column",
                   gap: "var(--space-sm)",
                   padding: "var(--space-lg)",
-                  borderRadius: "var(--radius-xl)",
-                  border: `1px solid ${accent.fg}`,
+                  borderRadius: "var(--radius-card)",
                   background: accent.bg,
                 }}
               >
@@ -174,11 +191,14 @@ export function PersonaPicker({ personas, onSelect }: Props) {
                     boxShadow: "var(--shadow-tactile-button)",
                   }}
                 >
-                  Select {persona.name}
+                  View {persona.name}'s wishlist
                 </button>
               </div>
             );
           }
+
+          const isFlagship = index === 0;
+          const quote = extractQuote(persona.description);
 
           return (
             <button
@@ -188,31 +208,55 @@ export function PersonaPicker({ personas, onSelect }: Props) {
               aria-expanded="false"
               className="persona-card"
               style={{
+                gridColumn: isFlagship ? "1 / -1" : undefined,
                 textAlign: "left",
                 display: "flex",
                 flexDirection: "column",
                 gap: 6,
                 padding: "var(--space-md)",
-                borderRadius: "var(--radius-xl)",
-                border: `1px solid ${accent.fg}`,
+                borderRadius: "var(--radius-card)",
                 background: accent.bg,
                 cursor: "pointer",
-                minHeight: 88,
+                minHeight: isFlagship ? 120 : 100,
               }}
             >
-              <span aria-hidden="true" style={{ fontSize: 20, color: accent.fg }}>
-                ●
-              </span>
+              <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+                <span
+                  style={{
+                    fontSize: 10,
+                    fontWeight: 700,
+                    textTransform: "uppercase",
+                    letterSpacing: "0.06em",
+                    color: accent.fg,
+                    padding: "2px 8px",
+                    borderRadius: 999,
+                    background: "rgba(255,255,255,0.5)",
+                  }}
+                >
+                  {BLOCKER_TYPE[persona.id] ?? "Blocker"}
+                </span>
+                {isFlagship && (
+                  <span style={{ fontSize: 10, fontWeight: 700, color: accent.fg, letterSpacing: "0.04em" }}>
+                    FLAGSHIP DEMO
+                  </span>
+                )}
+              </div>
               <span
                 style={{
                   fontFamily: "var(--font-display)",
-                  fontSize: 15,
+                  fontSize: isFlagship ? 18 : 15,
                   lineHeight: 1.25,
                   color: accent.fg,
                 }}
               >
                 {persona.name}
               </span>
+              <span style={{ fontSize: 12, lineHeight: 1.4, color: "var(--color-ink)" }}>{persona.barrier}</span>
+              {quote && (
+                <span style={{ fontSize: 12, lineHeight: 1.4, color: "var(--color-ink-secondary)", fontStyle: "italic" }}>
+                  “{quote}”
+                </span>
+              )}
             </button>
           );
         })}

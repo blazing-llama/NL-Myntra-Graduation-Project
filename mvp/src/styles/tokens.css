@@ -69,6 +69,10 @@
   --radius-md: 14px;
   --radius-lg: 20px;
   --radius-xl: 20px;
+  /* Phase B (docs/PHASE_PLAN_2.md): product/persona cards tightened to ≤8px —
+     structural refinement within the existing palette, not a recolor. Sheets/
+     banners/pills keep their existing radii; this token is for cards only. */
+  --radius-card: 8px;
   --tap-target-min: 44px;
 
   /* Tactile button shadow — Theme A's inset-highlight recipe. Colors in the
