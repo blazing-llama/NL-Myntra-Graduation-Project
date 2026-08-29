@@ -1,5 +1,6 @@
 import { useState } from "react";
 import type { WishlistItem } from "../types";
+import { ProductImage } from "./ProductImage";
 
 // Out-of-stock items get their own dedicated section with a bulk "Remove"
 // action, not just an inline badge buried in the main grid.
@@ -50,7 +51,7 @@ export function OutOfStockSection({ items, onRemove }: Props) {
           onClick={removeSelected}
           disabled={selected.size === 0}
           style={{
-            minHeight: 36,
+            minHeight: "var(--tap-target-min)",
             padding: "0 12px",
             borderRadius: "var(--radius-sm)",
             border: "1px solid var(--color-thread-plum)",
@@ -101,7 +102,7 @@ export function OutOfStockSection({ items, onRemove }: Props) {
                 cursor: "pointer",
               }}
             />
-            <img
+            <ProductImage
               src={item.imageUrl}
               alt={item.imageAlt}
               style={{

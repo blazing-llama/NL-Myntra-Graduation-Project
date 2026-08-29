@@ -87,6 +87,18 @@
   /* Motion (respected by prefers-reduced-motion below) */
   --transition-fast: 120ms ease;
   --transition-base: 200ms ease;
+
+  /* Audit fix (round 3, item 8, scoped down from the report's "add real
+     responsive breakpoints" suggestion): a full responsive redesign is out
+     of scope this close to deadline. This is the narrower fix — this stays
+     the same mobile-first 390px frame at every width; on a tablet/desktop
+     viewport it now presents as a deliberate phone mockup (rounded bezel +
+     shadow, see .app-frame below) instead of a narrow column adrift in
+     empty page background. --frame-inner-min-height lets the screen
+     content inside know how tall its "device" actually is, without
+     depending on percentage-height resolution up an auto-height chain
+     (redefined to a fixed px value inside the frame media query below). */
+  --frame-inner-min-height: 100vh;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -116,6 +128,60 @@ body {
 
 button {
   font-family: inherit;
+}
+
+/* Audit fix (round 3, item 8): the app frame, mobile-first at every width.
+   position: relative always (harmless at mobile, and lets Toast/bottom-sheet
+   overlays switch from position:fixed-on-viewport to position:absolute-in-
+   frame so they stay inside the phone mockup at wide viewports instead of
+   covering the whole browser window — see Toast.tsx / CompareSimilarSheet.tsx
+   / AlternativeCompareSheet.tsx). */
+.app-frame {
+  position: relative;
+  max-width: var(--frame-width);
+  margin: 0 auto;
+  min-height: 100vh;
+  background: var(--color-bone);
+  box-shadow: 0 0 0 1px var(--color-border);
+}
+
+.app-frame-caption {
+  display: none;
+}
+
+@media (min-width: 700px) {
+  :root {
+    --frame-inner-min-height: 844px;
+  }
+
+  .app-shell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: var(--space-md);
+    padding: var(--space-lg) var(--space-lg);
+  }
+
+  .app-frame-caption {
+    display: block;
+    margin: 0;
+    font-family: var(--font-body);
+    font-size: 13px;
+    color: var(--color-ink-secondary);
+    text-align: center;
+  }
+
+  .app-frame {
+    height: 844px;
+    min-height: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 36px;
+    border: 10px solid var(--color-ink);
+    box-shadow: 0 24px 60px rgba(33, 29, 27, 0.28);
+  }
 }
 
 :focus-visible {

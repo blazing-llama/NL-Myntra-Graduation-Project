@@ -1,6 +1,7 @@
 import type { WishlistItem } from "../types";
 import { StockBadge } from "./StockBadge";
 import { PriceSignalBadge } from "./PriceSignalBadge";
+import { ProductImage } from "./ProductImage";
 
 // Phase D (docs/PHASE_PLAN_2.md): the Wishlist Intelligence card structure —
 // distinct from ProductActionCard (which is a cart-action card for
@@ -30,7 +31,7 @@ export function DecisionCard({ item, hasSimilarItems, onReviewDecision, onCompar
         onClick={onReviewDecision}
         style={{ display: "block", width: "100%", padding: 0, background: "transparent", border: "none", cursor: "pointer" }}
       >
-        <img
+        <ProductImage
           src={item.imageUrl}
           alt={item.imageAlt}
           style={{
@@ -64,7 +65,7 @@ export function DecisionCard({ item, hasSimilarItems, onReviewDecision, onCompar
           type="button"
           onClick={onReviewDecision}
           style={{
-            minHeight: 36,
+            minHeight: "var(--tap-target-min)",
             borderRadius: "var(--radius-card)",
             border: "none",
             background: "var(--color-thread-plum)",
@@ -82,7 +83,7 @@ export function DecisionCard({ item, hasSimilarItems, onReviewDecision, onCompar
             type="button"
             onClick={onCompareSimilar}
             style={{
-              minHeight: 36,
+              minHeight: "var(--tap-target-min)",
               borderRadius: "var(--radius-card)",
               border: "none",
               background: "var(--color-neutral-bg)",

@@ -1,4 +1,5 @@
 import type { BrowseItem, WishlistItem } from "../types";
+import { ProductImage } from "./ProductImage";
 
 // Phase G (docs/PHASE_PLAN_2.md): Compare, for an Alternatives card, against
 // the wishlist item it relates to. Deliberately lighter than Compare
@@ -32,6 +33,9 @@ export function AlternativeCompareSheet({ browseItem, relatedItem, onClose, onOp
       role="dialog"
       aria-modal="true"
       aria-label={`Compare ${browseItem.name} to ${relatedItem.name}`}
+      // See Toast.tsx / CompareSimilarSheet.tsx: position:"absolute" was
+      // tried here for the phone-frame mockup (round 3, item 8) and
+      // reverted — it broke this sheet's docking at mobile width.
       style={{ position: "fixed", inset: 0, zIndex: 30, display: "flex", flexDirection: "column", justifyContent: "flex-end" }}
     >
       <div onClick={onClose} aria-hidden="true" style={{ position: "absolute", inset: 0, background: "rgba(33, 29, 27, 0.35)" }} />
@@ -58,7 +62,7 @@ export function AlternativeCompareSheet({ browseItem, relatedItem, onClose, onOp
             type="button"
             onClick={onClose}
             aria-label="Close"
-            style={{ minHeight: 32, minWidth: 32, border: "none", background: "transparent", fontSize: 20, cursor: "pointer", color: "var(--color-ink-secondary)" }}
+            style={{ minHeight: "var(--tap-target-min)", minWidth: "var(--tap-target-min)", border: "none", background: "transparent", fontSize: 20, cursor: "pointer", color: "var(--color-ink-secondary)" }}
           >
             ✕
           </button>
@@ -72,7 +76,7 @@ export function AlternativeCompareSheet({ browseItem, relatedItem, onClose, onOp
             { name: browseItem.name, brand: browseItem.brand, price: browseItem.price, image: browseItem.imageUrl, alt: browseItem.imageAlt, label: "This alternative" },
           ].map((row) => (
             <div key={row.name} style={{ display: "flex", gap: 12, padding: 12, background: "var(--color-neutral-bg)", borderRadius: "var(--radius-card)" }}>
-              <img src={row.image} alt={row.alt} style={{ width: 56, height: 72, flexShrink: 0, borderRadius: "var(--radius-card)", objectFit: "cover", background: "var(--color-border)" }} />
+              <ProductImage src={row.image} alt={row.alt} style={{ width: 56, height: 72, flexShrink: 0, borderRadius: "var(--radius-card)", objectFit: "cover", background: "var(--color-border)" }} />
               <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", gap: 2 }}>
                 <span style={{ fontSize: 11, color: "var(--color-ink-secondary)" }}>{row.label}</span>
                 <span style={{ fontFamily: "var(--font-display)", fontSize: 15 }}>{row.name}</span>
@@ -91,7 +95,7 @@ export function AlternativeCompareSheet({ browseItem, relatedItem, onClose, onOp
             onClick={onOpenRelated}
             style={{
               alignSelf: "flex-start",
-              minHeight: 36,
+              minHeight: "var(--tap-target-min)",
               padding: "0 14px",
               borderRadius: "var(--radius-card)",
               border: "none",

@@ -20,6 +20,15 @@ export function Toast({ message, onDismiss }: Props) {
       aria-live="polite"
       className="toast-enter"
       style={{
+        // Tried position:"absolute" here to contain this within the
+        // phone-frame mockup at wide widths (round 3, item 8) — reverted:
+        // .app-frame has no fixed height/overflow at mobile widths, so an
+        // absolutely-positioned inset:0 descendant spans the whole
+        // scrollable page there, not just the visible viewport, and this
+        // toast ended up anchored near the bottom of the full page instead
+        // of the bottom of the screen. Fixed is correct at every width;
+        // covering the full browser window instead of just the phone-frame
+        // at ≥700px is the accepted tradeoff, not a functional break.
         position: "fixed",
         left: "50%",
         bottom: "calc(88px + env(safe-area-inset-bottom))",

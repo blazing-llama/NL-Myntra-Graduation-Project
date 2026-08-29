@@ -6,6 +6,7 @@ import { DecisionCheck } from "../components/DecisionCheck";
 import { StockBadge } from "../components/StockBadge";
 import { StickyCTA } from "../components/StickyCTA";
 import { TopNav } from "../components/TopNav";
+import { ProductImage } from "../components/ProductImage";
 
 // Phase E (docs/PHASE_PLAN_2.md): the sticky CTA is now always "Move to
 // cart" — adds the item (if not already) and navigates straight to Cart,
@@ -67,14 +68,14 @@ export function ItemDetail({ item, personaId, onBack, onMoveToCart }: Props) {
           flex: 1,
         }}
       >
-        <img
+        <ProductImage
           src={item.imageUrl}
           alt={item.imageAlt}
           style={{
             width: "100%",
             aspectRatio: "3 / 4",
             background: "var(--color-border)",
-            borderRadius: "var(--radius-lg)",
+            borderRadius: "var(--radius-card)",
             border: "1px solid var(--color-border)",
             boxShadow: "inset 0 0 0 1px rgba(33, 29, 27, 0.06)",
             objectFit: "cover",

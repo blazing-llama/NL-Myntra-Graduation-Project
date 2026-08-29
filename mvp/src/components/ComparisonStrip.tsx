@@ -8,7 +8,11 @@ import type { ComparisonRow } from "../types";
 // No background-color signaling — just the line's own shape communicates
 // flat/up/down, kept as quiet as the rest of the deterministic-core output.
 function PricePulse({ history }: { history: number[] }) {
-  if (history.length < 2) return null;
+  // Audit fix (round 3, item 7): a flat line (every point identical) isn't a
+  // real signal — it was rendering even when nothing moved, alongside a
+  // "value — 0% — value" row that just repeated the same number. Only draw
+  // the sparkline when there's an actual trend to show.
+  if (history.length < 2 || new Set(history).size < 2) return null;
   const width = 64;
   const height = 20;
   const min = Math.min(...history);
@@ -59,34 +63,51 @@ export function ComparisonStrip({ rows, priceHistory }: Props) {
     >
       {rows.map((row) => {
         const isPriceRow = row.label === "TYPICAL PRICE";
+        // Audit fix (round 3, items 2 + 7): two bugs in one row. (1) At
+        // 390px this row had no room for both the label and the full
+        // before/delta/after cluster, so the label wrapped mid-word
+        // ("TYPICAL" / "PRICE") and collided with the values next to it —
+        // fixed by letting the row wrap as a whole (label first, values
+        // below) instead of squeezing the label. (2) When before === after
+        // (price unchanged, or a single garment measurement with nothing to
+        // compare against), the row rendered the same value twice with a
+        // meaningless "0%"/"0\"" in between — e.g. "CHEST 40\" — 0\" — 40\""
+        // — which reads as fabricated range data on a widget whose whole
+        // job is evidence-based trust. Genuine differences (a real price
+        // drop, a real measurement gap) still render the full comparison.
+        const noRealRange = row.before === row.after;
         return (
           <div
             key={row.label}
-            style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}
+            style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", rowGap: 4 }}
           >
-            <span style={{ color: "var(--color-ink)", opacity: 0.65, letterSpacing: "0.04em" }}>
+            <span style={{ color: "var(--color-ink)", opacity: 0.65, letterSpacing: "0.04em", whiteSpace: "nowrap" }}>
               {row.label}
             </span>
-            <span style={{ display: "flex", gap: 8, alignItems: "center" }}>
-              <span style={{ display: "flex", gap: 8, alignItems: "baseline" }}>
-                <span>{row.before}</span>
-                <span aria-hidden="true" style={{ opacity: 0.5 }}>
-                  ──
+            {noRealRange ? (
+              <span style={{ fontWeight: 600 }}>{row.after}</span>
+            ) : (
+              <span style={{ display: "flex", flexWrap: "wrap", gap: 8, alignItems: "center" }}>
+                <span style={{ display: "flex", gap: 8, alignItems: "baseline" }}>
+                  <span>{row.before}</span>
+                  <span aria-hidden="true" style={{ opacity: 0.5 }}>
+                    ──
+                  </span>
+                  <span
+                    style={{
+                      color: row.delta.startsWith("+") || row.delta.startsWith("-") ? "var(--color-thread-plum)" : undefined,
+                    }}
+                  >
+                    {row.delta}
+                  </span>
+                  <span aria-hidden="true" style={{ opacity: 0.5 }}>
+                    ──
+                  </span>
+                  <span style={{ fontWeight: 600 }}>{row.after}</span>
                 </span>
-                <span
-                  style={{
-                    color: row.delta.startsWith("+") || row.delta.startsWith("-") ? "var(--color-thread-plum)" : undefined,
-                  }}
-                >
-                  {row.delta}
-                </span>
-                <span aria-hidden="true" style={{ opacity: 0.5 }}>
-                  ──
-                </span>
-                <span style={{ fontWeight: 600 }}>{row.after}</span>
+                {isPriceRow && priceHistory && <PricePulse history={priceHistory} />}
               </span>
-              {isPriceRow && priceHistory && <PricePulse history={priceHistory} />}
-            </span>
+            )}
           </div>
         );
       })}

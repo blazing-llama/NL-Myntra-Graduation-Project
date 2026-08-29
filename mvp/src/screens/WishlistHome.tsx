@@ -27,6 +27,16 @@ export function WishlistHome({ items, personas, activePersonaId, onOpenItem, onR
   const activePersona = personas.find((p) => p.id === activePersonaId);
   const [similarFor, setSimilarFor] = useState<WishlistItem | null>(null);
 
+  // Audit fix (round 3, item 6): this persona is defined by
+  // docs/research-findings.md's P3 characterization as a "moodboard, not a
+  // shopping list" — saves for ideas, not near-term purchase intent (Part 3,
+  // ~9% of saves). The summary panel below used to apply the same
+  // ready/needs-evidence/next-best-move decision framing to every persona,
+  // which told this one shopper their "next best move" was to review
+  // purchase evidence — the opposite of what the research says they're
+  // doing. Scoped to just this panel, matching what was asked.
+  const isInspirationPersona = activePersonaId === "inspiration_moodboard_saver";
+
   const inStockItems = items.filter((i) => i.stock !== "out_of_stock");
   const outOfStockItems = items.filter((i) => i.stock === "out_of_stock");
 
@@ -98,7 +108,7 @@ export function WishlistHome({ items, personas, activePersonaId, onOpenItem, onR
             color: "white",
           }}
         >
-          <SimulatedDataLabel />
+          <SimulatedDataLabel inverted />
           <span style={{ fontFamily: "var(--font-display)", fontSize: "var(--type-card-title-size)" }}>
             {activePersona?.name}
           </span>
@@ -115,15 +125,30 @@ export function WishlistHome({ items, personas, activePersonaId, onOpenItem, onR
             background: "var(--color-neutral-bg)",
           }}
         >
-          <div style={{ display: "flex", gap: "var(--space-md)", fontSize: 13 }}>
-            <span><strong>{readyToDecide.length}</strong> ready to decide</span>
-            <span><strong>{needsMoreEvidence.length}</strong> need more evidence</span>
-            <span><strong>{outOfStockItems.length}</strong> out of stock</span>
-          </div>
-          {nextBestAction && (
-            <span style={{ fontSize: 12, color: "var(--color-ink-secondary)" }}>
-              Next best move: review {nextBestAction.name}.
-            </span>
+          {isInspirationPersona ? (
+            <>
+              <span style={{ fontSize: 13 }}>
+                <strong>{items.length}</strong> saved for inspiration — not a purchase decision.
+              </span>
+              {outOfStockItems.length > 0 && (
+                <span style={{ fontSize: 12, color: "var(--color-ink-secondary)" }}>
+                  {outOfStockItems.length} of these have gone out of stock, if you want to tidy up.
+                </span>
+              )}
+            </>
+          ) : (
+            <>
+              <div style={{ display: "flex", gap: "var(--space-md)", fontSize: 13 }}>
+                <span><strong>{readyToDecide.length}</strong> ready to decide</span>
+                <span><strong>{needsMoreEvidence.length}</strong> need more evidence</span>
+                <span><strong>{outOfStockItems.length}</strong> out of stock</span>
+              </div>
+              {nextBestAction && (
+                <span style={{ fontSize: 12, color: "var(--color-ink-secondary)" }}>
+                  Next best move: review {nextBestAction.name}.
+                </span>
+              )}
+            </>
           )}
         </div>
 

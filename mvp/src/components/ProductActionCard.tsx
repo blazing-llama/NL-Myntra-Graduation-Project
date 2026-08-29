@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { ProductImage } from "./ProductImage";
 
 // Phase G (docs/PHASE_PLAN_2.md): Alternatives' card, honest 3-CTA set only
 // — Save (heart), Compare (only when there's something to compare against),
@@ -59,7 +60,7 @@ export function ProductActionCard({
             cursor: onOpen ? "pointer" : "default",
           }}
         >
-          <img
+          <ProductImage
             src={imageUrl}
             alt={imageAlt}
             style={{
@@ -114,7 +115,7 @@ export function ProductActionCard({
             type="button"
             onClick={onCompare}
             style={{
-              minHeight: 36,
+              minHeight: "var(--tap-target-min)",
               borderRadius: "var(--radius-card)",
               border: "none",
               background: "var(--color-clay-rose-bg)",
@@ -131,7 +132,7 @@ export function ProductActionCard({
           type="button"
           onClick={onMoveToCart}
           style={{
-            minHeight: 36,
+            minHeight: "var(--tap-target-min)",
             borderRadius: "var(--radius-card)",
             border: "none",
             background: addedToCart ? "var(--color-moss)" : "var(--color-thread-plum)",

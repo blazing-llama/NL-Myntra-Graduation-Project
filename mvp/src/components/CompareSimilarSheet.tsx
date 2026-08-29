@@ -1,4 +1,5 @@
 import type { ConfidenceLevel, WishlistItem } from "../types";
+import { ProductImage } from "./ProductImage";
 
 // Phase F (docs/PHASE_PLAN_2.md): renamed from "Similar items" to "Compare
 // similar" and upgraded from a plain list into a real comparison against
@@ -58,6 +59,9 @@ export function CompareSimilarSheet({ sourceItem, items, onClose, onOpenItem }: 
       aria-modal="true"
       aria-label={`Compare similar to ${sourceItem.name}`}
       style={{
+        // See Toast.tsx: position:"absolute" was tried here for the
+        // phone-frame mockup (round 3, item 8) and reverted — it broke this
+        // sheet's docking at mobile width. Fixed stays correct everywhere.
         position: "fixed",
         inset: 0,
         zIndex: 30,
@@ -106,8 +110,8 @@ export function CompareSimilarSheet({ sourceItem, items, onClose, onOpenItem }: 
             onClick={onClose}
             aria-label="Close"
             style={{
-              minHeight: 32,
-              minWidth: 32,
+              minHeight: "var(--tap-target-min)",
+              minWidth: "var(--tap-target-min)",
               border: "none",
               background: "transparent",
               fontSize: 20,
@@ -141,7 +145,7 @@ export function CompareSimilarSheet({ sourceItem, items, onClose, onOpenItem }: 
                 }}
               >
                 <div style={{ display: "flex", gap: 12 }}>
-                  <img
+                  <ProductImage
                     src={item.imageUrl}
                     alt={item.imageAlt}
                     style={{
@@ -178,7 +182,7 @@ export function CompareSimilarSheet({ sourceItem, items, onClose, onOpenItem }: 
                   }}
                   style={{
                     alignSelf: "flex-start",
-                    minHeight: 36,
+                    minHeight: "var(--tap-target-min)",
                     padding: "0 14px",
                     borderRadius: "var(--radius-card)",
                     border: "none",
