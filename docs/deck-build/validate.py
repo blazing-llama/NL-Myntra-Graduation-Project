@@ -84,6 +84,7 @@ def check_pptx(pptx_path: Path) -> bool:
         "https://mvp-henna-delta.vercel.app",
         "https://docs.google.com/forms/d/e/1FAIpQLScsU5OcvTbEetugF0pG-ek2eo_8VEz1DLEjX0gMDsydgOHizA/viewform",
         "https://github.com/blazing-llama/NL-Myntra-Graduation-Project",
+        "https://nl-myntra-graduation-project-naspi2s3gtajwsv79uwe8w.streamlit.app/",
     ]
     rels_text = ""
     for n in z.namelist():

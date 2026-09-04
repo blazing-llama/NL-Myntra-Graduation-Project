@@ -119,9 +119,19 @@ The blueprint's intended process (`docs/hypotheses.md` C.2–C.3) was to build a
 
 The MVP's five personas reflect this directly: five real, differently-confirmed barriers, not indecision about picking one.
 
+**On the brief's Part 3 sequencing** (choose a segment, then validate it with 5–6 targeted interviews): stated plainly, this project's interviews did not run that way. `docs/blueprints/wishlist-conversion-blueprint-v2.md` Part F named this exact requirement "the sequencing trap" and planned for it (a targeted Wave 2 aimed at "the engine-selected segment") — but because no single segment was ever selected (the reasoning above), the interviews stayed exploratory across multiple barriers rather than convergent validation of one. The 6 interviews that did happen are genuine and are the primary evidence base for four of the seven barriers — they just validate breadth, not one pre-chosen bet, which is a different (and honestly reported) thing than what Part 3 originally asked for.
+
+## 6. Problem definition
+
+Read in full: [`docs/decisions/problem-definition.md`](docs/decisions/problem-definition.md) — the explicit Business Metric → Product Outcomes → AI Discovery → Primary Research → Problem Definition chain the brief's Part 4 asks for, assembled from evidence already established above, not new data.
+
+**The chosen problem, in one line:** Price-Timing Waiters — wishlist-savers deliberately withholding purchase until price hits a self-set threshold — can't tell from the app whether waiting is rational, because the app shows one current price and nothing else, so the decision stays deferred by default. Segment chosen for being both the most fully evidenced (largest gold-set count, largest survey reason) *and* the one this project built and evidenced deepest, not for being the only real barrier — `docs/decisions/opportunity-selection.md` documents three other independently-confirmed barriers this project chose not to force into a single ranking.
+
+Existing user workaround (the product doesn't need to invent this, only bring it in-app): 94% of survey respondents already leave the app to research before deciding. The MVP's price-history comparison strip and Decision Check "If you wait" copy are a direct, traceable build against this root cause — see `docs/decisions/problem-definition.md`'s closing section for exactly how.
+
 ---
 
-## 6. Live MVP
+## 7. Live MVP
 
 **https://mvp-henna-delta.vercel.app** — React + Vite, deployed on Vercel, Supabase-backed event logging. No real checkout, no auth — a decision-support demo, not a storefront.
 
@@ -155,7 +165,7 @@ Below that, the original classify flow: paste or pick a gold-set example, POST i
 
 ---
 
-## 7. Evals — the trust section
+## 8. Evals — the trust section
 
 Per `docs/blueprints/wishlist-conversion-blueprint-v2.md` Part E: E1 is the only accuracy measure; E3 is agreement between two models, not validation of either.
 
@@ -188,7 +198,7 @@ Confirmed still accurate (no later entry in `docs/experiment_manifest.md` or `do
 
 ---
 
-## 8. Limitations — stated honestly
+## 9. Limitations — stated honestly
 
 - **The frozen coding agent has only ever been run against the 137-item gold set, never the full corpus.** Every prevalence number in this document is either the earlier relevance-only pre-filter (2,203 items, a different and simpler `is_relevant`-only script) or the gold-set evaluation itself — not a real barrier-prevalence measurement across the full corpus.
 - **The corpus reclassification itself is incomplete.** Checkpointed intentionally at 2,203/2,921 items (75%) — the rest of Myntra Play Store, all of Nykaa Play Store, and Reddit were never reached (`docs/SESSION_HANDOFF.md`).
@@ -198,13 +208,13 @@ Confirmed still accurate (no later entry in `docs/experiment_manifest.md` or `do
 - **4 of 9 (v2 core) barrier categories have zero gold-set coverage** (`occasion_styling`, `timing_forgetting`, `bookmark_not_intent`, `other`) — real per the interviews, but E1 cannot report precision/recall for them.
 - **`social_validation` and `comparison_shopping` (v3 amendment, 2026-09-05, `docs/decisions/codebook-v3-amendment.md`) have never been classified against anything at all** — no corpus pass, no gold-set labels, not part of E1 or E3. Both are grounded in real, already-collected survey evidence (94% look outside the app before deciding; 22% cite "comparing options" as a save reason), but that's the extent of what backs them today.
 - **E3's local substitute model (`llama3.2:3b`) is a real, meaningfully weaker stand-in** for the blueprint's intended `hermes3:8b` — the low κ is best read as a comment on that substitution, interpretable against E1's much higher, human-anchored accuracy rather than as a standalone robustness verdict.
-- **E2, E4, and E8 were not run** — see §7.
+- **E2, E4, and E8 were not run** — see §8.
 - **MVP wishlist/persona data is entirely simulated**, disclosed in-app — grounded in the real interviews, not real user accounts. Its Decision Check reasoning is templated from that mock data, not a live model call at request time.
 - **Git commit history has not been scrubbed for anonymity yet.** A personal identity was found on the first 5 commits and fixed going forward (project-scoped git config); the history rewrite itself is deliberately deferred to the final compliance sweep, not done yet (`docs/decisions/git-identity-and-history-scrub.md`).
 
 ---
 
-## 9. Decisions
+## 10. Decisions
 
 Every non-obvious pivot has a dated ADR in `docs/decisions/`, not a buried commit message:
 
@@ -215,10 +225,11 @@ Every non-obvious pivot has a dated ADR in `docs/decisions/`, not a buried commi
 - **[`discovery-engine-hosting.md`](docs/decisions/discovery-engine-hosting.md)** — n8n Cloud (free trial) chosen and confirmed working end-to-end for the public discovery-engine webhook, over a documented-but-unused tunnel fallback.
 - **[`opportunity-selection.md`](docs/decisions/opportunity-selection.md)** — why no single segment/opportunity was forced via the original kill-criteria process, and the deck-narrative resolution (`availability_decay` leads the problem statement; `price_certainty` stays the flagship MVP case). See §5. Its 2026-09-05 addendum adds the real interview-level segment × barrier matrix.
 - **[`codebook-v3-amendment.md`](docs/decisions/codebook-v3-amendment.md)** — why `social_validation` and `comparison_shopping` were added to the codebook after the gold set was frozen, what evidence grounds them, and exactly what was and wasn't re-run (nothing was).
+- **[`problem-definition.md`](docs/decisions/problem-definition.md)** — the explicit Business Metric → Product Outcomes → AI Discovery → Primary Research → Problem Definition chain, and the single chosen problem (Price-Timing Waiters, price-history opacity) that chain resolves to. See §6.
 
 ---
 
-## 10. Repo structure
+## 11. Repo structure
 
 ```
 scrapers/       Play Store + App Store collectors, unified-schema output
@@ -233,7 +244,7 @@ survey/         Google Form questionnaire
 mvp/            React + Vite decision-support demo (src/, mock-data/, supabase/)
 discovery_engine_demo/  Streamlit demo over the live n8n webhook (app.py)
 docs/
-  decisions/    dated ADRs — see §9
+  decisions/    dated ADRs — see §10
   blueprints/   the original project brief and derived specs
   deck/         slide deck (pptx/pdf)
   hypotheses.md, research-findings.md, experiment_manifest.md, codebook.md,
