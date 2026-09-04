@@ -6,10 +6,32 @@ model itself — it POSTs to the same public n8n webhook the rest of the
 project uses, and shows the real response. No canned/mocked output.
 """
 
+import pandas as pd
 import requests
 import streamlit as st
 
 WEBHOOK_URL = "https://zeusworkspace1.app.n8n.cloud/webhook/wishlist-discovery-engine"
+
+# All figures below are pulled directly from frozen source files, not
+# estimated: data/processed/relevance_summary.json (2,203 = sum of the
+# 5 sources' "total"), docs/experiment_manifest.md EXP-005/EXP-006
+# (gold set n, inter-labeler agreement, E1 accuracy, category counts).
+CORPUS_STATS = {
+    "reviews_classified": 2203,
+    "gold_set_n": 137,
+    "inter_labeler_agreement": 0.894,
+    "e1_accuracy": 0.875,
+}
+
+BARRIER_COUNTS = [
+    ("Price certainty", 11),
+    ("Quality / trust", 7),
+    ("Fit / size", 6),
+    ("Availability decay", 5),
+    ("Occasion / styling", 0),
+    ("Timing / forgetting", 0),
+    ("Bookmark, not intent", 0),
+]
 
 # Real gold-set examples (evals/gold_set/gold_set_final_frozen.jsonl),
 # one per barrier category with corpus coverage — not invented text.
@@ -39,6 +61,28 @@ st.caption(
     "live classification webhook behind this project's research pipeline and shows the "
     "real response — not a canned demo."
 )
+
+with st.container(border=True):
+    st.markdown("**Corpus at a glance**")
+    st.caption(
+        "From this project's own research pipeline — not simulated or live-tracked. "
+        "See `docs/experiment_manifest.md` (EXP-005, EXP-006) and "
+        "`data/processed/relevance_summary.json`."
+    )
+    m1, m2, m3 = st.columns(3)
+    m1.metric("Reviews classified", f"{CORPUS_STATS['reviews_classified']:,}")
+    m2.metric(
+        "Gold set",
+        f"n={CORPUS_STATS['gold_set_n']}",
+        help=f"{CORPUS_STATS['inter_labeler_agreement']:.1%} inter-labeler agreement",
+    )
+    m3.metric("Classifier accuracy (E1)", f"{CORPUS_STATS['e1_accuracy']:.1%}")
+
+    st.caption("Barrier category counts in the gold set")
+    barrier_df = pd.DataFrame(BARRIER_COUNTS, columns=["Barrier", "Count"]).set_index("Barrier")
+    st.bar_chart(barrier_df, horizontal=True)
+
+st.divider()
 
 if "de_text" not in st.session_state:
     st.session_state.de_text = ""
