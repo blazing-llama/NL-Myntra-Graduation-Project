@@ -40,23 +40,48 @@ export function WishlistHome({ items, personas, activePersonaId, onOpenItem, onR
   const inStockItems = items.filter((i) => i.stock !== "out_of_stock");
   const outOfStockItems = items.filter((i) => i.stock === "out_of_stock");
 
+  // Audit fix (Phase 1a, final pre-submission round): a STABLE, unchanged
+  // price (nothing pending, no movement across every point on file) is real
+  // evidence pointing to a decidable verdict — conceptually different from
+  // genuinely INSUFFICIENT evidence (no data to compare at all). The old
+  // bucketing lumped both under "medium || insufficient" confidence, which
+  // put e.g. Black Sneakers (4 flat price points, "insufficient") in the
+  // same bucket as items with zero price/fit/review history whatsoever.
+  // `back_in_stock` is deliberately excluded — a fresh restock has a real
+  // open question (does price move too?) per that item's own copy, so it
+  // isn't "nothing pending." This only changes bucket placement; the
+  // underlying `confidence` field on the item itself is never touched, so
+  // the item's own detail page is unaffected — see DecisionCard's
+  // `hintOverride` for the one place this bucket's own copy differs.
+  function isPriceHoldingSteady(item: WishlistItem): boolean {
+    if (item.confidence === "high") return false; // already correctly bucketed
+    if (item.stock === "back_in_stock") return false; // a real pending question, not stable
+    if (!item.priceHistory || item.priceHistory.length < 2) return false;
+    return new Set(item.priceHistory).size === 1;
+  }
+
   const readyToDecide = useMemo(() => inStockItems.filter((i) => i.confidence === "high"), [inStockItems]);
+  const holdingSteady = useMemo(() => inStockItems.filter((i) => isPriceHoldingSteady(i)), [inStockItems]);
   const needsMoreEvidence = useMemo(
-    () => inStockItems.filter((i) => i.confidence === "medium" || i.confidence === "insufficient"),
+    () =>
+      inStockItems.filter(
+        (i) => (i.confidence === "medium" || i.confidence === "insufficient") && !isPriceHoldingSteady(i),
+      ),
     [inStockItems],
   );
 
   // Compact insight summary — counts only, plus an optional one-line next
   // step templated from real state (never fabricated): the oldest
-  // ready-to-decide item not yet in cart, or failing that the oldest
-  // needs-more-evidence item.
+  // ready-to-decide item not yet in cart, then the oldest holding-steady
+  // item (the price question there is already settled), then the oldest
+  // genuinely-thin-evidence item.
   const nextBestAction = useMemo(() => {
     const candidates = readyToDecide.filter((i) => !i.addedToCartAt);
-    const pool = candidates.length > 0 ? candidates : needsMoreEvidence;
+    const pool = candidates.length > 0 ? candidates : holdingSteady.length > 0 ? holdingSteady : needsMoreEvidence;
     if (pool.length === 0) return null;
     const oldest = pool.slice().sort((a, b) => new Date(a.wishlistedAt).getTime() - new Date(b.wishlistedAt).getTime())[0];
     return oldest;
-  }, [readyToDecide, needsMoreEvidence]);
+  }, [readyToDecide, holdingSteady, needsMoreEvidence]);
 
   // Round 2 item 6: never render the sheet with zero results. Try the same
   // persona's own wishlist first (most relevant — same shopper's context);
@@ -138,8 +163,9 @@ export function WishlistHome({ items, personas, activePersonaId, onOpenItem, onR
             </>
           ) : (
             <>
-              <div style={{ display: "flex", gap: "var(--space-md)", fontSize: 13 }}>
+              <div style={{ display: "flex", flexWrap: "wrap", gap: "var(--space-md)", rowGap: 4, fontSize: 13 }}>
                 <span><strong>{readyToDecide.length}</strong> ready to decide</span>
+                {holdingSteady.length > 0 && <span><strong>{holdingSteady.length}</strong> holding steady</span>}
                 <span><strong>{needsMoreEvidence.length}</strong> need more evidence</span>
                 <span><strong>{outOfStockItems.length}</strong> out of stock</span>
               </div>
@@ -158,6 +184,15 @@ export function WishlistHome({ items, personas, activePersonaId, onOpenItem, onR
           categoryCounts={categoryCounts}
           onOpenItem={onOpenItem}
           onCompareSimilar={setSimilarFor}
+          accent
+        />
+        <DecisionSection
+          title="Holding steady"
+          items={holdingSteady}
+          categoryCounts={categoryCounts}
+          onOpenItem={onOpenItem}
+          onCompareSimilar={setSimilarFor}
+          hintOverride="Price hasn't moved — that part of the picture is settled, even though other evidence here is still thin."
         />
         <DecisionSection
           title="Needs more evidence"
@@ -167,7 +202,7 @@ export function WishlistHome({ items, personas, activePersonaId, onOpenItem, onR
           onCompareSimilar={setSimilarFor}
         />
 
-        {readyToDecide.length === 0 && needsMoreEvidence.length === 0 && outOfStockItems.length === 0 && (
+        {readyToDecide.length === 0 && holdingSteady.length === 0 && needsMoreEvidence.length === 0 && outOfStockItems.length === 0 && (
           <p style={{ fontSize: "var(--type-body-size)", color: "var(--color-ink-secondary)" }}>
             Nothing in this wishlist yet.
           </p>

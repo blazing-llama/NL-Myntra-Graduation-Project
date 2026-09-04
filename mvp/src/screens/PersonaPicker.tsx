@@ -206,6 +206,7 @@ export function PersonaPicker({ personas, onSelect }: Props) {
               type="button"
               onClick={() => toggle(persona.id)}
               aria-expanded="false"
+              aria-label={`View ${persona.name} persona`}
               className="persona-card"
               style={{
                 gridColumn: isFlagship ? "1 / -1" : undefined,

@@ -21,9 +21,15 @@ interface Props {
   hasSimilarItems: boolean;
   onReviewDecision: () => void;
   onCompareSimilar: () => void;
+  // Phase 1a fix: WishlistHome routes a "holding steady" item here with its
+  // own honest hint — a stable price is real evidence, not a knowledge gap,
+  // so it shouldn't read like the same "not enough evidence yet" copy a
+  // genuinely-unknown item gets. Confidence data itself is untouched; this
+  // only overrides what this one card says.
+  hintOverride?: string;
 }
 
-export function DecisionCard({ item, hasSimilarItems, onReviewDecision, onCompareSimilar }: Props) {
+export function DecisionCard({ item, hasSimilarItems, onReviewDecision, onCompareSimilar, hintOverride }: Props) {
   return (
     <div className="wishlist-card" style={{ display: "flex", flexDirection: "column", gap: 8 }}>
       <button
@@ -58,7 +64,7 @@ export function DecisionCard({ item, hasSimilarItems, onReviewDecision, onCompar
         )}
       </div>
 
-      <p style={{ margin: 0, fontSize: 12, lineHeight: 1.4, color: "var(--color-ink-secondary)" }}>{decisionHint(item)}</p>
+      <p style={{ margin: 0, fontSize: 12, lineHeight: 1.4, color: "var(--color-ink-secondary)" }}>{hintOverride ?? decisionHint(item)}</p>
 
       <div style={{ display: "flex", flexDirection: "column", gap: 6, marginTop: 2 }}>
         <button

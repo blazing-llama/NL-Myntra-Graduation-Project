@@ -20,16 +20,34 @@ function hoursSince(iso: string): number {
   return (Date.now() - new Date(iso).getTime()) / (1000 * 60 * 60);
 }
 
+// Phase 1d (final pre-submission round, full Decision Check content audit):
+// this used to be a fixed 4-string switch keyed only on stock state, so
+// every "low_stock" item across all 5 personas showed the exact same
+// sentence, and same for the other three states — read as templated rather
+// than item-specific once you opened more than one item. Still keyed
+// primarily on stock (that's genuinely the right axis for "what changes if
+// you wait"), but now pulls the item's own name/price/price-history into
+// the sentence — all fields already on WishlistItem, nothing invented — so
+// two items in the same stock state no longer read identically.
 function whatIfIWaitCopy(item: WishlistItem): string {
+  const priceIsMoving = Boolean(item.priceHistory && item.priceHistory.length >= 2 && new Set(item.priceHistory).size > 1);
+  const priceIsStable = Boolean(item.priceHistory && item.priceHistory.length >= 2 && new Set(item.priceHistory).size === 1);
+
   switch (item.stock) {
     case "low_stock":
-      return "This is low in stock in your size right now — waiting risks it selling out before you decide.";
+      return `${item.name} is low in stock in your size right now — that's the real risk here, not price. Waiting could mean it sells out before you decide.`;
     case "back_in_stock":
-      return "This just came back in stock after being unavailable — sizes have gone quickly here before.";
+      return `${item.name} just came back in stock after being unavailable — sizes have gone quickly here before, so the risk this time is availability, not price.`;
     case "out_of_stock":
-      return "This is currently out of stock in your size — waiting doesn't change that. We'll let you know if it returns.";
+      return `${item.name} is currently out of stock in your size — waiting doesn't change that today. We'll let you know if it returns.`;
     case "in_stock":
-      return "Nothing changes if you wait — this item isn't low on stock, and we have no evidence the price is about to move.";
+      if (priceIsMoving) {
+        return `Nothing forces a decision today, but ${item.name}'s price has already moved once — there's no guarantee ${item.price} holds if you wait longer.`;
+      }
+      if (priceIsStable) {
+        return `Nothing changes if you wait — ${item.price} has held steady for a while, and there's no stock pressure either.`;
+      }
+      return `Nothing changes if you wait — ${item.name} isn't low on stock, and we have no evidence the price is about to move.`;
   }
 }
 

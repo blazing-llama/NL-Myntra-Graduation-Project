@@ -1,3 +1,4 @@
+import type { CSSProperties } from "react";
 import type { ComparisonRow } from "../types";
 
 // The signature element (design spec Section B). This IS the deterministic-core
@@ -13,8 +14,8 @@ function PricePulse({ history }: { history: number[] }) {
   // "value — 0% — value" row that just repeated the same number. Only draw
   // the sparkline when there's an actual trend to show.
   if (history.length < 2 || new Set(history).size < 2) return null;
-  const width = 64;
-  const height = 20;
+  const width = 56;
+  const height = 18;
   const min = Math.min(...history);
   const max = Math.max(...history);
   const range = max - min || 1;
@@ -34,8 +35,96 @@ function PricePulse({ history }: { history: number[] }) {
       aria-hidden="true"
       style={{ flexShrink: 0, opacity: 0.7 }}
     >
-      <polyline points={points} fill="none" stroke="var(--color-ink)" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" />
+      <polyline points={points} fill="none" stroke="var(--color-moss)" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" />
     </svg>
+  );
+}
+
+const labelStyle: CSSProperties = {
+  fontFamily: "var(--font-body)",
+  fontSize: 11,
+  fontWeight: 600,
+  letterSpacing: "0.04em",
+  textTransform: "uppercase",
+  color: "var(--color-ink-secondary)",
+};
+
+function pillStyle(bg: string, fg: string): CSSProperties {
+  return {
+    display: "inline-flex",
+    alignItems: "center",
+    padding: "3px 9px",
+    borderRadius: 999,
+    fontFamily: "var(--font-body)",
+    fontSize: 12,
+    fontWeight: 700,
+    background: bg,
+    color: fg,
+    flexShrink: 0,
+  };
+}
+
+// Phase 1c (final pre-submission round): the old "TYPICAL PRICE" treatment —
+// a monospace label plus a dash-delta-dash cluster — read like a debug
+// readout, not a shopping price. Rebuilt on the standard e-commerce
+// convention instead: struck-through original price, bold current price, a
+// colored percentage-off pill. Locked palette only (no new hex values).
+function PriceRow({ row, priceHistory }: { row: ComparisonRow; priceHistory?: number[] }) {
+  const noRealRange = row.before === row.after;
+  const isDrop = row.delta.startsWith("-");
+  const isRise = row.delta.startsWith("+");
+  const pctText = row.delta.replace(/^[+-]/, "");
+
+  return (
+    <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+      <span style={labelStyle}>Typical price</span>
+      <div style={{ display: "flex", flexWrap: "wrap", alignItems: "baseline", gap: 10 }}>
+        {!noRealRange && (
+          <span
+            style={{
+              fontFamily: "var(--font-mono)",
+              fontSize: 15,
+              color: "var(--color-ink-secondary)",
+              textDecoration: "line-through",
+            }}
+          >
+            {row.before}
+          </span>
+        )}
+        <span style={{ fontFamily: "var(--font-mono)", fontSize: 21, fontWeight: 700, color: "var(--color-ink)" }}>
+          {row.after}
+        </span>
+        {noRealRange && <span style={pillStyle("var(--color-neutral-bg)", "var(--color-ink-secondary)")}>Steady</span>}
+        {!noRealRange && isDrop && <span style={pillStyle("var(--color-moss-bg)", "var(--color-moss)")}>{pctText} off</span>}
+        {!noRealRange && isRise && <span style={pillStyle("var(--color-ochre-bg)", "var(--color-ochre)")}>{pctText} higher</span>}
+        {!noRealRange && priceHistory && <PricePulse history={priceHistory} />}
+      </div>
+    </div>
+  );
+}
+
+// Non-price rows (garment measurements: CHEST, LENGTH, BUST, SIZE...) don't
+// take the strikethrough-price treatment — a chest measurement isn't "on
+// sale" — but get the same font-and-label cleanup, plus a plain +/- delta
+// pill instead of the old dash-delta-dash cluster.
+function MeasurementRow({ row }: { row: ComparisonRow }) {
+  const noRealRange = row.before === row.after;
+  return (
+    <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+      <span style={labelStyle}>{row.label}</span>
+      {noRealRange ? (
+        <span style={{ fontFamily: "var(--font-mono)", fontSize: 17, fontWeight: 700, color: "var(--color-ink)" }}>{row.after}</span>
+      ) : (
+        <div style={{ display: "flex", flexWrap: "wrap", alignItems: "baseline", gap: 8 }}>
+          <span style={{ fontFamily: "var(--font-mono)", fontSize: 14, color: "var(--color-ink-secondary)" }}>{row.before}</span>
+          <span aria-hidden="true" style={{ opacity: 0.45, fontSize: 13 }}>
+            →
+          </span>
+          <span style={{ fontFamily: "var(--font-mono)", fontSize: 17, fontWeight: 700, color: "var(--color-ink)" }}>{row.after}</span>
+          <span style={pillStyle("var(--color-clay-rose-bg)", "var(--color-thread-plum)")}>{row.delta}</span>
+        </div>
+      )}
+    </div>
   );
 }
 
@@ -50,67 +139,22 @@ export function ComparisonStrip({ rows, priceHistory }: Props) {
   return (
     <div
       style={{
-        fontFamily: "var(--font-mono)",
-        fontSize: 15,
         background: "var(--color-bone)",
         border: "1px solid var(--color-border)",
-        borderRadius: "var(--radius-xl)",
+        borderRadius: "var(--radius-card)",
         padding: "var(--space-md)",
         display: "flex",
         flexDirection: "column",
-        gap: 8,
+        gap: "var(--space-md)",
       }}
     >
-      {rows.map((row) => {
-        const isPriceRow = row.label === "TYPICAL PRICE";
-        // Audit fix (round 3, items 2 + 7): two bugs in one row. (1) At
-        // 390px this row had no room for both the label and the full
-        // before/delta/after cluster, so the label wrapped mid-word
-        // ("TYPICAL" / "PRICE") and collided with the values next to it —
-        // fixed by letting the row wrap as a whole (label first, values
-        // below) instead of squeezing the label. (2) When before === after
-        // (price unchanged, or a single garment measurement with nothing to
-        // compare against), the row rendered the same value twice with a
-        // meaningless "0%"/"0\"" in between — e.g. "CHEST 40\" — 0\" — 40\""
-        // — which reads as fabricated range data on a widget whose whole
-        // job is evidence-based trust. Genuine differences (a real price
-        // drop, a real measurement gap) still render the full comparison.
-        const noRealRange = row.before === row.after;
-        return (
-          <div
-            key={row.label}
-            style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", rowGap: 4 }}
-          >
-            <span style={{ color: "var(--color-ink)", opacity: 0.65, letterSpacing: "0.04em", whiteSpace: "nowrap" }}>
-              {row.label}
-            </span>
-            {noRealRange ? (
-              <span style={{ fontWeight: 600 }}>{row.after}</span>
-            ) : (
-              <span style={{ display: "flex", flexWrap: "wrap", gap: 8, alignItems: "center" }}>
-                <span style={{ display: "flex", gap: 8, alignItems: "baseline" }}>
-                  <span>{row.before}</span>
-                  <span aria-hidden="true" style={{ opacity: 0.5 }}>
-                    ──
-                  </span>
-                  <span
-                    style={{
-                      color: row.delta.startsWith("+") || row.delta.startsWith("-") ? "var(--color-thread-plum)" : undefined,
-                    }}
-                  >
-                    {row.delta}
-                  </span>
-                  <span aria-hidden="true" style={{ opacity: 0.5 }}>
-                    ──
-                  </span>
-                  <span style={{ fontWeight: 600 }}>{row.after}</span>
-                </span>
-                {isPriceRow && priceHistory && <PricePulse history={priceHistory} />}
-              </span>
-            )}
-          </div>
-        );
-      })}
+      {rows.map((row) =>
+        row.label === "TYPICAL PRICE" ? (
+          <PriceRow key={row.label} row={row} priceHistory={priceHistory} />
+        ) : (
+          <MeasurementRow key={row.label} row={row} />
+        ),
+      )}
     </div>
   );
 }
