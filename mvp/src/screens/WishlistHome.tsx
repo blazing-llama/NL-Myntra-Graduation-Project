@@ -23,9 +23,41 @@ interface Props {
 // phase's own instruction it's omitted rather than forced from `group`,
 // which means something narrower already used elsewhere in this project.
 // Out of stock keeps its exact pre-existing component/logic, untouched.
+//
+// Phase 2 (final pre-submission round, Myntra design-language pass):
+// decision-readiness stays the primary grouping above — this doesn't
+// reverse that call. Category chips are a real, functional filter layered
+// on top (narrows which items populate every section below), not a
+// decorative row standing in for one. Circular letter-monogram chips
+// (no icon asset library available this close to deadline) cycling
+// through the four true locked accents, matching the real Myntra pattern
+// this was audited against (`docs/SESSION_HANDOFF.md` named it; the code
+// never actually had it before this).
+const CATEGORY_ACCENTS = ["var(--color-thread-plum)", "var(--color-moss)", "var(--color-ochre)", "var(--color-clay-rose)"];
+
 export function WishlistHome({ items, personas, activePersonaId, onOpenItem, onRemoveItems }: Props) {
   const activePersona = personas.find((p) => p.id === activePersonaId);
   const [similarFor, setSimilarFor] = useState<WishlistItem | null>(null);
+  const [activeCategory, setActiveCategory] = useState<string | null>(null);
+
+  const categories = useMemo(() => {
+    const seen = new Set<string>();
+    const list: string[] = [];
+    for (const i of items) {
+      if (!seen.has(i.category)) {
+        seen.add(i.category);
+        list.push(i.category);
+      }
+    }
+    return list;
+  }, [items]);
+
+  // Reset the filter if it switches to a persona whose wishlist doesn't
+  // have the previously-active category (e.g. via Switch persona).
+  const visibleItems = useMemo(
+    () => (activeCategory && categories.includes(activeCategory) ? items.filter((i) => i.category === activeCategory) : items),
+    [items, activeCategory, categories],
+  );
 
   // Audit fix (round 3, item 6): this persona is defined by
   // docs/research-findings.md's P3 characterization as a "moodboard, not a
@@ -37,8 +69,8 @@ export function WishlistHome({ items, personas, activePersonaId, onOpenItem, onR
   // doing. Scoped to just this panel, matching what was asked.
   const isInspirationPersona = activePersonaId === "inspiration_moodboard_saver";
 
-  const inStockItems = items.filter((i) => i.stock !== "out_of_stock");
-  const outOfStockItems = items.filter((i) => i.stock === "out_of_stock");
+  const inStockItems = visibleItems.filter((i) => i.stock !== "out_of_stock");
+  const outOfStockItems = visibleItems.filter((i) => i.stock === "out_of_stock");
 
   // Audit fix (Phase 1a, final pre-submission round): a STABLE, unchanged
   // price (nothing pending, no movement across every point on file) is real
@@ -140,6 +172,58 @@ export function WishlistHome({ items, personas, activePersonaId, onOpenItem, onR
           <span style={{ fontSize: 12, opacity: 0.85 }}>{activePersona?.description}</span>
         </div>
 
+        {categories.length > 1 && (
+          <div style={{ display: "flex", gap: "var(--space-md)", overflowX: "auto", paddingBottom: 2 }} role="group" aria-label="Filter by category">
+            {categories.map((cat, idx) => {
+              const active = activeCategory === cat;
+              const color = CATEGORY_ACCENTS[idx % CATEGORY_ACCENTS.length];
+              return (
+                <button
+                  key={cat}
+                  type="button"
+                  onClick={() => setActiveCategory((c) => (c === cat ? null : cat))}
+                  aria-pressed={active}
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    gap: 4,
+                    flexShrink: 0,
+                    minWidth: 56,
+                    background: "transparent",
+                    border: "none",
+                    padding: 0,
+                    cursor: "pointer",
+                  }}
+                >
+                  <span
+                    aria-hidden="true"
+                    style={{
+                      width: 44,
+                      height: 44,
+                      borderRadius: "50%",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      background: active ? color : "var(--color-bone)",
+                      color: active ? "white" : color,
+                      border: `1.5px solid ${color}`,
+                      fontFamily: "var(--font-display)",
+                      fontSize: 16,
+                      fontWeight: 700,
+                    }}
+                  >
+                    {cat.charAt(0)}
+                  </span>
+                  <span style={{ fontSize: 11, fontWeight: active ? 700 : 500, color: active ? "var(--color-ink)" : "var(--color-ink-secondary)" }}>
+                    {cat}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+        )}
+
         <div
           style={{
             display: "flex",
@@ -153,7 +237,7 @@ export function WishlistHome({ items, personas, activePersonaId, onOpenItem, onR
           {isInspirationPersona ? (
             <>
               <span style={{ fontSize: 13 }}>
-                <strong>{items.length}</strong> saved for inspiration — not a purchase decision.
+                <strong>{visibleItems.length}</strong> saved for inspiration — not a purchase decision.
               </span>
               {outOfStockItems.length > 0 && (
                 <span style={{ fontSize: 12, color: "var(--color-ink-secondary)" }}>

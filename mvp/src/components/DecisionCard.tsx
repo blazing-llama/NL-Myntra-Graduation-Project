@@ -10,6 +10,20 @@ import { ProductImage } from "./ProductImage";
 // Item Decision Page, secondary CTA opens Compare Similar. No confidence
 // badge here — that stays detail-page-only per the existing locked rule.
 
+// Phase 2 (Myntra design-language pass, final pre-submission round): real
+// e-commerce grid cards show the struck-through original price right next
+// to the current one, not just a "X% off" pill — the pill alone under-uses
+// space a real listing would use for a second, denser price signal. Reuses
+// the same priceHistory data ComparisonStrip already draws its price box
+// from; nothing new is fabricated.
+function originalPrice(item: WishlistItem): string | null {
+  if (!item.priceHistory || item.priceHistory.length < 2) return null;
+  const first = item.priceHistory[0];
+  const last = item.priceHistory[item.priceHistory.length - 1];
+  if (first === last) return null;
+  return `₹${first.toLocaleString("en-IN")}`;
+}
+
 function decisionHint(item: WishlistItem): string {
   if (item.confidence === "high") return "Enough evidence to make a confident call.";
   if (item.confidence === "medium") return "Worth a second look before deciding.";
@@ -53,7 +67,14 @@ export function DecisionCard({ item, hasSimilarItems, onReviewDecision, onCompar
       <div style={{ display: "flex", flexDirection: "column", gap: 2 }}>
         <span style={{ fontSize: 11, color: "var(--color-ink-secondary)" }}>{item.brand}</span>
         <span style={{ fontFamily: "var(--font-display)", fontSize: 15, lineHeight: 1.25 }}>{item.name}</span>
-        <span style={{ fontFamily: "var(--font-mono)", fontSize: 13 }}>{item.price}</span>
+        <span style={{ display: "flex", alignItems: "baseline", gap: 6 }}>
+          <span style={{ fontFamily: "var(--font-mono)", fontSize: 13, fontWeight: 700 }}>{item.price}</span>
+          {originalPrice(item) && (
+            <span style={{ fontFamily: "var(--font-mono)", fontSize: 11, color: "var(--color-ink-secondary)", textDecoration: "line-through" }}>
+              {originalPrice(item)}
+            </span>
+          )}
+        </span>
       </div>
 
       <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
