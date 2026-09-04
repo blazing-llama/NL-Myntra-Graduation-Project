@@ -8,6 +8,8 @@ Source: reviewed with the user in a separate Claude.ai conversation, not previou
 
 ## Part 1 — Survey summary (n=32, Google Form responses)
 
+**Form:** https://docs.google.com/forms/d/e/1FAIpQLScsU5OcvTbEetugF0pG-ek2eo_8VEz1DLEjX0gMDsydgOHizA/viewform — added here now that the link has been confirmed (previously this section cited n=32 with no actual URL anywhere in the repo; also linked in the deck, slide 4).
+
 **Why saved:** plan to buy soon 11, liked but unsure 11, comparing options 7, browsing/inspiration only 3.
 
 **Biggest reason not bought:** price uncertainty 9, quality doubt 7, fit doubt 6, occasion fit 4, forgot 3, other 3.
