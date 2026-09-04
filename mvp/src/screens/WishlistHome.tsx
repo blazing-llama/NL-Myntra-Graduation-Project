@@ -92,28 +92,52 @@ export function WishlistHome({ items, personas, activePersonaId, onOpenItem, onR
     return new Set(item.priceHistory).size === 1;
   }
 
+  // Bug fix (final pre-submission round): same class of issue Phase 1a
+  // fixed for "stable" items, extended to the other end of the same
+  // bucket. An item with a real, quantified price drop on file (the same
+  // condition PriceSignalBadge uses to show "Price drop (X%)") is
+  // concrete-but-partial evidence — it just hasn't reached the researched
+  // target threshold yet. Lumping it under "Needs more evidence" reads as
+  // contradictory next to its own % badge. This is a grouping/label change
+  // only: the confidence field, the target threshold, and the badge's own
+  // math are all untouched.
+  function hasPartialPriceSignal(item: WishlistItem): boolean {
+    if (!item.priceHistory || item.priceHistory.length < 2) return false;
+    return item.priceHistory[item.priceHistory.length - 1] < item.priceHistory[0];
+  }
+
   const readyToDecide = useMemo(() => inStockItems.filter((i) => i.confidence === "high"), [inStockItems]);
   const holdingSteady = useMemo(() => inStockItems.filter((i) => isPriceHoldingSteady(i)), [inStockItems]);
-  const needsMoreEvidence = useMemo(
+  const thinEvidence = useMemo(
     () =>
       inStockItems.filter(
         (i) => (i.confidence === "medium" || i.confidence === "insufficient") && !isPriceHoldingSteady(i),
       ),
     [inStockItems],
   );
+  const trackingPartialMove = useMemo(() => thinEvidence.filter((i) => hasPartialPriceSignal(i)), [thinEvidence]);
+  const needsMoreEvidence = useMemo(() => thinEvidence.filter((i) => !hasPartialPriceSignal(i)), [thinEvidence]);
 
   // Compact insight summary — counts only, plus an optional one-line next
   // step templated from real state (never fabricated): the oldest
   // ready-to-decide item not yet in cart, then the oldest holding-steady
   // item (the price question there is already settled), then the oldest
+  // item with a real-but-partial price signal, then the oldest
   // genuinely-thin-evidence item.
   const nextBestAction = useMemo(() => {
     const candidates = readyToDecide.filter((i) => !i.addedToCartAt);
-    const pool = candidates.length > 0 ? candidates : holdingSteady.length > 0 ? holdingSteady : needsMoreEvidence;
+    const pool =
+      candidates.length > 0
+        ? candidates
+        : holdingSteady.length > 0
+          ? holdingSteady
+          : trackingPartialMove.length > 0
+            ? trackingPartialMove
+            : needsMoreEvidence;
     if (pool.length === 0) return null;
     const oldest = pool.slice().sort((a, b) => new Date(a.wishlistedAt).getTime() - new Date(b.wishlistedAt).getTime())[0];
     return oldest;
-  }, [readyToDecide, holdingSteady, needsMoreEvidence]);
+  }, [readyToDecide, holdingSteady, trackingPartialMove, needsMoreEvidence]);
 
   // Round 2 item 6: never render the sheet with zero results. Try the same
   // persona's own wishlist first (most relevant — same shopper's context);
@@ -250,6 +274,7 @@ export function WishlistHome({ items, personas, activePersonaId, onOpenItem, onR
               <div style={{ display: "flex", flexWrap: "wrap", gap: "var(--space-md)", rowGap: 4, fontSize: 13 }}>
                 <span><strong>{readyToDecide.length}</strong> ready to decide</span>
                 {holdingSteady.length > 0 && <span><strong>{holdingSteady.length}</strong> holding steady</span>}
+                {trackingPartialMove.length > 0 && <span><strong>{trackingPartialMove.length}</strong> tracking a partial move</span>}
                 <span><strong>{needsMoreEvidence.length}</strong> need more evidence</span>
                 <span><strong>{outOfStockItems.length}</strong> out of stock</span>
               </div>
@@ -279,6 +304,14 @@ export function WishlistHome({ items, personas, activePersonaId, onOpenItem, onR
           hintOverride="Price hasn't moved — that part of the picture is settled, even though other evidence here is still thin."
         />
         <DecisionSection
+          title="Tracking a partial move"
+          items={trackingPartialMove}
+          categoryCounts={categoryCounts}
+          onOpenItem={onOpenItem}
+          onCompareSimilar={setSimilarFor}
+          hintOverride="The price has moved, but not far enough yet to call this one with confidence."
+        />
+        <DecisionSection
           title="Needs more evidence"
           items={needsMoreEvidence}
           categoryCounts={categoryCounts}
@@ -286,7 +319,11 @@ export function WishlistHome({ items, personas, activePersonaId, onOpenItem, onR
           onCompareSimilar={setSimilarFor}
         />
 
-        {readyToDecide.length === 0 && holdingSteady.length === 0 && needsMoreEvidence.length === 0 && outOfStockItems.length === 0 && (
+        {readyToDecide.length === 0 &&
+          holdingSteady.length === 0 &&
+          trackingPartialMove.length === 0 &&
+          needsMoreEvidence.length === 0 &&
+          outOfStockItems.length === 0 && (
           <p style={{ fontSize: "var(--type-body-size)", color: "var(--color-ink-secondary)" }}>
             Nothing in this wishlist yet.
           </p>
