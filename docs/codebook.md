@@ -1,4 +1,4 @@
-# Codebook — v2 (frozen 2026-08-25 — gold set merged, `evals/gold_set/gold_set_final_frozen.jsonl`, n=137)
+# Codebook — v3 (2026-09-05 — two categories added, see version history)
 
 Source: field schema and category definitions originally drafted in `docs/blueprints/02_AGENT_ORCHESTRATION.md` (Coding Agent system prompt). This version replaces v1's placeholder examples with real phrases pulled from the 613-item cleaned Play Store corpus (`data/processed/clean_myntra.json`, `clean_ajio.json`, `clean_nykaa.json`).
 
@@ -16,12 +16,15 @@ is_relevant: boolean
 primary_barrier: one of [
   "fit_size", "price_certainty", "occasion_styling", "quality_trust",
   "availability_decay", "timing_forgetting", "bookmark_not_intent",
+  "social_validation", "comparison_shopping",
   "other", "not_relevant"
 ]
 inferred_segment: string | null
 workaround_observed: string | null
 confidence_score: number (0–1)
 ```
+
+**v3 note on the two new categories:** neither has ever been run against any corpus item — see `docs/decisions/codebook-v3-amendment.md` for why they were added, what evidence grounds them, and exactly what has and hasn't been evaluated. Do not read their presence here as meaning they have corpus or gold-set coverage; they don't, same as three of the original seven.
 
 ## Category definitions, with real corpus examples
 
@@ -81,6 +84,18 @@ TRUE if the text indicates the save was for inspiration, styling ideas, or later
 - **Positive, weak/borderline** (`playstore-ajio-ef906c03-...`): the 70-item wishlist-capacity complaint implies heavy accumulation behaviour consistent with bookmarking-not-buying, but the user never explicitly states intent (or lack of it) — flag for review rather than force TRUE. **True clean positive not yet found — needs a Reddit-sourced example before freeze.**
 - **Negative** (`playstore-ajio-10134530-...`): *"items browsing information is very fast."* — "browsing" present, unrelated (app-speed praise).
 
+### `social_validation`
+TRUE if the text expresses that a purchase decision depends on, or was helped by, input from other people — friends, family, influencers, or social proof — rather than the platform's own product information.
+
+- **Grounding, not corpus-derived:** survey (`docs/research-findings.md` Part 1) — 30/32 (94%) look outside the app before deciding, and friends/family are named alongside shopping sites and Instagram/YouTube as one of those external sources (`docs/research-findings.md` Part 2, H4). No interview quote isolates social input as the *sole* barrier (it's bundled with general "external research" in H4), so this is a real, evidenced category but a thinner one than the other seven — flagged honestly, not inflated.
+- **Positive:** *(none found — never run against the Play Store corpus or any other corpus. Needs a real classification pass before a positive/negative/near-miss example can be logged here.)*
+
+### `comparison_shopping`
+TRUE if the text describes actively weighing this item against other specific options (a different product, a different app/site) before deciding, distinct from `price_certainty` (which is about whether *this item's own* price is fair) and from `quality_trust` (doubt about *this item's* quality).
+
+- **Grounding, not corpus-derived:** survey (`docs/research-findings.md` Part 1) — "comparing options" is 7/32 (22%) of stated reasons for saving an item, the third-largest category after "plan to buy soon" and "liked but unsure." `is_relevant`'s own definition has referenced "comparison-shopping" as in-scope since v1, but no barrier category ever captured it on its own — this closes that gap.
+- **Positive:** *(none found — never run against the Play Store corpus or any other corpus. Needs a real classification pass before a positive/negative/near-miss example can be logged here.)*
+
 ## What this means for the freeze decision
 
 Two categories (`quality_trust`, `availability_decay`) have real, usable positive examples from this corpus. Three (`fit_size`, `price_certainty`, `occasion_styling`) have none, and one (`timing_forgetting`) has none; `bookmark_not_intent` has only a borderline case. **This should not be read as "these barriers don't exist"** — it's consistent with v2's own prediction that Play Store reviews structurally under-represent pre-purchase hesitation. The negative and near-miss examples above are strong and corpus-grounded regardless; they're the same value either way. Positive-example gaps should close once the Reddit corpus (`data/raw/reddit_manual.jsonl`) is cleaned and available — revisit this file then, before the actual freeze.
@@ -89,3 +104,4 @@ Two categories (`quality_trust`, `availability_decay`) have real, usable positiv
 
 - **v1** (2026-08-19) — initial draft, placeholder descriptions only, ported from the provisional Coding Agent prompt.
 - **v2** (2026-08-19) — replaced placeholders with real corpus-sourced positive/negative/near-miss examples for every category; explicitly flagged which categories still lack a real positive example. Not frozen.
+- **v3** (2026-09-05) — added `social_validation` and `comparison_shopping` as full categories (previously not represented anywhere in the taxonomy, a real gap against the project brief's own question list — see `docs/decisions/codebook-v3-amendment.md`). Neither the frozen gold set nor `evals/e1_results.json` / `evals/e3_results.json` were touched or re-run: those remain exactly what they were, evaluating the original 9-category v2 taxonomy. The two new categories currently have zero evaluation of any kind, consistent with how this file has always reported zero-coverage categories — not silently implied as covered.

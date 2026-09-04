@@ -22,9 +22,15 @@ import argparse
 import json
 from pathlib import Path
 
+# v3 amendment (docs/decisions/codebook-v3-amendment.md, 2026-09-05): added
+# social_validation and comparison_shopping. No results file classified
+# against the old 9-value enum will ever populate these two -- that's
+# expected, not a bug; see the amendment doc for why they were added
+# without touching any existing frozen results.
 ALL_BARRIERS = [
     "fit_size", "price_certainty", "occasion_styling", "quality_trust",
     "availability_decay", "timing_forgetting", "bookmark_not_intent",
+    "social_validation", "comparison_shopping",
     "other", "not_relevant",
 ]
 

@@ -1,6 +1,8 @@
-# Coding Agent Prompt — FROZEN
+# Coding Agent Prompt — FROZEN (v2 core) + v3 category amendment
 
-**Gate cleared 2026-08-25.** Per project ground rules, this file could not be written or tuned until the full gold set (both tranches, hand-labelled, merged) existed and was frozen. That happened in EXP-005 (`docs/experiment_manifest.md`): `evals/gold_set/gold_set_final_frozen.jsonl`, n=137 (90 tranche 1 + 47 tranche 2), 29 relevant / 107 not-relevant / 1 unresolved-null carried over from tranche 1 (item 87, still blank — not fixed here, flagged for the user).
+**v3 amendment (2026-09-05):** two categories, `social_validation` and `comparison_shopping`, were added to the enum and codebook below — see `docs/decisions/codebook-v3-amendment.md` for why and what evidence grounds them. **This amendment does not reopen or invalidate the frozen v2 evaluation.** E1 (`evals/e1_results.json`, 0.875 accuracy) and E3 (`evals/e3_results.json`, κ=0.159) were run against the original 9-value enum and are reported exactly as they were — they say nothing about the two new categories, which have never been run against anything. Anywhere this file or README.md describes E1/E3 as "9-way," that description is accurate for those specific historical runs, not stale — it is not silently updated to "11-way" because that run never happened.
+
+**Gate cleared 2026-08-25** (v2 core, unchanged by the v3 amendment above). Per project ground rules, this file could not be written or tuned until the full gold set (both tranches, hand-labelled, merged) existed and was frozen. That happened in EXP-005 (`docs/experiment_manifest.md`): `evals/gold_set/gold_set_final_frozen.jsonl`, n=137 (90 tranche 1 + 47 tranche 2), 29 relevant / 107 not-relevant / 1 unresolved-null carried over from tranche 1 (item 87, still blank — not fixed here, flagged for the user).
 
 **E1 circularity guard (non-negotiable, per `docs/hypotheses.md` and the v2 blueprint's own risk table):** this prompt must never be tuned against `gold_set_final_frozen.jsonl`. It is evaluated against that set exactly once to produce the reported E1 accuracy/precision/recall/F1. If the prompt needs to change after seeing that result, the set is burned — a fresh holdout must be drawn and labelled, and the change logged in `docs/FAILURES.md` or `docs/decisions/`, not silently re-run against the same set until the number looks good.
 
@@ -24,6 +26,7 @@ Return ONLY a single JSON object matching this exact schema, no other text:
   "primary_barrier": one of [
     "fit_size", "price_certainty", "occasion_styling", "quality_trust",
     "availability_decay", "timing_forgetting", "bookmark_not_intent",
+    "social_validation", "comparison_shopping",
     "other", "not_relevant"
   ],
   "inferred_segment": string or null,
@@ -61,6 +64,17 @@ bookmark_not_intent = TRUE if the text indicates the save was for
 inspiration, styling ideas, or later browsing rather than a near-term
 purchase plan.
 
+social_validation = TRUE if the text expresses that the purchase decision
+depends on, or was helped by, input from other people (friends, family,
+influencers, or social proof) rather than the platform's own product
+information.
+
+comparison_shopping = TRUE if the text describes actively weighing this
+item against other specific options (a different product, a different
+app/site) before deciding. Do NOT use for a bare statement that the price
+or quality is good/bad with no named alternative being weighed — that is
+price_certainty or quality_trust instead.
+
 is_relevant = TRUE only if the text discusses pre-purchase hesitation,
 wishlist/save behaviour, or comparison-shopping. Delivery complaints,
 refund-processing-time complaints, and app-crash complaints with no
@@ -84,7 +98,7 @@ Compute a percentage, compare across reviews, or make claims about prevalence. I
 
 **`evals/gold_set/gold_set_final_frozen.jsonl`** (n=137) is the frozen evaluation set for all four evals below. Schema: `{id, source, text, relevant, category}` — note this is the *relevance pre-filter's* schema (binary `relevant` + a single `category` string), not the Coding Agent's own richer output schema (`is_relevant`, `primary_barrier`, `inferred_segment`, `workaround_observed`, `confidence_score`). E1 scoring compares `relevant`→`is_relevant` and `category`→`primary_barrier` only; `inferred_segment` and `workaround_observed` are not scored against this gold set (no ground truth exists for them) and should be spot-checked qualitatively instead.
 
-- **E1 — Coding accuracy (the spine).** Run the frozen prompt above against all 137 gold-set items. Report accuracy, precision, recall, F1 **per code** (all 8 values in `primary_barrier`'s enum, including `not_relevant`), plus overall `is_relevant` accuracy. **Categories with zero gold-set examples (`occasion_styling`, `timing_forgetting`, `bookmark_not_intent`) cannot get a real precision/recall score — report them as "no gold-set coverage," not as 0% or N/A silently.** Report the actual number, however it lands — per `docs/blueprints/wishlist-conversion-blueprint-v2.md`: "0.72 honestly reported beats 0.85 fabricated."
+- **E1 — Coding accuracy (the spine).** Run the frozen prompt above against all 137 gold-set items. Report accuracy, precision, recall, F1 **per code** (the 8 values that existed in `primary_barrier`'s enum at the time E1 was actually run, including `not_relevant`), plus overall `is_relevant` accuracy. **Categories with zero gold-set examples (`occasion_styling`, `timing_forgetting`, `bookmark_not_intent`) cannot get a real precision/recall score — report them as "no gold-set coverage," not as 0% or N/A silently.** Report the actual number, however it lands — per `docs/blueprints/wishlist-conversion-blueprint-v2.md`: "0.72 honestly reported beats 0.85 fabricated." **`social_validation` and `comparison_shopping` (added in the v3 amendment, `docs/decisions/codebook-v3-amendment.md`) did not exist when this run happened and are not part of the reported E1 result at all — not "0 coverage" like the three above, genuinely absent from the run.**
 - **E2 — Quote fidelity.** Exact/normalised substring match of every quoted item in any downstream report against the raw corpus (`data/processed/clean_*.json` / `relevance_*.json`). Auto-discard non-matches. Target 0% hallucinated quotes.
 - **E3 — Cross-model robustness (not validation).** Run the same frozen prompt against a 200-item sample with `openai/gpt-oss-20b` (Groq) and a genuinely distinct second model (blueprint calls for `hermes3:8b` via Ollama — still unresolved per `docs/FAILURES.md` 2026-08-19; needs a working substitute before this eval can run). Compute Cohen's κ. **Label the result "cross-model agreement / robustness," never "validation"** — agreement tells you the models agree, not that either is correct. E1 remains the only accuracy measure.
 - **E4 — Run stability.** Same corpus, 3 runs at temperature 0 → rank-order agreement of top barriers. If #1 changes between runs, the finding is not robust and that gets stated plainly, not smoothed over.
