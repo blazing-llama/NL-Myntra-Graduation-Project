@@ -1,0 +1,12 @@
+{
+  "name": "nl-myntra-deck-build",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Source-of-truth build script for docs/deck/NL Myntra.pptx + .pdf. Run: node build.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "pptxgenjs": "^3.12.0"
+  }
+}
