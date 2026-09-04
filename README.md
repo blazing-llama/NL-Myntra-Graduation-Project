@@ -4,6 +4,7 @@ Fashion-ecommerce wishlists fill up with items that never get bought. This proje
 
 **Live MVP:** https://mvp-henna-delta.vercel.app
 **Live discovery engine (testable):** https://zeusworkspace1.app.n8n.cloud/webhook/wishlist-discovery-engine
+**Live discovery engine demo (Streamlit):** https://nl-myntra-graduation-project-naspi2s3gtajwsv79uwe8w.streamlit.app/
 
 Every claim below is sourced from a file in this repo, cited inline. Numbers were checked directly against the underlying data files, not carried over from an earlier draft.
 
@@ -126,6 +127,8 @@ The MVP's five personas reflect this directly: five real, differently-confirmed 
 
 **Persona Picker** (`PersonaPicker.tsx`) → **Wishlist Intelligence** (`WishlistHome.tsx`) → **Item Detail** (`ItemDetail.tsx`), which surfaces the **Decision Check** widget (`DecisionCheck.tsx` — tabs: "Why now" / "If you wait" / "Evidence") → **Cart** (`CartView.tsx`, persona-scoped). Secondary/reachable-anytime: **Compare Similar** (`CompareSimilarSheet.tsx`) and **Alternatives** (`Alternatives.tsx`, with `AlternativeCompareSheet.tsx`).
 
+**Wishlist Intelligence** buckets each persona's items into *Ready to decide*, *Holding steady* (confidence still thin, but the price itself has genuinely settled — a distinct state from "needs more evidence"), *Needs more evidence*, and *Out of stock* (with a bulk-remove control). It also exposes real **category chips** (one per unique category in that persona's wishlist, e.g. Jeans/Sneakers/Tees) that filter the visible list. **Item Detail**'s price panel shows the current price against a `TYPICAL PRICE` comparison row (steady / down / up, struck-through original price when it moved) rather than a single bare number.
+
 **Five personas**, each a different interview-confirmed barrier, all reachable from the picker (`mvp/mock-data/personas.ts`):
 
 | Persona | Barrier |
@@ -137,6 +140,16 @@ The MVP's five personas reflect this directly: five real, differently-confirmed 
 | Inspiration / Moodboard Saver | Genuinely not near-term purchase intent (H2's minority case) |
 
 All wishlist/persona data is simulated, disclosed in-app (`SimulatedDataLabel.tsx`) — grounded in the real interview quotes but not real accounts or purchase history. The MVP's reasoning (confidence levels, Decision Check copy) is templated from that mock data, not live-inferenced against a model at request time — the deterministic-core-then-narration pattern the architecture doc describes, demonstrated on fixed data rather than wired to the discovery engine.
+
+### Discovery engine demo (Streamlit)
+
+**https://nl-myntra-graduation-project-naspi2s3gtajwsv79uwe8w.streamlit.app/** — `discovery_engine_demo/app.py`, a thin single-page UI over the same live n8n webhook from §2 (no separate model call, no mocked response). Three parts, top to bottom:
+
+1. **Corpus at a glance** — stat cards for reviews classified (2,203), gold-set size and inter-labeler agreement (n=137, 89.4%), and E1 classifier accuracy (87.5%), plus a bar chart of gold-set barrier counts. Every number here is pulled directly from `data/processed/relevance_summary.json` and `docs/experiment_manifest.md` (EXP-005/EXP-006) — nothing estimated.
+2. **What people actually said** — 6 verbatim interview quotes with persona/context and a "what this means" line, both reproduced as-is from `docs/research-findings.md` Part 2, not paraphrased or newly interpreted.
+3. **Metric framework** — the North Star / MVP leading indicators / guardrail definitions, mirroring deck slide 9 exactly (`docs/deck-build/build.js`). Definitions and rationale only — no numbers, since none of these are actually instrumented anywhere in this project yet.
+
+Below that, the original classify flow: paste or pick a gold-set example, POST it to the live webhook, see the real relevance/barrier/confidence response. No chat or free-text agent interface — exactly the 3 fixed fields the webhook returns, plus two optional ones.
 
 ---
 
@@ -214,6 +227,7 @@ evals/          E1/E3 scripts + results, frozen gold set, unit tests
 workflows/      discovery-engine-webhook.json (n8n)
 survey/         Google Form questionnaire
 mvp/            React + Vite decision-support demo (src/, mock-data/, supabase/)
+discovery_engine_demo/  Streamlit demo over the live n8n webhook (app.py)
 docs/
   decisions/    dated ADRs — see §9
   blueprints/   the original project brief and derived specs
