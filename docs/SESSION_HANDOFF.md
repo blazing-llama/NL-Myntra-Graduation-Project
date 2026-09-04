@@ -1,109 +1,76 @@
-# Session Handoff — 2026-08-25 (updated, post-research-findings)
+# Session Handoff — 2026-08-28
 
-Dense factual state dump for a fresh agent session. Not narrative. Verify anything below against live files before acting on it — this is a snapshot, not a guarantee.
-
-## Resolved: survey/interview discrepancy
-
-The prior version of this doc flagged that "survey n=32" and "6 interviews" were referenced but not found anywhere in the repo. **Resolved 2026-08-25:** the research is real — it happened in a separate Claude.ai conversation with the user and simply hadn't been written into this repo yet. The user provided the full survey summary and all 6 interview transcripts directly; they are now recorded in **`docs/research-findings.md`**, including a confirm/contradict matrix against the corpus and H2's resolution (bookmark_not_intent is real but a minority pattern, ~9% by both interview and survey evidence — most saves reflect genuine deferred intent blocked by a specific barrier, not inflated-denominator noise). Read that file for the actual findings; nothing here is fabricated or estimated.
-
-## Repo structure
-
-```
-docs/blueprints/       Read-only reference: 00-03 + v2 strategy blueprint + discovery-engine-webhook.json (source of truth for WHY/HOW)
-docs/decisions/        ADRs: git-identity-scrub, product-and-source-choice, reddit-source-choice, unified-data-schema
-docs/                  codebook.md (v2, NOT frozen), hypotheses.md (frozen), experiment_manifest.md, FAILURES.md
-scrapers/               playstore.py, appstore.py (both live-verified working)
-pipeline/               clean.py (source-agnostic), relevance_prefilter.py (v2 prompt, hardened retry logic), run_v2_full_pass.py (checkpointed reclassification), migrate_to_unified_schema.py (historical, already run)
-prompts/                versioned prompt library: relevance_prefilter/{v1,v2}.md + CHANGELOG.md
-agents/                 relevance_prefilter_prompt.md only. NO coding_agent_prompt.md yet (see gate section)
-evals/gold_set/         tranche 1 frozen + labeling exports (see gold-set section)
-data/raw/               playstore_{myntra,ajio,nykaa}.json, appstore_{myntra,ajio,nykaa}.json, reddit_manual.jsonl (1 placeholder row only)
-data/processed/         clean_*.json per source, relevance_*.json (STALE, pre-v2), relevance_v2_checkpoint.jsonl (live, in-progress), relevance_summary.json (STALE — still v1 Play Store numbers only)
-workflows/              discovery-engine-webhook.json — n8n workflow, live-tested, credential-based auth (not env-var)
-mvp/                    Vite+React app, deployed to Vercel (see MVP section)
-logs/                   run_v2_full_pass_*.log timestamped run logs (gitignored? check — currently untracked)
-.n8n-local/             local n8n test instance data, gitignored, not a deliverable
-survey/                 questionnaire.md template only — no responses collected
-```
+Dense factual state dump for continuity. Not narrative. Every claim below was verified directly against a live file or a live URL in this session — not transcribed from memory or from an earlier stale version of this doc. The previous version (dated 2026-08-25) was badly out of date by the time this was written; treat it as historical only.
 
 ## Data pipeline status
 
-**Scraped:**
-| Source | Method | Raw count | Verified live |
-|---|---|---|---|
-| Play Store (NEWEST) | `scrapers/playstore.py`, `google-play-scraper` | 500/app × 3 = 1,500 | ✅ |
-| Play Store (RATING asc, new) | `pipeline/run_v2_full_pass.py` phase 1 | 390/394/390 = 1,174 new | ✅ |
-| App Store | `scrapers/appstore.py`, Apple's public RSS feed directly (no lib — see FAILURES.md 2026-08-24) | 500/app × 3 = 1,500 | ✅ |
-| Reddit | Manual collection, per `docs/decisions/reddit-source-choice.md` (4 subreddits chosen: r/IndianFashionAddicts, r/indianbeautyhauls, r/TwoXIndia, r/india) | **1 placeholder row only — manual collection never completed** | N/A |
+- **v2 corpus reclassification: checkpointed, stopped intentionally at 2,203/2,921 items (75%).** Not a bug, not stalled — stopped on explicit instruction because the gold set needed the survey/interview evidence first. `data/processed/relevance_v2_checkpoint.jsonl` + rebuilt per-source `relevance_*.json` + `relevance_summary.json` reflect this final 2,203-item state, via `pipeline/finalize_v2_checkpoint.py`. Not reached: rest of Myntra Play Store (150 items), all of Nykaa Play Store (567), Reddit (1). Resuming this is still an open question for the user, not a default next action.
+- **Reddit:** 1 placeholder row only (`data/raw/reddit_manual.jsonl`). Per the deck (`docs/deck/NL Myntra.pptx`, slide 2), this is now framed as a disclosed scope decision — Reddit's Responsible Builder Policy requires a formal researcher program with a timeline this project's window couldn't accommodate — not silently dropped.
 
-**Reddit is NOT "dropped" — it's the reallocation target after Play Store failed the viability gate (EXP-001), subreddits were chosen and logged, but the actual hand-collection step (30–50 items target) was never done.** This is an open task, not a closed decision.
+## Primary research — logged
 
-**Cleaned corpus (post `pipeline/clean.py`):** 7 sources — ajio(576, includes new rating-sorted), appstore_ajio(411), appstore_myntra(288), appstore_nykaa(440), myntra(488, includes new), nykaa(180, NOT yet merged with new rating-sorted — check before trusting count), reddit(1). Total ≈ 2,921 (per `run_v2_full_pass.py`'s own count at last run).
+`docs/research-findings.md`: survey (n=32) + 6 interview transcripts, reviewed with the user in a separate conversation and logged here in full, including the confirm/contradict matrix against the corpus and H2's resolution (`bookmark_not_intent` real but a minority pattern, ~9%).
 
-**Relevance classification — TWO prompt versions exist, currently mid-reclassification:**
-- **v1** (`prompts/relevance_prefilter/v1-2026-08-19.md`): used for the original Play Store viability gate (EXP-001: 2/248 Myntra, 2/185 AJIO, 1/180 Nykaa) and the first two App Store apps (AJIO 3/411=0.7%, Myntra 4/288=1.4%). Nykaa App Store was never completed under v1 (job was killed mid-run when v2 was approved).
-- **v2** (`prompts/relevance_prefilter/v2-2026-08-25.md`): adds explicit "save/bookmark for inspiration vs. near-term purchase intent" clause, per an audit against H2 in `docs/hypotheses.md`. **Currently active in `pipeline/relevance_prefilter.py`.** Full corpus reclassification required under v2 for consistency (v1/v2 results cannot be mixed).
-- `data/processed/relevance_summary.json` is now **CURRENT as of 2026-08-25**, rebuilt from the checkpoint by `pipeline/finalize_v2_checkpoint.py`. It reflects the final, intentionally-stopped 2,203-item state below — not the full 2,921-item corpus.
-- **Final v2 state, from `data/processed/relevance_v2_checkpoint.jsonl`: 2,203 / 2,921 done (75%).** Per-source: ajio 20/576 (3.5%) relevant, appstore_ajio 2/411 (0.5%), appstore_myntra 8/288 (2.8%), appstore_nykaa 5/440 (1.1%), myntra 4/488 (0.8%) — myntra here is only the first 488 of the full 638-item myntra corpus. **Not reached: rest of myntra (150 items), all of nykaa playstore (567 items), reddit (1 item).**
-- **Run status: STOPPED — intentional, per explicit user instruction (2026-08-25), not a bug.** The prior framing ("died again," "likely laptop sleep") was wrong; it was told to stop for the same reason coding_agent_prompt.md stays gated — the gold set needed the survey/interview evidence first (see `docs/research-findings.md`) before further corpus work made sense. **Do not resume `pipeline/run_v2_full_pass.py` without asking the user first** — the previous framing of resuming being the "next action" no longer applies.
-- Comparison against pre-v2 (EXP-002) numbers: Play Store overall was 8.9% under human blind-labelling (tranche 1, all 3 apps pooled) vs. the original pilot's 0.6–1.1% per-app under v1's minimal prompt. Against v1's automated per-app numbers specifically — AJIO 3/411=0.7%→v2 not yet run on same slice at parity, Myntra App Store 4/288=1.4% (v1) vs. 8/288=2.8% (v2, same 288-item corpus) — **v2 roughly doubled the automated relevant rate on App Store Myntra**, consistent with the v2 prompt's added save/bookmark-vs-purchase-intent clause catching more genuine pre-purchase content. AJIO App Store v2 (2/411=0.5%) is *lower* than v1's automated 0.7% — small-count noise at n≈3 either way, not a reliable signal either direction. Play Store AJIO v2 (20/576=3.5%) is well above the original v1 Play Store pilot's 0.6–1.1% range, but that comparison also includes the new rating-sorted review batch (not in v1's corpus at all), so the prompt-version effect and the corpus-composition effect are confounded there — cannot cleanly attribute the increase to the prompt fix alone on that slice.
-- `pipeline/relevance_prefilter.py`'s `classify()` was hardened 2026-08-25: 60s timeout (was 30s), 2 retries with backoff on `ReadTimeout`/`ConnectionError`, never raises — logs unrecoverable items to `data/processed/relevance_v2_skipped.jsonl` (doesn't exist yet — no items have needed it) and continues. This fix was NOT active during the 730-item run; it IS active for anything classified after 2026-08-25 ~19:00 IST.
+## Gold set — FROZEN, n=137
 
-## Gold-set status
+`evals/gold_set/gold_set_final_frozen.jsonl`. Tranche 1 (90, Play Store) + tranche 2 (47, double-labeled — 89.4% raw agreement, 100% category agreement on jointly-flagged-relevant items, 5 disagreements tie-broken by the user) merged via `evals/merge_gold_set.py`. 29 relevant / 107 not-relevant / 1 unresolved-null (tranche 1's item 87, carried forward, never fixed). Category breakdown: `price_certainty`=11, `quality_trust`=7, `fit_size`=6, `availability_decay`=5, **`occasion_styling`/`timing_forgetting`/`bookmark_not_intent`=0** — real per interviews (`docs/research-findings.md`), not gold-set coverage gaps to close.
 
-- **Tranche 1: FROZEN.** `evals/gold_set/gold_set_playstore_tranche.jsonl` — 90 items, hand-labelled (blind), Play Store only. Schema: `{id, source, text, relevant, category}`. One row (item 87) has `relevant: null, category: null` — labeler left it blank, flagged, not yet resolved by the user.
-  - Result: 8/90 (8.9%) relevant. Categories: price_certainty=4, quality_trust=3, availability_decay=1, **fit_size/occasion_styling/timing_forgetting/bookmark_not_intent = 0** (this is the open question the v2 prompt fix and App Store expansion are trying to resolve).
-- **Tranche 2: DRAWN, awaiting user review before labeling.** `evals/sample_gold_set_tranche2.py` pulled all 35 v2-relevant items (not already in tranche 1) across the 5 classified v2 sources: myntra 2, ajio 18, appstore_myntra 8, appstore_ajio 2, appstore_nykaa 5. Output: `evals/gold_set/candidates_tranche2.jsonl` + `candidates_for_labeling_tranche2.csv` (blind CSV, same format as tranche 1) + `item_number_to_id_tranche2.json` (mapping, never shown to labeler). **Do not hand this to the labeler yet — the user needs to review the draw first**, per explicit instruction. No filler not-relevant items were needed; 35 relevant items alone hit the target range.
-- Supporting files already in `evals/gold_set/`: `candidates.jsonl` (90 pre-shuffle candidates), `candidates_for_labeling.csv` (blind export, tranche 1), `labeling_handoff.csv` (early plain-text export, superseded by `candidates_for_labeling.csv`), `item_number_to_id.json` (tranche 1 mapping, re-ingestion only, never shown to labeler).
+## Coding Agent — gate cleared, prompt written
 
-## Hard gate: coding_agent_prompt.md
+`agents/coding_agent_prompt.md` exists, frozen, matches `docs/codebook.md` (also now frozen). **Only ever run against the 137-item gold set for evaluation — never against the full ~2,900-item corpus.**
 
-**`agents/coding_agent_prompt.md` DOES NOT EXIST. Gate has NOT cleared.**
+## Evals — E1 and E3 both run, logged as EXP-006/EXP-007 in `docs/experiment_manifest.md`
 
-Per project ground rules (repeated explicitly by the user throughout this session): the full gold set must be hand-labelled and frozen — **both tranches, merged into one file** — before this prompt gets written or tuned. Tranche 1 is frozen; tranche 2 isn't drawn yet. **Do not write or tune this file until both tranches exist, are merged, and the user has explicitly confirmed the combined set is frozen.** This has been asked for and respected repeatedly this session — treat it as non-negotiable, not a suggestion.
+- **E1 (`evals/e1_gold_set_eval.py`): overall `is_relevant` accuracy 0.875**, n=136 scored (1 null excluded), 0 classification failures on the final clean run. Per-category: `availability_decay` P/R/F1 = 1.000/1.000/1.000 (n=5); `not_relevant` = 0.941/0.897/0.919 (n=107); `fit_size` = 1.000/0.667/0.800 (n=6); `quality_trust` = 0.833/0.714/0.769 (n=7); `price_certainty` = 0.667/0.545/0.600 (n=11, recall moved 0.4→0.5→0.545 across 3 runs — small-sample noise, not a trend). Other 3 categories: no gold-set coverage, not scored.
+- **E3 (`evals/e3_cross_model_agreement.py`): Cohen's κ = 0.159 (primary_barrier), 0.222 (is_relevant), raw agreement 0.301.** Groq `openai/gpt-oss-20b` vs. local Ollama `llama3.2:3b` (substituted for the blueprint's `hermes3:8b`, which never pulled successfully — `docs/FAILURES.md` 2026-08-19). Logged as a real limitation of the smaller local backup model, not smoothed into a robustness claim — the deck states this explicitly (slide 8).
 
-## MVP status
+## MVP — 5-screen app, two build rounds + QA + bloat audit, deployed and locked
 
-- **Built:** Vite+React app, `mvp/`. Both locked screens (WishlistHome, ItemDetail) with all 12 Section A requirements from `01_MVP_DESIGN_SPEC.md` verified in-browser at multiple points this session. Theme A ("Warm Humanist & Editorial") structural/interaction treatment applied on top of the locked palette/typefaces (commit `a076c27`) — NOT a palette/typeface swap.
-- **Live:** `https://mvp-henna-delta.vercel.app` (stable alias; underlying deployment IDs rotate on redeploy). Deployed via `vercel deploy --prod --yes` from `mvp/`. Vercel account: `sankalp7979-6401`.
-- **Product images:** 5 real Unsplash photos, hardcoded CDN URLs (commit `949dc4f`).
-- **Supabase event log:** `mvp/supabase/schema.sql` (event_log table, RLS + explicit GRANTs — see FAILURES.md 2026-08-25 for a real gotcha: RLS policy alone is NOT sufficient, needs a paired `GRANT`). Wired into add_to_cart, trace_expand, badge_tap. **Verified live end-to-end (201 Created confirmed via direct REST call matching the app's exact insert shape).** Real credentials are in `mvp/.env` (gitignored) and Vercel production env vars (`VITE_SUPABASE_URL`/`VITE_SUPABASE_ANON_KEY`, set with `--visibility config --no-sensitive` — required for any `VITE_`-prefixed var on Vercel now).
-- **Why Now badge:** `mvp/src/components/WhyNowBadge.tsx` — **DRAFT COPY, not finalized** (commit `4459636`, explicitly labeled as such). No spec for this feature existed anywhere in the docs when built — the badge label, 48h age threshold, and all three fixed-prompt strings ("why resolves now" / "what if I wait" / "why am I seeing this") are placeholders pending user edits. Logic (age gate AND confidence-!=-insufficient gate; stock-based honest scarcity-or-nothing-changes copy) is verified working in-browser; wording is not approved.
-- **`mvp/api/narrate.ts`:** stub only, not wired to the frontend yet — real LLM narration layer waits on Phase 5 barrier selection.
+**Live:** https://mvp-henna-delta.vercel.app
 
-## ⚠️ Git status — 4 commits NOT pushed, working tree dirty
+Screens: `PersonaPicker` (two-step: title grid → info panel with real barrier/quote/honest sourcing line → explicit "View wishlist" action, no auto-route), `WishlistHome` (asymmetric editorial grid, category chips, out-of-stock section with bulk remove, similar-items bottom sheet that never dead-ends), `ItemDetail` (3 confidence states always icon+color+label, price-pulse sparkline where price is part of the reasoning, `AITraceWidget`), `CartView` (persona-scoped, explicitly labeled as such).
+
+Build history in this repo (commits, all pushed — see Git status below): v2 corpus data → research findings → gold set freeze + Coding Agent + E1/E3 → MVP product imagery (30 images) → MVP full build (persona picker, grid, trace widget, cart, QA fixes: jargon removed from persona panel, singleton-category "Similar items" hidden rather than dead-ending, out-of-stock checkbox given real visual affordance, "Unendorsed" replaced with plain language, jeans/necklace evidence-accuracy correction) → docs (README case study, opportunity-selection ADR, discovery-engine-hosting ADR).
+
+**Bloat audit run 2026-08-27:** no dead code, no unused npm deps, no oversized images (all 30 product images already correctly sized, 190–320px wide), no stray/debug files. Nothing deleted, nothing to redeploy for.
+
+**Full regression pass, all 5 personas, verified directly on the production URL** (not local) after every round — zero console errors on the final pass.
+
+## Discovery engine — public, live, verified
+
+`workflows/discovery-engine-webhook.json` deployed to n8n Cloud (free trial — `docs/decisions/discovery-engine-hosting.md`). **Public webhook, verified working 2026-08-27 by direct POST, independently re-verified (not just taking the report at face value):**
 
 ```
-Local ahead of origin/main by 4 commits:
-  4459636 feat: Why Now badge shell -- DRAFT copy, not yet finalized
-  5946a7c feat: Supabase event log wiring, verified live end-to-end
-  9957341 data: gold-set tranche 1 frozen, blind-labeling exports, EXP-002 update
-  36dc8a5 feat: App Store scraper via Apple's public RSS feed; fix: app-store-scraper broke venv deps
+https://zeusworkspace1.app.n8n.cloud/webhook/wishlist-discovery-engine
 ```
-Push was never explicitly requested for these — do not push without asking.
 
-Working tree currently has uncommitted changes: `pipeline/relevance_prefilter.py` (v2 prompt + retry hardening), new `pipeline/run_v2_full_pass.py`, new `prompts/` dir, in-progress data files (`data/processed/relevance_v2_checkpoint.jsonl`, partial `relevance_appstore_*.json`, modified `clean_*.json`/`playstore_*.json` from the new rating-sorted scrape). **Do not commit the data/processed files until the v2 reclassification run actually completes** — they're mid-run, not a coherent snapshot.
+Real classification → 200 + correct `primary_barrier`; not-relevant text → 200 + `is_relevant:false`; missing-text → 400 + correct error. A documented (unexecuted) tunnel fallback exists in the same ADR in case the Cloud instance ever needs replacing.
 
-## Phase status (v2 blueprint Part I timeline)
+## Deck — exists, verified 2026-08-28, matches project reality
 
-Blueprint gates: Aug 18–20 (source viability) → Aug 21–24 (coding run + Wave 1 interviews) → Aug 25–27 (segment/opportunity chosen) → Aug 26–30 (Wave 2 + MVP) → Sep 1–2 (E8 eval) → Sep 3–4 (deck). **Today is 2026-08-25.**
+`docs/deck/NL Myntra.pptx` + `NL Myntra.pdf` (built in a separate Claude.ai session, not this repo — added here 2026-08-28). Verified directly, not taken on claim:
 
-**Actual state is behind the blueprint's own schedule:**
-- Aug 20 gate (source viability): resolved, but the answer was "reallocate" (Play Store <10 threshold) and the reallocation (Reddit) still hasn't produced real data.
-- Aug 24 gate ("enough validated evidence to choose an opportunity?"): **not met.** No frozen full gold set (tranche 2 drawn but not labeled/merged), no coding_agent_prompt.md, no full barrier-classification run has ever happened (only relevance-only pre-filtering, twice, under two prompt versions). Interview/survey data now exists and is recorded in `docs/research-findings.md` (see above) — that part of the gap is closed, but it still needs to feed into a merged, frozen gold set before the gate clears.
-- MVP shell (nominally an Aug 26–30 deliverable) is already built and deployed — **out of sequence** relative to segment/opportunity selection, which hasn't happened. This was done deliberately (Phase 6 early-scaffold instruction, per `00_IMPLEMENTATION_BLUEPRINT.md`'s own note to deploy early with placeholder data) — not a mistake, but means the MVP's content is still 100% mock/generic until Phase 5 picks a real barrier.
+- **10 slides / 10 pages** — confirmed independently both ways (pptx: 10 slide XML files inside the archive; pdf: 10 form-feed page breaks in extracted text).
+- **No fellow's name found** — checked 3 ways: raw content grep across all extracted pptx XML, `docProps/core.xml` metadata (creator/lastModifiedBy both say generic "PptxGenJS", no personal name), and `pdftotext` extraction of the PDF. Also checked for any email pattern and the known personal surname — none found.
+- **File sizes:** pptx 262,677 bytes, pdf 177,055 bytes — both trivially well under the 40MB limit.
+- **Both extract/open cleanly** — pptx unzips without error, pdftotext extracts without error.
+- **Content spot-check:** the numbers in the deck (2,203 reviews classified, n=137 gold set, 0.875 E1 accuracy, κ=0.159, the real P1 interview quote on the Wide-Leg Jeans flagship slide, both live URLs) all match what's independently verifiable elsewhere in this repo — not fabricated slide content.
+- **Not yet committed to git** — currently untracked (`docs/deck/` shows as `??` in `git status`). Needs a commit + push if it should be part of the pushed repo state.
 
-## Immediate next 2–3 actions
+## Git status — clean except the new deck files
 
-1. **User reviews the tranche 2 draw** (`evals/gold_set/candidates_for_labeling_tranche2.csv`, 35 items) before it goes to labeling.
-2. Get tranche 2 hand-labelled (blind), same process as tranche 1. Resolve tranche 1's one blank row (item 87) at the same time if possible.
-3. Merge tranche 1 + tranche 2 into one frozen gold set, update EXP-002 with final numbers — **only then** write `agents/coding_agent_prompt.md`.
-4. Whether to resume `pipeline/run_v2_full_pass.py` for the remaining 718 items (rest of myntra, all of playstore nykaa, reddit) is an open question for the user, not a default next step — the stop was intentional this time.
+All prior work is committed and pushed: **10 commits, local HEAD == `origin/main`** (`0a704e5...`, verified via `git fetch` + hash comparison, re-confirmed 2026-08-28). Working tree was fully clean before the deck files were added this session; the only current diff is `docs/deck/` (untracked, not yet committed).
 
-## Open issues carried forward (from FAILURES.md, still relevant)
+## Open items carried forward
 
-- **RLS + GRANT gotcha** (2026-08-25): any future Supabase table needs an explicit `GRANT`, not just an RLS policy — policy alone fails with "permission denied," a different error from an RLS rejection.
-- **n8n `$env` access is blocked by default** (2026-08-22): the discovery-engine webhook uses an n8n Credential now, not env-var interpolation — anyone hosting it fresh needs to create a "Groq API Key (Header Auth)" credential matching the placeholder ID in the committed JSON.
-- **Never PATCH an active n8n workflow's nodes/connections live** — delete + clean re-import instead (corrupts webhook registration otherwise).
-- **Unmaintained PyPI packages can silently break shared venv deps** (`app-store-scraper` downgraded `requests`/`urllib3` project-wide) — check maintenance status before installing anything new into this venv.
-- **`relevance_prefilter.py` runs are fragile over multi-hour spans** — silent interruptions (not crashes) have happened twice now on the same run. The retry/timeout hardening addresses transient Ollama timeouts but not whatever is killing the process itself (laptop sleep is the leading suspect, unconfirmed).
+- Whether to resume `pipeline/run_v2_full_pass.py` for the remaining 25% of the corpus — still an open question for the user, not a default next step.
+- Tranche 1's item 87 (`relevant: null`) — still unresolved, never fixed.
+- `mvp/api/narrate.ts` — still a documented stub, not wired to the frontend; real LLM narration layer was deliberately deferred (deck slide 10 discloses this openly: "demo reasoning is templated").
+- `docs/deck/` needs committing if it should be part of the tracked/pushed repo state.
+
+## Known gotchas (still relevant, from `docs/FAILURES.md`)
+
+- RLS + GRANT: any new Supabase table needs an explicit `GRANT`, not just an RLS policy.
+- n8n: never PATCH an active workflow's nodes/connections live — delete + clean re-import instead.
+- Unmaintained PyPI packages can silently break shared venv deps — check before installing anything new.
+- This session's Browser-pane tooling has had two known quirks: synthetic `computer` clicks occasionally fail to register (native `.click()` via `javascript_tool` is the reliable fallback), and Vite's dev-server HMR can leave a stale/broken module graph after deleting files mid-session (a clean server restart + fresh browser tab resolves it — confirmed a "syntax error" this way was stale, not real, more than once).
