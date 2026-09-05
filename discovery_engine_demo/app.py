@@ -33,6 +33,31 @@ BARRIER_COUNTS = [
     ("Bookmark, not intent", 0),
 ]
 
+# Survey, n=32 (docs/research-findings.md Part 1) -- exact figures already
+# computed there, not re-estimated here.
+REASON_NOT_BOUGHT = [
+    ("Price uncertainty", 9),
+    ("Quality doubt", 7),
+    ("Fit doubt", 6),
+    ("Occasion fit", 4),
+    ("Forgot", 3),
+    ("Other", 3),
+]
+SIZE_TRUST = [
+    ("Trust, but verify", 19),
+    ("Somewhat trust", 7),
+    ("Would not trust", 4),
+    ("Fully trust", 2),
+]
+AVAILABILITY_DECAY_RATE = "32/32 (100%)"
+
+# WCAG-checked pairing for the two darker locked-palette colors, since white
+# text fails AA contrast on both (computed: white/Ochre = 3.39:1, white/Clay
+# Rose = 3.2:1 -- both below the 4.5:1 text minimum). Ink text on those two
+# instead clears it (4.93:1 and 5.22:1). Plum and Moss keep white text
+# (9.77:1 and 5.97:1) -- this is a fixed lookup, not a per-render guess.
+BADGE_TEXT_ON = {"#5B3A4A": "#FFFFFF", "#4B6B4F": "#FFFFFF", "#B5822A": "#211D1B", "#C97B72": "#211D1B"}
+
 # Real gold-set examples (evals/gold_set/gold_set_final_frozen.jsonl),
 # one per barrier category with corpus coverage — not invented text.
 EXAMPLES = [
@@ -141,7 +166,27 @@ with st.container(border=True):
 
     st.caption("Barrier category counts in the gold set")
     barrier_df = pd.DataFrame(BARRIER_COUNTS, columns=["Barrier", "Count"]).set_index("Barrier")
-    st.bar_chart(barrier_df, horizontal=True)
+    st.bar_chart(barrier_df, horizontal=True, color="#5B3A4A")
+
+st.divider()
+
+with st.container(border=True):
+    st.markdown("**Survey at a glance**")
+    st.caption(
+        "n=32 Google Form responses — `docs/research-findings.md` Part 1. "
+        "Same figures already computed there, not re-estimated here."
+    )
+    st.metric("Have had a saved item go out of stock before deciding", AVAILABILITY_DECAY_RATE)
+
+    sc1, sc2 = st.columns(2)
+    with sc1:
+        st.caption("Biggest reason not bought")
+        reason_df = pd.DataFrame(REASON_NOT_BOUGHT, columns=["Reason", "Count"]).set_index("Reason")
+        st.bar_chart(reason_df, horizontal=True, color="#B5822A")
+    with sc2:
+        st.caption("Size-prediction trust")
+        trust_df = pd.DataFrame(SIZE_TRUST, columns=["Response", "Count"]).set_index("Response")
+        st.bar_chart(trust_df, horizontal=True, color="#4B6B4F")
 
 st.divider()
 
@@ -154,12 +199,19 @@ st.caption(
 quote_cols = st.columns(2)
 for i, item in enumerate(INTERVIEW_QUOTES):
     with quote_cols[i % 2]:
+        # Legibility fix: the previous version dimmed the attribution line
+        # with CSS opacity, which shrinks contrast unpredictably depending
+        # on the viewer's light/dark theme (verified: it's the underlying
+        # text color that must stay full-strength, not the border accent).
+        # Font-size/weight now carries the visual hierarchy instead of
+        # opacity, and the border accent colors are checked separately
+        # (BADGE_TEXT_ON) since they only ever sit as a stripe, never text.
         st.markdown(
             f"""
-<div style="border-left: 4px solid {item['color']}; background: rgba(0,0,0,0.02);
-            border-radius: 6px; padding: 12px 14px; margin-bottom: 12px;">
+<div style="border-left: 4px solid {item['color']}; border-radius: 6px;
+            padding: 12px 14px; margin-bottom: 12px;">
   <div style="font-size: 15px; font-style: italic; margin-bottom: 6px;">“{item['quote']}”</div>
-  <div style="font-size: 12px; opacity: 0.7; margin-bottom: 6px;">
+  <div style="font-size: 12px; font-weight: 600; margin-bottom: 6px;">
     {item['who']} · {BARRIER_LABELS.get(item['category'], item['category'])}
   </div>
   <div style="font-size: 13px;">{item['meaning']}</div>
@@ -176,13 +228,14 @@ st.caption(
     "instrumented in this MVP, so no numbers are shown next to them."
 )
 for label, name, rationale, color in METRIC_TIERS:
+    badge_text = BADGE_TEXT_ON.get(color, "#FFFFFF")
     st.markdown(
         f"""
-<div style="border: 1px solid rgba(0,0,0,0.1); border-radius: 8px; padding: 12px 16px; margin-bottom: 10px;">
-  <span style="background: {color}; color: white; font-size: 11px; font-weight: 600;
+<div style="border: 1px solid rgba(128,128,128,0.35); border-radius: 8px; padding: 12px 16px; margin-bottom: 10px;">
+  <span style="background: {color}; color: {badge_text}; font-size: 11px; font-weight: 700;
                letter-spacing: 0.5px; border-radius: 4px; padding: 2px 8px;">{label}</span>
   <div style="font-size: 17px; font-weight: 600; margin-top: 8px;">{name}</div>
-  <div style="font-size: 13px; opacity: 0.75; margin-top: 4px;">{rationale}</div>
+  <div style="font-size: 13px; font-weight: 400; margin-top: 4px;">{rationale}</div>
 </div>
 """,
         unsafe_allow_html=True,

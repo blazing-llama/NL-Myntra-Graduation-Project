@@ -85,6 +85,9 @@ def check_pptx(pptx_path: Path) -> bool:
         "https://docs.google.com/forms/d/e/1FAIpQLScsU5OcvTbEetugF0pG-ek2eo_8VEz1DLEjX0gMDsydgOHizA/viewform",
         "https://github.com/blazing-llama/NL-Myntra-Graduation-Project",
         "https://nl-myntra-graduation-project-naspi2s3gtajwsv79uwe8w.streamlit.app/",
+        "https://github.com/blazing-llama/NL-Myntra-Graduation-Project/blob/main/docs/codebook.md",
+        "https://github.com/blazing-llama/NL-Myntra-Graduation-Project/blob/main/docs/decisions/problem-definition.md",
+        "https://github.com/blazing-llama/NL-Myntra-Graduation-Project/blob/main/docs/decisions/opportunity-selection.md",
     ]
     rels_text = ""
     for n in z.namelist():

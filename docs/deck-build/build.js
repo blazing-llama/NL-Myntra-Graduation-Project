@@ -30,6 +30,10 @@ const SURVEY_URL = "https://docs.google.com/forms/d/e/1FAIpQLScsU5OcvTbEetugF0pG
 const MVP_URL = "https://mvp-henna-delta.vercel.app";
 const N8N_URL = "https://zeusworkspace1.app.n8n.cloud/webhook/wishlist-discovery-engine";
 const STREAMLIT_URL = "https://nl-myntra-graduation-project-naspi2s3gtajwsv79uwe8w.streamlit.app/";
+// Verified live (curl -> 200) against the real repo before hardcoding, not assumed.
+const CODEBOOK_URL = "https://github.com/blazing-llama/NL-Myntra-Graduation-Project/blob/main/docs/codebook.md";
+const PROBLEM_DEF_URL = "https://github.com/blazing-llama/NL-Myntra-Graduation-Project/blob/main/docs/decisions/problem-definition.md";
+const OPPORTUNITY_URL = "https://github.com/blazing-llama/NL-Myntra-Graduation-Project/blob/main/docs/decisions/opportunity-selection.md";
 
 const pres = new pptxgen();
 pres.layout = "LAYOUT_WIDE";
@@ -215,8 +219,13 @@ function inlineLink(slide, { x, y, w, label, labelColor, url, displayText, textC
   s.addText('curl -X POST \\\n  $WEBHOOK_URL \\\n  -d \'{"text":"waiting for\n  the price to drop"}\'', {
     x: colX0 + 0.42, y: colY + 1.7, w: colW - 0.84, h: 1.1, fontFace: "Courier New", fontSize: 14, color: INK, isTextBox: true, margin: 0, lineSpacingMultiple: 1.15 });
   inlineLink(s, { x: colX0 + 0.3, y: colY + 3.05, w: colW - 0.6, label: "WEBHOOK", labelColor: MOSS, url: N8N_URL, displayText: "…/wishlist-discovery-engine", textColor: INK });
-  s.addText("Adds two categories beyond the original 7 — social_validation and comparison_shopping (v3, docs/codebook.md) — closing a real gap against the brief's own question list. Neither has corpus data yet; reported honestly, not silently implied.", {
-    x: colX0 + 0.3, y: colY + 3.55, w: colW - 0.6, h: 1.3, fontFace: BODY_FONT, italic: true, fontSize: 14, color: "6B6259", isTextBox: true, margin: 0, lineSpacingMultiple: 1.15 });
+  s.addText(
+    [
+      { text: "Adds two categories beyond the original 7 — social_validation and comparison_shopping (v3, ", options: { italic: true, fontSize: 14, color: "6B6259" } },
+      { text: "docs/codebook.md", options: { italic: true, fontSize: 14, color: "6B6259", underline: true, hyperlink: { url: CODEBOOK_URL } } },
+      { text: ") — closing a real gap against the brief's own question list. Neither has corpus data yet; reported honestly, not silently implied.", options: { italic: true, fontSize: 14, color: "6B6259" } },
+    ],
+    { x: colX0 + 0.3, y: colY + 3.55, w: colW - 0.6, h: 1.3, fontFace: BODY_FONT, isTextBox: true, margin: 0, lineSpacingMultiple: 1.15 });
 
   const col2X = colX0 + colW + colG;
   s.addShape(pres.ShapeType.roundRect, { x: col2X, y: colY, w: colW, h: colH, rectRadius: 0.1, fill: { color: WHITE }, line: { color: OCHRE, width: 1.25 } });
@@ -303,8 +312,13 @@ function inlineLink(slide, { x, y, w, label, labelColor, url, displayText, textC
       s.addText("↓", { x: rx + labelW / 2 - 0.2, y: y + rowH - 0.05, w: 0.4, h: rowGap + 0.15, fontFace: BODY_FONT, fontSize: 14, color: OCHRE, align: "center", valign: "middle", isTextBox: true, margin: 0 });
     }
   });
-  s.addText("Full chain, in writing: docs/decisions/problem-definition.md — every link traces to a file already in this repo, not a narrative built after the fact.", {
-    x: 0.7, y: ry0 + 5 * (rowH + rowGap) + 0.05, w: 11.9, h: 0.4, fontFace: BODY_FONT, italic: true, fontSize: 14, color: "6B6259", isTextBox: true, margin: 0 });
+  s.addText(
+    [
+      { text: "Full chain, in writing: ", options: { italic: true, fontSize: 14, color: "6B6259" } },
+      { text: "docs/decisions/problem-definition.md", options: { italic: true, fontSize: 14, color: "6B6259", underline: true, hyperlink: { url: PROBLEM_DEF_URL } } },
+      { text: " — every link traces to a file already in this repo, not a narrative built after the fact.", options: { italic: true, fontSize: 14, color: "6B6259" } },
+    ],
+    { x: 0.7, y: ry0 + 5 * (rowH + rowGap) + 0.05, w: 11.9, h: 0.4, fontFace: BODY_FONT, isTextBox: true, margin: 0 });
 
   footer(s, false); pageNum(s, 5, false);
 }
@@ -337,8 +351,13 @@ function inlineLink(slide, { x, y, w, label, labelColor, url, displayText, textC
     cornerBadge(s, x + cw - 0.4, y + 0.12, i + 1, accent);
   });
 
-  s.addText("Chosen for being most fully evidenced and buildable — not for being the only real barrier. quality_trust, fit_size, and availability_decay are each independently confirmed too (docs/decisions/opportunity-selection.md); availability_decay has the strongest cross-method triangulation of all four (6/6 interviews, 32/32 survey).", {
-    x: 0.7, y: cy0 + 2 * (ch + 0.15) + 0.05, w: 11.9, h: 0.5, fontFace: BODY_FONT, italic: true, fontSize: 14, color: "6B6259", isTextBox: true, margin: 0, lineSpacingMultiple: 1.1 });
+  s.addText(
+    [
+      { text: "Chosen for being most fully evidenced and buildable — not for being the only real barrier. quality_trust, fit_size, and availability_decay are each independently confirmed too (", options: { italic: true, fontSize: 14, color: "6B6259" } },
+      { text: "docs/decisions/opportunity-selection.md", options: { italic: true, fontSize: 14, color: "6B6259", underline: true, hyperlink: { url: OPPORTUNITY_URL } } },
+      { text: "); availability_decay has the strongest cross-method triangulation of all four (6/6 interviews, 32/32 survey).", options: { italic: true, fontSize: 14, color: "6B6259" } },
+    ],
+    { x: 0.7, y: cy0 + 2 * (ch + 0.15) + 0.05, w: 11.9, h: 0.5, fontFace: BODY_FONT, isTextBox: true, margin: 0, lineSpacingMultiple: 1.1 });
 
   footer(s, false); pageNum(s, 6, false);
 }
@@ -483,8 +502,11 @@ function inlineLink(slide, { x, y, w, label, labelColor, url, displayText, textC
 }
 
 // ============================================================
-// SLIDE 10 — Risks & mitigation (+ closing links)
-// Source: docs/experiment_manifest.md, README.md §9 Limitations
+// SLIDE 10 — Risks & mitigation, PRODUCT-FAILURE framing (Part 7)
+// Source: mvp/src/, slide 1 (Re-encounter factor), slide 9 (guardrail).
+// Research-methodology risks (thin samples, corpus skew) are deliberately
+// NOT repeated here -- already disclosed on slides 2-3 and 5. This slide's
+// job is specifically "why might the SOLUTION fail as a live product."
 // ============================================================
 {
   const s = pres.addSlide();
@@ -492,10 +514,10 @@ function inlineLink(slide, { x, y, w, label, labelColor, url, displayText, textC
   titleBlock(s, "What could go wrong, and what we're doing about it", { dark: true, h: 0.8 });
 
   const risks = [
-    ["Thin categories, wobbly numbers", "fit_size / quality_trust / price_certainty rest on small samples (n=5–11); recall moved run to run (0.4→0.5→0.545).", "Treated as directional, disclosed in every writeup — never presented as exact."],
-    ["Corpus skews toward complaints", "Review-writers aren't representative; Reddit/YouTube/social scoped out for policy/time reasons.", "Triangulated against survey (n=32) and interviews (n=6) — caught what the corpus alone would have missed."],
-    ["Local-model consistency is weak", "E1 accuracy 0.875 vs. human labels, but κ=0.159 between the primary and backup classifiers.", "Production path uses the stronger hosted model with retry-escalation; local is a documented fallback only."],
-    ["Segment validation stayed exploratory", "Interviews weren't targeted at one pre-chosen segment (the brief's Part 3 sequencing) — the evidence didn't support choosing one first.", "Disclosed plainly (docs/decisions/opportunity-selection.md); the deck's chosen segment (slide 6) rests on the strongest available evidence anyway."],
+    ["Local-model consistency is weak", "If ever wired to live inference, inconsistent classification could show contradictory reasoning to the same user across visits — undermining trust in Decision Check specifically, not just a data-quality footnote.", "Production path uses the stronger hosted model with retry-escalation; local is a documented fallback only."],
+    ["No mechanism brings users back", "Slide 1 names Re-encounter as a decomposition factor, but this MVP has zero feature addressing it — no notification, no reminder, nothing that resurfaces a saved item.", "Explicitly out of scope for this MVP — named here as the single most important next-build priority, not hidden."],
+    ["Honest \"nothing changes\" could kill urgency", "The mirror image of the false-urgency guardrail (slide 9): if the tool is too passive, it could resolve uncertainty without ever prompting action at all.", "The existing trace-to-cart conversion leading indicator is designed to catch exactly this — high trace-opens with low cart-adds is the signal."],
+    ["Evidence framing could feel like friction", "Users who just want a fast decision may experience Decision Check's confidence/evidence framing as an added analysis step, not a shortcut.", "\"Move to cart\" stays the primary, always-visible path; Decision Check is opt-in/expandable, never a blocker."],
   ];
   const rw = 5.75, rg = 0.4, rx0 = 0.7, ry0 = 1.55, rh = 2.35;
   risks.forEach((r, i) => {
