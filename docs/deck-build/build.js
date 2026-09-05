@@ -83,18 +83,18 @@ function inlineLink(slide, { x, y, w, label, labelColor, url, displayText, textC
 // ============================================================
 {
   const s = pres.addSlide();
-  s.background = { color: INK };
+  s.background = { color: BONE };
   s.addText("MYNTRA · GROWTH · WISHLIST-TO-PURCHASE CONVERSION", {
-    x: 0.7, y: 0.5, w: 10, h: 0.35, fontFace: BODY_FONT, fontSize: 14,
-    color: CLAY, charSpacing: 2, isTextBox: true, margin: 0,
+    x: 0.7, y: 0.5, w: 10, h: 0.35, fontFace: BODY_FONT, bold: true, fontSize: 14,
+    color: PLUM, charSpacing: 2, isTextBox: true, margin: 0,
   });
   s.addText("Wishlist saves rarely become purchases — here's the metric, and how we broke it down", {
     x: 0.7, y: 0.92, w: 11.9, h: 1.3, fontFace: TITLE_FONT, bold: true, fontSize: 30,
-    color: BONE, isTextBox: true, margin: 0, lineSpacingMultiple: 1.05,
+    color: INK, isTextBox: true, margin: 0, lineSpacingMultiple: 1.05,
   });
   s.addText("Business metric: % of users who purchase at least one wishlisted item within 30 days of adding it.", {
     x: 0.7, y: 2.15, w: 11.9, h: 0.4, fontFace: BODY_FONT, fontSize: 15,
-    color: "D9CFC4", isTextBox: true, margin: 0,
+    color: "6B6259", isTextBox: true, margin: 0,
   });
 
   const factors = ["Intent", "Availability", "Re-encounter", "Resolution", "Checkout"];
@@ -125,13 +125,13 @@ function inlineLink(slide, { x, y, w, label, labelColor, url, displayText, textC
     color: "E9DFD3", align: "center", valign: "middle", isTextBox: true, margin: 0,
   });
 
-  s.addShape(pres.ShapeType.roundRect, { x: 0.7, y: pcY + 0.85, w: 11.9, h: 1.3, rectRadius: 0.08, fill: { color: "2C2622" }, line: { color: "463D36", width: 1 } });
+  s.addShape(pres.ShapeType.roundRect, { x: 0.7, y: pcY + 0.85, w: 11.9, h: 1.3, rectRadius: 0.08, fill: { color: WHITE }, line: { color: "E3D9CB", width: 1 } });
   s.addText("The no-money constraint (no discounts, no incentives) rules out most price levers directly — pushing the real addressable opportunity toward Intent, Re-encounter, and Resolution. That narrowing is derived from this decomposition, not assumed going in.", {
-    x: 1.0, y: pcY + 1.0, w: 11.3, h: 0.5, fontFace: BODY_FONT, fontSize: 14, color: "D9CFC4", isTextBox: true, margin: 0, lineSpacingMultiple: 1.15 });
+    x: 1.0, y: pcY + 1.0, w: 11.3, h: 0.5, fontFace: BODY_FONT, fontSize: 14, color: "3A342E", isTextBox: true, margin: 0, lineSpacingMultiple: 1.15 });
   s.addText("What follows: AI discovery → primary research → one defined problem → a working MVP, measured against real success metrics.", {
-    x: 1.0, y: pcY + 1.55, w: 11.3, h: 0.4, fontFace: BODY_FONT, italic: true, fontSize: 14, color: "9A9088", isTextBox: true, margin: 0 });
+    x: 1.0, y: pcY + 1.55, w: 11.3, h: 0.4, fontFace: BODY_FONT, italic: true, fontSize: 14, color: "8A8078", isTextBox: true, margin: 0 });
 
-  footer(s, true); pageNum(s, 1, true);
+  footer(s, false); pageNum(s, 1, false);
 }
 
 // ============================================================
@@ -410,7 +410,19 @@ function inlineLink(slide, { x, y, w, label, labelColor, url, displayText, textC
 {
   const s = pres.addSlide();
   s.background = { color: BONE };
-  titleBlock(s, "Live MVP: the problem, resolved end to end", { h: 0.8 });
+  titleBlock(s, "Live MVP walkthrough", { h: 0.55 });
+
+  // Link moved up here (compact, top-right) instead of its own full-width
+  // bar at the bottom -- reclaims a whole row of vertical space for
+  // bigger screenshots below, per the layout-density fix.
+  s.addShape(pres.ShapeType.roundRect, { x: 8.1, y: 0.5, w: 4.5, h: 0.5, rectRadius: 0.08, fill: { color: WHITE }, line: { color: MOSS, width: 1.25 } });
+  s.addText(
+    [
+      { text: "LIVE MVP  ", options: { bold: true, color: MOSS, fontSize: 14, charSpacing: 0.5 } },
+      { text: "mvp-henna-delta.vercel.app", options: { color: INK, fontSize: 14, fontFace: "Courier New", hyperlink: { url: MVP_URL } } },
+    ],
+    { x: 8.25, y: 0.5, w: 4.2, h: 0.5, fontFace: BODY_FONT, valign: "middle", isTextBox: true, margin: 0 },
+  );
 
   const steps = [
     { file: "01-persona-picker-expanded.png", caption: "Persona Picker" },
@@ -419,8 +431,8 @@ function inlineLink(slide, { x, y, w, label, labelColor, url, displayText, textC
     { file: "04-decision-check-open.png", caption: "Decision Check" },
   ];
 
-  const frameH = 2.3, frameW = 1.7;
-  const gap = 0.5, rowY = 1.4;
+  const frameH = 2.95, frameW = 2.2;
+  const gap = 0.3, rowY = 1.25;
   const totalW = steps.length * frameW + (steps.length - 1) * gap;
   const rowX = (W - totalW) / 2;
   const captionY = rowY + frameH + 0.1, captionH = 0.35;
@@ -449,23 +461,13 @@ function inlineLink(slide, { x, y, w, label, labelColor, url, displayText, textC
     }
   });
 
-  const flagshipH = 2.0;
+  const flagshipH = 1.75;
   s.addShape(pres.ShapeType.roundRect, { x: 0.7, y: bottomY, w: 11.9, h: flagshipH, rectRadius: 0.08, fill: { color: "EFE6D8" }, line: { type: "none" } });
-  s.addText("FLAGSHIP CASE — WIDE-LEG JEANS", { x: 1.0, y: bottomY + 0.15, w: 11.3, h: 0.3, fontFace: BODY_FONT, bold: true, fontSize: 14, color: PLUM, charSpacing: 1, isTextBox: true, margin: 0 });
+  s.addText("FLAGSHIP CASE — WIDE-LEG JEANS", { x: 1.0, y: bottomY + 0.14, w: 11.3, h: 0.28, fontFace: BODY_FONT, bold: true, fontSize: 14, color: PLUM, charSpacing: 1, isTextBox: true, margin: 0 });
   s.addText("“If it was 1,200 I probably would've bought it then and there.” — the real interview quote (slide 4) directly powers this item's price-history box and Decision Check reasoning. Traced end to end from problem definition to pixel, not a plausible-sounding guess.", {
-    x: 1.0, y: bottomY + 0.5, w: 11.3, h: 0.65, fontFace: BODY_FONT, fontSize: 14, color: INK, isTextBox: true, margin: 0, lineSpacingMultiple: 1.15 });
+    x: 1.0, y: bottomY + 0.46, w: 11.3, h: 0.55, fontFace: BODY_FONT, fontSize: 14, color: INK, isTextBox: true, margin: 0, lineSpacingMultiple: 1.15 });
   s.addText("Also shown live today: real category filter chips, an honest \"Holding steady\" bucket for settled-but-thin-evidence items, and \"Tracking a partial move\" for items with a real, quantified price drop that hasn't hit target yet — three separate, verified fixes so the UI never contradicts its own data.", {
-    x: 1.0, y: bottomY + 1.2, w: 11.3, h: 0.7, fontFace: BODY_FONT, italic: true, fontSize: 14, color: "6B6259", isTextBox: true, margin: 0, lineSpacingMultiple: 1.1 });
-
-  const linkY = bottomY + flagshipH + 0.15;
-  s.addShape(pres.ShapeType.roundRect, { x: 0.7, y: linkY, w: 11.9, h: 0.45, rectRadius: 0.08, fill: { color: WHITE }, line: { color: MOSS, width: 1.25 } });
-  s.addText(
-    [
-      { text: "LIVE MVP   ", options: { bold: true, color: MOSS, fontSize: 14, charSpacing: 1 } },
-      { text: MVP_URL, options: { color: INK, fontSize: 14, fontFace: "Courier New", hyperlink: { url: MVP_URL } } },
-    ],
-    { x: 1.0, y: linkY, w: 11.0, h: 0.5, fontFace: BODY_FONT, valign: "middle", isTextBox: true, margin: 0 },
-  );
+    x: 1.0, y: bottomY + 1.03, w: 11.3, h: 0.65, fontFace: BODY_FONT, italic: true, fontSize: 14, color: "6B6259", isTextBox: true, margin: 0, lineSpacingMultiple: 1.1 });
 
   footer(s, false); pageNum(s, 8, false);
 }
@@ -510,8 +512,8 @@ function inlineLink(slide, { x, y, w, label, labelColor, url, displayText, textC
 // ============================================================
 {
   const s = pres.addSlide();
-  s.background = { color: INK };
-  titleBlock(s, "What could go wrong, and what we're doing about it", { dark: true, h: 0.8 });
+  s.background = { color: BONE };
+  titleBlock(s, "What could go wrong, and what we're doing about it", { h: 0.8 });
 
   const risks = [
     ["Local-model consistency is weak", "If ever wired to live inference, inconsistent classification could show contradictory reasoning to the same user across visits — undermining trust in Decision Check specifically, not just a data-quality footnote.", "Production path uses the stronger hosted model with retry-escalation; local is a documented fallback only."],
@@ -523,10 +525,10 @@ function inlineLink(slide, { x, y, w, label, labelColor, url, displayText, textC
   risks.forEach((r, i) => {
     const col = i % 2, row = Math.floor(i / 2);
     const x = rx0 + col * (rw + rg), y = ry0 + row * (rh + 0.2);
-    s.addShape(pres.ShapeType.roundRect, { x, y, w: rw, h: rh, rectRadius: 0.08, fill: { color: "2C2622" }, line: { color: "463D36", width: 1 } });
-    s.addText(r[0], { x: x + 0.3, y: y + 0.16, w: rw - 0.75, h: 0.4, fontFace: BODY_FONT, bold: true, fontSize: 14, color: CLAY, isTextBox: true, margin: 0 });
-    s.addText(r[1], { x: x + 0.3, y: y + 0.58, w: rw - 0.6, h: 0.85, fontFace: BODY_FONT, fontSize: 14, color: "B9AEA2", isTextBox: true, margin: 0, lineSpacingMultiple: 1.15 });
-    s.addText("MITIGATION:  " + r[2], { x: x + 0.3, y: y + 1.5, w: rw - 0.6, h: 0.8, fontFace: BODY_FONT, fontSize: 14, color: "8FAF93", isTextBox: true, margin: 0, lineSpacingMultiple: 1.15 });
+    s.addShape(pres.ShapeType.roundRect, { x, y, w: rw, h: rh, rectRadius: 0.08, fill: { color: WHITE }, line: { color: "E3D9CB", width: 1 } });
+    s.addText(r[0], { x: x + 0.3, y: y + 0.16, w: rw - 0.75, h: 0.4, fontFace: BODY_FONT, bold: true, fontSize: 14, color: PLUM, isTextBox: true, margin: 0 });
+    s.addText(r[1], { x: x + 0.3, y: y + 0.58, w: rw - 0.6, h: 0.85, fontFace: BODY_FONT, fontSize: 14, color: "3A342E", isTextBox: true, margin: 0, lineSpacingMultiple: 1.15 });
+    s.addText("MITIGATION:  " + r[2], { x: x + 0.3, y: y + 1.5, w: rw - 0.6, h: 0.8, fontFace: BODY_FONT, fontSize: 14, color: MOSS, isTextBox: true, margin: 0, lineSpacingMultiple: 1.15 });
     cornerBadge(s, x + rw - 0.45, y + 0.15, i + 1, OCHRE);
   });
 
@@ -534,10 +536,10 @@ function inlineLink(slide, { x, y, w, label, labelColor, url, displayText, textC
     x: 0.7, y: ry0 + 2 * (rh + 0.2) + 0.05, w: 11.5,
     label: "FULL REPO & RESEARCH TRAIL", labelColor: OCHRE,
     url: REPO_URL, displayText: "github.com/blazing-llama/NL-Myntra-Graduation-Project",
-    textColor: BONE,
+    textColor: INK,
   });
 
-  footer(s, true); pageNum(s, 10, true);
+  footer(s, false); pageNum(s, 10, false);
 }
 
 const OUT = process.env.DECK_OUT || path.join(__dirname, "..", "deck", "NL Myntra.pptx");
